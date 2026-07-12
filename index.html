@@ -260,7 +260,12 @@
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); justify-items: center; align-items: start; gap: 22px;">
 
         <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%; max-width: 244px;">
-          <img src="assets/screens/p-community.png" alt="Community" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          <sc-if value="{{ communityLocalized }}" hint-placeholder-val="{{ false }}">
+            <img src="{{ img.community }}" alt="Community" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
+          <sc-if value="{{ communityDefault }}" hint-placeholder-val="{{ true }}">
+            <img src="assets/screens/p-community.png" alt="Community" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
           <div style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-align: center;">
             <div style="font-size: 24px; font-weight: 700; color: #ffffff">{{ t.f1t }}</div>
             <p style="margin: 0; font-size: 13px; line-height: 1.55; font-weight: 500; color: rgba(234,253,227,.72); text-wrap: pretty;">{{ t.f1b }}</p>
@@ -268,7 +273,12 @@
         </div>
 
         <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%; max-width: 244px;">
-          <img src="assets/screens/p-doctors.png" alt="Verified doctors" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          <sc-if value="{{ doctorsLocalized }}" hint-placeholder-val="{{ false }}">
+            <img src="{{ img.doctors }}" alt="Verified doctors" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
+          <sc-if value="{{ doctorsDefault }}" hint-placeholder-val="{{ true }}">
+            <img src="assets/screens/p-doctors.png" alt="Verified doctors" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
           <div style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-align: center;">
             <div style="font-size: 24px; font-weight: 700; color: #ffffff">{{ t.f3t }}</div>
             <p style="margin: 0; font-size: 13px; line-height: 1.55; font-weight: 500; color: rgba(234,253,227,.72); text-wrap: pretty;">{{ t.f3b }}</p>
@@ -276,7 +286,12 @@
         </div>
 
         <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%; max-width: 244px;">
-          <img src="assets/screens/p-report.png" alt="Health analytics" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          <sc-if value="{{ reportLocalized }}" hint-placeholder-val="{{ false }}">
+            <img src="{{ img.report }}" alt="Health analytics" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
+          <sc-if value="{{ reportDefault }}" hint-placeholder-val="{{ true }}">
+            <img src="assets/screens/p-report.png" alt="Health analytics" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
           <div style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-align: center;">
             <div style="font-size: 24px; font-weight: 700; color: #ffffff">{{ t.f2t }}</div>
             <p style="margin: 0; font-size: 13px; line-height: 1.55; font-weight: 500; color: rgba(234,253,227,.72); text-wrap: pretty;">{{ t.f2b }}</p>
@@ -284,7 +299,12 @@
         </div>
 
         <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%; max-width: 244px;">
-          <img src="assets/screens/p-meds.png" alt="Medication" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          <sc-if value="{{ medsLocalized }}" hint-placeholder-val="{{ false }}">
+            <img src="{{ img.meds }}" alt="Medication" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
+          <sc-if value="{{ medsDefault }}" hint-placeholder-val="{{ true }}">
+            <img src="assets/screens/p-meds.png" alt="Medication" style="width: 100%; max-width: 224px; height: auto; display: block; filter: drop-shadow(0 30px 45px rgba(0,0,0,.45));">
+          </sc-if>
           <div style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-align: center;">
             <div style="font-size: 24px; font-weight: 700; color: #ffffff">{{ t.f4t }}</div>
             <p style="margin: 0; font-size: 13px; line-height: 1.55; font-weight: 500; color: rgba(234,253,227,.72); text-wrap: pretty;">{{ t.f4b }}</p>
@@ -3589,6 +3609,19 @@ class Component extends DCLogic {
     const HERO2_LANGS = ['ar', 'ca', 'fr', 'de', 'hi', 'id', 'it', 'ja', 'ko', 'zh', 'ru', 'es', 'tr', 'vi']; // langs with a localized left hero phone (hero-phone-2-<lang>.png)
     const hero2Localized = HERO2_LANGS.indexOf(lang) >= 0;
     img.hero2 = 'assets/screens/hero-phone-2' + (hero2Localized ? '-' + lang : '') + '.png';
+    // Localized "Closer look" phones — add lang codes to each list as assets arrive (p-<name>-<lang>.png)
+    const P_COMMUNITY_LANGS = ['ca', 'ar', 'fr'];
+    const P_DOCTORS_LANGS = ['ca', 'ar', 'fr'];
+    const P_REPORT_LANGS = ['ca', 'ar', 'fr'];
+    const P_MEDS_LANGS = ['ca', 'ar', 'fr'];
+    const communityLocalized = P_COMMUNITY_LANGS.indexOf(lang) >= 0;
+    const doctorsLocalized = P_DOCTORS_LANGS.indexOf(lang) >= 0;
+    const reportLocalized = P_REPORT_LANGS.indexOf(lang) >= 0;
+    const medsLocalized = P_MEDS_LANGS.indexOf(lang) >= 0;
+    img.community = 'assets/screens/p-community' + (communityLocalized ? '-' + lang : '') + '.png';
+    img.doctors = 'assets/screens/p-doctors' + (doctorsLocalized ? '-' + lang : '') + '.png';
+    img.report = 'assets/screens/p-report' + (reportLocalized ? '-' + lang : '') + '.png';
+    img.meds = 'assets/screens/p-meds' + (medsLocalized ? '-' + lang : '') + '.png';
     const isDoctor = role === 'doctor';
     const h = React.createElement;
     const pIcon = h('svg', { width: 15, height: 15, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 2.2, strokeLinecap: 'round', strokeLinejoin: 'round' },
@@ -3616,6 +3649,14 @@ class Component extends DCLogic {
       heroDefault: !heroLocalized,
       hero2Localized,
       hero2Default: !hero2Localized,
+      communityLocalized,
+      communityDefault: !communityLocalized,
+      doctorsLocalized,
+      doctorsDefault: !doctorsLocalized,
+      reportLocalized,
+      reportDefault: !reportLocalized,
+      medsLocalized,
+      medsDefault: !medsLocalized,
       isDoctor,
       navCtaHref: isDoctor ? '#apply' : '#download',
       navCtaLabel: isDoctor ? dt.navCta : t.navCta,

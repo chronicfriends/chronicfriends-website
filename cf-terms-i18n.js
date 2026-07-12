@@ -8,7 +8,7 @@ window.CF_TERMS_T = {
   "en": {
     "legal": "Legal",
     "title": "Terms of Service",
-    "updated": "Last updated: July 11, 2026",
+    "updated": "Last updated: July 12, 2026",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -77,7 +77,8 @@ window.CF_TERMS_T = {
           "Illegal, violent, sexually explicit content, or content that infringes the rights of third parties.",
           "Other people's personal or sensitive information without their consent."
         ]},
-        { "p": "We reserve the right to remove content and to suspend or close accounts that violate these guidelines." }
+        { "p": "We reserve the right to remove content and to suspend or close accounts that violate these guidelines." },
+        { "p": "You can report objectionable content or block another user at any time — from a post, from a chat, or from that person's profile. Reports reach our team and we aim to review them within 24 hours. We have zero tolerance for objectionable content and abusive behavior, and we may remove content, block users, or suspend or close accounts that break these rules." }
       ]},
       { "t": "Subscriptions and payments", "b": [
         { "p": "Chronic Friends offers free features and paid Premium plans:" },
@@ -120,7 +121,7 @@ window.CF_TERMS_T = {
   "es": {
     "legal": "Legal",
     "title": "Términos del Servicio",
-    "updated": "Última actualización: 11 de julio de 2026",
+    "updated": "Última actualización: 12 de julio de 2026",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -189,7 +190,8 @@ window.CF_TERMS_T = {
           "Contenido ilegal, violento, sexualmente explícito o que infrinja los derechos de terceros.",
           "Información personal o sensible de otras personas sin su consentimiento."
         ]},
-        { "p": "Nos reservamos el derecho de eliminar contenido y de suspender o cerrar las cuentas que infrinjan estas normas." }
+        { "p": "Nos reservamos el derecho de eliminar contenido y de suspender o cerrar las cuentas que infrinjan estas normas." },
+        { "p": "Puedes denunciar contenido objetable o bloquear a otro usuario en cualquier momento — desde una publicación, desde un chat o desde el perfil de esa persona. Las denuncias llegan a nuestro equipo y procuramos revisarlas en un plazo de 24 horas. Tenemos tolerancia cero con el contenido objetable y el comportamiento abusivo, y podemos eliminar contenido, bloquear usuarios o suspender o cerrar las cuentas que infrinjan estas normas." }
       ]},
       { "t": "Suscripciones y pagos", "b": [
         { "p": "Chronic Friends ofrece funciones gratuitas y planes Premium de pago:" },
@@ -232,7 +234,7 @@ window.CF_TERMS_T = {
   "ca": {
     "legal": "Legal",
     "title": "Condicions del servei",
-    "updated": "Última actualització: 11 de juliol de 2026",
+    "updated": "Última actualització: 12 de juliol de 2026",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -301,7 +303,8 @@ window.CF_TERMS_T = {
           "Contingut il·legal, violent, sexualment explícit o que infringeixi els drets de tercers.",
           "Informació personal o sensible d'altres persones sense el seu consentiment."
         ]},
-        { "p": "Ens reservem el dret d'eliminar contingut i de suspendre o tancar els comptes que infringeixin aquestes normes." }
+        { "p": "Ens reservem el dret d'eliminar contingut i de suspendre o tancar els comptes que infringeixin aquestes normes." },
+        { "p": "Pots denunciar contingut objectable o bloquejar un altre usuari en qualsevol moment — des d'una publicació, des d'un xat o des del perfil d'aquesta persona. Les denúncies arriben al nostre equip i procurem revisar-les en un termini de 24 hores. Tenim tolerància zero amb el contingut objectable i el comportament abusiu, i podem eliminar contingut, bloquejar usuaris o suspendre o tancar els comptes que infringeixin aquestes normes." }
       ]},
       { "t": "Subscripcions i pagaments", "b": [
         { "p": "Chronic Friends ofereix funcions gratuïtes i plans Premium de pagament:" },
@@ -344,7 +347,7 @@ window.CF_TERMS_T = {
   "fr": {
     "legal": "Légal",
     "title": "Conditions d'utilisation",
-    "updated": "Dernière mise à jour : 11 juillet 2026",
+    "updated": "Dernière mise à jour : 12 juillet 2026",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -413,7 +416,8 @@ window.CF_TERMS_T = {
           "Du contenu illégal, violent, sexuellement explicite ou qui porte atteinte aux droits de tiers.",
           "Des informations personnelles ou sensibles d'autres personnes sans leur consentement."
         ]},
-        { "p": "Nous nous réservons le droit de supprimer du contenu et de suspendre ou de fermer les comptes qui enfreignent ces règles." }
+        { "p": "Nous nous réservons le droit de supprimer du contenu et de suspendre ou de fermer les comptes qui enfreignent ces règles." },
+        { "p": "Vous pouvez signaler un contenu répréhensible ou bloquer un autre utilisateur à tout moment — depuis une publication, depuis une discussion ou depuis le profil de cette personne. Les signalements parviennent à notre équipe et nous nous efforçons de les examiner sous 24 heures. Nous appliquons une tolérance zéro à l'égard des contenus répréhensibles et des comportements abusifs, et nous pouvons supprimer du contenu, bloquer des utilisateurs ou suspendre ou fermer les comptes qui enfreignent ces règles." }
       ]},
       { "t": "Abonnements et paiements", "b": [
         { "p": "Chronic Friends propose des fonctionnalités gratuites et des formules Premium payantes :" },
@@ -456,7 +460,7 @@ window.CF_TERMS_T = {
   "de": {
     "legal": "Rechtliches",
     "title": "Nutzungsbedingungen",
-    "updated": "Zuletzt aktualisiert: 11. Juli 2026",
+    "updated": "Zuletzt aktualisiert: 12. Juli 2026",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -525,7 +529,8 @@ window.CF_TERMS_T = {
           "Illegale, gewalttätige, sexuell explizite Inhalte oder Inhalte, die die Rechte Dritter verletzen.",
           "Persönliche oder sensible Informationen anderer Personen ohne deren Zustimmung."
         ]},
-        { "p": "Wir behalten uns das Recht vor, Inhalte zu entfernen und Konten zu sperren oder zu schließen, die gegen diese Richtlinien verstoßen." }
+        { "p": "Wir behalten uns das Recht vor, Inhalte zu entfernen und Konten zu sperren oder zu schließen, die gegen diese Richtlinien verstoßen." },
+        { "p": "Sie können jederzeit anstößige Inhalte melden oder einen anderen Nutzer blockieren — aus einem Beitrag, aus einem Chat oder aus dem Profil dieser Person. Meldungen erreichen unser Team, und wir bemühen uns, sie innerhalb von 24 Stunden zu prüfen. Wir haben null Toleranz gegenüber anstößigen Inhalten und missbräuchlichem Verhalten und können Inhalte entfernen, Nutzer blockieren oder Konten sperren oder schließen, die gegen diese Regeln verstoßen." }
       ]},
       { "t": "Abonnements und Zahlungen", "b": [
         { "p": "Chronic Friends bietet kostenlose Funktionen und kostenpflichtige Premium-Tarife:" },
@@ -568,7 +573,7 @@ window.CF_TERMS_T = {
   "it": {
     "legal": "Legale",
     "title": "Termini di servizio",
-    "updated": "Ultimo aggiornamento: 11 luglio 2026",
+    "updated": "Ultimo aggiornamento: 12 luglio 2026",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -637,7 +642,8 @@ window.CF_TERMS_T = {
           "Contenuti illegali, violenti, sessualmente espliciti o che violino i diritti di terzi.",
           "Informazioni personali o sensibili di altre persone senza il loro consenso."
         ]},
-        { "p": "Ci riserviamo il diritto di rimuovere contenuti e di sospendere o chiudere gli account che violano queste linee guida." }
+        { "p": "Ci riserviamo il diritto di rimuovere contenuti e di sospendere o chiudere gli account che violano queste linee guida." },
+        { "p": "Puoi segnalare contenuti discutibili o bloccare un altro utente in qualsiasi momento — da un post, da una chat o dal profilo di quella persona. Le segnalazioni arrivano al nostro team e cerchiamo di esaminarle entro 24 ore. Abbiamo tolleranza zero verso i contenuti discutibili e i comportamenti abusivi e possiamo rimuovere contenuti, bloccare utenti o sospendere o chiudere gli account che violano queste regole." }
       ]},
       { "t": "Abbonamenti e pagamenti", "b": [
         { "p": "Chronic Friends offre funzioni gratuite e piani Premium a pagamento:" },
@@ -680,7 +686,7 @@ window.CF_TERMS_T = {
   "pt": {
     "legal": "Legal",
     "title": "Termos de Serviço",
-    "updated": "Última atualização: 11 de julho de 2026",
+    "updated": "Última atualização: 12 de julho de 2026",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -749,7 +755,8 @@ window.CF_TERMS_T = {
           "Conteúdo ilegal, violento, sexualmente explícito ou que infrinja os direitos de terceiros.",
           "Informações pessoais ou sensíveis de outras pessoas sem o seu consentimento."
         ]},
-        { "p": "Reservamo-nos o direito de remover conteúdo e de suspender ou encerrar contas que violem estas regras." }
+        { "p": "Reservamo-nos o direito de remover conteúdo e de suspender ou encerrar contas que violem estas regras." },
+        { "p": "Podes denunciar conteúdo censurável ou bloquear outro utilizador a qualquer momento — a partir de uma publicação, de uma conversa ou do perfil dessa pessoa. As denúncias chegam à nossa equipa e procuramos analisá-las no prazo de 24 horas. Temos tolerância zero para com conteúdo censurável e comportamento abusivo e podemos remover conteúdo, bloquear utilizadores ou suspender ou encerrar contas que violem estas regras." }
       ]},
       { "t": "Subscrições e pagamentos", "b": [
         { "p": "A Chronic Friends oferece funcionalidades gratuitas e planos Premium pagos:" },
@@ -792,7 +799,7 @@ window.CF_TERMS_T = {
   "ru": {
     "legal": "Юридическое",
     "title": "Условия обслуживания",
-    "updated": "Последнее обновление: 11 июля 2026 г.",
+    "updated": "Последнее обновление: 12 июля 2026 г.",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -861,7 +868,8 @@ window.CF_TERMS_T = {
           "Незаконный, насильственный, откровенно сексуальный контент или контент, нарушающий права третьих лиц.",
           "Личную или конфиденциальную информацию других людей без их согласия."
         ]},
-        { "p": "Мы оставляем за собой право удалять контент и приостанавливать или закрывать учётные записи, нарушающие эти правила." }
+        { "p": "Мы оставляем за собой право удалять контент и приостанавливать или закрывать учётные записи, нарушающие эти правила." },
+        { "p": "Вы можете в любой момент пожаловаться на недопустимый контент или заблокировать другого пользователя — из публикации, из чата или из профиля этого человека. Жалобы поступают нашей команде, и мы стремимся рассмотреть их в течение 24 часов. Мы придерживаемся нулевой терпимости к недопустимому контенту и оскорбительному поведению и можем удалять контент, блокировать пользователей, а также приостанавливать или закрывать учётные записи, нарушающие эти правила." }
       ]},
       { "t": "Подписки и платежи", "b": [
         { "p": "Chronic Friends предлагает бесплатные функции и платные планы Premium:" },
@@ -904,7 +912,7 @@ window.CF_TERMS_T = {
   "ar": {
     "legal": "قانوني",
     "title": "شروط الخدمة",
-    "updated": "آخر تحديث: 11 يوليو 2026",
+    "updated": "آخر تحديث: 12 يوليو 2026",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -973,7 +981,8 @@ window.CF_TERMS_T = {
           "المحتوى غير القانوني أو العنيف أو الجنسي الصريح أو الذي ينتهك حقوق الغير.",
           "المعلومات الشخصية أو الحساسة لأشخاص آخرين دون موافقتهم."
         ]},
-        { "p": "نحتفظ بالحق في إزالة المحتوى وتعليق الحسابات التي تنتهك هذه الإرشادات أو إغلاقها." }
+        { "p": "نحتفظ بالحق في إزالة المحتوى وتعليق الحسابات التي تنتهك هذه الإرشادات أو إغلاقها." },
+        { "p": "يمكنك الإبلاغ عن محتوى مرفوض أو حظر مستخدم آخر في أي وقت — من منشور أو من محادثة أو من الملف الشخصي لذلك الشخص. تصل البلاغات إلى فريقنا ونسعى إلى مراجعتها خلال 24 ساعة. لدينا عدم تسامح مطلق تجاه المحتوى المرفوض والسلوك المسيء، ويجوز لنا إزالة المحتوى أو حظر المستخدمين أو تعليق الحسابات التي تخالف هذه القواعد أو إغلاقها." }
       ]},
       { "t": "الاشتراكات والمدفوعات", "b": [
         { "p": "يقدّم Chronic Friends ميزات مجانية وخطط Premium مدفوعة:" },
@@ -1016,7 +1025,7 @@ window.CF_TERMS_T = {
   "hi": {
     "legal": "कानूनी",
     "title": "सेवा की शर्तें",
-    "updated": "अंतिम अद्यतन: 11 जुलाई 2026",
+    "updated": "अंतिम अद्यतन: 12 जुलाई 2026",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -1085,7 +1094,8 @@ window.CF_TERMS_T = {
           "अवैध, हिंसक, यौन रूप से स्पष्ट सामग्री, या ऐसी सामग्री जो तीसरे पक्षों के अधिकारों का उल्लंघन करती हो।",
           "अन्य लोगों की व्यक्तिगत या संवेदनशील जानकारी उनकी सहमति के बिना।"
         ]},
-        { "p": "हम इन दिशानिर्देशों का उल्लंघन करने वाली सामग्री को हटाने और खातों को निलंबित या बंद करने का अधिकार सुरक्षित रखते हैं।" }
+        { "p": "हम इन दिशानिर्देशों का उल्लंघन करने वाली सामग्री को हटाने और खातों को निलंबित या बंद करने का अधिकार सुरक्षित रखते हैं।" },
+        { "p": "आप किसी भी समय आपत्तिजनक सामग्री की रिपोर्ट कर सकते हैं या किसी अन्य उपयोगकर्ता को ब्लॉक कर सकते हैं — किसी पोस्ट से, किसी चैट से, या उस व्यक्ति की प्रोफ़ाइल से। रिपोर्टें हमारी टीम तक पहुँचती हैं और हम उन्हें 24 घंटे के भीतर समीक्षा करने का लक्ष्य रखते हैं। आपत्तिजनक सामग्री और अपमानजनक व्यवहार के प्रति हमारी शून्य सहनशीलता है, और हम इन नियमों का उल्लंघन करने पर सामग्री हटा सकते हैं, उपयोगकर्ताओं को ब्लॉक कर सकते हैं, या खातों को निलंबित या बंद कर सकते हैं।" }
       ]},
       { "t": "सदस्यताएँ और भुगतान", "b": [
         { "p": "Chronic Friends मुफ़्त सुविधाएँ और सशुल्क Premium योजनाएँ प्रदान करता है:" },
@@ -1128,7 +1138,7 @@ window.CF_TERMS_T = {
   "id": {
     "legal": "Hukum",
     "title": "Ketentuan Layanan",
-    "updated": "Terakhir diperbarui: 11 Juli 2026",
+    "updated": "Terakhir diperbarui: 12 Juli 2026",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -1197,7 +1207,8 @@ window.CF_TERMS_T = {
           "Konten ilegal, kekerasan, seksual eksplisit, atau yang melanggar hak pihak ketiga.",
           "Informasi pribadi atau sensitif milik orang lain tanpa persetujuan mereka."
         ]},
-        { "p": "Kami berhak menghapus konten dan menangguhkan atau menutup akun yang melanggar pedoman ini." }
+        { "p": "Kami berhak menghapus konten dan menangguhkan atau menutup akun yang melanggar pedoman ini." },
+        { "p": "Anda dapat melaporkan konten yang tidak pantas atau memblokir pengguna lain kapan saja — dari sebuah unggahan, dari obrolan, atau dari profil orang tersebut. Laporan sampai ke tim kami dan kami berupaya meninjaunya dalam waktu 24 jam. Kami menerapkan toleransi nol terhadap konten yang tidak pantas dan perilaku kasar, dan kami dapat menghapus konten, memblokir pengguna, atau menangguhkan atau menutup akun yang melanggar aturan ini." }
       ]},
       { "t": "Langganan dan pembayaran", "b": [
         { "p": "Chronic Friends menawarkan fitur gratis dan paket Premium berbayar:" },
@@ -1240,7 +1251,7 @@ window.CF_TERMS_T = {
   "ja": {
     "legal": "法的事項",
     "title": "利用規約",
-    "updated": "最終更新日: 2026年7月11日",
+    "updated": "最終更新日: 2026年7月12日",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1309,7 +1320,8 @@ window.CF_TERMS_T = {
           "違法、暴力的、性的に露骨なコンテンツ、または第三者の権利を侵害するコンテンツ。",
           "他者の個人情報または機微な情報を、その同意なく共有すること。"
         ]},
-        { "p": "当社は、これらのガイドラインに違反するコンテンツを削除し、アカウントを停止または閉鎖する権利を留保します。" }
+        { "p": "当社は、これらのガイドラインに違反するコンテンツを削除し、アカウントを停止または閉鎖する権利を留保します。" },
+        { "p": "あなたは、投稿・チャット・その人のプロフィールから、いつでも不適切なコンテンツを報告したり、他のユーザーをブロックしたりできます。報告は当社のチームに届き、当社は24時間以内に確認するよう努めます。当社は不適切なコンテンツや悪質な行為を一切容認せず、これらのルールに違反する場合、コンテンツの削除、ユーザーのブロック、またはアカウントの停止もしくは閉鎖を行うことがあります。" }
       ]},
       { "t": "サブスクリプションと支払い", "b": [
         { "p": "Chronic Friends は無料機能と有料の Premium プランを提供します:" },
@@ -1352,7 +1364,7 @@ window.CF_TERMS_T = {
   "ko": {
     "legal": "법적 고지",
     "title": "서비스 약관",
-    "updated": "최종 업데이트: 2026년 7월 11일",
+    "updated": "최종 업데이트: 2026년 7월 12일",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1421,7 +1433,8 @@ window.CF_TERMS_T = {
           "불법적, 폭력적, 성적으로 노골적인 콘텐츠, 또는 제3자의 권리를 침해하는 콘텐츠.",
           "다른 사람의 개인 정보나 민감한 정보를 동의 없이 공유하는 것."
         ]},
-        { "p": "당사는 이러한 가이드라인을 위반하는 콘텐츠를 삭제하고 계정을 정지하거나 폐쇄할 권리를 보유합니다." }
+        { "p": "당사는 이러한 가이드라인을 위반하는 콘텐츠를 삭제하고 계정을 정지하거나 폐쇄할 권리를 보유합니다." },
+        { "p": "귀하는 게시물, 채팅 또는 해당 사용자의 프로필에서 언제든지 부적절한 콘텐츠를 신고하거나 다른 사용자를 차단할 수 있습니다. 신고는 당사 팀에 전달되며, 당사는 24시간 이내에 검토하는 것을 목표로 합니다. 당사는 부적절한 콘텐츠와 악의적 행위에 대해 무관용 원칙을 적용하며, 이러한 규칙을 위반하는 경우 콘텐츠를 삭제하거나 사용자를 차단하거나 계정을 정지 또는 폐쇄할 수 있습니다." }
       ]},
       { "t": "구독 및 결제", "b": [
         { "p": "Chronic Friends는 무료 기능과 유료 Premium 요금제를 제공합니다:" },
@@ -1464,7 +1477,7 @@ window.CF_TERMS_T = {
   "tr": {
     "legal": "Yasal",
     "title": "Hizmet Şartları",
-    "updated": "Son güncelleme: 11 Temmuz 2026",
+    "updated": "Son güncelleme: 12 Temmuz 2026",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1533,7 +1546,8 @@ window.CF_TERMS_T = {
           "Yasa dışı, şiddet içeren, cinsel açıdan müstehcen içerik veya üçüncü tarafların haklarını ihlal eden içerik.",
           "Başkalarının kişisel veya hassas bilgilerini onların rızası olmadan."
         ]},
-        { "p": "Bu kuralları ihlal eden içerikleri kaldırma ve hesapları askıya alma veya kapatma hakkımızı saklı tutarız." }
+        { "p": "Bu kuralları ihlal eden içerikleri kaldırma ve hesapları askıya alma veya kapatma hakkımızı saklı tutarız." },
+        { "p": "Bir gönderiden, bir sohbetten veya o kişinin profilinden istediğiniz zaman sakıncalı içeriği şikâyet edebilir ya da başka bir kullanıcıyı engelleyebilirsiniz. Şikâyetler ekibimize ulaşır ve bunları 24 saat içinde incelemeyi hedefleriz. Sakıncalı içeriğe ve istismarcı davranışa karşı sıfır tolerans gösteririz ve bu kuralları ihlal eden içerikleri kaldırabilir, kullanıcıları engelleyebilir veya hesapları askıya alabilir ya da kapatabiliriz." }
       ]},
       { "t": "Abonelikler ve ödemeler", "b": [
         { "p": "Chronic Friends ücretsiz özellikler ve ücretli Premium planlar sunar:" },
@@ -1576,7 +1590,7 @@ window.CF_TERMS_T = {
   "vi": {
     "legal": "Pháp lý",
     "title": "Điều khoản dịch vụ",
-    "updated": "Cập nhật lần cuối: ngày 11 tháng 7 năm 2026",
+    "updated": "Cập nhật lần cuối: ngày 12 tháng 7 năm 2026",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1645,7 +1659,8 @@ window.CF_TERMS_T = {
           "Nội dung bất hợp pháp, bạo lực, khiêu dâm, hoặc xâm phạm quyền của bên thứ ba.",
           "Thông tin cá nhân hoặc nhạy cảm của người khác mà không có sự đồng ý của họ."
         ]},
-        { "p": "Chúng tôi có quyền xóa nội dung và tạm ngừng hoặc đóng các tài khoản vi phạm các nguyên tắc này." }
+        { "p": "Chúng tôi có quyền xóa nội dung và tạm ngừng hoặc đóng các tài khoản vi phạm các nguyên tắc này." },
+        { "p": "Bạn có thể báo cáo nội dung phản cảm hoặc chặn người dùng khác bất cứ lúc nào — từ một bài đăng, từ một cuộc trò chuyện, hoặc từ hồ sơ của người đó. Các báo cáo đến với nhóm của chúng tôi và chúng tôi cố gắng xem xét chúng trong vòng 24 giờ. Chúng tôi hoàn toàn không khoan nhượng đối với nội dung phản cảm và hành vi lăng mạ, và chúng tôi có thể xóa nội dung, chặn người dùng, hoặc tạm ngừng hoặc đóng các tài khoản vi phạm các quy tắc này." }
       ]},
       { "t": "Đăng ký và thanh toán", "b": [
         { "p": "Chronic Friends cung cấp các tính năng miễn phí và các gói Premium trả phí:" },
@@ -1688,7 +1703,7 @@ window.CF_TERMS_T = {
   "zh": {
     "legal": "法律",
     "title": "服务条款",
-    "updated": "最后更新：2026年7月11日",
+    "updated": "最后更新：2026年7月12日",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1757,7 +1772,8 @@ window.CF_TERMS_T = {
           "非法、暴力、色情露骨的内容，或侵犯第三方权利的内容。",
           "未经他人同意的个人或敏感信息。"
         ]},
-        { "p": "我们保留删除内容以及暂停或关闭违反这些准则的账户的权利。" }
+        { "p": "我们保留删除内容以及暂停或关闭违反这些准则的账户的权利。" },
+        { "p": "你可以随时举报不当内容或屏蔽其他用户——从帖子、从聊天，或从该用户的个人资料。举报会送达我们的团队，我们力求在 24 小时内进行审核。我们对不当内容和辱骂行为采取零容忍，并可能删除内容、屏蔽用户，或暂停或关闭违反这些规则的账户。" }
       ]},
       { "t": "订阅与付款", "b": [
         { "p": "Chronic Friends 提供免费功能和付费 Premium 方案：" },
