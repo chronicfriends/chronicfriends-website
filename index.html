@@ -130,7 +130,12 @@
 
         <!-- left phone (Flare Radar) -->
         <div style="position: absolute; bottom: 22px; left: 50%; width: 232px; transform: translateX(calc(-50% - 106px)) rotate(-8deg); transform-origin: bottom center; z-index: 1; border-radius: 36px; overflow: hidden; box-shadow: 0 30px 54px -20px rgba(0,0,0,.58), 0 10px 22px -10px rgba(0,0,0,.4);">
-          <img src="assets/screens/hero-phone-2.png" alt="Flare Radar — anticipate flares before they hit" style="width: 100%; display: block;">
+          <sc-if value="{{ hero2Localized }}" hint-placeholder-val="{{ false }}">
+            <img src="{{ img.hero2 }}" alt="Flare Radar — anticipate flares before they hit" style="width: 100%; display: block;">
+          </sc-if>
+          <sc-if value="{{ hero2Default }}" hint-placeholder-val="{{ true }}">
+            <img src="assets/screens/hero-phone-2.png" alt="Flare Radar — anticipate flares before they hit" style="width: 100%; display: block;">
+          </sc-if>
         </div>
 
         <!-- right phone (Health report) -->
@@ -140,7 +145,12 @@
 
         <!-- center phone (Home) -->
         <div style="position: absolute; bottom: 0; left: 50%; width: 282px; transform: translateX(-50%); z-index: 3; border-radius: 42px; overflow: hidden; box-shadow: 0 42px 74px -22px rgba(0,0,0,.6), 0 14px 28px -12px rgba(0,0,0,.45);">
-          <img src="assets/screens/hero-phone-1.png" alt="Chronic illness with confidence — your home screen" style="width: 100%; display: block;">
+          <sc-if value="{{ heroLocalized }}" hint-placeholder-val="{{ false }}">
+            <img src="{{ img.hero1 }}" alt="Chronic illness with confidence — your home screen" style="width: 100%; display: block;">
+          </sc-if>
+          <sc-if value="{{ heroDefault }}" hint-placeholder-val="{{ true }}">
+            <img src="assets/screens/hero-phone-1.png" alt="Chronic illness with confidence — your home screen" style="width: 100%; display: block;">
+          </sc-if>
         </div>
       </div>
     </div>
@@ -3573,6 +3583,12 @@ class Component extends DCLogic {
     const imp = CF_IMPACT_T[lang] || CF_IMPACT_T.en;
     const HOME_SCREENS = ['en', 'es', 'ca', 'fr', 'de', 'it', 'pt'];
     const img = { home: 'assets/screens/' + (HOME_SCREENS.indexOf(lang) >= 0 ? lang : 'en') + '-home.png' };
+    const HERO1_LANGS = ['ar', 'ca', 'fr', 'de', 'hi', 'id', 'it', 'ja', 'ko', 'zh', 'pt', 'ru', 'es', 'tr', 'vi']; // langs with a localized center hero phone (hero-phone-1-<lang>.png)
+    const heroLocalized = HERO1_LANGS.indexOf(lang) >= 0;
+    img.hero1 = 'assets/screens/hero-phone-1' + (heroLocalized ? '-' + lang : '') + '.png';
+    const HERO2_LANGS = ['ar', 'ca', 'fr', 'de', 'hi', 'id', 'it', 'ja', 'ko', 'zh', 'ru', 'es', 'tr', 'vi']; // langs with a localized left hero phone (hero-phone-2-<lang>.png)
+    const hero2Localized = HERO2_LANGS.indexOf(lang) >= 0;
+    img.hero2 = 'assets/screens/hero-phone-2' + (hero2Localized ? '-' + lang : '') + '.png';
     const isDoctor = role === 'doctor';
     const h = React.createElement;
     const pIcon = h('svg', { width: 15, height: 15, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 2.2, strokeLinecap: 'round', strokeLinejoin: 'round' },
@@ -3596,6 +3612,10 @@ class Component extends DCLogic {
       menuOpen,
       roleToggle,
       isPatient: !isDoctor,
+      heroLocalized,
+      heroDefault: !heroLocalized,
+      hero2Localized,
+      hero2Default: !hero2Localized,
       isDoctor,
       navCtaHref: isDoctor ? '#apply' : '#download',
       navCtaLabel: isDoctor ? dt.navCta : t.navCta,
