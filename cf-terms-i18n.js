@@ -8,11 +8,11 @@ window.CF_TERMS_T = {
   "en": {
     "legal": "Legal",
     "title": "Terms of Service",
-    "updated": "Last updated: July 12, 2026",
+    "updated": "Last updated: July 21, 2026",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
-      "Welcome to Chronic Friends. These Terms of Service (\"Terms\") govern your use of the Chronic Friends mobile app, our website (chronicfriends.org), and all related services (together, the \"Service\"), operated by Chronic Friends (\"we\", \"us\", \"our\")."
+      "Welcome to Chronic Friends. These Terms of Service (\"Terms\") govern your use of the Chronic Friends mobile app, our website (chronicfriends.org), and all related services (together, the \"Service\"), operated by Chronic Friends LLC, a Wyoming limited liability company (\"we\", \"us\", \"our\")."
     ],
     "s": [
       { "t": "Acceptance of the Terms", "b": [
@@ -110,7 +110,7 @@ window.CF_TERMS_T = {
         { "p": "We may update these Terms at any time. If the changes are significant, we will notify you through the app or by email. Continued use of the Service after the changes means you accept them. You may stop using the Service and close your account whenever you wish." }
       ]},
       { "t": "Governing law and jurisdiction", "b": [
-        { "p": "These Terms are governed by the laws of Switzerland. Any dispute will be submitted to the competent courts of Switzerland, without prejudice to the rights granted to you as a consumer under the law of your country of residence." }
+        { "p": "These Terms are governed by the laws of the State of Wyoming, USA. Any dispute will be submitted to the competent courts of Wyoming, without prejudice to the rights granted to you as a consumer under the law of your country of residence." }
       ]},
       { "t": "Contact", "b": [
         { "p": "If you have questions about these Terms, write to us at: ", "email": "info@chronicfriends.org" }
@@ -121,11 +121,11 @@ window.CF_TERMS_T = {
   "es": {
     "legal": "Legal",
     "title": "Términos del Servicio",
-    "updated": "Última actualización: 12 de julio de 2026",
+    "updated": "Última actualización: 21 de julio de 2026",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
-      "Bienvenido a Chronic Friends. Estos Términos del Servicio (\"Términos\") rigen tu uso de la aplicación móvil Chronic Friends, nuestro sitio web (chronicfriends.org) y todos los servicios relacionados (en conjunto, el \"Servicio\"), operados por Chronic Friends (\"nosotros\", \"nos\", \"nuestro\")."
+      "Bienvenido a Chronic Friends. Estos Términos del Servicio (\"Términos\") rigen tu uso de la aplicación móvil Chronic Friends, nuestro sitio web (chronicfriends.org) y todos los servicios relacionados (en conjunto, el \"Servicio\"), operados por Chronic Friends LLC, una sociedad de responsabilidad limitada de Wyoming (\"nosotros\", \"nos\", \"nuestro\")."
     ],
     "s": [
       { "t": "Aceptación de los Términos", "b": [
@@ -223,7 +223,7 @@ window.CF_TERMS_T = {
         { "p": "Podemos actualizar estos Términos en cualquier momento. Si los cambios son significativos, te lo notificaremos a través de la aplicación o por correo electrónico. El uso continuado del Servicio tras los cambios significa que los aceptas. Puedes dejar de usar el Servicio y cerrar tu cuenta cuando quieras." }
       ]},
       { "t": "Ley aplicable y jurisdicción", "b": [
-        { "p": "Estos Términos se rigen por las leyes de Suiza. Cualquier disputa se someterá a los tribunales competentes de Suiza, sin perjuicio de los derechos que te correspondan como consumidor según la ley de tu país de residencia." }
+        { "p": "Estos Términos se rigen por las leyes del Estado de Wyoming, EE. UU. Cualquier disputa se someterá a los tribunales competentes de Wyoming, sin perjuicio de los derechos que te correspondan como consumidor según la ley de tu país de residencia." }
       ]},
       { "t": "Contacto", "b": [
         { "p": "Si tienes preguntas sobre estos Términos, escríbenos a: ", "email": "info@chronicfriends.org" }
@@ -234,11 +234,11 @@ window.CF_TERMS_T = {
   "ca": {
     "legal": "Legal",
     "title": "Condicions del servei",
-    "updated": "Última actualització: 12 de juliol de 2026",
+    "updated": "Última actualització: 21 de juliol de 2026",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
-      "Benvingut/da a Chronic Friends. Aquestes Condicions del servei (\"Condicions\") regeixen el teu ús de l'aplicació mòbil Chronic Friends, el nostre lloc web (chronicfriends.org) i tots els serveis relacionats (conjuntament, el \"Servei\"), operats per Chronic Friends (\"nosaltres\", \"ens\", \"nostre\")."
+      "Benvingut/da a Chronic Friends. Aquestes Condicions del servei (\"Condicions\") regeixen el teu ús de l'aplicació mòbil Chronic Friends, el nostre lloc web (chronicfriends.org) i tots els serveis relacionats (conjuntament, el \"Servei\"), operats per Chronic Friends LLC, una societat de responsabilitat limitada de Wyoming (\"nosaltres\", \"ens\", \"nostre\")."
     ],
     "s": [
       { "t": "Acceptació de les Condicions", "b": [
@@ -336,7 +336,7 @@ window.CF_TERMS_T = {
         { "p": "Podem actualitzar aquestes Condicions en qualsevol moment. Si els canvis són significatius, t'ho notificarem a través de l'aplicació o per correu electrònic. L'ús continuat del Servei després dels canvis significa que els acceptes. Pots deixar d'usar el Servei i tancar el teu compte quan vulguis." }
       ]},
       { "t": "Llei aplicable i jurisdicció", "b": [
-        { "p": "Aquestes Condicions es regeixen per les lleis de Suïssa. Qualsevol disputa se sotmetrà als tribunals competents de Suïssa, sens perjudici dels drets que et corresponguin com a consumidor segons la llei del teu país de residència." }
+        { "p": "Aquestes Condicions es regeixen per les lleis de l'estat de Wyoming, EUA. Qualsevol disputa se sotmetrà als tribunals competents de Wyoming, sens perjudici dels drets que et corresponguin com a consumidor segons la llei del teu país de residència." }
       ]},
       { "t": "Contacte", "b": [
         { "p": "Si tens preguntes sobre aquestes Condicions, escriu-nos a: ", "email": "info@chronicfriends.org" }
@@ -347,11 +347,11 @@ window.CF_TERMS_T = {
   "fr": {
     "legal": "Légal",
     "title": "Conditions d'utilisation",
-    "updated": "Dernière mise à jour : 12 juillet 2026",
+    "updated": "Dernière mise à jour : 21 juillet 2026",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
-      "Bienvenue sur Chronic Friends. Ces Conditions d'utilisation (« Conditions ») régissent votre utilisation de l'application mobile Chronic Friends, de notre site web (chronicfriends.org) et de tous les services associés (ensemble, le « Service »), exploités par Chronic Friends (« nous », « notre »)."
+      "Bienvenue sur Chronic Friends. Ces Conditions d'utilisation (« Conditions ») régissent votre utilisation de l'application mobile Chronic Friends, de notre site web (chronicfriends.org) et de tous les services associés (ensemble, le « Service »), exploités par Chronic Friends LLC, une société à responsabilité limitée du Wyoming (« nous », « notre »)."
     ],
     "s": [
       { "t": "Acceptation des Conditions", "b": [
@@ -449,7 +449,7 @@ window.CF_TERMS_T = {
         { "p": "Nous pouvons mettre à jour ces Conditions à tout moment. Si les changements sont importants, nous vous en informerons via l'application ou par e-mail. La poursuite de l'utilisation du Service après les changements signifie que vous les acceptez. Vous pouvez cesser d'utiliser le Service et fermer votre compte quand vous le souhaitez." }
       ]},
       { "t": "Droit applicable et juridiction", "b": [
-        { "p": "Ces Conditions sont régies par le droit suisse. Tout litige sera soumis aux tribunaux compétents de Suisse, sans préjudice des droits qui vous sont accordés en tant que consommateur par le droit de votre pays de résidence." }
+        { "p": "Ces Conditions sont régies par le droit de l'État du Wyoming, États-Unis. Tout litige sera soumis aux tribunaux compétents du Wyoming, sans préjudice des droits qui vous sont accordés en tant que consommateur par le droit de votre pays de résidence." }
       ]},
       { "t": "Contact", "b": [
         { "p": "Si vous avez des questions sur ces Conditions, écrivez-nous à : ", "email": "info@chronicfriends.org" }
@@ -460,11 +460,11 @@ window.CF_TERMS_T = {
   "de": {
     "legal": "Rechtliches",
     "title": "Nutzungsbedingungen",
-    "updated": "Zuletzt aktualisiert: 12. Juli 2026",
+    "updated": "Zuletzt aktualisiert: 21. Juli 2026",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
-      "Willkommen bei Chronic Friends. Diese Nutzungsbedingungen („Bedingungen“) regeln Ihre Nutzung der mobilen App Chronic Friends, unserer Website (chronicfriends.org) und aller damit verbundenen Dienste (zusammen der „Dienst“), betrieben von Chronic Friends („wir“, „uns“, „unser“)."
+      "Willkommen bei Chronic Friends. Diese Nutzungsbedingungen („Bedingungen“) regeln Ihre Nutzung der mobilen App Chronic Friends, unserer Website (chronicfriends.org) und aller damit verbundenen Dienste (zusammen der „Dienst“), betrieben von Chronic Friends LLC, eine Gesellschaft mit beschränkter Haftung aus Wyoming („wir“, „uns“, „unser“)."
     ],
     "s": [
       { "t": "Annahme der Bedingungen", "b": [
@@ -562,7 +562,7 @@ window.CF_TERMS_T = {
         { "p": "Wir können diese Bedingungen jederzeit aktualisieren. Bei wesentlichen Änderungen informieren wir Sie über die App oder per E-Mail. Die fortgesetzte Nutzung des Dienstes nach den Änderungen bedeutet, dass Sie diese akzeptieren. Sie können die Nutzung des Dienstes jederzeit beenden und Ihr Konto schließen." }
       ]},
       { "t": "Anwendbares Recht und Gerichtsstand", "b": [
-        { "p": "Diese Bedingungen unterliegen dem Recht der Schweiz. Jede Streitigkeit wird den zuständigen Gerichten der Schweiz vorgelegt, unbeschadet der Rechte, die Ihnen als Verbraucher nach dem Recht Ihres Wohnsitzlandes zustehen." }
+        { "p": "Diese Bedingungen unterliegen dem Recht des US-Bundesstaates Wyoming. Jede Streitigkeit wird den zuständigen Gerichten in Wyoming vorgelegt, unbeschadet der Rechte, die Ihnen als Verbraucher nach dem Recht Ihres Wohnsitzlandes zustehen." }
       ]},
       { "t": "Kontakt", "b": [
         { "p": "Wenn Sie Fragen zu diesen Bedingungen haben, schreiben Sie uns an: ", "email": "info@chronicfriends.org" }
@@ -573,11 +573,11 @@ window.CF_TERMS_T = {
   "it": {
     "legal": "Legale",
     "title": "Termini di servizio",
-    "updated": "Ultimo aggiornamento: 12 luglio 2026",
+    "updated": "Ultimo aggiornamento: 21 luglio 2026",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
-      "Benvenuto in Chronic Friends. Questi Termini di servizio (\"Termini\") regolano il tuo utilizzo dell'app mobile Chronic Friends, del nostro sito web (chronicfriends.org) e di tutti i servizi correlati (nel complesso, il \"Servizio\"), gestiti da Chronic Friends (\"noi\", \"ci\", \"nostro\")."
+      "Benvenuto in Chronic Friends. Questi Termini di servizio (\"Termini\") regolano il tuo utilizzo dell'app mobile Chronic Friends, del nostro sito web (chronicfriends.org) e di tutti i servizi correlati (nel complesso, il \"Servizio\"), gestiti da Chronic Friends LLC, una società a responsabilità limitata del Wyoming (\"noi\", \"ci\", \"nostro\")."
     ],
     "s": [
       { "t": "Accettazione dei Termini", "b": [
@@ -675,7 +675,7 @@ window.CF_TERMS_T = {
         { "p": "Possiamo aggiornare questi Termini in qualsiasi momento. Se le modifiche sono significative, te lo comunicheremo tramite l'app o via e-mail. L'uso continuato del Servizio dopo le modifiche significa che le accetti. Puoi smettere di usare il Servizio e chiudere il tuo account quando vuoi." }
       ]},
       { "t": "Legge applicabile e foro competente", "b": [
-        { "p": "Questi Termini sono regolati dalle leggi della Svizzera. Qualsiasi controversia sarà sottoposta ai tribunali competenti della Svizzera, fatti salvi i diritti che ti spettano in quanto consumatore secondo la legge del tuo Paese di residenza." }
+        { "p": "Questi Termini sono regolati dalle leggi dello Stato del Wyoming, USA. Qualsiasi controversia sarà sottoposta ai tribunali competenti del Wyoming, fatti salvi i diritti che ti spettano in quanto consumatore secondo la legge del tuo Paese di residenza." }
       ]},
       { "t": "Contatto", "b": [
         { "p": "Se hai domande su questi Termini, scrivici a: ", "email": "info@chronicfriends.org" }
@@ -686,11 +686,11 @@ window.CF_TERMS_T = {
   "pt": {
     "legal": "Legal",
     "title": "Termos de Serviço",
-    "updated": "Última atualização: 12 de julho de 2026",
+    "updated": "Última atualização: 21 de julho de 2026",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
-      "Bem-vindo à Chronic Friends. Estes Termos de Serviço (\"Termos\") regem a tua utilização da aplicação móvel Chronic Friends, do nosso site (chronicfriends.org) e de todos os serviços relacionados (em conjunto, o \"Serviço\"), operados pela Chronic Friends (\"nós\", \"nos\", \"nosso\")."
+      "Bem-vindo à Chronic Friends. Estes Termos de Serviço (\"Termos\") regem a tua utilização da aplicação móvel Chronic Friends, do nosso site (chronicfriends.org) e de todos os serviços relacionados (em conjunto, o \"Serviço\"), operados pela Chronic Friends LLC, uma sociedade de responsabilidade limitada do Wyoming (\"nós\", \"nos\", \"nosso\")."
     ],
     "s": [
       { "t": "Aceitação dos Termos", "b": [
@@ -788,7 +788,7 @@ window.CF_TERMS_T = {
         { "p": "Podemos atualizar estes Termos a qualquer momento. Se as alterações forem significativas, notificar-te-emos através da aplicação ou por e-mail. A utilização continuada do Serviço após as alterações significa que as aceitas. Podes deixar de usar o Serviço e encerrar a tua conta quando quiseres." }
       ]},
       { "t": "Lei aplicável e jurisdição", "b": [
-        { "p": "Estes Termos regem-se pelas leis da Suíça. Qualquer litígio será submetido aos tribunais competentes da Suíça, sem prejuízo dos direitos que te são conferidos enquanto consumidor pela lei do teu país de residência." }
+        { "p": "Estes Termos regem-se pelas leis do Estado do Wyoming, EUA. Qualquer litígio será submetido aos tribunais competentes do Wyoming, sem prejuízo dos direitos que te são conferidos enquanto consumidor pela lei do teu país de residência." }
       ]},
       { "t": "Contacto", "b": [
         { "p": "Se tiveres questões sobre estes Termos, escreve-nos para: ", "email": "info@chronicfriends.org" }
@@ -799,11 +799,11 @@ window.CF_TERMS_T = {
   "ru": {
     "legal": "Юридическое",
     "title": "Условия обслуживания",
-    "updated": "Последнее обновление: 12 июля 2026 г.",
+    "updated": "Последнее обновление: 21 июля 2026 г.",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
-      "Добро пожаловать в Chronic Friends. Настоящие Условия обслуживания («Условия») регулируют использование вами мобильного приложения Chronic Friends, нашего веб-сайта (chronicfriends.org) и всех связанных с ними услуг (вместе — «Сервис»), управляемых Chronic Friends («мы», «нас», «наш»)."
+      "Добро пожаловать в Chronic Friends. Настоящие Условия обслуживания («Условия») регулируют использование вами мобильного приложения Chronic Friends, нашего веб-сайта (chronicfriends.org) и всех связанных с ними услуг (вместе — «Сервис»), управляемых Chronic Friends LLC, компанией с ограниченной ответственностью штата Вайоминг («мы», «нас», «наш»)."
     ],
     "s": [
       { "t": "Принятие Условий", "b": [
@@ -901,7 +901,7 @@ window.CF_TERMS_T = {
         { "p": "Мы можем обновлять настоящие Условия в любое время. Если изменения существенны, мы уведомим вас через приложение или по электронной почте. Продолжение использования Сервиса после изменений означает, что вы их принимаете. Вы можете прекратить использование Сервиса и закрыть свою учётную запись в любой момент." }
       ]},
       { "t": "Применимое право и юрисдикция", "b": [
-        { "p": "Настоящие Условия регулируются законодательством Швейцарии. Любой спор будет передан в компетентные суды Швейцарии без ущерба для прав, предоставленных вам как потребителю законодательством страны вашего проживания." }
+        { "p": "Настоящие Условия регулируются законодательством штата Вайоминг, США. Любой спор будет передан в компетентные суды штата Вайоминг без ущерба для прав, предоставленных вам как потребителю законодательством страны вашего проживания." }
       ]},
       { "t": "Контакт", "b": [
         { "p": "Если у вас есть вопросы об этих Условиях, напишите нам: ", "email": "info@chronicfriends.org" }
@@ -912,11 +912,11 @@ window.CF_TERMS_T = {
   "ar": {
     "legal": "قانوني",
     "title": "شروط الخدمة",
-    "updated": "آخر تحديث: 12 يوليو 2026",
+    "updated": "آخر تحديث: 21 يوليو 2026",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
-      "مرحبًا بك في Chronic Friends. تحكم شروط الخدمة هذه (\"الشروط\") استخدامك لتطبيق Chronic Friends للهاتف المحمول وموقعنا الإلكتروني (chronicfriends.org) وجميع الخدمات ذات الصلة (يُشار إليها مجتمعةً بـ\"الخدمة\")، التي تُشغّلها Chronic Friends (\"نحن\"، \"لنا\"، \"خاصتنا\")."
+      "مرحبًا بك في Chronic Friends. تحكم شروط الخدمة هذه (\"الشروط\") استخدامك لتطبيق Chronic Friends للهاتف المحمول وموقعنا الإلكتروني (chronicfriends.org) وجميع الخدمات ذات الصلة (يُشار إليها مجتمعةً بـ\"الخدمة\")، التي تُشغّلها Chronic Friends LLC، شركة ذات مسؤولية محدودة في ولاية وايومنغ (\"نحن\"، \"لنا\"، \"خاصتنا\")."
     ],
     "s": [
       { "t": "قبول الشروط", "b": [
@@ -1014,7 +1014,7 @@ window.CF_TERMS_T = {
         { "p": "يجوز لنا تحديث هذه الشروط في أي وقت. إذا كانت التغييرات جوهرية، فسنُخطرك عبر التطبيق أو بالبريد الإلكتروني. استمرارك في استخدام الخدمة بعد التغييرات يعني أنك تقبلها. يمكنك التوقف عن استخدام الخدمة وإغلاق حسابك متى شئت." }
       ]},
       { "t": "القانون الحاكم والاختصاص القضائي", "b": [
-        { "p": "تخضع هذه الشروط لقوانين سويسرا. وتُحال أي نزاع إلى المحاكم المختصة في سويسرا، دون المساس بالحقوق الممنوحة لك كمستهلك بموجب قانون بلد إقامتك." }
+        { "p": "تخضع هذه الشروط لقوانين ولاية وايومنغ الأمريكية. وتُحال أي نزاع إلى المحاكم المختصة في وايومنغ، دون المساس بالحقوق الممنوحة لك كمستهلك بموجب قانون بلد إقامتك." }
       ]},
       { "t": "جهة الاتصال", "b": [
         { "p": "إذا كانت لديك أسئلة حول هذه الشروط، فراسِلنا على: ", "email": "info@chronicfriends.org" }
@@ -1025,11 +1025,11 @@ window.CF_TERMS_T = {
   "hi": {
     "legal": "कानूनी",
     "title": "सेवा की शर्तें",
-    "updated": "अंतिम अद्यतन: 12 जुलाई 2026",
+    "updated": "अंतिम अद्यतन: 21 जुलाई 2026",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
-      "Chronic Friends में आपका स्वागत है। ये सेवा की शर्तें (\"शर्तें\") Chronic Friends मोबाइल ऐप, हमारी वेबसाइट (chronicfriends.org) और सभी संबंधित सेवाओं (एक साथ, \"सेवा\") के आपके उपयोग को नियंत्रित करती हैं, जिनका संचालन Chronic Friends (\"हम\", \"हमें\", \"हमारा\") करता है।"
+      "Chronic Friends में आपका स्वागत है। ये सेवा की शर्तें (\"शर्तें\") Chronic Friends मोबाइल ऐप, हमारी वेबसाइट (chronicfriends.org) और सभी संबंधित सेवाओं (एक साथ, \"सेवा\") के आपके उपयोग को नियंत्रित करती हैं, जिनका संचालन Chronic Friends LLC, वायोमिंग की एक सीमित देयता कंपनी (\"हम\", \"हमें\", \"हमारा\") करता है।"
     ],
     "s": [
       { "t": "शर्तों की स्वीकृति", "b": [
@@ -1127,7 +1127,7 @@ window.CF_TERMS_T = {
         { "p": "हम इन शर्तों को किसी भी समय अद्यतन कर सकते हैं। यदि परिवर्तन महत्वपूर्ण हैं, तो हम आपको ऐप के माध्यम से या ईमेल द्वारा सूचित करेंगे। परिवर्तनों के बाद सेवा का निरंतर उपयोग यह दर्शाता है कि आप उन्हें स्वीकार करते हैं। आप जब चाहें सेवा का उपयोग बंद कर सकते हैं और अपना खाता बंद कर सकते हैं।" }
       ]},
       { "t": "शासी कानून और क्षेत्राधिकार", "b": [
-        { "p": "ये शर्तें स्विट्ज़रलैंड के कानूनों द्वारा शासित हैं। कोई भी विवाद स्विट्ज़रलैंड के सक्षम न्यायालयों में प्रस्तुत किया जाएगा, आपके निवास देश के कानून के तहत उपभोक्ता के रूप में आपको दिए गए अधिकारों पर प्रतिकूल प्रभाव डाले बिना।" }
+        { "p": "ये शर्तें अमेरिका के वायोमिंग राज्य के कानूनों द्वारा शासित हैं। कोई भी विवाद वायोमिंग के सक्षम न्यायालयों में प्रस्तुत किया जाएगा, आपके निवास देश के कानून के तहत उपभोक्ता के रूप में आपको दिए गए अधिकारों पर प्रतिकूल प्रभाव डाले बिना।" }
       ]},
       { "t": "संपर्क", "b": [
         { "p": "यदि इन शर्तों के बारे में आपके कोई प्रश्न हैं, तो हमें लिखें: ", "email": "info@chronicfriends.org" }
@@ -1138,11 +1138,11 @@ window.CF_TERMS_T = {
   "id": {
     "legal": "Hukum",
     "title": "Ketentuan Layanan",
-    "updated": "Terakhir diperbarui: 12 Juli 2026",
+    "updated": "Terakhir diperbarui: 21 Juli 2026",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
-      "Selamat datang di Chronic Friends. Ketentuan Layanan ini (\"Ketentuan\") mengatur penggunaan Anda atas aplikasi seluler Chronic Friends, situs web kami (chronicfriends.org), dan semua layanan terkait (bersama-sama, \"Layanan\"), yang dioperasikan oleh Chronic Friends (\"kami\", \"kita\", \"milik kami\")."
+      "Selamat datang di Chronic Friends. Ketentuan Layanan ini (\"Ketentuan\") mengatur penggunaan Anda atas aplikasi seluler Chronic Friends, situs web kami (chronicfriends.org), dan semua layanan terkait (bersama-sama, \"Layanan\"), yang dioperasikan oleh Chronic Friends LLC, sebuah perseroan terbatas Wyoming (\"kami\", \"kita\", \"milik kami\")."
     ],
     "s": [
       { "t": "Penerimaan Ketentuan", "b": [
@@ -1240,7 +1240,7 @@ window.CF_TERMS_T = {
         { "p": "Kami dapat memperbarui Ketentuan ini kapan saja. Jika perubahannya signifikan, kami akan memberi tahu Anda melalui aplikasi atau email. Penggunaan Layanan yang berlanjut setelah perubahan berarti Anda menerimanya. Anda dapat berhenti menggunakan Layanan dan menutup akun Anda kapan pun Anda mau." }
       ]},
       { "t": "Hukum yang mengatur dan yurisdiksi", "b": [
-        { "p": "Ketentuan ini diatur oleh hukum Swiss. Setiap perselisihan akan diajukan ke pengadilan yang berwenang di Swiss, tanpa mengurangi hak yang diberikan kepada Anda sebagai konsumen berdasarkan hukum negara tempat tinggal Anda." }
+        { "p": "Ketentuan ini diatur oleh hukum Negara Bagian Wyoming, AS. Setiap perselisihan akan diajukan ke pengadilan yang berwenang di Wyoming, tanpa mengurangi hak yang diberikan kepada Anda sebagai konsumen berdasarkan hukum negara tempat tinggal Anda." }
       ]},
       { "t": "Kontak", "b": [
         { "p": "Jika Anda memiliki pertanyaan tentang Ketentuan ini, tulislah kepada kami di: ", "email": "info@chronicfriends.org" }
@@ -1251,11 +1251,11 @@ window.CF_TERMS_T = {
   "ja": {
     "legal": "法的事項",
     "title": "利用規約",
-    "updated": "最終更新日: 2026年7月12日",
+    "updated": "最終更新日: 2026年7月21日",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
-      "Chronic Friends へようこそ。本利用規約(「本規約」)は、Chronic Friends が運営する Chronic Friends モバイルアプリ、当社ウェブサイト(chronicfriends.org)、および関連するすべてのサービス(あわせて「本サービス」)のご利用を規定します。運営者は Chronic Friends(「当社」)です。"
+      "Chronic Friends へようこそ。本利用規約(「本規約」)は、Chronic Friends が運営する Chronic Friends モバイルアプリ、当社ウェブサイト(chronicfriends.org)、および関連するすべてのサービス(あわせて「本サービス」)のご利用を規定します。運営者は、ワイオミング州の有限責任会社である Chronic Friends LLC(「当社」)です。"
     ],
     "s": [
       { "t": "本規約への同意", "b": [
@@ -1353,7 +1353,7 @@ window.CF_TERMS_T = {
         { "p": "当社は本規約をいつでも更新することがあります。変更が重要な場合は、アプリまたはメールでお知らせします。変更後も本サービスを継続して利用する場合、あなたはその変更を承諾したものとみなされます。あなたはいつでも本サービスの利用を停止し、アカウントを閉鎖できます。" }
       ]},
       { "t": "準拠法と管轄", "b": [
-        { "p": "本規約はスイスの法律に準拠します。いかなる紛争もスイスの管轄裁判所に付託されますが、あなたの居住国の法律に基づき消費者として付与される権利を損なうものではありません。" }
+        { "p": "本規約は米国ワイオミング州の法律に準拠します。いかなる紛争もワイオミング州の管轄裁判所に付託されますが、あなたの居住国の法律に基づき消費者として付与される権利を損なうものではありません。" }
       ]},
       { "t": "連絡先", "b": [
         { "p": "本規約についてご質問がある場合は、こちらまでご連絡ください: ", "email": "info@chronicfriends.org" }
@@ -1364,11 +1364,11 @@ window.CF_TERMS_T = {
   "ko": {
     "legal": "법적 고지",
     "title": "서비스 약관",
-    "updated": "최종 업데이트: 2026년 7월 12일",
+    "updated": "최종 업데이트: 2026년 7월 21일",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
-      "Chronic Friends에 오신 것을 환영합니다. 본 서비스 약관(\"약관\")은 Chronic Friends가 운영하는 Chronic Friends 모바일 앱, 당사 웹사이트(chronicfriends.org) 및 모든 관련 서비스(통칭 \"서비스\")의 이용을 규율합니다. 운영자는 Chronic Friends(\"당사\", \"우리\")입니다."
+      "Chronic Friends에 오신 것을 환영합니다. 본 서비스 약관(\"약관\")은 Chronic Friends가 운영하는 Chronic Friends 모바일 앱, 당사 웹사이트(chronicfriends.org) 및 모든 관련 서비스(통칭 \"서비스\")의 이용을 규율합니다. 운영자는, 와이오밍주 유한책임회사인 Chronic Friends LLC(\"당사\", \"우리\")입니다."
     ],
     "s": [
       { "t": "약관 동의", "b": [
@@ -1466,7 +1466,7 @@ window.CF_TERMS_T = {
         { "p": "당사는 언제든지 본 약관을 업데이트할 수 있습니다. 변경 사항이 중대한 경우, 앱이나 이메일을 통해 알려드립니다. 변경 후에도 서비스를 계속 이용하면 변경 사항을 수락하는 것으로 간주됩니다. 귀하는 언제든지 서비스 이용을 중단하고 계정을 폐쇄할 수 있습니다." }
       ]},
       { "t": "준거법 및 관할", "b": [
-        { "p": "본 약관은 스위스 법률의 적용을 받습니다. 모든 분쟁은 스위스의 관할 법원에 제기되며, 귀하의 거주 국가 법률에 따라 소비자로서 귀하에게 부여된 권리를 침해하지 않습니다." }
+        { "p": "본 약관은 미국 와이오밍주 법률의 적용을 받습니다. 모든 분쟁은 와이오밍주의 관할 법원에 제기되며, 귀하의 거주 국가 법률에 따라 소비자로서 귀하에게 부여된 권리를 침해하지 않습니다." }
       ]},
       { "t": "연락처", "b": [
         { "p": "본 약관에 관한 질문이 있으시면 다음으로 문의해 주세요: ", "email": "info@chronicfriends.org" }
@@ -1477,11 +1477,11 @@ window.CF_TERMS_T = {
   "tr": {
     "legal": "Yasal",
     "title": "Hizmet Şartları",
-    "updated": "Son güncelleme: 12 Temmuz 2026",
+    "updated": "Son güncelleme: 21 Temmuz 2026",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
-      "Chronic Friends'e hoş geldiniz. Bu Hizmet Şartları (\"Şartlar\"), Chronic Friends tarafından işletilen Chronic Friends mobil uygulamasını, web sitemizi (chronicfriends.org) ve ilgili tüm hizmetleri (birlikte \"Hizmet\") kullanımınızı düzenler; işletmeci Chronic Friends'tir (\"biz\", \"bize\", \"bizim\")."
+      "Chronic Friends'e hoş geldiniz. Bu Hizmet Şartları (\"Şartlar\"), Chronic Friends tarafından işletilen Chronic Friends mobil uygulamasını, web sitemizi (chronicfriends.org) ve ilgili tüm hizmetleri (birlikte \"Hizmet\") kullanımınızı düzenler; işletmeci, bir Wyoming limited şirketi olan Chronic Friends LLC'dir (\"biz\", \"bize\", \"bizim\")."
     ],
     "s": [
       { "t": "Şartların Kabulü", "b": [
@@ -1579,7 +1579,7 @@ window.CF_TERMS_T = {
         { "p": "Bu Şartları istediğimiz zaman güncelleyebiliriz. Değişiklikler önemliyse, sizi uygulama üzerinden veya e-posta ile bilgilendiririz. Değişikliklerden sonra Hizmet'i kullanmaya devam etmeniz, onları kabul ettiğiniz anlamına gelir. Hizmet'i kullanmayı istediğiniz zaman bırakabilir ve hesabınızı kapatabilirsiniz." }
       ]},
       { "t": "Geçerli hukuk ve yargı yetkisi", "b": [
-        { "p": "Bu Şartlar İsviçre yasalarına tabidir. Her türlü uyuşmazlık, ikamet ettiğiniz ülkenin hukuku uyarınca tüketici olarak size tanınan haklara halel gelmeksizin, İsviçre'nin yetkili mahkemelerine sunulacaktır." }
+        { "p": "Bu Şartlar ABD'nin Wyoming Eyaleti yasalarına tabidir. Her türlü uyuşmazlık, ikamet ettiğiniz ülkenin hukuku uyarınca tüketici olarak size tanınan haklara halel gelmeksizin, Wyoming'in yetkili mahkemelerine sunulacaktır." }
       ]},
       { "t": "İletişim", "b": [
         { "p": "Bu Şartlar hakkında sorularınız varsa, bize şu adresten yazın: ", "email": "info@chronicfriends.org" }
@@ -1590,11 +1590,11 @@ window.CF_TERMS_T = {
   "vi": {
     "legal": "Pháp lý",
     "title": "Điều khoản dịch vụ",
-    "updated": "Cập nhật lần cuối: ngày 12 tháng 7 năm 2026",
+    "updated": "Cập nhật lần cuối: ngày 21 tháng 7 năm 2026",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
-      "Chào mừng bạn đến với Chronic Friends. Các Điều khoản dịch vụ này (\"Điều khoản\") điều chỉnh việc bạn sử dụng ứng dụng di động Chronic Friends, trang web của chúng tôi (chronicfriends.org) và tất cả các dịch vụ liên quan (gọi chung là \"Dịch vụ\"), do Chronic Friends vận hành (\"chúng tôi\", \"của chúng tôi\")."
+      "Chào mừng bạn đến với Chronic Friends. Các Điều khoản dịch vụ này (\"Điều khoản\") điều chỉnh việc bạn sử dụng ứng dụng di động Chronic Friends, trang web của chúng tôi (chronicfriends.org) và tất cả các dịch vụ liên quan (gọi chung là \"Dịch vụ\"), do Chronic Friends LLC, một công ty trách nhiệm hữu hạn của Wyoming, vận hành (\"chúng tôi\", \"của chúng tôi\")."
     ],
     "s": [
       { "t": "Chấp nhận Điều khoản", "b": [
@@ -1692,7 +1692,7 @@ window.CF_TERMS_T = {
         { "p": "Chúng tôi có thể cập nhật các Điều khoản này bất cứ lúc nào. Nếu các thay đổi là quan trọng, chúng tôi sẽ thông báo cho bạn qua ứng dụng hoặc qua email. Việc tiếp tục sử dụng Dịch vụ sau các thay đổi có nghĩa là bạn chấp nhận chúng. Bạn có thể ngừng sử dụng Dịch vụ và đóng tài khoản của mình bất cứ khi nào bạn muốn." }
       ]},
       { "t": "Luật điều chỉnh và thẩm quyền", "b": [
-        { "p": "Các Điều khoản này được điều chỉnh bởi luật pháp Thụy Sĩ. Mọi tranh chấp sẽ được đưa ra các tòa án có thẩm quyền của Thụy Sĩ, mà không ảnh hưởng đến các quyền được trao cho bạn với tư cách người tiêu dùng theo luật pháp của quốc gia nơi bạn cư trú." }
+        { "p": "Các Điều khoản này được điều chỉnh bởi luật pháp của Bang Wyoming, Hoa Kỳ. Mọi tranh chấp sẽ được đưa ra các tòa án có thẩm quyền của Wyoming, mà không ảnh hưởng đến các quyền được trao cho bạn với tư cách người tiêu dùng theo luật pháp của quốc gia nơi bạn cư trú." }
       ]},
       { "t": "Liên hệ", "b": [
         { "p": "Nếu bạn có câu hỏi về các Điều khoản này, hãy viết cho chúng tôi tại: ", "email": "info@chronicfriends.org" }
@@ -1703,11 +1703,11 @@ window.CF_TERMS_T = {
   "zh": {
     "legal": "法律",
     "title": "服务条款",
-    "updated": "最后更新：2026年7月12日",
+    "updated": "最后更新：2026年7月21日",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
-      "欢迎使用 Chronic Friends。本服务条款（“条款”）管辖你对 Chronic Friends 移动应用、我们的网站（chronicfriends.org）及所有相关服务（合称“服务”）的使用，服务由 Chronic Friends（“我们”）运营。"
+      "欢迎使用 Chronic Friends。本服务条款（“条款”）管辖你对 Chronic Friends 移动应用、我们的网站（chronicfriends.org）及所有相关服务（合称“服务”）的使用，服务由怀俄明州有限责任公司 Chronic Friends LLC（“我们”）运营。"
     ],
     "s": [
       { "t": "接受条款", "b": [
@@ -1805,7 +1805,7 @@ window.CF_TERMS_T = {
         { "p": "我们可能随时更新本条款。如果变更重大，我们会通过应用或电子邮件通知你。在变更后继续使用服务即表示你接受这些变更。你可以随时停止使用服务并关闭你的账户。" }
       ]},
       { "t": "适用法律与管辖", "b": [
-        { "p": "本条款受瑞士法律管辖。任何争议将提交至瑞士的主管法院，但不影响你作为消费者根据你居住国法律所享有的权利。" }
+        { "p": "本条款受美国怀俄明州法律管辖。任何争议将提交至怀俄明州的主管法院，但不影响你作为消费者根据你居住国法律所享有的权利。" }
       ]},
       { "t": "联系方式", "b": [
         { "p": "如果你对本条款有疑问，请写信给我们：", "email": "info@chronicfriends.org" }

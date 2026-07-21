@@ -1,4 +1,4 @@
-/* Chronic Friends — Privacy Policy (v2.1), translated for all 16 supported languages.
+/* Chronic Friends — Privacy Policy (v2.3), translated for all 16 supported languages.
    Consumed by "Crohn Friends Landing.dc.html" (renderLegal). Shared by patient
    and doctor sections — the modal reads the page's currently selected language.
    Brand names, provider names, law names (GDPR, revFADP, CCPA/CPRA, My Health My
@@ -9,7 +9,7 @@ window.CF_PRIVACY_T = {
   "en": {
     "legal": "Privacy",
     "title": "Privacy Policy",
-    "updated": "Last updated: 11 July 2026 · Version: 2.1",
+    "updated": "Last updated: 21 July 2026 · Version: 2.3",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -53,16 +53,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Verified doctors receive only the health information you choose to share for a given visit. We may also disclose data where the law requires it. We do not share your data with anyone else." }
       ]},
-      { "t": "International transfers", "b": [
-        { "p": "Some of our providers may process data outside Switzerland or the EEA (for example, in the United States). Where this happens, we rely on safeguards such as Standard Contractual Clauses (SCCs) or the EU–US / Swiss–US Data Privacy Framework." }
+      { "t": "Where your data is stored, and international transfers", "b": [
+        { "p": "Your account and health data are stored on Google Cloud / Firebase servers located in the European Union (Frankfurt, Germany — region europe-west3). We deliberately chose an EU region so that health data stays within Europe under the GDPR and the Swiss revFADP. This location is permanent." },
+        { "p": "A limited set of providers may process certain non-health data outside Switzerland or the EEA (for example, in the United States): RevenueCat (subscription status), Stripe (doctor verification and consultation payments), and Apple / Google (billing and app distribution). Where this happens, we rely on safeguards such as Standard Contractual Clauses (SCCs) or the EU–US / Swiss–US Data Privacy Framework." }
       ]},
       { "t": "Retention", "b": [
         { "p": "We keep your data while your account is active. After you delete your account, we delete your data within 30 days, except where the law requires us to keep certain records (for example, billing). Consultation records may be subject to specific retention requirements. Backups rotate out in the normal course." }
       ]},
       { "t": "Contact and data controller", "b": [
         { "ul": [
-          { "b": "Controller:", "t": " Gerard Mir Ferrera, owner of Chronic Friends" },
-          { "b": "Location:", "t": " Ticino, Switzerland" },
+          { "b": "Data controller:", "t": " Chronic Friends LLC, a limited liability company registered in Wyoming, USA" },
+          { "b": "Registered address:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "EU representative (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Users in the EU may contact our EU representative directly on any data protection matter." },
           { "b": "Contact:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -100,7 +102,7 @@ window.CF_PRIVACY_T = {
   "es": {
     "legal": "Privacidad",
     "title": "Política de Privacidad",
-    "updated": "Última actualización: 11 de julio de 2026 · Versión: 2.1",
+    "updated": "Última actualización: 21 de julio de 2026 · Versión: 2.3",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -144,16 +146,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Los médicos verificados reciben únicamente la información de salud que elijas compartir para una visita determinada. También podemos divulgar datos cuando la ley lo exija. No compartimos tus datos con nadie más." }
       ]},
-      { "t": "Transferencias internacionales", "b": [
-        { "p": "Algunos de nuestros proveedores pueden procesar datos fuera de Suiza o del EEE (por ejemplo, en Estados Unidos). Cuando esto ocurre, nos basamos en salvaguardas como las Cláusulas Contractuales Tipo (SCC) o el marco de privacidad de datos UE–EE. UU. / Suiza–EE. UU." }
+      { "t": "Dónde se almacenan tus datos y transferencias internacionales", "b": [
+        { "p": "Tus datos de cuenta y de salud se almacenan en servidores de Google Cloud / Firebase ubicados en la Unión Europea (Fráncfort, Alemania — región europe-west3). Elegimos deliberadamente una región de la UE para que los datos de salud permanezcan dentro de Europa bajo el GDPR y la revFADP suiza. Esta ubicación es permanente." },
+        { "p": "Un conjunto limitado de proveedores puede tratar determinados datos que no son de salud fuera de Suiza o del EEE (por ejemplo, en Estados Unidos): RevenueCat (estado de la suscripción), Stripe (verificación de médicos y pagos de consultas) y Apple / Google (facturación y distribución de la app). Cuando esto ocurre, nos basamos en salvaguardas como las Cláusulas Contractuales Tipo (SCC) o el marco de privacidad de datos UE–EE. UU. / Suiza–EE. UU." }
       ]},
       { "t": "Conservación", "b": [
         { "p": "Conservamos tus datos mientras tu cuenta esté activa. Después de que elimines tu cuenta, borramos tus datos en un plazo de 30 días, salvo cuando la ley nos obligue a conservar determinados registros (por ejemplo, la facturación). Los registros de las consultas pueden estar sujetos a requisitos de conservación específicos. Las copias de seguridad se van eliminando en el curso normal." }
       ]},
       { "t": "Contacto y responsable del tratamiento", "b": [
         { "ul": [
-          { "b": "Responsable del tratamiento:", "t": " Gerard Mir Ferrera, propietario de Chronic Friends" },
-          { "b": "Ubicación:", "t": " Ticino, Suiza" },
+          { "b": "Responsable del tratamiento:", "t": " Chronic Friends LLC, una sociedad de responsabilidad limitada registrada en Wyoming, EE. UU." },
+          { "b": "Domicilio registrado:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Representante en la UE (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Los usuarios de la UE pueden contactar directamente con nuestro representante en la UE sobre cualquier asunto de protección de datos." },
           { "b": "Contacto:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -191,7 +195,7 @@ window.CF_PRIVACY_T = {
   "ca": {
     "legal": "Privadesa",
     "title": "Política de privadesa",
-    "updated": "Última actualització: 11 de juliol de 2026 · Versió: 2.1",
+    "updated": "Última actualització: 21 de juliol de 2026 · Versió: 2.3",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -235,16 +239,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Els metges verificats reben únicament la informació de salut que triïs compartir per a una visita determinada. També podem divulgar dades quan la llei ho exigeixi. No compartim les teves dades amb ningú més." }
       ]},
-      { "t": "Transferències internacionals", "b": [
-        { "p": "Alguns dels nostres proveïdors poden processar dades fora de Suïssa o de l'EEE (per exemple, als Estats Units). Quan això passa, ens basem en salvaguardes com les Clàusules Contractuals Tipus (SCC) o el marc de privadesa de dades UE–EUA / Suïssa–EUA." }
+      { "t": "On s'emmagatzemen les teves dades i transferències internacionals", "b": [
+        { "p": "Les teves dades de compte i de salut s'emmagatzemen en servidors de Google Cloud / Firebase ubicats a la Unió Europea (Frankfurt, Alemanya — regió europe-west3). Vam triar deliberadament una regió de la UE perquè les dades de salut es mantinguin dins d'Europa sota el GDPR i la revFADP suïssa. Aquesta ubicació és permanent." },
+        { "p": "Un conjunt limitat de proveïdors pot tractar determinades dades que no són de salut fora de Suïssa o de l'EEE (per exemple, als Estats Units): RevenueCat (estat de la subscripció), Stripe (verificació de metges i pagaments de consultes) i Apple / Google (facturació i distribució de l'app). Quan això passa, ens basem en salvaguardes com les Clàusules Contractuals Tipus (SCC) o el marc de privadesa de dades UE–EUA / Suïssa–EUA." }
       ]},
       { "t": "Conservació", "b": [
         { "p": "Conservem les teves dades mentre el teu compte estigui actiu. Després que eliminis el teu compte, esborrem les teves dades en un termini de 30 dies, tret dels casos en què la llei ens obligui a conservar determinats registres (per exemple, la facturació). Els registres de les consultes poden estar subjectes a requisits de conservació específics. Les còpies de seguretat es van eliminant en el curs normal." }
       ]},
       { "t": "Contacte i responsable del tractament", "b": [
         { "ul": [
-          { "b": "Responsable del tractament:", "t": " Gerard Mir Ferrera, propietari de Chronic Friends" },
-          { "b": "Ubicació:", "t": " Ticino, Suïssa" },
+          { "b": "Responsable del tractament:", "t": " Chronic Friends LLC, una societat de responsabilitat limitada registrada a Wyoming, EUA" },
+          { "b": "Domicili registrat:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Representant a la UE (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Els usuaris de la UE poden contactar directament amb el nostre representant a la UE sobre qualsevol qüestió de protecció de dades." },
           { "b": "Contacte:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -282,7 +288,7 @@ window.CF_PRIVACY_T = {
   "fr": {
     "legal": "Confidentialité",
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 11 juillet 2026 · Version : 2.1",
+    "updated": "Dernière mise à jour : 21 juillet 2026 · Version : 2.3",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -326,16 +332,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Les médecins vérifiés ne reçoivent que les informations de santé que vous choisissez de partager pour une consultation donnée. Nous pouvons également divulguer des données lorsque la loi l'exige. Nous ne partageons vos données avec personne d'autre." }
       ]},
-      { "t": "Transferts internationaux", "b": [
-        { "p": "Certains de nos prestataires peuvent traiter des données en dehors de la Suisse ou de l'EEE (par exemple, aux États-Unis). Lorsque c'est le cas, nous nous appuyons sur des garanties telles que les Clauses Contractuelles Types (CCT) ou le cadre de protection des données UE–États-Unis / Suisse–États-Unis." }
+      { "t": "Où vos données sont stockées, et transferts internationaux", "b": [
+        { "p": "Vos données de compte et de santé sont stockées sur des serveurs Google Cloud / Firebase situés dans l'Union européenne (Francfort, Allemagne — région europe-west3). Nous avons délibérément choisi une région de l'UE afin que les données de santé restent en Europe, sous le régime du GDPR et de la revFADP suisse. Cet emplacement est permanent." },
+        { "p": "Un ensemble limité de prestataires peut traiter certaines données non liées à la santé en dehors de la Suisse ou de l'EEE (par exemple, aux États-Unis) : RevenueCat (statut de l'abonnement), Stripe (vérification des médecins et paiements des consultations) et Apple / Google (facturation et distribution de l'application). Lorsque c'est le cas, nous nous appuyons sur des garanties telles que les Clauses Contractuelles Types (CCT) ou le cadre de protection des données UE–États-Unis / Suisse–États-Unis." }
       ]},
       { "t": "Conservation", "b": [
         { "p": "Nous conservons vos données tant que votre compte est actif. Après la suppression de votre compte, nous effaçons vos données dans un délai de 30 jours, sauf lorsque la loi nous oblige à conserver certains enregistrements (par exemple, la facturation). Les dossiers de consultation peuvent être soumis à des exigences de conservation spécifiques. Les sauvegardes sont supprimées dans le cours normal des choses." }
       ]},
       { "t": "Contact et responsable du traitement", "b": [
         { "ul": [
-          { "b": "Responsable du traitement :", "t": " Gerard Mir Ferrera, propriétaire de Chronic Friends" },
-          { "b": "Lieu :", "t": " Ticino, Suisse" },
+          { "b": "Responsable du traitement :", "t": " Chronic Friends LLC, une société à responsabilité limitée enregistrée dans le Wyoming, États-Unis" },
+          { "b": "Adresse enregistrée :", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Représentant dans l'UE (Art. 27 GDPR) :", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Les utilisateurs de l'UE peuvent contacter directement notre représentant dans l'UE pour toute question de protection des données." },
           { "b": "Contact :", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -373,7 +381,7 @@ window.CF_PRIVACY_T = {
   "de": {
     "legal": "Datenschutz",
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 11. Juli 2026 · Version: 2.1",
+    "updated": "Zuletzt aktualisiert: 21. Juli 2026 · Version: 2.3",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -417,16 +425,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Verifizierte Ärzte erhalten nur die Gesundheitsinformationen, die Sie für einen bestimmten Besuch teilen möchten. Wir können Daten auch offenlegen, wenn das Gesetz dies verlangt. Wir geben Ihre Daten an niemanden sonst weiter." }
       ]},
-      { "t": "Internationale Übermittlungen", "b": [
-        { "p": "Einige unserer Anbieter verarbeiten Daten möglicherweise außerhalb der Schweiz oder des EWR (zum Beispiel in den Vereinigten Staaten). In diesem Fall stützen wir uns auf Schutzmaßnahmen wie Standardvertragsklauseln (SCCs) oder das EU–US / Schweiz–US Data Privacy Framework." }
+      { "t": "Wo Ihre Daten gespeichert werden, und internationale Übermittlungen", "b": [
+        { "p": "Ihre Konto- und Gesundheitsdaten werden auf Servern von Google Cloud / Firebase gespeichert, die sich in der Europäischen Union befinden (Frankfurt, Deutschland – Region europe-west3). Wir haben bewusst eine EU-Region gewählt, damit Gesundheitsdaten gemäß der GDPR und der schweizerischen revFADP innerhalb Europas bleiben. Dieser Standort ist dauerhaft." },
+        { "p": "Eine begrenzte Zahl von Anbietern verarbeitet möglicherweise bestimmte nicht gesundheitsbezogene Daten außerhalb der Schweiz oder des EWR (zum Beispiel in den Vereinigten Staaten): RevenueCat (Abonnementstatus), Stripe (Ärzteverifizierung und Zahlungen für Konsultationen) und Apple / Google (Abrechnung und App-Vertrieb). In diesem Fall stützen wir uns auf Schutzmaßnahmen wie Standardvertragsklauseln (SCCs) oder das EU–US / Schweiz–US Data Privacy Framework." }
       ]},
       { "t": "Aufbewahrung", "b": [
         { "p": "Wir bewahren Ihre Daten auf, solange Ihr Konto aktiv ist. Nach der Löschung Ihres Kontos löschen wir Ihre Daten innerhalb von 30 Tagen, außer wenn das Gesetz uns verpflichtet, bestimmte Aufzeichnungen aufzubewahren (zum Beispiel zur Abrechnung). Konsultationsunterlagen können besonderen Aufbewahrungspflichten unterliegen. Backups werden im normalen Verlauf gelöscht." }
       ]},
       { "t": "Kontakt und Verantwortlicher", "b": [
         { "ul": [
-          { "b": "Verantwortlicher:", "t": " Gerard Mir Ferrera, Inhaber von Chronic Friends" },
-          { "b": "Standort:", "t": " Ticino, Schweiz" },
+          { "b": "Verantwortlicher:", "t": " Chronic Friends LLC, eine in Wyoming, USA, eingetragene Gesellschaft mit beschränkter Haftung" },
+          { "b": "Eingetragene Adresse:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "EU-Vertreter (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Nutzer in der EU können sich in allen Datenschutzangelegenheiten direkt an unseren EU-Vertreter wenden." },
           { "b": "Kontakt:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -464,7 +474,7 @@ window.CF_PRIVACY_T = {
   "it": {
     "legal": "Privacy",
     "title": "Informativa sulla privacy",
-    "updated": "Ultimo aggiornamento: 11 luglio 2026 · Versione: 2.1",
+    "updated": "Ultimo aggiornamento: 21 luglio 2026 · Versione: 2.3",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -508,16 +518,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "I medici verificati ricevono solo le informazioni sanitarie che scegli di condividere per una determinata visita. Possiamo inoltre divulgare i dati laddove la legge lo richieda. Non condividiamo i tuoi dati con nessun altro." }
       ]},
-      { "t": "Trasferimenti internazionali", "b": [
-        { "p": "Alcuni dei nostri fornitori potrebbero trattare i dati al di fuori della Svizzera o del SEE (ad esempio, negli Stati Uniti). Quando ciò accade, ci basiamo su garanzie come le Clausole Contrattuali Standard (SCC) o il quadro per la privacy dei dati UE–USA / Svizzera–USA." }
+      { "t": "Dove sono conservati i tuoi dati e trasferimenti internazionali", "b": [
+        { "p": "I tuoi dati di account e sanitari sono conservati su server Google Cloud / Firebase situati nell'Unione Europea (Francoforte, Germania — regione europe-west3). Abbiamo scelto deliberatamente una regione dell'UE affinché i dati sanitari restino in Europa ai sensi del GDPR e della revFADP svizzera. Questa ubicazione è permanente." },
+        { "p": "Un insieme limitato di fornitori potrebbe trattare determinati dati non sanitari al di fuori della Svizzera o del SEE (ad esempio, negli Stati Uniti): RevenueCat (stato dell'abbonamento), Stripe (verifica dei medici e pagamenti dei consulti) e Apple / Google (fatturazione e distribuzione dell'app). Quando ciò accade, ci basiamo su garanzie come le Clausole Contrattuali Standard (SCC) o il quadro per la privacy dei dati UE–USA / Svizzera–USA." }
       ]},
       { "t": "Conservazione", "b": [
         { "p": "Conserviamo i tuoi dati finché il tuo account è attivo. Dopo l'eliminazione del tuo account, cancelliamo i tuoi dati entro 30 giorni, tranne nei casi in cui la legge ci imponga di conservare determinati registri (ad esempio, la fatturazione). I registri dei consulti possono essere soggetti a requisiti di conservazione specifici. I backup vengono eliminati nel normale svolgimento delle attività." }
       ]},
       { "t": "Contatto e titolare del trattamento", "b": [
         { "ul": [
-          { "b": "Titolare del trattamento:", "t": " Gerard Mir Ferrera, proprietario di Chronic Friends" },
-          { "b": "Sede:", "t": " Ticino, Svizzera" },
+          { "b": "Titolare del trattamento:", "t": " Chronic Friends LLC, una società a responsabilità limitata registrata nel Wyoming, USA" },
+          { "b": "Indirizzo registrato:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Rappresentante nell'UE (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Gli utenti nell'UE possono contattare direttamente il nostro rappresentante nell'UE per qualsiasi questione relativa alla protezione dei dati." },
           { "b": "Contatto:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -555,7 +567,7 @@ window.CF_PRIVACY_T = {
   "pt": {
     "legal": "Privacidade",
     "title": "Política de Privacidade",
-    "updated": "Última atualização: 11 de julho de 2026 · Versão: 2.1",
+    "updated": "Última atualização: 21 de julho de 2026 · Versão: 2.3",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -599,16 +611,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Os médicos verificados recebem apenas as informações de saúde que escolhes partilhar para uma determinada consulta. Também podemos divulgar dados quando a lei o exigir. Não partilhamos os teus dados com mais ninguém." }
       ]},
-      { "t": "Transferências internacionais", "b": [
-        { "p": "Alguns dos nossos fornecedores podem tratar dados fora da Suíça ou do EEE (por exemplo, nos Estados Unidos). Quando tal acontece, baseamo-nos em salvaguardas como as Cláusulas Contratuais-Tipo (CCT) ou o quadro de privacidade de dados UE–EUA / Suíça–EUA." }
+      { "t": "Onde os teus dados são armazenados e transferências internacionais", "b": [
+        { "p": "Os teus dados de conta e de saúde são armazenados em servidores da Google Cloud / Firebase localizados na União Europeia (Frankfurt, Alemanha — região europe-west3). Escolhemos deliberadamente uma região da UE para que os dados de saúde permaneçam na Europa ao abrigo do GDPR e da revFADP suíça. Esta localização é permanente." },
+        { "p": "Um conjunto limitado de fornecedores pode tratar determinados dados que não são de saúde fora da Suíça ou do EEE (por exemplo, nos Estados Unidos): RevenueCat (estado da subscrição), Stripe (verificação de médicos e pagamentos de consultas) e Apple / Google (faturação e distribuição da app). Quando tal acontece, baseamo-nos em salvaguardas como as Cláusulas Contratuais-Tipo (CCT) ou o quadro de privacidade de dados UE–EUA / Suíça–EUA." }
       ]},
       { "t": "Conservação", "b": [
         { "p": "Conservamos os teus dados enquanto a tua conta estiver ativa. Depois de eliminares a tua conta, apagamos os teus dados no prazo de 30 dias, exceto quando a lei nos obrigar a conservar determinados registos (por exemplo, faturação). Os registos de consultas podem estar sujeitos a requisitos de conservação específicos. As cópias de segurança são eliminadas no decurso normal." }
       ]},
       { "t": "Contacto e responsável pelo tratamento", "b": [
         { "ul": [
-          { "b": "Responsável pelo tratamento:", "t": " Gerard Mir Ferrera, proprietário da Chronic Friends" },
-          { "b": "Localização:", "t": " Ticino, Suíça" },
+          { "b": "Responsável pelo tratamento:", "t": " Chronic Friends LLC, uma sociedade de responsabilidade limitada registada no Wyoming, EUA" },
+          { "b": "Morada registada:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Representante na UE (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Os utilizadores na UE podem contactar diretamente o nosso representante na UE sobre qualquer questão de proteção de dados." },
           { "b": "Contacto:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -646,7 +660,7 @@ window.CF_PRIVACY_T = {
   "ru": {
     "legal": "Конфиденциальность",
     "title": "Политика конфиденциальности",
-    "updated": "Последнее обновление: 11 июля 2026 г. · Версия: 2.1",
+    "updated": "Последнее обновление: 21 июля 2026 г. · Версия: 2.3",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -690,16 +704,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Верифицированные врачи получают только ту медицинскую информацию, которой вы решите поделиться для конкретного приёма. Мы также можем раскрывать данные, когда этого требует закон. Мы не передаём ваши данные никому другому." }
       ]},
-      { "t": "Международная передача", "b": [
-        { "p": "Некоторые из наших поставщиков могут обрабатывать данные за пределами Швейцарии или ЕЭЗ (например, в Соединённых Штатах). В таких случаях мы полагаемся на такие гарантии, как Стандартные договорные положения (SCC) или рамочную программу конфиденциальности данных ЕС–США / Швейцария–США." }
+      { "t": "Где хранятся ваши данные и международная передача", "b": [
+        { "p": "Данные вашей учётной записи и данные о здоровье хранятся на серверах Google Cloud / Firebase, расположенных в Европейском союзе (Франкфурт, Германия — регион europe-west3). Мы намеренно выбрали регион ЕС, чтобы данные о здоровье оставались в пределах Европы в соответствии с GDPR и швейцарским revFADP. Это местоположение является постоянным." },
+        { "p": "Ограниченный круг поставщиков может обрабатывать определённые данные, не относящиеся к здоровью, за пределами Швейцарии или ЕЭЗ (например, в Соединённых Штатах): RevenueCat (статус подписки), Stripe (верификация врачей и оплата консультаций) и Apple / Google (биллинг и распространение приложения). В таких случаях мы полагаемся на такие гарантии, как Стандартные договорные положения (SCC) или рамочную программу конфиденциальности данных ЕС–США / Швейцария–США." }
       ]},
       { "t": "Хранение", "b": [
         { "p": "Мы храним ваши данные, пока ваша учётная запись активна. После удаления вами учётной записи мы удаляем ваши данные в течение 30 дней, за исключением случаев, когда закон обязывает нас хранить определённые записи (например, о выставлении счетов). На записи консультаций могут распространяться особые требования к хранению. Резервные копии удаляются в обычном порядке." }
       ]},
       { "t": "Контакт и контролёр данных", "b": [
         { "ul": [
-          { "b": "Контролёр:", "t": " Gerard Mir Ferrera, владелец Chronic Friends" },
-          { "b": "Местонахождение:", "t": " Ticino, Швейцария" },
+          { "b": "Контролёр данных:", "t": " Chronic Friends LLC, компания с ограниченной ответственностью, зарегистрированная в Вайоминге, США" },
+          { "b": "Юридический адрес:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Представитель в ЕС (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Пользователи в ЕС могут обращаться к нашему представителю в ЕС напрямую по любым вопросам защиты данных." },
           { "b": "Контакт:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -737,7 +753,7 @@ window.CF_PRIVACY_T = {
   "ar": {
     "legal": "الخصوصية",
     "title": "سياسة الخصوصية",
-    "updated": "آخر تحديث: 11 يوليو 2026 · الإصدار: 2.1",
+    "updated": "آخر تحديث: 21 يوليو 2026 · الإصدار: 2.3",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -781,16 +797,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "يتلقى الأطباء المُتحقَّق منهم فقط المعلومات الصحية التي تختار مشاركتها لزيارة معيّنة. وقد نكشف عن البيانات أيضًا حيثما يقتضي القانون ذلك. نحن لا نشارك بياناتك مع أي جهة أخرى." }
       ]},
-      { "t": "عمليات النقل الدولية", "b": [
-        { "p": "قد يعالج بعض مزوّدينا البيانات خارج سويسرا أو المنطقة الاقتصادية الأوروبية (على سبيل المثال، في الولايات المتحدة). وحين يحدث ذلك، نعتمد على ضمانات مثل الشروط التعاقدية القياسية (SCCs) أو إطار خصوصية البيانات بين الاتحاد الأوروبي والولايات المتحدة / بين سويسرا والولايات المتحدة." }
+      { "t": "أين تُخزَّن بياناتك وعمليات النقل الدولية", "b": [
+        { "p": "تُخزَّن بيانات حسابك وبياناتك الصحية على خوادم Google Cloud / Firebase الواقعة في الاتحاد الأوروبي (فرانكفورت، ألمانيا — منطقة europe-west3). لقد اخترنا عمدًا منطقة في الاتحاد الأوروبي حتى تبقى البيانات الصحية داخل أوروبا بموجب GDPR وrevFADP السويسري. هذا الموقع دائم." },
+        { "p": "قد يعالج عدد محدود من المزوّدين بيانات معيّنة غير صحية خارج سويسرا أو المنطقة الاقتصادية الأوروبية (على سبيل المثال، في الولايات المتحدة): RevenueCat (حالة الاشتراك)، وStripe (التحقق من الأطباء ومدفوعات الاستشارات)، وApple / Google (الفوترة وتوزيع التطبيق). وحين يحدث ذلك، نعتمد على ضمانات مثل الشروط التعاقدية القياسية (SCCs) أو إطار خصوصية البيانات بين الاتحاد الأوروبي والولايات المتحدة / بين سويسرا والولايات المتحدة." }
       ]},
       { "t": "الاحتفاظ", "b": [
         { "p": "نحتفظ ببياناتك ما دام حسابك نشطًا. بعد حذفك لحسابك، نحذف بياناتك خلال 30 يومًا، إلا حيثما يُلزمنا القانون بالاحتفاظ بسجلات معيّنة (على سبيل المثال، الفوترة). وقد تخضع سجلات الاستشارات لمتطلبات احتفاظ محددة. وتُحذف النسخ الاحتياطية في السياق المعتاد." }
       ]},
       { "t": "جهة الاتصال والمتحكم في البيانات", "b": [
         { "ul": [
-          { "b": "المتحكم:", "t": " Gerard Mir Ferrera، مالك Chronic Friends" },
-          { "b": "الموقع:", "t": " Ticino، سويسرا" },
+          { "b": "المتحكم في البيانات:", "t": " Chronic Friends LLC، شركة ذات مسؤولية محدودة مسجّلة في وايومنغ، الولايات المتحدة" },
+          { "b": "العنوان المسجّل:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "الممثل في الاتحاد الأوروبي (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. يمكن للمستخدمين في الاتحاد الأوروبي التواصل مباشرةً مع ممثلنا في الاتحاد الأوروبي بشأن أي مسألة تتعلق بحماية البيانات." },
           { "b": "جهة الاتصال:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -828,7 +846,7 @@ window.CF_PRIVACY_T = {
   "hi": {
     "legal": "गोपनीयता",
     "title": "गोपनीयता नीति",
-    "updated": "अंतिम अद्यतन: 11 जुलाई 2026 · संस्करण: 2.1",
+    "updated": "अंतिम अद्यतन: 21 जुलाई 2026 · संस्करण: 2.3",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -872,16 +890,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "सत्यापित डॉक्टरों को केवल वही स्वास्थ्य जानकारी मिलती है जिसे आप किसी विशेष विज़िट के लिए साझा करना चुनते हैं। कानून की माँग पर हम डेटा का खुलासा भी कर सकते हैं। हम आपका डेटा किसी और के साथ साझा नहीं करते।" }
       ]},
-      { "t": "अंतरराष्ट्रीय स्थानांतरण", "b": [
-        { "p": "हमारे कुछ प्रदाता डेटा को स्विट्ज़रलैंड या EEA के बाहर (उदाहरण के लिए, संयुक्त राज्य अमेरिका में) संसाधित कर सकते हैं। जहाँ ऐसा होता है, हम Standard Contractual Clauses (SCCs) या EU–US / Swiss–US Data Privacy Framework जैसी सुरक्षा-व्यवस्थाओं पर भरोसा करते हैं।" }
+      { "t": "आपका डेटा कहाँ संग्रहीत होता है, और अंतरराष्ट्रीय स्थानांतरण", "b": [
+        { "p": "आपके खाते और स्वास्थ्य का डेटा यूरोपीय संघ में स्थित Google Cloud / Firebase सर्वरों पर संग्रहीत किया जाता है (फ़्रैंकफ़र्ट, जर्मनी — क्षेत्र europe-west3)। हमने जानबूझकर एक EU क्षेत्र चुना है ताकि स्वास्थ्य डेटा GDPR और स्विस revFADP के तहत यूरोप के भीतर ही रहे। यह स्थान स्थायी है।" },
+        { "p": "प्रदाताओं का एक सीमित समूह कुछ गैर-स्वास्थ्य डेटा को स्विट्ज़रलैंड या EEA के बाहर (उदाहरण के लिए, संयुक्त राज्य अमेरिका में) संसाधित कर सकता है: RevenueCat (सदस्यता की स्थिति), Stripe (डॉक्टर सत्यापन और परामर्श भुगतान), और Apple / Google (बिलिंग और ऐप वितरण)। जहाँ ऐसा होता है, हम Standard Contractual Clauses (SCCs) या EU–US / Swiss–US Data Privacy Framework जैसी सुरक्षा-व्यवस्थाओं पर भरोसा करते हैं।" }
       ]},
       { "t": "अवधारण", "b": [
         { "p": "जब तक आपका खाता सक्रिय रहता है, हम आपका डेटा रखते हैं। आपके खाता हटाने के बाद, हम आपका डेटा 30 दिनों के भीतर हटा देते हैं, सिवाय उन मामलों के जहाँ कानून हमें कुछ रिकॉर्ड (उदाहरण के लिए, बिलिंग) रखने के लिए बाध्य करता है। परामर्श रिकॉर्ड विशिष्ट अवधारण आवश्यकताओं के अधीन हो सकते हैं। बैकअप सामान्य क्रम में हटते रहते हैं।" }
       ]},
       { "t": "संपर्क और डेटा नियंत्रक", "b": [
         { "ul": [
-          { "b": "नियंत्रक:", "t": " Gerard Mir Ferrera, Chronic Friends के मालिक" },
-          { "b": "स्थान:", "t": " Ticino, स्विट्ज़रलैंड" },
+          { "b": "डेटा नियंत्रक:", "t": " Chronic Friends LLC, वायोमिंग, USA में पंजीकृत एक सीमित देयता कंपनी (LLC)" },
+          { "b": "पंजीकृत पता:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "EU प्रतिनिधि (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. EU के उपयोगकर्ता डेटा-संरक्षण से जुड़े किसी भी मामले पर सीधे हमारे EU प्रतिनिधि से संपर्क कर सकते हैं।" },
           { "b": "संपर्क:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -919,7 +939,7 @@ window.CF_PRIVACY_T = {
   "id": {
     "legal": "Privasi",
     "title": "Kebijakan Privasi",
-    "updated": "Terakhir diperbarui: 11 Juli 2026 · Versi: 2.1",
+    "updated": "Terakhir diperbarui: 21 Juli 2026 · Versi: 2.3",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -963,16 +983,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Dokter terverifikasi hanya menerima informasi kesehatan yang Anda pilih untuk dibagikan pada kunjungan tertentu. Kami juga dapat mengungkapkan data jika undang-undang mengharuskannya. Kami tidak membagikan data Anda kepada siapa pun." }
       ]},
-      { "t": "Transfer internasional", "b": [
-        { "p": "Beberapa penyedia kami mungkin memproses data di luar Swiss atau EEA (misalnya, di Amerika Serikat). Jika hal ini terjadi, kami mengandalkan pengamanan seperti Standard Contractual Clauses (SCCs) atau EU–US / Swiss–US Data Privacy Framework." }
+      { "t": "Di mana data Anda disimpan, dan transfer internasional", "b": [
+        { "p": "Data akun dan kesehatan Anda disimpan di server Google Cloud / Firebase yang berlokasi di Uni Eropa (Frankfurt, Jerman — region europe-west3). Kami sengaja memilih region UE agar data kesehatan tetap berada di dalam Eropa berdasarkan GDPR dan revFADP Swiss. Lokasi ini bersifat permanen." },
+        { "p": "Sekelompok terbatas penyedia mungkin memproses data tertentu yang bukan data kesehatan di luar Swiss atau EEA (misalnya, di Amerika Serikat): RevenueCat (status langganan), Stripe (verifikasi dokter dan pembayaran konsultasi), dan Apple / Google (penagihan dan distribusi aplikasi). Jika hal ini terjadi, kami mengandalkan pengamanan seperti Standard Contractual Clauses (SCCs) atau EU–US / Swiss–US Data Privacy Framework." }
       ]},
       { "t": "Penyimpanan", "b": [
         { "p": "Kami menyimpan data Anda selama akun Anda aktif. Setelah Anda menghapus akun, kami menghapus data Anda dalam waktu 30 hari, kecuali jika undang-undang mengharuskan kami menyimpan catatan tertentu (misalnya, penagihan). Catatan konsultasi mungkin tunduk pada persyaratan penyimpanan tertentu. Cadangan (backup) terhapus dalam siklus normal." }
       ]},
       { "t": "Kontak dan pengendali data", "b": [
         { "ul": [
-          { "b": "Pengendali:", "t": " Gerard Mir Ferrera, pemilik Chronic Friends" },
-          { "b": "Lokasi:", "t": " Ticino, Swiss" },
+          { "b": "Pengendali data:", "t": " Chronic Friends LLC, sebuah perseroan terbatas yang terdaftar di Wyoming, AS" },
+          { "b": "Alamat terdaftar:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Perwakilan UE (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Pengguna di UE dapat menghubungi perwakilan UE kami secara langsung mengenai masalah perlindungan data apa pun." },
           { "b": "Kontak:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -1010,7 +1032,7 @@ window.CF_PRIVACY_T = {
   "ja": {
     "legal": "プライバシー",
     "title": "プライバシーポリシー",
-    "updated": "最終更新日: 2026年7月11日 · バージョン: 2.1",
+    "updated": "最終更新日: 2026年7月21日 · バージョン: 2.3",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1054,16 +1076,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "確認済みの医師は、特定の受診のためにあなたが共有することを選んだ健康情報のみを受け取ります。また、法律で義務付けられている場合にはデータを開示することがあります。それ以外の第三者とあなたのデータを共有することはありません。" }
       ]},
-      { "t": "国際的な移転", "b": [
-        { "p": "当社の一部のプロバイダーは、スイスまたは EEA 域外(例:米国)でデータを処理する場合があります。その場合、当社は標準契約条項(SCC)や EU–US／Swiss–US Data Privacy Framework などの保護措置に依拠します。" }
+      { "t": "データの保存場所と国際的な移転", "b": [
+        { "p": "あなたのアカウントデータと健康データは、欧州連合内(ドイツ・フランクフルト — リージョン europe-west3)にある Google Cloud / Firebase のサーバーに保存されます。私たちは、健康データが GDPR およびスイスの revFADP のもとで欧州域内にとどまるよう、意図的に EU リージョンを選択しました。この所在地は恒久的なものです。" },
+        { "p": "限られた一部のプロバイダーは、スイスまたは EEA 域外(例:米国)で、健康以外の特定のデータを処理する場合があります。RevenueCat(サブスクリプションの状態)、Stripe(医師の確認と相談料の支払い)、Apple / Google(課金とアプリの配信)です。その場合、当社は標準契約条項(SCC)や EU–US／Swiss–US Data Privacy Framework などの保護措置に依拠します。" }
       ]},
       { "t": "保持", "b": [
         { "p": "あなたのアカウントが有効な間、当社はあなたのデータを保持します。アカウントを削除した後、法律により特定の記録(例:請求)の保持が義務付けられている場合を除き、当社は 30 日以内にあなたのデータを削除します。相談記録は特定の保持要件の対象となる場合があります。バックアップは通常の過程で順次消去されます。" }
       ]},
       { "t": "連絡先とデータ管理者", "b": [
         { "ul": [
-          { "b": "管理者:", "t": " Gerard Mir Ferrera、Chronic Friends の所有者" },
-          { "b": "所在地:", "t": " Ticino、スイス" },
+          { "b": "データ管理者:", "t": " Chronic Friends LLC(米国ワイオミング州で登録された有限責任会社)" },
+          { "b": "登録住所:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "EU代理人 (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. EU のユーザーは、データ保護に関するあらゆる事項について、当社の EU 代理人に直接連絡できます。" },
           { "b": "連絡先:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -1101,7 +1125,7 @@ window.CF_PRIVACY_T = {
   "ko": {
     "legal": "개인정보",
     "title": "개인정보처리방침",
-    "updated": "최종 업데이트: 2026년 7월 11일 · 버전: 2.1",
+    "updated": "최종 업데이트: 2026년 7월 21일 · 버전: 2.3",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1145,16 +1169,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "인증된 의사는 특정 진료를 위해 여러분이 공유하기로 선택한 건강 정보만 받습니다. 또한 법률이 요구하는 경우 데이터를 공개할 수 있습니다. 저희는 다른 누구와도 여러분의 데이터를 공유하지 않습니다." }
       ]},
-      { "t": "국제 이전", "b": [
-        { "p": "저희의 일부 제공업체는 스위스 또는 EEA 밖(예: 미국)에서 데이터를 처리할 수 있습니다. 그러한 경우, 저희는 표준계약조항(SCC)이나 EU–US / Swiss–US Data Privacy Framework와 같은 보호 장치에 의존합니다." }
+      { "t": "데이터 저장 위치 및 국제 이전", "b": [
+        { "p": "여러분의 계정 및 건강 데이터는 유럽 연합 내(독일 프랑크푸르트 — europe-west3 리전)에 위치한 Google Cloud / Firebase 서버에 저장됩니다. 저희는 건강 데이터가 GDPR 및 스위스 revFADP에 따라 유럽 내에 유지되도록 의도적으로 EU 리전을 선택했습니다. 이 위치는 영구적입니다." },
+        { "p": "제한된 일부 제공업체는 스위스 또는 EEA 밖(예: 미국)에서 건강 정보가 아닌 특정 데이터를 처리할 수 있습니다. RevenueCat(구독 상태), Stripe(의사 인증 및 상담 결제), Apple / Google(청구 및 앱 배포)입니다. 그러한 경우, 저희는 표준계약조항(SCC)이나 EU–US / Swiss–US Data Privacy Framework와 같은 보호 장치에 의존합니다." }
       ]},
       { "t": "보존", "b": [
         { "p": "저희는 여러분의 계정이 활성 상태인 동안 데이터를 보관합니다. 계정을 삭제한 후에는, 법률이 특정 기록(예: 청구)의 보관을 요구하는 경우를 제외하고 30일 이내에 데이터를 삭제합니다. 상담 기록은 특정 보존 요건의 적용을 받을 수 있습니다. 백업은 통상적인 과정에서 순차적으로 삭제됩니다." }
       ]},
       { "t": "연락처 및 데이터 관리자", "b": [
         { "ul": [
-          { "b": "관리자:", "t": " Gerard Mir Ferrera, Chronic Friends 소유자" },
-          { "b": "위치:", "t": " Ticino, 스위스" },
+          { "b": "데이터 관리자:", "t": " Chronic Friends LLC, 미국 와이오밍주에 등록된 유한책임회사" },
+          { "b": "등록 주소:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "EU 대리인 (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. EU 사용자는 데이터 보호와 관련된 모든 사안에 대해 저희 EU 대리인에게 직접 연락할 수 있습니다." },
           { "b": "연락처:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -1192,7 +1218,7 @@ window.CF_PRIVACY_T = {
   "tr": {
     "legal": "Gizlilik",
     "title": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 11 Temmuz 2026 · Sürüm: 2.1",
+    "updated": "Son güncelleme: 21 Temmuz 2026 · Sürüm: 2.3",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1236,16 +1262,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Doğrulanmış doktorlar yalnızca belirli bir ziyaret için paylaşmayı seçtiğiniz sağlık bilgilerini alır. Ayrıca yasanın gerektirdiği durumlarda verileri açıklayabiliriz. Verilerinizi başka hiç kimseyle paylaşmayız." }
       ]},
-      { "t": "Uluslararası aktarımlar", "b": [
-        { "p": "Sağlayıcılarımızdan bazıları verileri İsviçre veya AEA dışında (örneğin, Amerika Birleşik Devletleri'nde) işleyebilir. Bu durumda, Standart Sözleşme Maddeleri (SCC'ler) veya AB–ABD / İsviçre–ABD Veri Gizliliği Çerçevesi gibi güvencelere dayanırız." }
+      { "t": "Verilerinizin nerede saklandığı ve uluslararası aktarımlar", "b": [
+        { "p": "Hesap ve sağlık verileriniz, Avrupa Birliği'nde bulunan (Frankfurt, Almanya — europe-west3 bölgesi) Google Cloud / Firebase sunucularında saklanır. Sağlık verilerinin GDPR ve İsviçre revFADP kapsamında Avrupa içinde kalması için bilinçli olarak bir AB bölgesi seçtik. Bu konum kalıcıdır." },
+        { "p": "Sınırlı sayıda sağlayıcı, sağlıkla ilgili olmayan belirli verileri İsviçre veya AEA dışında (örneğin, Amerika Birleşik Devletleri'nde) işleyebilir: RevenueCat (abonelik durumu), Stripe (doktor doğrulama ve danışmanlık ödemeleri) ve Apple / Google (faturalandırma ve uygulama dağıtımı). Bu durumda, Standart Sözleşme Maddeleri (SCC'ler) veya AB–ABD / İsviçre–ABD Veri Gizliliği Çerçevesi gibi güvencelere dayanırız." }
       ]},
       { "t": "Saklama", "b": [
         { "p": "Hesabınız etkin olduğu sürece verilerinizi saklarız. Hesabınızı sildikten sonra, yasanın belirli kayıtları (örneğin faturalandırma) saklamamızı gerektirdiği durumlar dışında, verilerinizi 30 gün içinde sileriz. Danışmanlık kayıtları belirli saklama gerekliliklerine tabi olabilir. Yedekler olağan akış içinde silinir." }
       ]},
       { "t": "İletişim ve veri sorumlusu", "b": [
         { "ul": [
-          { "b": "Veri sorumlusu:", "t": " Gerard Mir Ferrera, Chronic Friends'in sahibi" },
-          { "b": "Konum:", "t": " Ticino, İsviçre" },
+          { "b": "Veri sorumlusu:", "t": " Chronic Friends LLC, Wyoming, ABD'de kayıtlı bir limited şirket" },
+          { "b": "Kayıtlı adres:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "AB temsilcisi (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. AB'deki kullanıcılar, herhangi bir veri koruma konusunda doğrudan AB temsilcimizle iletişime geçebilir." },
           { "b": "İletişim:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -1283,7 +1311,7 @@ window.CF_PRIVACY_T = {
   "vi": {
     "legal": "Quyền riêng tư",
     "title": "Chính sách quyền riêng tư",
-    "updated": "Cập nhật lần cuối: ngày 11 tháng 7 năm 2026 · Phiên bản: 2.1",
+    "updated": "Cập nhật lần cuối: ngày 21 tháng 7 năm 2026 · Phiên bản: 2.3",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1327,16 +1355,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "Các bác sĩ đã được xác minh chỉ nhận thông tin sức khỏe mà bạn chọn chia sẻ cho một lần khám cụ thể. Chúng tôi cũng có thể tiết lộ dữ liệu khi pháp luật yêu cầu. Chúng tôi không chia sẻ dữ liệu của bạn với bất kỳ ai khác." }
       ]},
-      { "t": "Chuyển dữ liệu quốc tế", "b": [
-        { "p": "Một số nhà cung cấp của chúng tôi có thể xử lý dữ liệu bên ngoài Thụy Sĩ hoặc EEA (ví dụ, tại Hoa Kỳ). Khi điều này xảy ra, chúng tôi dựa vào các biện pháp bảo vệ như Điều khoản Hợp đồng Tiêu chuẩn (SCC) hoặc Khung Bảo mật Dữ liệu EU–US / Thụy Sĩ–US." }
+      { "t": "Nơi lưu trữ dữ liệu của bạn và việc chuyển dữ liệu quốc tế", "b": [
+        { "p": "Dữ liệu tài khoản và sức khỏe của bạn được lưu trữ trên các máy chủ Google Cloud / Firebase đặt tại Liên minh Châu Âu (Frankfurt, Đức — khu vực europe-west3). Chúng tôi cố ý chọn một khu vực EU để dữ liệu sức khỏe luôn nằm trong phạm vi Châu Âu theo GDPR và revFADP của Thụy Sĩ. Vị trí này là cố định." },
+        { "p": "Một số nhà cung cấp giới hạn có thể xử lý một số dữ liệu không liên quan đến sức khỏe bên ngoài Thụy Sĩ hoặc EEA (ví dụ, tại Hoa Kỳ): RevenueCat (trạng thái đăng ký), Stripe (xác minh bác sĩ và thanh toán tư vấn) và Apple / Google (lập hóa đơn và phân phối ứng dụng). Khi điều này xảy ra, chúng tôi dựa vào các biện pháp bảo vệ như Điều khoản Hợp đồng Tiêu chuẩn (SCC) hoặc Khung Bảo mật Dữ liệu EU–US / Thụy Sĩ–US." }
       ]},
       { "t": "Lưu giữ", "b": [
         { "p": "Chúng tôi lưu giữ dữ liệu của bạn khi tài khoản của bạn còn hoạt động. Sau khi bạn xóa tài khoản, chúng tôi xóa dữ liệu của bạn trong vòng 30 ngày, trừ khi pháp luật yêu cầu chúng tôi giữ một số hồ sơ nhất định (ví dụ, lập hóa đơn). Hồ sơ tư vấn có thể phải tuân theo các yêu cầu lưu giữ cụ thể. Các bản sao lưu được xóa dần trong quá trình thông thường." }
       ]},
       { "t": "Liên hệ và bên kiểm soát dữ liệu", "b": [
         { "ul": [
-          { "b": "Bên kiểm soát:", "t": " Gerard Mir Ferrera, chủ sở hữu Chronic Friends" },
-          { "b": "Địa điểm:", "t": " Ticino, Thụy Sĩ" },
+          { "b": "Bên kiểm soát dữ liệu:", "t": " Chronic Friends LLC, một công ty trách nhiệm hữu hạn đăng ký tại Wyoming, Hoa Kỳ" },
+          { "b": "Địa chỉ đăng ký:", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "Đại diện tại EU (Art. 27 GDPR):", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. Người dùng trong EU có thể liên hệ trực tiếp với đại diện tại EU của chúng tôi về bất kỳ vấn đề bảo vệ dữ liệu nào." },
           { "b": "Liên hệ:", "t": " info@chronicfriends.org" }
         ]}
       ]},
@@ -1374,7 +1404,7 @@ window.CF_PRIVACY_T = {
   "zh": {
     "legal": "隐私",
     "title": "隐私政策",
-    "updated": "最后更新：2026年7月11日 · 版本：2.1",
+    "updated": "最后更新：2026年7月21日 · 版本：2.3",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1418,16 +1448,18 @@ window.CF_PRIVACY_T = {
         ]},
         { "p": "经验证的医生仅接收你选择为某次就诊分享的健康信息。在法律要求的情况下，我们也可能披露数据。我们不会与任何其他人共享你的数据。" }
       ]},
-      { "t": "国际传输", "b": [
-        { "p": "我们的一些提供商可能在瑞士或欧洲经济区(EEA)以外(例如在美国)处理数据。在这种情况下，我们依赖诸如标准合同条款(SCCs)或欧盟–美国 / 瑞士–美国数据隐私框架等保障措施。" }
+      { "t": "你的数据存储在何处，以及国际传输", "b": [
+        { "p": "你的账户数据和健康数据存储在位于欧盟(德国法兰克福——europe-west3 区域)的 Google Cloud / Firebase 服务器上。我们特意选择了欧盟区域，以便健康数据依据 GDPR 和瑞士 revFADP 留在欧洲境内。此存储位置是永久性的。" },
+        { "p": "少数提供商可能在瑞士或欧洲经济区(EEA)以外(例如在美国)处理某些非健康数据：RevenueCat(订阅状态)、Stripe(医生验证和咨询付款)以及 Apple / Google(计费和应用分发)。在这种情况下，我们依赖诸如标准合同条款(SCCs)或欧盟–美国 / 瑞士–美国数据隐私框架等保障措施。" }
       ]},
       { "t": "保留", "b": [
         { "p": "在你的账户处于活动状态期间，我们会保留你的数据。你删除账户后，我们会在 30 天内删除你的数据，但法律要求我们保留某些记录(例如计费)的情况除外。咨询记录可能受特定保留要求的约束。备份会在正常过程中轮替删除。" }
       ]},
       { "t": "联系方式与数据控制者", "b": [
         { "ul": [
-          { "b": "控制者：", "t": " Gerard Mir Ferrera，Chronic Friends 所有者" },
-          { "b": "所在地：", "t": " Ticino，瑞士" },
+          { "b": "数据控制者：", "t": " Chronic Friends LLC，一家在美国怀俄明州注册的有限责任公司" },
+          { "b": "注册地址：", "t": " 30 N Gould St, Ste N, Sheridan, WY 82801, USA" },
+          { "b": "欧盟代表 (Art. 27 GDPR)：", "t": " Prighter EU Rep GmbH, Schellinggasse 3/10, 1010 Vienna, Austria. 欧盟用户可就任何数据保护事宜直接联系我们的欧盟代表。" },
           { "b": "联系方式：", "t": " info@chronicfriends.org" }
         ]}
       ]},
