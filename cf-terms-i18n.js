@@ -8,7 +8,7 @@ window.CF_TERMS_T = {
   "en": {
     "legal": "Legal",
     "title": "Terms of Service",
-    "updated": "Last updated: July 21, 2026",
+    "updated": "Last updated: July 26, 2026",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -122,7 +122,7 @@ window.CF_TERMS_T = {
   "es": {
     "legal": "Legal",
     "title": "Términos del Servicio",
-    "updated": "Última actualización: 21 de julio de 2026",
+    "updated": "Última actualización: 26 de julio de 2026",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -236,7 +236,7 @@ window.CF_TERMS_T = {
   "ca": {
     "legal": "Legal",
     "title": "Condicions del servei",
-    "updated": "Última actualització: 21 de juliol de 2026",
+    "updated": "Última actualització: 26 de juliol de 2026",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -350,7 +350,7 @@ window.CF_TERMS_T = {
   "fr": {
     "legal": "Légal",
     "title": "Conditions d'utilisation",
-    "updated": "Dernière mise à jour : 21 juillet 2026",
+    "updated": "Dernière mise à jour : 26 juillet 2026",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -464,7 +464,7 @@ window.CF_TERMS_T = {
   "de": {
     "legal": "Rechtliches",
     "title": "Nutzungsbedingungen",
-    "updated": "Zuletzt aktualisiert: 21. Juli 2026",
+    "updated": "Zuletzt aktualisiert: 26. Juli 2026",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -578,7 +578,7 @@ window.CF_TERMS_T = {
   "it": {
     "legal": "Legale",
     "title": "Termini di servizio",
-    "updated": "Ultimo aggiornamento: 21 luglio 2026",
+    "updated": "Ultimo aggiornamento: 26 luglio 2026",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -692,7 +692,7 @@ window.CF_TERMS_T = {
   "pt": {
     "legal": "Legal",
     "title": "Termos de Serviço",
-    "updated": "Última atualização: 21 de julho de 2026",
+    "updated": "Última atualização: 26 de julho de 2026",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -806,7 +806,7 @@ window.CF_TERMS_T = {
   "ru": {
     "legal": "Юридическое",
     "title": "Условия обслуживания",
-    "updated": "Последнее обновление: 21 июля 2026 г.",
+    "updated": "Последнее обновление: 26 июля 2026 г.",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -920,7 +920,7 @@ window.CF_TERMS_T = {
   "ar": {
     "legal": "قانوني",
     "title": "شروط الخدمة",
-    "updated": "آخر تحديث: 21 يوليو 2026",
+    "updated": "آخر تحديث: 26 يوليو 2026",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -1034,7 +1034,7 @@ window.CF_TERMS_T = {
   "hi": {
     "legal": "कानूनी",
     "title": "सेवा की शर्तें",
-    "updated": "अंतिम अद्यतन: 21 जुलाई 2026",
+    "updated": "अंतिम अद्यतन: 26 जुलाई 2026",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -1148,7 +1148,7 @@ window.CF_TERMS_T = {
   "id": {
     "legal": "Hukum",
     "title": "Ketentuan Layanan",
-    "updated": "Terakhir diperbarui: 21 Juli 2026",
+    "updated": "Terakhir diperbarui: 26 Juli 2026",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -1262,7 +1262,7 @@ window.CF_TERMS_T = {
   "ja": {
     "legal": "法的事項",
     "title": "利用規約",
-    "updated": "最終更新日: 2026年7月21日",
+    "updated": "最終更新日: 2026年7月26日",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1376,7 +1376,7 @@ window.CF_TERMS_T = {
   "ko": {
     "legal": "법적 고지",
     "title": "서비스 약관",
-    "updated": "최종 업데이트: 2026년 7월 21일",
+    "updated": "최종 업데이트: 2026년 7월 26일",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1490,7 +1490,7 @@ window.CF_TERMS_T = {
   "tr": {
     "legal": "Yasal",
     "title": "Hizmet Şartları",
-    "updated": "Son güncelleme: 21 Temmuz 2026",
+    "updated": "Son güncelleme: 26 Temmuz 2026",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1604,7 +1604,7 @@ window.CF_TERMS_T = {
   "vi": {
     "legal": "Pháp lý",
     "title": "Điều khoản dịch vụ",
-    "updated": "Cập nhật lần cuối: ngày 21 tháng 7 năm 2026",
+    "updated": "Cập nhật lần cuối: ngày 26 tháng 7 năm 2026",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1718,7 +1718,7 @@ window.CF_TERMS_T = {
   "zh": {
     "legal": "法律",
     "title": "服务条款",
-    "updated": "最后更新：2026年7月21日",
+    "updated": "最后更新：2026年7月26日",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
