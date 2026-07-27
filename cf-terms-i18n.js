@@ -1,4 +1,4 @@
-/* Chronic Friends — Terms of Service (v2.1), translated for all 16 supported languages.
+/* Chronic Friends — Terms of Service (v2.2), translated for all 16 supported languages.
    Consumed by "Crohn Friends Landing.dc.html" (renderLegal). Shared by patient
    and doctor sections — the modal reads the page's currently selected language.
    Brand names, provider names, condition names, prices, URLs and the contact email
@@ -8,7 +8,7 @@ window.CF_TERMS_T = {
   "en": {
     "legal": "Legal",
     "title": "Terms of Service",
-    "updated": "Last updated: July 26, 2026",
+    "updated": "Last updated: July 27, 2026",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -81,7 +81,7 @@ window.CF_TERMS_T = {
         { "p": "You can report objectionable content or block another user at any time — from a post, from a chat, or from that person's profile. Reports reach our team and we aim to review them within 24 hours. We have zero tolerance for objectionable content and abusive behavior, and we may remove content, block users, or suspend or close accounts that break these rules." }
       ]},
       { "t": "Subscriptions and payments", "b": [
-        { "p": "Chronic Friends can be used free of charge, including the community, the full journal, medication reminders and every PDF report. A paid Premium plan unlocks six features: Food Scan, Dr. CF, Tools, Meditation, Entertainment and connecting Health Sync." },
+        { "p": "Chronic Friends can be used free of charge, including the community, the full journal, medication reminders, connecting Health Sync and every PDF report. A paid Premium plan unlocks four features: Food Scan, Tools, Meditation and Entertainment." },
         { "p": "Premium is offered through the following plans:" },
         { "plans": [
           { "n": "Monthly", "v": "$7.99", "u": " / month" },
@@ -122,7 +122,7 @@ window.CF_TERMS_T = {
   "es": {
     "legal": "Legal",
     "title": "Términos del Servicio",
-    "updated": "Última actualización: 26 de julio de 2026",
+    "updated": "Última actualización: 27 de julio de 2026",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -195,7 +195,7 @@ window.CF_TERMS_T = {
         { "p": "Puedes denunciar contenido objetable o bloquear a otro usuario en cualquier momento — desde una publicación, desde un chat o desde el perfil de esa persona. Las denuncias llegan a nuestro equipo y procuramos revisarlas en un plazo de 24 horas. Tenemos tolerancia cero con el contenido objetable y el comportamiento abusivo, y podemos eliminar contenido, bloquear usuarios o suspender o cerrar las cuentas que infrinjan estas normas." }
       ]},
       { "t": "Suscripciones y pagos", "b": [
-        { "p": "Chronic Friends puede usarse gratis, incluidas la comunidad, el diario completo, los recordatorios de medicación y todos los informes PDF. El plan Premium de pago desbloquea seis funciones: Food Scan, Dr. CF, Tools, Meditation, Entertainment y la conexión de Health Sync." },
+        { "p": "Chronic Friends se puede usar de forma gratuita, incluida la comunidad, el diario completo, los recordatorios de medicación, la conexión con Health Sync y todos los informes en PDF. Un plan Premium de pago desbloquea cuatro funciones: Food Scan, Tools, Meditation y Entertainment." },
         { "p": "Premium se ofrece mediante los siguientes planes:" },
         { "plans": [
           { "n": "Mensual", "v": "$7.99", "u": " / mes" },
@@ -236,7 +236,7 @@ window.CF_TERMS_T = {
   "ca": {
     "legal": "Legal",
     "title": "Condicions del servei",
-    "updated": "Última actualització: 26 de juliol de 2026",
+    "updated": "Última actualització: 27 de juliol de 2026",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -309,8 +309,8 @@ window.CF_TERMS_T = {
         { "p": "Pots denunciar contingut objectable o bloquejar un altre usuari en qualsevol moment — des d'una publicació, des d'un xat o des del perfil d'aquesta persona. Les denúncies arriben al nostre equip i procurem revisar-les en un termini de 24 hores. Tenim tolerància zero amb el contingut objectable i el comportament abusiu, i podem eliminar contingut, bloquejar usuaris o suspendre o tancar els comptes que infringeixin aquestes normes." }
       ]},
       { "t": "Subscripcions i pagaments", "b": [
-        { "p": "Chronic Friends es pot fer servir gratis, incloses la comunitat, el diari complet, els recordatoris de medicació i tots els informes PDF. El pla Premium de pagament desbloqueja sis funcions: Food Scan, Dr. CF, Tools, Meditation, Entertainment i la connexió de Health Sync." },
-        { "p": "Premium s'ofereix mitjançant els plans següents:" },
+        { "p": "Chronic Friends es pot fer servir de manera gratuïta, incloent-hi la comunitat, el diari complet, els recordatoris de medicació, la connexió amb Health Sync i tots els informes en PDF. Un pla Premium de pagament desbloqueja quatre funcions: Food Scan, Tools, Meditation i Entertainment." },
+        { "p": "Premium s'ofereix amb els plans següents:" },
         { "plans": [
           { "n": "Mensual", "v": "$7.99", "u": " / mes" },
           { "n": "Semestral", "v": "$29.99", "u": " / 6 mesos" },
@@ -350,7 +350,7 @@ window.CF_TERMS_T = {
   "fr": {
     "legal": "Légal",
     "title": "Conditions d'utilisation",
-    "updated": "Dernière mise à jour : 26 juillet 2026",
+    "updated": "Dernière mise à jour : 27 juillet 2026",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -423,8 +423,8 @@ window.CF_TERMS_T = {
         { "p": "Vous pouvez signaler un contenu répréhensible ou bloquer un autre utilisateur à tout moment — depuis une publication, depuis une discussion ou depuis le profil de cette personne. Les signalements parviennent à notre équipe et nous nous efforçons de les examiner sous 24 heures. Nous appliquons une tolérance zéro à l'égard des contenus répréhensibles et des comportements abusifs, et nous pouvons supprimer du contenu, bloquer des utilisateurs ou suspendre ou fermer les comptes qui enfreignent ces règles." }
       ]},
       { "t": "Abonnements et paiements", "b": [
-        { "p": "Chronic Friends peut être utilisé gratuitement, y compris la communauté, le journal complet, les rappels de médicaments et tous les rapports PDF. La formule Premium payante débloque six fonctionnalités : Food Scan, Dr. CF, Tools, Meditation, Entertainment et la connexion de Health Sync." },
-        { "p": "Premium est proposé via les formules suivantes :" },
+        { "p": "Chronic Friends peut être utilisé gratuitement, y compris la communauté, le journal complet, les rappels de médicaments, la connexion à Health Sync et tous les rapports PDF. Un abonnement Premium payant débloque quatre fonctionnalités : Food Scan, Tools, Meditation et Entertainment." },
+        { "p": "Premium est proposé selon les formules suivantes :" },
         { "plans": [
           { "n": "Mensuel", "v": "$7.99", "u": " / mois" },
           { "n": "Semestriel", "v": "$29.99", "u": " / 6 mois" },
@@ -464,7 +464,7 @@ window.CF_TERMS_T = {
   "de": {
     "legal": "Rechtliches",
     "title": "Nutzungsbedingungen",
-    "updated": "Zuletzt aktualisiert: 26. Juli 2026",
+    "updated": "Zuletzt aktualisiert: 27. Juli 2026",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -537,8 +537,8 @@ window.CF_TERMS_T = {
         { "p": "Sie können jederzeit anstößige Inhalte melden oder einen anderen Nutzer blockieren — aus einem Beitrag, aus einem Chat oder aus dem Profil dieser Person. Meldungen erreichen unser Team, und wir bemühen uns, sie innerhalb von 24 Stunden zu prüfen. Wir haben null Toleranz gegenüber anstößigen Inhalten und missbräuchlichem Verhalten und können Inhalte entfernen, Nutzer blockieren oder Konten sperren oder schließen, die gegen diese Regeln verstoßen." }
       ]},
       { "t": "Abonnements und Zahlungen", "b": [
-        { "p": "Chronic Friends kann kostenlos genutzt werden, einschließlich der Community, des vollständigen Tagebuchs, der Medikamenten-Erinnerungen und aller PDF-Berichte. Der kostenpflichtige Premium-Tarif schaltet sechs Funktionen frei: Food Scan, Dr. CF, Tools, Meditation, Entertainment und das Verbinden von Health Sync." },
-        { "p": "Premium wird über die folgenden Tarife angeboten:" },
+        { "p": "Chronic Friends kann kostenlos genutzt werden — einschließlich Community, vollständigem Tagebuch, Medikamentenerinnerungen, der Verbindung mit Health Sync und allen PDF-Berichten. Ein kostenpflichtiges Premium-Abo schaltet vier Funktionen frei: Food Scan, Tools, Meditation und Entertainment." },
+        { "p": "Premium wird in folgenden Plänen angeboten:" },
         { "plans": [
           { "n": "Monatlich", "v": "$7.99", "u": " / Monat" },
           { "n": "Halbjährlich", "v": "$29.99", "u": " / 6 Monate" },
@@ -578,7 +578,7 @@ window.CF_TERMS_T = {
   "it": {
     "legal": "Legale",
     "title": "Termini di servizio",
-    "updated": "Ultimo aggiornamento: 26 luglio 2026",
+    "updated": "Ultimo aggiornamento: 27 luglio 2026",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -651,8 +651,8 @@ window.CF_TERMS_T = {
         { "p": "Puoi segnalare contenuti discutibili o bloccare un altro utente in qualsiasi momento — da un post, da una chat o dal profilo di quella persona. Le segnalazioni arrivano al nostro team e cerchiamo di esaminarle entro 24 ore. Abbiamo tolleranza zero verso i contenuti discutibili e i comportamenti abusivi e possiamo rimuovere contenuti, bloccare utenti o sospendere o chiudere gli account che violano queste regole." }
       ]},
       { "t": "Abbonamenti e pagamenti", "b": [
-        { "p": "Chronic Friends può essere usato gratis, inclusi la community, il diario completo, i promemoria dei farmaci e tutti i report PDF. Il piano Premium a pagamento sblocca sei funzioni: Food Scan, Dr. CF, Tools, Meditation, Entertainment e il collegamento di Health Sync." },
-        { "p": "Premium è offerto tramite i seguenti piani:" },
+        { "p": "Chronic Friends può essere usato gratuitamente, inclusi la community, il diario completo, i promemoria dei farmaci, il collegamento con Health Sync e tutti i report in PDF. Un piano Premium a pagamento sblocca quattro funzioni: Food Scan, Tools, Meditation ed Entertainment." },
+        { "p": "Premium è offerto con i seguenti piani:" },
         { "plans": [
           { "n": "Mensile", "v": "$7.99", "u": " / mese" },
           { "n": "Semestrale", "v": "$29.99", "u": " / 6 mesi" },
@@ -692,7 +692,7 @@ window.CF_TERMS_T = {
   "pt": {
     "legal": "Legal",
     "title": "Termos de Serviço",
-    "updated": "Última atualização: 26 de julho de 2026",
+    "updated": "Última atualização: 27 de julho de 2026",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -765,8 +765,8 @@ window.CF_TERMS_T = {
         { "p": "Podes denunciar conteúdo censurável ou bloquear outro utilizador a qualquer momento — a partir de uma publicação, de uma conversa ou do perfil dessa pessoa. As denúncias chegam à nossa equipa e procuramos analisá-las no prazo de 24 horas. Temos tolerância zero para com conteúdo censurável e comportamento abusivo e podemos remover conteúdo, bloquear utilizadores ou suspender ou encerrar contas que violem estas regras." }
       ]},
       { "t": "Subscrições e pagamentos", "b": [
-        { "p": "A Chronic Friends pode ser usada gratuitamente, incluindo a comunidade, o diário completo, os lembretes de medicação e todos os relatórios PDF. O plano Premium pago desbloqueia seis funcionalidades: Food Scan, Dr. CF, Tools, Meditation, Entertainment e a ligação do Health Sync." },
-        { "p": "O Premium é oferecido através dos seguintes planos:" },
+        { "p": "O Chronic Friends pode ser usado gratuitamente, incluindo a comunidade, o diário completo, os lembretes de medicação, a ligação ao Health Sync e todos os relatórios em PDF. Um plano Premium pago desbloqueia quatro funcionalidades: Food Scan, Tools, Meditation e Entertainment." },
+        { "p": "O Premium é oferecido nos seguintes planos:" },
         { "plans": [
           { "n": "Mensal", "v": "$7.99", "u": " / mês" },
           { "n": "Semestral", "v": "$29.99", "u": " / 6 meses" },
@@ -806,7 +806,7 @@ window.CF_TERMS_T = {
   "ru": {
     "legal": "Юридическое",
     "title": "Условия обслуживания",
-    "updated": "Последнее обновление: 26 июля 2026 г.",
+    "updated": "Последнее обновление: 27 июля 2026 г.",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -879,8 +879,8 @@ window.CF_TERMS_T = {
         { "p": "Вы можете в любой момент пожаловаться на недопустимый контент или заблокировать другого пользователя — из публикации, из чата или из профиля этого человека. Жалобы поступают нашей команде, и мы стремимся рассмотреть их в течение 24 часов. Мы придерживаемся нулевой терпимости к недопустимому контенту и оскорбительному поведению и можем удалять контент, блокировать пользователей, а также приостанавливать или закрывать учётные записи, нарушающие эти правила." }
       ]},
       { "t": "Подписки и платежи", "b": [
-        { "p": "Chronic Friends можно использовать бесплатно, включая сообщество, полный дневник, напоминания о лекарствах и все PDF-отчёты. Платный план Premium открывает шесть функций: Food Scan, Dr. CF, Tools, Meditation, Entertainment и подключение Health Sync." },
-        { "p": "Premium предлагается в следующих планах:" },
+        { "p": "Chronic Friends можно использовать бесплатно, включая сообщество, полный дневник, напоминания о лекарствах, подключение Health Sync и все PDF-отчёты. Платный план Premium открывает четыре функции: Food Scan, Tools, Meditation и Entertainment." },
+        { "p": "Premium предлагается по следующим планам:" },
         { "plans": [
           { "n": "Ежемесячный", "v": "$7.99", "u": " / месяц" },
           { "n": "Полугодовой", "v": "$29.99", "u": " / 6 месяцев" },
@@ -920,7 +920,7 @@ window.CF_TERMS_T = {
   "ar": {
     "legal": "قانوني",
     "title": "شروط الخدمة",
-    "updated": "آخر تحديث: 26 يوليو 2026",
+    "updated": "آخر تحديث: 27 يوليو 2026",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -993,8 +993,8 @@ window.CF_TERMS_T = {
         { "p": "يمكنك الإبلاغ عن محتوى مرفوض أو حظر مستخدم آخر في أي وقت — من منشور أو من محادثة أو من الملف الشخصي لذلك الشخص. تصل البلاغات إلى فريقنا ونسعى إلى مراجعتها خلال 24 ساعة. لدينا عدم تسامح مطلق تجاه المحتوى المرفوض والسلوك المسيء، ويجوز لنا إزالة المحتوى أو حظر المستخدمين أو تعليق الحسابات التي تخالف هذه القواعد أو إغلاقها." }
       ]},
       { "t": "الاشتراكات والمدفوعات", "b": [
-        { "p": "يمكن استخدام Chronic Friends مجانًا، بما في ذلك المجتمع واليوميات الكاملة وتذكيرات الأدوية وجميع تقارير PDF. تفتح خطة Premium المدفوعة ست ميزات: Food Scan وDr. CF وTools وMeditation وEntertainment وربط Health Sync." },
-        { "p": "تُقدَّم Premium من خلال الخطط التالية:" },
+        { "p": "يمكن استخدام Chronic Friends مجانًا، بما في ذلك المجتمع والمذكّرة الكاملة وتذكيرات الدواء والربط مع Health Sync وجميع تقارير PDF. وتفتح خطة Premium المدفوعة أربع ميزات: Food Scan وTools وMeditation وEntertainment." },
+        { "p": "تتوفّر Premium وفق الخطط التالية:" },
         { "plans": [
           { "n": "شهري", "v": "$7.99", "u": " / شهر" },
           { "n": "نصف سنوي", "v": "$29.99", "u": " / 6 أشهر" },
@@ -1034,7 +1034,7 @@ window.CF_TERMS_T = {
   "hi": {
     "legal": "कानूनी",
     "title": "सेवा की शर्तें",
-    "updated": "अंतिम अद्यतन: 26 जुलाई 2026",
+    "updated": "अंतिम अद्यतन: 27 जुलाई 2026",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -1107,8 +1107,8 @@ window.CF_TERMS_T = {
         { "p": "आप किसी भी समय आपत्तिजनक सामग्री की रिपोर्ट कर सकते हैं या किसी अन्य उपयोगकर्ता को ब्लॉक कर सकते हैं — किसी पोस्ट से, किसी चैट से, या उस व्यक्ति की प्रोफ़ाइल से। रिपोर्टें हमारी टीम तक पहुँचती हैं और हम उन्हें 24 घंटे के भीतर समीक्षा करने का लक्ष्य रखते हैं। आपत्तिजनक सामग्री और अपमानजनक व्यवहार के प्रति हमारी शून्य सहनशीलता है, और हम इन नियमों का उल्लंघन करने पर सामग्री हटा सकते हैं, उपयोगकर्ताओं को ब्लॉक कर सकते हैं, या खातों को निलंबित या बंद कर सकते हैं।" }
       ]},
       { "t": "सदस्यताएँ और भुगतान", "b": [
-        { "p": "Chronic Friends को मुफ़्त में इस्तेमाल किया जा सकता है, जिसमें समुदाय, पूरी डायरी, दवा के रिमाइंडर और सभी PDF रिपोर्ट शामिल हैं। सशुल्क Premium योजना छह सुविधाएँ खोलती है: Food Scan, Dr. CF, Tools, Meditation, Entertainment और Health Sync कनेक्ट करना।" },
-        { "p": "Premium निम्न योजनाओं में उपलब्ध है:" },
+        { "p": "Chronic Friends मुफ़्त में इस्तेमाल किया जा सकता है — इसमें समुदाय, पूरा जर्नल, दवा के रिमाइंडर, Health Sync से कनेक्ट करना और सभी PDF रिपोर्ट शामिल हैं। सशुल्क Premium प्लान चार सुविधाएँ खोलता है: Food Scan, Tools, Meditation और Entertainment।" },
+        { "p": "Premium इन प्लान में उपलब्ध है:" },
         { "plans": [
           { "n": "मासिक", "v": "$7.99", "u": " / माह" },
           { "n": "अर्ध-वार्षिक", "v": "$29.99", "u": " / 6 माह" },
@@ -1148,7 +1148,7 @@ window.CF_TERMS_T = {
   "id": {
     "legal": "Hukum",
     "title": "Ketentuan Layanan",
-    "updated": "Terakhir diperbarui: 26 Juli 2026",
+    "updated": "Terakhir diperbarui: 27 Juli 2026",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -1221,7 +1221,7 @@ window.CF_TERMS_T = {
         { "p": "Anda dapat melaporkan konten yang tidak pantas atau memblokir pengguna lain kapan saja — dari sebuah unggahan, dari obrolan, atau dari profil orang tersebut. Laporan sampai ke tim kami dan kami berupaya meninjaunya dalam waktu 24 jam. Kami menerapkan toleransi nol terhadap konten yang tidak pantas dan perilaku kasar, dan kami dapat menghapus konten, memblokir pengguna, atau menangguhkan atau menutup akun yang melanggar aturan ini." }
       ]},
       { "t": "Langganan dan pembayaran", "b": [
-        { "p": "Chronic Friends dapat digunakan secara gratis, termasuk komunitas, jurnal lengkap, pengingat obat, dan semua laporan PDF. Paket Premium berbayar membuka enam fitur: Food Scan, Dr. CF, Tools, Meditation, Entertainment, dan menghubungkan Health Sync." },
+        { "p": "Chronic Friends dapat digunakan secara gratis, termasuk komunitas, jurnal lengkap, pengingat obat, koneksi Health Sync, dan semua laporan PDF. Paket Premium berbayar membuka empat fitur: Food Scan, Tools, Meditation, dan Entertainment." },
         { "p": "Premium ditawarkan melalui paket berikut:" },
         { "plans": [
           { "n": "Bulanan", "v": "$7.99", "u": " / bulan" },
@@ -1262,7 +1262,7 @@ window.CF_TERMS_T = {
   "ja": {
     "legal": "法的事項",
     "title": "利用規約",
-    "updated": "最終更新日: 2026年7月26日",
+    "updated": "最終更新日: 2026年7月27日",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1335,8 +1335,8 @@ window.CF_TERMS_T = {
         { "p": "あなたは、投稿・チャット・その人のプロフィールから、いつでも不適切なコンテンツを報告したり、他のユーザーをブロックしたりできます。報告は当社のチームに届き、当社は24時間以内に確認するよう努めます。当社は不適切なコンテンツや悪質な行為を一切容認せず、これらのルールに違反する場合、コンテンツの削除、ユーザーのブロック、またはアカウントの停止もしくは閉鎖を行うことがあります。" }
       ]},
       { "t": "サブスクリプションと支払い", "b": [
-        { "p": "Chronic Friends は、コミュニティ、完全なジャーナル、服薬リマインダー、すべての PDF レポートを含め、無料で利用できます。有料の Premium プランでは、Food Scan、Dr. CF、Tools、Meditation、Entertainment、Health Sync の接続という 6 つの機能が利用できます。" },
-        { "p": "Premium は次のプランで提供されます:" },
+        { "p": "Chronic Friends は無料で利用できます。コミュニティ、ジャーナルのすべて、服薬リマインダー、Health Sync との連携、そしてすべての PDF レポートが含まれます。有料の Premium プランでは、Food Scan・Tools・Meditation・Entertainment の4つの機能が使えるようになります。" },
+        { "p": "Premium は以下のプランでご利用いただけます:" },
         { "plans": [
           { "n": "月額", "v": "$7.99", "u": " / 月" },
           { "n": "半年", "v": "$29.99", "u": " / 6 か月" },
@@ -1376,7 +1376,7 @@ window.CF_TERMS_T = {
   "ko": {
     "legal": "법적 고지",
     "title": "서비스 약관",
-    "updated": "최종 업데이트: 2026년 7월 26일",
+    "updated": "최종 업데이트: 2026년 7월 27일",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1449,8 +1449,8 @@ window.CF_TERMS_T = {
         { "p": "귀하는 게시물, 채팅 또는 해당 사용자의 프로필에서 언제든지 부적절한 콘텐츠를 신고하거나 다른 사용자를 차단할 수 있습니다. 신고는 당사 팀에 전달되며, 당사는 24시간 이내에 검토하는 것을 목표로 합니다. 당사는 부적절한 콘텐츠와 악의적 행위에 대해 무관용 원칙을 적용하며, 이러한 규칙을 위반하는 경우 콘텐츠를 삭제하거나 사용자를 차단하거나 계정을 정지 또는 폐쇄할 수 있습니다." }
       ]},
       { "t": "구독 및 결제", "b": [
-        { "p": "Chronic Friends는 커뮤니티, 전체 일지, 복약 알림, 모든 PDF 보고서를 포함해 무료로 사용할 수 있습니다. 유료 Premium 요금제는 Food Scan, Dr. CF, Tools, Meditation, Entertainment, Health Sync 연결의 여섯 가지 기능을 제공합니다." },
-        { "p": "Premium은 다음 요금제로 제공됩니다:" },
+        { "p": "Chronic Friends는 무료로 사용할 수 있습니다. 커뮤니티, 전체 일지, 복약 알림, Health Sync 연결, 모든 PDF 리포트가 포함됩니다. 유료 Premium 플랜에서는 Food Scan, Tools, Meditation, Entertainment 네 가지 기능이 열립니다." },
+        { "p": "Premium은 다음 플랜으로 제공됩니다:" },
         { "plans": [
           { "n": "월간", "v": "$7.99", "u": " / 월" },
           { "n": "반기", "v": "$29.99", "u": " / 6개월" },
@@ -1490,7 +1490,7 @@ window.CF_TERMS_T = {
   "tr": {
     "legal": "Yasal",
     "title": "Hizmet Şartları",
-    "updated": "Son güncelleme: 26 Temmuz 2026",
+    "updated": "Son güncelleme: 27 Temmuz 2026",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1563,8 +1563,8 @@ window.CF_TERMS_T = {
         { "p": "Bir gönderiden, bir sohbetten veya o kişinin profilinden istediğiniz zaman sakıncalı içeriği şikâyet edebilir ya da başka bir kullanıcıyı engelleyebilirsiniz. Şikâyetler ekibimize ulaşır ve bunları 24 saat içinde incelemeyi hedefleriz. Sakıncalı içeriğe ve istismarcı davranışa karşı sıfır tolerans gösteririz ve bu kuralları ihlal eden içerikleri kaldırabilir, kullanıcıları engelleyebilir veya hesapları askıya alabilir ya da kapatabiliriz." }
       ]},
       { "t": "Abonelikler ve ödemeler", "b": [
-        { "p": "Chronic Friends; topluluk, eksiksiz günlük, ilaç hatırlatıcıları ve tüm PDF raporları dahil olmak üzere ücretsiz kullanılabilir. Ücretli Premium plan altı özelliğin kilidini açar: Food Scan, Dr. CF, Tools, Meditation, Entertainment ve Health Sync bağlantısı." },
-        { "p": "Premium aşağıdaki planlarla sunulur:" },
+        { "p": "Chronic Friends ücretsiz kullanılabilir; topluluk, günlüğün tamamı, ilaç hatırlatıcıları, Health Sync bağlantısı ve tüm PDF raporları buna dahildir. Ücretli Premium planı dört özelliği açar: Food Scan, Tools, Meditation ve Entertainment." },
+        { "p": "Premium şu planlarla sunulur:" },
         { "plans": [
           { "n": "Aylık", "v": "$7.99", "u": " / ay" },
           { "n": "Altı aylık", "v": "$29.99", "u": " / 6 ay" },
@@ -1604,7 +1604,7 @@ window.CF_TERMS_T = {
   "vi": {
     "legal": "Pháp lý",
     "title": "Điều khoản dịch vụ",
-    "updated": "Cập nhật lần cuối: ngày 26 tháng 7 năm 2026",
+    "updated": "Cập nhật lần cuối: ngày 27 tháng 7 năm 2026",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1677,8 +1677,8 @@ window.CF_TERMS_T = {
         { "p": "Bạn có thể báo cáo nội dung phản cảm hoặc chặn người dùng khác bất cứ lúc nào — từ một bài đăng, từ một cuộc trò chuyện, hoặc từ hồ sơ của người đó. Các báo cáo đến với nhóm của chúng tôi và chúng tôi cố gắng xem xét chúng trong vòng 24 giờ. Chúng tôi hoàn toàn không khoan nhượng đối với nội dung phản cảm và hành vi lăng mạ, và chúng tôi có thể xóa nội dung, chặn người dùng, hoặc tạm ngừng hoặc đóng các tài khoản vi phạm các quy tắc này." }
       ]},
       { "t": "Đăng ký và thanh toán", "b": [
-        { "p": "Chronic Friends có thể dùng miễn phí, bao gồm cộng đồng, nhật ký đầy đủ, nhắc nhở uống thuốc và mọi báo cáo PDF. Gói Premium trả phí mở khóa sáu tính năng: Food Scan, Dr. CF, Tools, Meditation, Entertainment và kết nối Health Sync." },
-        { "p": "Premium được cung cấp qua các gói sau:" },
+        { "p": "Chronic Friends có thể dùng miễn phí, bao gồm cộng đồng, toàn bộ nhật ký, nhắc uống thuốc, kết nối Health Sync và mọi báo cáo PDF. Gói Premium trả phí mở khóa bốn tính năng: Food Scan, Tools, Meditation và Entertainment." },
+        { "p": "Premium được cung cấp theo các gói sau:" },
         { "plans": [
           { "n": "Hằng tháng", "v": "$7.99", "u": " / tháng" },
           { "n": "Nửa năm", "v": "$29.99", "u": " / 6 tháng" },
@@ -1718,7 +1718,7 @@ window.CF_TERMS_T = {
   "zh": {
     "legal": "法律",
     "title": "服务条款",
-    "updated": "最后更新：2026年7月26日",
+    "updated": "最后更新：2026年7月27日",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1791,8 +1791,8 @@ window.CF_TERMS_T = {
         { "p": "你可以随时举报不当内容或屏蔽其他用户——从帖子、从聊天，或从该用户的个人资料。举报会送达我们的团队，我们力求在 24 小时内进行审核。我们对不当内容和辱骂行为采取零容忍，并可能删除内容、屏蔽用户，或暂停或关闭违反这些规则的账户。" }
       ]},
       { "t": "订阅与付款", "b": [
-        { "p": "Chronic Friends 可免费使用，包括社区、完整日记、用药提醒和所有 PDF 报告。付费 Premium 方案解锁六项功能：Food Scan、Dr. CF、Tools、Meditation、Entertainment 以及连接 Health Sync。" },
-        { "p": "Premium 通过以下方案提供：" },
+        { "p": "Chronic Friends 可以免费使用，包括社区、完整日记、用药提醒、连接 Health Sync 以及所有 PDF 报告。付费 Premium 方案解锁四项功能：Food Scan、Tools、Meditation 和 Entertainment。" },
+        { "p": "Premium 提供以下方案：" },
         { "plans": [
           { "n": "每月", "v": "$7.99", "u": " / 月" },
           { "n": "半年", "v": "$29.99", "u": " / 6 个月" },

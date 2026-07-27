@@ -1,4 +1,4 @@
-/* Chronic Friends — Privacy Policy (v2.3), translated for all 16 supported languages.
+/* Chronic Friends — Privacy Policy (v2.4), translated for all 16 supported languages.
    Consumed by "Crohn Friends Landing.dc.html" (renderLegal). Shared by patient
    and doctor sections — the modal reads the page's currently selected language.
    Brand names, provider names, law names (GDPR, revFADP, CCPA/CPRA, My Health My
@@ -9,7 +9,7 @@ window.CF_PRIVACY_T = {
   "en": {
     "legal": "Privacy",
     "title": "Privacy Policy",
-    "updated": "Last updated: 21 July 2026 · Version: 2.3",
+    "updated": "Last updated: 27 July 2026 · Version: 2.4",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -31,7 +31,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "How we use your data", "b": [
         { "p": "We use your data to: run your account; provide the health and self-tracking features; run the community and messaging; enable video consultations; manage subscriptions and payments; verify doctors; keep the app secure; improve it; and send you important service notices." },
-        { "p": "Some features use artificial intelligence to generate plain-language descriptions of the graphs and trends within the data you have entered, so you can review your own patterns more easily. These AI-generated summaries are clearly identified as such. They are informational only: they describe your own logged data and do not predict, diagnose, or recommend treatment (see Section 11)." },
+        { "b": "Artificial intelligence.", "p": "This version of Chronic Friends does not send your health data to any artificial-intelligence service. Nothing you log is transmitted to a third-party AI provider, and no AI feature is active in the app." },
+        { "p": "If we ever introduce a feature that does send your data to an AI provider, we will not switch it on silently. We will first update this policy to name the provider, the data involved, where it is processed and how long it is kept, and we will ask you for separate, explicit consent before a single entry leaves your device. You will be able to withdraw that consent at any time, and refusing it will never block the rest of the app. Any such feature would be informational only: it would describe your own logged data and would not predict, diagnose, or recommend treatment (see Section 11)." },
         { "p": "We never sell your data and never use it for advertising." }
       ]},
       { "t": "Legal basis", "b": [
@@ -84,7 +85,7 @@ window.CF_PRIVACY_T = {
           "The radar, body map, graphs, and trends visualize the data you enter yourself. They do not predict, diagnose, or detect any disease or medical condition.",
           "Choosing which condition(s) you follow only personalizes which trackers you see. It is not a diagnosis, and Chronic Friends does not provide medical advice.",
           "Any readings you type in from your own home devices (such as blood pressure, peak flow, or glucose) are shown only as a simple timeline of what you entered, with no reference ranges, no colour zones, no \"high/low/normal\" labels, and no alerts or interpretation.",
-          "AI-generated summaries describe your own logged data in plain language. They are informational only and do not predict flares, diagnose, or recommend treatment.",
+          "This version of the app does not use artificial intelligence on your health data, and does not send it to any AI provider.",
           "Always seek the advice of your physician or another qualified health professional with any questions about your condition, and never disregard professional medical advice because of something you saw in the app.",
           "Online consultations are conducted by independent, licensed professionals and are only available where a verified doctor is licensed in your location.",
           "In an emergency, call your local emergency services."
@@ -102,7 +103,7 @@ window.CF_PRIVACY_T = {
   "es": {
     "legal": "Privacidad",
     "title": "Política de Privacidad",
-    "updated": "Última actualización: 21 de julio de 2026 · Versión: 2.3",
+    "updated": "Última actualización: 27 de julio de 2026 · Versión: 2.4",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -124,7 +125,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Cómo usamos tus datos", "b": [
         { "p": "Usamos tus datos para: gestionar tu cuenta; ofrecer las funciones de salud y autoseguimiento; gestionar la comunidad y la mensajería; habilitar las videoconsultas; gestionar las suscripciones y los pagos; verificar a los médicos; mantener la seguridad de la app; mejorarla; y enviarte avisos importantes sobre el servicio." },
-        { "p": "Algunas funciones utilizan inteligencia artificial para generar descripciones en lenguaje sencillo de los gráficos y las tendencias dentro de los datos que has introducido, para que puedas revisar tus propios patrones más fácilmente. Estos resúmenes generados por IA se identifican claramente como tales. Son solo informativos: describen tus propios datos registrados y no predicen, diagnostican ni recomiendan tratamiento (consulta la Sección 11)." },
+        { "b": "Inteligencia artificial.", "p": "Esta versión de Chronic Friends no envía tus datos de salud a ningún servicio de inteligencia artificial. Nada de lo que registras se transmite a un proveedor de IA externo, y no hay ninguna función de IA activa en la aplicación." },
+        { "p": "Si algún día introducimos una función que sí envíe tus datos a un proveedor de IA, no la activaremos en silencio. Primero actualizaremos esta política para indicar el proveedor, los datos implicados, dónde se tratan y cuánto tiempo se conservan, y te pediremos un consentimiento explícito e independiente antes de que una sola entrada salga de tu dispositivo. Podrás retirar ese consentimiento en cualquier momento, y rechazarlo nunca bloqueará el resto de la aplicación. Cualquier función de este tipo sería únicamente informativa: describiría los datos que tú mismo has registrado y no predeciría, diagnosticaría ni recomendaría tratamientos (consulta la Sección 11)." },
         { "p": "Nunca vendemos tus datos ni los usamos con fines publicitarios." }
       ]},
       { "t": "Base jurídica", "b": [
@@ -177,7 +179,7 @@ window.CF_PRIVACY_T = {
           "El radar, el mapa corporal, los gráficos y las tendencias visualizan los datos que introduces tú mismo. No predicen, diagnostican ni detectan ninguna enfermedad o afección médica.",
           "Elegir qué afección(es) sigues solo personaliza los rastreadores que ves. No es un diagnóstico, y Chronic Friends no ofrece consejo médico.",
           "Cualquier medición que introduzcas desde tus propios dispositivos domésticos (como la presión arterial, el flujo espiratorio máximo o la glucosa) se muestra únicamente como una simple línea de tiempo de lo que has introducido, sin rangos de referencia, sin zonas de color, sin etiquetas de \"alto/bajo/normal\" y sin alertas ni interpretación.",
-          "Los resúmenes generados por IA describen tus propios datos registrados en lenguaje sencillo. Son solo informativos y no predicen brotes, diagnostican ni recomiendan tratamiento.",
+          "Esta versión de la aplicación no utiliza inteligencia artificial sobre tus datos de salud ni los envía a ningún proveedor de IA.",
           "Consulta siempre a tu médico o a otro profesional de la salud cualificado ante cualquier duda sobre tu afección, y nunca ignores el consejo médico profesional por algo que hayas visto en la app.",
           "Las consultas en línea las realizan profesionales independientes y con licencia, y solo están disponibles donde un médico verificado tenga licencia en tu ubicación.",
           "En caso de emergencia, llama a los servicios de emergencia locales."
@@ -195,7 +197,7 @@ window.CF_PRIVACY_T = {
   "ca": {
     "legal": "Privadesa",
     "title": "Política de privadesa",
-    "updated": "Última actualització: 21 de juliol de 2026 · Versió: 2.3",
+    "updated": "Última actualització: 27 de juliol de 2026 · Versió: 2.4",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -217,7 +219,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Com fem servir les teves dades", "b": [
         { "p": "Fem servir les teves dades per: gestionar el teu compte; oferir les funcions de salut i autoseguiment; gestionar la comunitat i la missatgeria; habilitar les videoconsultes; gestionar les subscripcions i els pagaments; verificar els metges; mantenir la seguretat de l'app; millorar-la; i enviar-te avisos importants sobre el servei." },
-        { "p": "Algunes funcions utilitzen intel·ligència artificial per generar descripcions en llenguatge senzill dels gràfics i les tendències dins de les dades que has introduït, perquè puguis revisar els teus propis patrons més fàcilment. Aquests resums generats per IA s'identifiquen clarament com a tals. Són només informatius: descriuen les teves pròpies dades registrades i no prediuen, diagnostiquen ni recomanen cap tractament (consulta la Secció 11)." },
+        { "b": "Intel·ligència artificial.", "p": "Aquesta versió de Chronic Friends no envia les teves dades de salut a cap servei d'intel·ligència artificial. Res del que registres es transmet a un proveïdor d'IA extern, i no hi ha cap funció d'IA activa a l'aplicació." },
+        { "p": "Si algun dia introduïm una funció que sí que enviï les teves dades a un proveïdor d'IA, no l'activarem en silenci. Primer actualitzarem aquesta política per indicar el proveïdor, les dades implicades, on es tracten i quant de temps es conserven, i et demanarem un consentiment explícit i separat abans que una sola entrada surti del teu dispositiu. Podràs retirar aquest consentiment en qualsevol moment, i rebutjar-lo mai no bloquejarà la resta de l'aplicació. Qualsevol funció d'aquest tipus seria només informativa: descriuria les dades que tu mateix has registrat i no prediria, diagnosticaria ni recomanaria cap tractament (consulta la Secció 11)." },
         { "p": "Mai no venem les teves dades ni les fem servir amb finalitats publicitàries." }
       ]},
       { "t": "Base jurídica", "b": [
@@ -270,7 +273,7 @@ window.CF_PRIVACY_T = {
           "El radar, el mapa corporal, els gràfics i les tendències visualitzen les dades que introdueixes tu mateix. No prediuen, diagnostiquen ni detecten cap malaltia o afecció mèdica.",
           "Triar quines afeccions segueixes només personalitza els rastrejadors que veus. No és un diagnòstic, i Chronic Friends no ofereix consell mèdic.",
           "Qualsevol mesura que introdueixis des dels teus propis dispositius domèstics (com la pressió arterial, el flux espiratori màxim o la glucosa) es mostra únicament com una simple línia de temps del que has introduït, sense rangs de referència, sense zones de color, sense etiquetes d'\"alt/baix/normal\" i sense alertes ni interpretació.",
-          "Els resums generats per IA descriuen les teves pròpies dades registrades amb llenguatge senzill. Són només informatius i no prediuen brots, diagnostiquen ni recomanen cap tractament.",
+          "Aquesta versió de l'aplicació no utilitza intel·ligència artificial sobre les teves dades de salut ni les envia a cap proveïdor d'IA.",
           "Consulta sempre el teu metge o un altre professional de la salut qualificat davant qualsevol dubte sobre la teva afecció, i no ignoris mai el consell mèdic professional per alguna cosa que hagis vist a l'app.",
           "Les consultes en línia les fan professionals independents i amb llicència, i només estan disponibles allà on un metge verificat tingui llicència a la teva ubicació.",
           "En cas d'emergència, truca als serveis d'emergència locals."
@@ -288,7 +291,7 @@ window.CF_PRIVACY_T = {
   "fr": {
     "legal": "Confidentialité",
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 21 juillet 2026 · Version : 2.3",
+    "updated": "Dernière mise à jour : 27 juillet 2026 · Version : 2.4",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -310,7 +313,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Comment nous utilisons vos données", "b": [
         { "p": "Nous utilisons vos données pour : gérer votre compte ; fournir les fonctionnalités de santé et de suivi personnel ; animer la communauté et la messagerie ; permettre les consultations vidéo ; gérer les abonnements et les paiements ; vérifier les médecins ; assurer la sécurité de l'application ; l'améliorer ; et vous envoyer des avis de service importants." },
-        { "p": "Certaines fonctionnalités utilisent l'intelligence artificielle pour générer des descriptions en langage clair des graphiques et des tendances au sein des données que vous avez saisies, afin que vous puissiez examiner plus facilement vos propres tendances. Ces résumés générés par IA sont clairement identifiés comme tels. Ils sont uniquement informatifs : ils décrivent vos propres données enregistrées et ne prédisent, ne diagnostiquent ni ne recommandent aucun traitement (voir la Section 11)." },
+        { "b": "Intelligence artificielle.", "p": "Cette version de Chronic Friends n'envoie vos données de santé à aucun service d'intelligence artificielle. Rien de ce que vous consignez n'est transmis à un fournisseur d'IA tiers, et aucune fonctionnalité d'IA n'est active dans l'application." },
+        { "p": "Si nous introduisons un jour une fonctionnalité qui envoie effectivement vos données à un fournisseur d'IA, nous ne l'activerons pas en silence. Nous mettrons d'abord à jour cette politique pour nommer le fournisseur, les données concernées, le lieu de traitement et la durée de conservation, et nous vous demanderons un consentement distinct et explicite avant qu'une seule entrée ne quitte votre appareil. Vous pourrez retirer ce consentement à tout moment, et le refuser ne bloquera jamais le reste de l'application. Une telle fonctionnalité serait purement informative : elle décrirait vos propres données consignées et ne prédirait, ne diagnostiquerait ni ne recommanderait aucun traitement (voir la Section 11)." },
         { "p": "Nous ne vendons jamais vos données et ne les utilisons jamais à des fins publicitaires." }
       ]},
       { "t": "Base légale", "b": [
@@ -363,7 +367,7 @@ window.CF_PRIVACY_T = {
           "Le radar, la cartographie corporelle, les graphiques et les tendances visualisent les données que vous saisissez vous-même. Ils ne prédisent, ne diagnostiquent ni ne détectent aucune maladie ou affection médicale.",
           "Choisir la ou les affections que vous suivez ne fait que personnaliser les outils de suivi que vous voyez. Ce n'est pas un diagnostic, et Chronic Friends ne fournit pas d'avis médical.",
           "Toute mesure que vous saisissez à partir de vos propres appareils domestiques (comme la tension artérielle, le débit de pointe ou la glycémie) est affichée uniquement sous forme de simple chronologie de ce que vous avez saisi, sans plages de référence, sans zones de couleur, sans étiquettes « élevé/bas/normal » et sans alertes ni interprétation.",
-          "Les résumés générés par IA décrivent vos propres données enregistrées en langage clair. Ils sont uniquement informatifs et ne prédisent pas les poussées, ne diagnostiquent pas et ne recommandent aucun traitement.",
+          "Cette version de l'application n'utilise pas d'intelligence artificielle sur vos données de santé et ne les envoie à aucun fournisseur d'IA.",
           "Demandez toujours l'avis de votre médecin ou d'un autre professionnel de santé qualifié pour toute question concernant votre affection, et ne négligez jamais un avis médical professionnel à cause de quelque chose que vous avez vu dans l'application.",
           "Les consultations en ligne sont menées par des professionnels indépendants et agréés, et ne sont disponibles que là où un médecin vérifié est autorisé à exercer dans votre localité.",
           "En cas d'urgence, appelez les services d'urgence locaux."
@@ -381,7 +385,7 @@ window.CF_PRIVACY_T = {
   "de": {
     "legal": "Datenschutz",
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 21. Juli 2026 · Version: 2.3",
+    "updated": "Zuletzt aktualisiert: 27. Juli 2026 · Version: 2.4",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -403,7 +407,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Wie wir Ihre Daten verwenden", "b": [
         { "p": "Wir verwenden Ihre Daten, um: Ihr Konto zu betreiben; die Gesundheits- und Selbst-Tracking-Funktionen bereitzustellen; die Community und das Messaging zu betreiben; Videokonsultationen zu ermöglichen; Abonnements und Zahlungen zu verwalten; Ärzte zu verifizieren; die App sicher zu halten; sie zu verbessern; und Ihnen wichtige Servicehinweise zu senden." },
-        { "p": "Einige Funktionen nutzen künstliche Intelligenz, um in klarer Sprache Beschreibungen der Diagramme und Trends innerhalb der von Ihnen eingegebenen Daten zu erstellen, damit Sie Ihre eigenen Muster leichter überprüfen können. Diese KI-generierten Zusammenfassungen sind klar als solche gekennzeichnet. Sie dienen nur zur Information: Sie beschreiben Ihre eigenen protokollierten Daten und stellen keine Vorhersagen, Diagnosen oder Behandlungsempfehlungen dar (siehe Abschnitt 11)." },
+        { "b": "Künstliche Intelligenz.", "p": "Diese Version von Chronic Friends sendet deine Gesundheitsdaten an keinen Dienst für künstliche Intelligenz. Nichts, was du erfasst, wird an einen KI-Anbieter Dritter übermittelt, und in der App ist keine KI-Funktion aktiv." },
+        { "p": "Sollten wir jemals eine Funktion einführen, die deine Daten tatsächlich an einen KI-Anbieter sendet, aktivieren wir sie nicht stillschweigend. Wir werden zuerst diese Erklärung aktualisieren und den Anbieter, die betroffenen Daten, den Verarbeitungsort und die Speicherdauer benennen, und wir werden dich um eine gesonderte, ausdrückliche Einwilligung bitten, bevor auch nur ein einziger Eintrag dein Gerät verlässt. Du kannst diese Einwilligung jederzeit widerrufen, und eine Ablehnung blockiert niemals den Rest der App. Eine solche Funktion wäre rein informativ: Sie würde deine selbst erfassten Daten beschreiben und weder Vorhersagen noch Diagnosen oder Behandlungsempfehlungen geben (siehe Abschnitt 11)." },
         { "p": "Wir verkaufen Ihre Daten niemals und verwenden sie niemals für Werbung." }
       ]},
       { "t": "Rechtsgrundlage", "b": [
@@ -456,7 +461,7 @@ window.CF_PRIVACY_T = {
           "Das Radar, die Körperkarte, die Diagramme und die Trends visualisieren die Daten, die Sie selbst eingeben. Sie sagen keine Krankheit oder keinen medizinischen Zustand voraus, diagnostizieren oder erkennen sie nicht.",
           "Die Auswahl der Erkrankung(en), der bzw. denen Sie folgen, personalisiert lediglich, welche Tracker Sie sehen. Es ist keine Diagnose, und Chronic Friends bietet keine medizinische Beratung.",
           "Alle Messwerte, die Sie von Ihren eigenen Heimgeräten eingeben (wie Blutdruck, Peak-Flow oder Glukose), werden nur als einfache Zeitleiste dessen angezeigt, was Sie eingegeben haben – ohne Referenzbereiche, ohne Farbzonen, ohne Kennzeichnungen wie „hoch/niedrig/normal“ und ohne Warnungen oder Interpretation.",
-          "KI-generierte Zusammenfassungen beschreiben Ihre eigenen protokollierten Daten in klarer Sprache. Sie dienen nur zur Information und sagen keine Schübe voraus, diagnostizieren nicht und empfehlen keine Behandlung.",
+          "Diese Version der App verwendet keine künstliche Intelligenz für deine Gesundheitsdaten und sendet sie an keinen KI-Anbieter.",
           "Holen Sie bei allen Fragen zu Ihrer Erkrankung stets den Rat Ihres Arztes oder einer anderen qualifizierten medizinischen Fachkraft ein und missachten Sie professionellen medizinischen Rat niemals aufgrund von etwas, das Sie in der App gesehen haben.",
           "Online-Konsultationen werden von unabhängigen, zugelassenen Fachkräften durchgeführt und sind nur dort verfügbar, wo ein verifizierter Arzt an Ihrem Standort zugelassen ist.",
           "Rufen Sie im Notfall den örtlichen Rettungsdienst an."
@@ -474,7 +479,7 @@ window.CF_PRIVACY_T = {
   "it": {
     "legal": "Privacy",
     "title": "Informativa sulla privacy",
-    "updated": "Ultimo aggiornamento: 21 luglio 2026 · Versione: 2.3",
+    "updated": "Ultimo aggiornamento: 27 luglio 2026 · Versione: 2.4",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -496,7 +501,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Come utilizziamo i tuoi dati", "b": [
         { "p": "Utilizziamo i tuoi dati per: gestire il tuo account; fornire le funzioni sanitarie e di monitoraggio personale; gestire la community e la messaggistica; abilitare i videoconsulti; gestire gli abbonamenti e i pagamenti; verificare i medici; mantenere sicura l'app; migliorarla; e inviarti avvisi di servizio importanti." },
-        { "p": "Alcune funzioni utilizzano l'intelligenza artificiale per generare descrizioni in linguaggio semplice dei grafici e delle tendenze all'interno dei dati che hai inserito, così da poter esaminare più facilmente i tuoi schemi. Questi riepiloghi generati dall'IA sono chiaramente identificati come tali. Sono solo informativi: descrivono i tuoi dati registrati e non prevedono, diagnosticano né raccomandano alcun trattamento (vedi la Sezione 11)." },
+        { "b": "Intelligenza artificiale.", "p": "Questa versione di Chronic Friends non invia i tuoi dati sanitari ad alcun servizio di intelligenza artificiale. Nulla di ciò che registri viene trasmesso a un fornitore di IA terzo e nell'app non è attiva alcuna funzione di IA." },
+        { "p": "Se un giorno introdurremo una funzione che invia davvero i tuoi dati a un fornitore di IA, non la attiveremo in silenzio. Prima aggiorneremo questa informativa indicando il fornitore, i dati coinvolti, dove vengono trattati e per quanto tempo sono conservati, e ti chiederemo un consenso separato ed esplicito prima che una sola voce lasci il tuo dispositivo. Potrai revocare quel consenso in qualsiasi momento e il rifiuto non bloccherà mai il resto dell'app. Una funzione di questo tipo sarebbe solo informativa: descriverebbe i dati che hai registrato tu e non prevederebbe, diagnosticherebbe né consiglierebbe alcun trattamento (vedi la Sezione 11)." },
         { "p": "Non vendiamo mai i tuoi dati e non li utilizziamo mai a scopi pubblicitari." }
       ]},
       { "t": "Base giuridica", "b": [
@@ -549,7 +555,7 @@ window.CF_PRIVACY_T = {
           "Il radar, la mappa corporea, i grafici e le tendenze visualizzano i dati che inserisci tu stesso. Non prevedono, diagnosticano né rilevano alcuna malattia o condizione medica.",
           "La scelta della o delle patologie che segui personalizza soltanto i tracker che vedi. Non è una diagnosi e Chronic Friends non fornisce pareri medici.",
           "Qualsiasi misurazione che inserisci dai tuoi dispositivi domestici (come pressione sanguigna, picco di flusso espiratorio o glicemia) viene mostrata solo come una semplice cronologia di ciò che hai inserito, senza intervalli di riferimento, senza zone colorate, senza etichette \"alto/basso/normale\" e senza avvisi o interpretazioni.",
-          "I riepiloghi generati dall'IA descrivono i tuoi dati registrati in un linguaggio semplice. Sono solo informativi e non prevedono riacutizzazioni, non diagnosticano né raccomandano trattamenti.",
+          "Questa versione dell'app non utilizza l'intelligenza artificiale sui tuoi dati sanitari e non li invia ad alcun fornitore di IA.",
           "Chiedi sempre il parere del tuo medico o di un altro professionista sanitario qualificato per qualsiasi domanda sulla tua patologia e non ignorare mai il parere medico professionale a causa di qualcosa che hai visto nell'app.",
           "I consulti online sono condotti da professionisti indipendenti e autorizzati e sono disponibili solo dove un medico verificato è autorizzato a esercitare nella tua località.",
           "In caso di emergenza, chiama i servizi di emergenza locali."
@@ -567,7 +573,7 @@ window.CF_PRIVACY_T = {
   "pt": {
     "legal": "Privacidade",
     "title": "Política de Privacidade",
-    "updated": "Última atualização: 21 de julho de 2026 · Versão: 2.3",
+    "updated": "Última atualização: 27 de julho de 2026 · Versão: 2.4",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -589,7 +595,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Como usamos os teus dados", "b": [
         { "p": "Usamos os teus dados para: gerir a tua conta; fornecer as funcionalidades de saúde e automonitorização; gerir a comunidade e as mensagens; permitir as videoconsultas; gerir as subscrições e os pagamentos; verificar os médicos; manter a app segura; melhorá-la; e enviar-te avisos de serviço importantes." },
-        { "p": "Algumas funcionalidades utilizam inteligência artificial para gerar descrições em linguagem simples dos gráficos e das tendências dentro dos dados que introduziste, para que possas rever os teus próprios padrões mais facilmente. Estes resumos gerados por IA são claramente identificados como tal. São apenas informativos: descrevem os teus dados registados e não preveem, diagnosticam nem recomendam qualquer tratamento (consulta a Secção 11)." },
+        { "b": "Inteligência artificial.", "p": "Esta versão do Chronic Friends não envia os teus dados de saúde para nenhum serviço de inteligência artificial. Nada do que registas é transmitido a um fornecedor de IA externo e não existe nenhuma funcionalidade de IA ativa na aplicação." },
+        { "p": "Se algum dia introduzirmos uma funcionalidade que envie efetivamente os teus dados para um fornecedor de IA, não a ativaremos em silêncio. Primeiro atualizaremos esta política para indicar o fornecedor, os dados envolvidos, onde são tratados e durante quanto tempo são conservados, e pedir-te-emos um consentimento separado e explícito antes de um único registo sair do teu dispositivo. Poderás retirar esse consentimento a qualquer momento e recusá-lo nunca bloqueará o resto da aplicação. Uma funcionalidade destas seria apenas informativa: descreveria os dados que tu próprio registaste e não faria previsões, diagnósticos nem recomendações de tratamento (ver a Secção 11)." },
         { "p": "Nunca vendemos os teus dados nem os usamos para publicidade." }
       ]},
       { "t": "Base jurídica", "b": [
@@ -642,7 +649,7 @@ window.CF_PRIVACY_T = {
           "O radar, o mapa corporal, os gráficos e as tendências visualizam os dados que introduzes tu próprio. Não preveem, diagnosticam nem detetam qualquer doença ou condição médica.",
           "Escolher que patologia(s) segues apenas personaliza os monitorizadores que vês. Não é um diagnóstico e a Chronic Friends não presta aconselhamento médico.",
           "Quaisquer leituras que introduzas a partir dos teus dispositivos domésticos (como tensão arterial, débito expiratório máximo ou glicose) são apresentadas apenas como uma simples linha temporal do que introduziste, sem intervalos de referência, sem zonas de cor, sem etiquetas de \"alto/baixo/normal\" e sem alertas ou interpretação.",
-          "Os resumos gerados por IA descrevem os teus dados registados em linguagem simples. São apenas informativos e não preveem crises, não diagnosticam nem recomendam tratamento.",
+          "Esta versão da aplicação não utiliza inteligência artificial sobre os teus dados de saúde nem os envia para qualquer fornecedor de IA.",
           "Procura sempre o aconselhamento do teu médico ou de outro profissional de saúde qualificado para qualquer dúvida sobre a tua patologia e nunca ignores o aconselhamento médico profissional por causa de algo que viste na app.",
           "As consultas online são realizadas por profissionais independentes e licenciados e só estão disponíveis onde um médico verificado tenha licença na tua localização.",
           "Em caso de emergência, liga para os serviços de emergência locais."
@@ -660,7 +667,7 @@ window.CF_PRIVACY_T = {
   "ru": {
     "legal": "Конфиденциальность",
     "title": "Политика конфиденциальности",
-    "updated": "Последнее обновление: 21 июля 2026 г. · Версия: 2.3",
+    "updated": "Последнее обновление: 27 июля 2026 г. · Версия: 2.4",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -682,7 +689,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Как мы используем ваши данные", "b": [
         { "p": "Мы используем ваши данные, чтобы: обеспечивать работу вашей учётной записи; предоставлять функции для здоровья и самоконтроля; поддерживать сообщество и обмен сообщениями; включать видеоконсультации; управлять подписками и платежами; верифицировать врачей; обеспечивать безопасность приложения; улучшать его; и отправлять вам важные служебные уведомления." },
-        { "p": "Некоторые функции используют искусственный интеллект для создания понятных описаний графиков и тенденций в рамках введённых вами данных, чтобы вам было легче анализировать собственные закономерности. Эти созданные ИИ сводки чётко обозначены как таковые. Они носят исключительно информационный характер: они описывают ваши собственные записанные данные и не прогнозируют, не диагностируют и не рекомендуют лечение (см. Раздел 11)." },
+        { "b": "Искусственный интеллект.", "p": "Эта версия Chronic Friends не передаёт ваши данные о здоровье ни в один сервис искусственного интеллекта. Ничто из того, что вы записываете, не передаётся стороннему поставщику ИИ, и в приложении не активна ни одна функция с ИИ." },
+        { "p": "Если мы когда-либо добавим функцию, которая действительно передаёт ваши данные поставщику ИИ, мы не включим её незаметно. Сначала мы обновим эту политику, указав поставщика, состав данных, место обработки и срок хранения, и запросим у вас отдельное явное согласие до того, как хотя бы одна запись покинет ваше устройство. Вы сможете отозвать это согласие в любой момент, а отказ никогда не заблокирует остальные функции приложения. Любая такая функция носила бы исключительно информационный характер: она описывала бы ваши собственные записи и не прогнозировала бы, не диагностировала бы и не рекомендовала бы лечение (см. Раздел 11)." },
         { "p": "Мы никогда не продаём ваши данные и никогда не используем их для рекламы." }
       ]},
       { "t": "Правовая основа", "b": [
@@ -735,7 +743,7 @@ window.CF_PRIVACY_T = {
           "Радар, карта тела, графики и тенденции визуализируют данные, которые вы вводите сами. Они не прогнозируют, не диагностируют и не выявляют никаких болезней или медицинских состояний.",
           "Выбор состояния(й), за которым(и) вы следите, лишь персонализирует то, какие трекеры вы видите. Это не диагноз, и Chronic Friends не предоставляет медицинских консультаций.",
           "Любые показатели, которые вы вводите со своих домашних устройств (такие как артериальное давление, пиковая скорость выдоха или глюкоза), отображаются лишь как простая хронология того, что вы ввели, без референсных диапазонов, без цветовых зон, без пометок «высокий/низкий/нормальный» и без предупреждений или интерпретации.",
-          "Созданные ИИ сводки описывают ваши записанные данные простым языком. Они носят исключительно информационный характер и не прогнозируют обострения, не диагностируют и не рекомендуют лечение.",
+          "Эта версия приложения не использует искусственный интеллект для ваших данных о здоровье и не передаёт их поставщикам ИИ.",
           "Всегда обращайтесь за советом к своему врачу или другому квалифицированному медицинскому специалисту по любым вопросам о вашем состоянии и никогда не пренебрегайте профессиональной медицинской консультацией из-за чего-либо, что вы увидели в приложении.",
           "Онлайн-консультации проводятся независимыми лицензированными специалистами и доступны только там, где верифицированный врач имеет лицензию в вашем регионе.",
           "В экстренной ситуации звоните в местную службу экстренной помощи."
@@ -753,7 +761,7 @@ window.CF_PRIVACY_T = {
   "ar": {
     "legal": "الخصوصية",
     "title": "سياسة الخصوصية",
-    "updated": "آخر تحديث: 21 يوليو 2026 · الإصدار: 2.3",
+    "updated": "آخر تحديث: 27 يوليو 2026 · الإصدار: 2.4",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -775,7 +783,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "كيف نستخدم بياناتك", "b": [
         { "p": "نستخدم بياناتك من أجل: تشغيل حسابك؛ وتوفير ميزات الصحة والتتبّع الذاتي؛ وإدارة المجتمع والمراسلة؛ وتمكين استشارات الفيديو؛ وإدارة الاشتراكات والمدفوعات؛ والتحقق من الأطباء؛ والحفاظ على أمان التطبيق؛ وتحسينه؛ وإرسال إشعارات الخدمة المهمة إليك." },
-        { "p": "تستخدم بعض الميزات الذكاء الاصطناعي لإنشاء أوصاف بلغة واضحة للرسوم البيانية والاتجاهات ضمن البيانات التي أدخلتها، حتى تتمكن من مراجعة أنماطك الخاصة بسهولة أكبر. تُحدَّد هذه الملخصات المُنشأة بالذكاء الاصطناعي بوضوح على هذا النحو. وهي لأغراض إعلامية فقط: تصف بياناتك المسجّلة ولا تتنبأ أو تشخّص أو توصي بعلاج (راجع القسم 11)." },
+        { "b": "الذكاء الاصطناعي.", "p": "لا ترسل هذه النسخة من Chronic Friends بياناتك الصحية إلى أي خدمة ذكاء اصطناعي. لا يُنقل أي شيء تسجّله إلى مزوّد ذكاء اصطناعي خارجي، ولا توجد أي ميزة ذكاء اصطناعي مفعّلة في التطبيق." },
+        { "p": "إذا أضفنا يومًا ميزة ترسل بياناتك فعليًا إلى مزوّد ذكاء اصطناعي، فلن نفعّلها بصمت. سنحدّث هذه السياسة أولًا لنذكر اسم المزوّد والبيانات المعنية ومكان معالجتها ومدة الاحتفاظ بها، وسنطلب منك موافقة صريحة ومنفصلة قبل أن يغادر جهازك أي إدخال واحد. وسيمكنك سحب هذه الموافقة في أي وقت، ولن يؤدي رفضها أبدًا إلى تعطيل بقية التطبيق. وأي ميزة من هذا النوع ستكون لأغراض المعلومات فقط: ستصف بياناتك التي سجّلتها بنفسك ولن تتنبأ أو تشخّص أو توصي بعلاج (انظر القسم 11)." },
         { "p": "لا نبيع بياناتك أبدًا ولا نستخدمها للإعلانات أبدًا." }
       ]},
       { "t": "الأساس القانوني", "b": [
@@ -828,7 +837,7 @@ window.CF_PRIVACY_T = {
           "يعرض الرادار وخريطة الجسم والرسوم البيانية والاتجاهات البيانات التي تُدخلها بنفسك. وهي لا تتنبأ بأي مرض أو حالة طبية ولا تشخّصها ولا تكتشفها.",
           "اختيار الحالة (الحالات) التي تتابعها يخصّص فقط أدوات التتبّع التي تراها. وهو ليس تشخيصًا، ولا يقدّم Chronic Friends مشورة طبية.",
           "أي قراءات تُدخلها من أجهزتك المنزلية (مثل ضغط الدم أو ذروة التدفق أو الجلوكوز) تُعرض فقط كخط زمني بسيط لما أدخلته، دون نطاقات مرجعية، ودون مناطق ملوّنة، ودون تسميات \"مرتفع/منخفض/طبيعي\"، ودون تنبيهات أو تفسير.",
-          "تصف الملخصات المُنشأة بالذكاء الاصطناعي بياناتك المسجّلة بلغة واضحة. وهي لأغراض إعلامية فقط ولا تتنبأ بالنوبات ولا تشخّص ولا توصي بعلاج.",
+          "لا تستخدم هذه النسخة من التطبيق الذكاء الاصطناعي على بياناتك الصحية ولا ترسلها إلى أي مزوّد ذكاء اصطناعي.",
           "اطلب دائمًا مشورة طبيبك أو أخصائي صحي مؤهل آخر بشأن أي أسئلة عن حالتك، ولا تتجاهل أبدًا المشورة الطبية المهنية بسبب شيء رأيته في التطبيق.",
           "تُجرى الاستشارات عبر الإنترنت من قِبل مهنيين مستقلّين ومرخّصين، وهي متاحة فقط حيثما يكون الطبيب المُتحقَّق منه مرخّصًا في موقعك.",
           "في حالة الطوارئ، اتصل بخدمات الطوارئ المحلية."
@@ -846,7 +855,7 @@ window.CF_PRIVACY_T = {
   "hi": {
     "legal": "गोपनीयता",
     "title": "गोपनीयता नीति",
-    "updated": "अंतिम अद्यतन: 21 जुलाई 2026 · संस्करण: 2.3",
+    "updated": "अंतिम अद्यतन: 27 जुलाई 2026 · संस्करण: 2.4",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -868,7 +877,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "हम आपके डेटा का उपयोग कैसे करते हैं", "b": [
         { "p": "हम आपके डेटा का उपयोग इसके लिए करते हैं: आपका खाता चलाने; स्वास्थ्य और सेल्फ़-ट्रैकिंग सुविधाएँ प्रदान करने; समुदाय और संदेश सेवा चलाने; वीडियो परामर्श सक्षम करने; सदस्यताओं और भुगतानों का प्रबंधन करने; डॉक्टरों को सत्यापित करने; ऐप को सुरक्षित रखने; उसे बेहतर बनाने; और आपको महत्वपूर्ण सेवा सूचनाएँ भेजने के लिए।" },
-        { "p": "कुछ सुविधाएँ आपके द्वारा दर्ज किए गए डेटा के भीतर के ग्राफ़ और रुझानों का सरल भाषा में विवरण तैयार करने के लिए आर्टिफ़िशियल इंटेलिजेंस का उपयोग करती हैं, ताकि आप अपने पैटर्न को अधिक आसानी से देख सकें। ये AI द्वारा तैयार सारांश स्पष्ट रूप से इसी रूप में चिह्नित किए जाते हैं। ये केवल सूचनात्मक हैं: ये आपके स्वयं द्वारा लॉग किए गए डेटा का वर्णन करते हैं और किसी उपचार की भविष्यवाणी, निदान या सिफ़ारिश नहीं करते (धारा 11 देखें)।" },
+        { "b": "कृत्रिम बुद्धिमत्ता (AI)।", "p": "Chronic Friends का यह संस्करण आपके स्वास्थ्य डेटा को किसी भी कृत्रिम बुद्धिमत्ता सेवा को नहीं भेजता। आप जो कुछ भी दर्ज करते हैं, वह किसी तीसरे पक्ष के AI प्रदाता तक नहीं पहुँचता, और ऐप में कोई AI सुविधा सक्रिय नहीं है।" },
+        { "p": "यदि हम कभी ऐसी कोई सुविधा जोड़ते हैं जो वास्तव में आपका डेटा किसी AI प्रदाता को भेजती है, तो हम उसे चुपचाप चालू नहीं करेंगे। हम पहले इस नीति को अपडेट करके प्रदाता का नाम, शामिल डेटा, उसे कहाँ संसाधित किया जाता है और कितने समय तक रखा जाता है, यह बताएँगे, और आपके डिवाइस से एक भी प्रविष्टि बाहर जाने से पहले आपसे अलग, स्पष्ट सहमति माँगेंगे। आप यह सहमति कभी भी वापस ले सकेंगे, और मना करने से ऐप का बाकी हिस्सा कभी बंद नहीं होगा। ऐसी कोई भी सुविधा केवल जानकारी के लिए होगी: वह आपके अपने दर्ज किए गए डेटा का वर्णन करेगी और किसी भी बात की भविष्यवाणी, निदान या उपचार की सिफ़ारिश नहीं करेगी (देखें अनुभाग 11)।" },
         { "p": "हम आपका डेटा कभी नहीं बेचते और इसका उपयोग कभी विज्ञापन के लिए नहीं करते।" }
       ]},
       { "t": "कानूनी आधार", "b": [
@@ -921,7 +931,7 @@ window.CF_PRIVACY_T = {
           "रडार, बॉडी मैप, ग्राफ़ और रुझान वही डेटा दर्शाते हैं जो आप स्वयं दर्ज करते हैं। वे किसी भी बीमारी या चिकित्सा स्थिति की भविष्यवाणी, निदान या पहचान नहीं करते।",
           "आप किन स्थिति/स्थितियों को ट्रैक करते हैं, यह चुनना केवल यह वैयक्तिकृत करता है कि आप कौन-से ट्रैकर देखते हैं। यह कोई निदान नहीं है, और Chronic Friends चिकित्सा सलाह नहीं देता।",
           "अपने घरेलू उपकरणों से आपके द्वारा दर्ज की गई कोई भी रीडिंग (जैसे रक्तचाप, पीक फ़्लो या ग्लूकोज़) केवल आपके द्वारा दर्ज की गई चीज़ की एक सरल समयरेखा के रूप में दिखाई जाती है — बिना किसी संदर्भ सीमा, बिना रंग-क्षेत्रों, बिना \"उच्च/निम्न/सामान्य\" लेबल, और बिना किसी अलर्ट या व्याख्या के।",
-          "AI द्वारा तैयार सारांश आपके लॉग किए गए डेटा का सरल भाषा में वर्णन करते हैं। ये केवल सूचनात्मक हैं और भड़कने (फ़्लेयर) की भविष्यवाणी, निदान या उपचार की सिफ़ारिश नहीं करते।",
+          "ऐप का यह संस्करण आपके स्वास्थ्य डेटा पर कृत्रिम बुद्धिमत्ता का उपयोग नहीं करता और उसे किसी AI प्रदाता को नहीं भेजता।",
           "अपनी स्थिति के बारे में किसी भी प्रश्न के लिए हमेशा अपने चिकित्सक या किसी अन्य योग्य स्वास्थ्य पेशेवर की सलाह लें, और ऐप में देखी गई किसी बात के कारण कभी भी पेशेवर चिकित्सा सलाह की अनदेखी न करें।",
           "ऑनलाइन परामर्श स्वतंत्र, लाइसेंस-प्राप्त पेशेवरों द्वारा किए जाते हैं और केवल वहीं उपलब्ध होते हैं जहाँ कोई सत्यापित डॉक्टर आपके स्थान पर लाइसेंस-प्राप्त हो।",
           "आपात स्थिति में, अपनी स्थानीय आपातकालीन सेवाओं को कॉल करें।"
@@ -939,7 +949,7 @@ window.CF_PRIVACY_T = {
   "id": {
     "legal": "Privasi",
     "title": "Kebijakan Privasi",
-    "updated": "Terakhir diperbarui: 21 Juli 2026 · Versi: 2.3",
+    "updated": "Terakhir diperbarui: 27 Juli 2026 · Versi: 2.4",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -961,7 +971,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Bagaimana kami menggunakan data Anda", "b": [
         { "p": "Kami menggunakan data Anda untuk: menjalankan akun Anda; menyediakan fitur kesehatan dan pelacakan mandiri; menjalankan komunitas dan perpesanan; mengaktifkan konsultasi video; mengelola langganan dan pembayaran; memverifikasi dokter; menjaga keamanan aplikasi; menyempurnakannya; dan mengirimkan pemberitahuan layanan penting kepada Anda." },
-        { "p": "Beberapa fitur menggunakan kecerdasan buatan untuk menghasilkan deskripsi berbahasa sederhana tentang grafik dan tren dalam data yang telah Anda masukkan, sehingga Anda dapat meninjau pola Anda sendiri dengan lebih mudah. Ringkasan yang dihasilkan AI ini ditandai dengan jelas sebagai demikian. Ringkasan tersebut hanya bersifat informatif: menggambarkan data tercatat Anda sendiri dan tidak memprediksi, mendiagnosis, atau merekomendasikan pengobatan (lihat Bagian 11)." },
+        { "b": "Kecerdasan buatan.", "p": "Versi Chronic Friends ini tidak mengirim data kesehatanmu ke layanan kecerdasan buatan mana pun. Tidak ada yang kamu catat dikirim ke penyedia AI pihak ketiga, dan tidak ada fitur AI yang aktif di aplikasi." },
+        { "p": "Jika suatu saat kami memperkenalkan fitur yang memang mengirim datamu ke penyedia AI, kami tidak akan mengaktifkannya diam-diam. Kami akan lebih dulu memperbarui kebijakan ini untuk menyebutkan penyedianya, data yang terlibat, tempat pemrosesan, dan berapa lama disimpan, lalu meminta persetujuan eksplisit yang terpisah darimu sebelum satu entri pun meninggalkan perangkatmu. Kamu dapat menarik persetujuan itu kapan saja, dan menolaknya tidak akan pernah menghalangi bagian lain dari aplikasi. Fitur semacam itu hanya bersifat informatif: fitur tersebut menggambarkan data yang kamu catat sendiri dan tidak memprediksi, mendiagnosis, atau merekomendasikan pengobatan (lihat Bagian 11)." },
         { "p": "Kami tidak pernah menjual data Anda dan tidak pernah menggunakannya untuk iklan." }
       ]},
       { "t": "Dasar hukum", "b": [
@@ -1014,7 +1025,7 @@ window.CF_PRIVACY_T = {
           "Radar, peta tubuh, grafik, dan tren memvisualisasikan data yang Anda masukkan sendiri. Semua itu tidak memprediksi, mendiagnosis, atau mendeteksi penyakit atau kondisi medis apa pun.",
           "Memilih kondisi yang Anda ikuti hanya mempersonalisasi pelacak yang Anda lihat. Itu bukan diagnosis, dan Chronic Friends tidak memberikan nasihat medis.",
           "Bacaan apa pun yang Anda masukkan dari perangkat rumah Anda (seperti tekanan darah, arus puncak, atau glukosa) hanya ditampilkan sebagai lini masa sederhana dari apa yang Anda masukkan, tanpa rentang rujukan, tanpa zona warna, tanpa label \"tinggi/rendah/normal\", dan tanpa peringatan atau interpretasi.",
-          "Ringkasan yang dihasilkan AI menggambarkan data tercatat Anda dalam bahasa sederhana. Ringkasan tersebut hanya bersifat informatif dan tidak memprediksi kekambuhan, mendiagnosis, atau merekomendasikan pengobatan.",
+          "Versi aplikasi ini tidak menggunakan kecerdasan buatan pada data kesehatanmu dan tidak mengirimkannya ke penyedia AI mana pun.",
           "Selalu mintalah nasihat dokter Anda atau tenaga kesehatan berkualifikasi lain untuk pertanyaan apa pun tentang kondisi Anda, dan jangan pernah mengabaikan nasihat medis profesional karena sesuatu yang Anda lihat di aplikasi.",
           "Konsultasi daring dilakukan oleh profesional independen dan berlisensi, dan hanya tersedia di tempat seorang dokter terverifikasi memiliki lisensi di lokasi Anda.",
           "Dalam keadaan darurat, hubungi layanan darurat setempat."
@@ -1032,7 +1043,7 @@ window.CF_PRIVACY_T = {
   "ja": {
     "legal": "プライバシー",
     "title": "プライバシーポリシー",
-    "updated": "最終更新日: 2026年7月21日 · バージョン: 2.3",
+    "updated": "最終更新日: 2026年7月27日 · バージョン: 2.4",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1054,7 +1065,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "データの利用方法", "b": [
         { "p": "私たちは、次の目的でデータを利用します。アカウントの運用、健康・セルフトラッキング機能の提供、コミュニティとメッセージングの運用、ビデオ相談の実現、サブスクリプションと支払いの管理、医師の確認、アプリの安全性の維持、その改善、重要なサービス通知の送信。" },
-        { "p": "一部の機能は人工知能を使用して、あなたが入力したデータ内のグラフや傾向をわかりやすい言葉で説明し、ご自身のパターンを確認しやすくします。これらの AI 生成の要約は、そのようなものとして明確に表示されます。これらは情報提供のみを目的としており、あなた自身が記録したデータを説明するものであって、予測、診断、治療の推奨は行いません(第 11 条を参照)。" },
+        { "b": "人工知能（AI）について。", "p": "このバージョンの Chronic Friends は、あなたの健康データをいかなる人工知能サービスにも送信しません。記録した内容が第三者の AI 事業者に送られることはなく、アプリ内で有効な AI 機能はありません。" },
+        { "p": "将来、データを AI 事業者に送信する機能を導入する場合でも、黙って有効にすることはありません。まず本ポリシーを更新し、事業者名、対象となるデータ、処理される場所、保存期間を明示したうえで、あなたの端末から記録が1件でも送信される前に、個別かつ明示的な同意をお願いします。同意はいつでも撤回でき、同意しなくてもアプリの他の機能が使えなくなることはありません。そうした機能はあくまで情報提供のみを目的とし、あなた自身が記録したデータを説明するもので、予測・診断・治療の推奨は行いません（第11条を参照）。" },
         { "p": "私たちはあなたのデータを販売することは決してなく、広告に使用することも決してありません。" }
       ]},
       { "t": "法的根拠", "b": [
@@ -1107,7 +1119,7 @@ window.CF_PRIVACY_T = {
           "レーダー、ボディマップ、グラフ、傾向は、あなた自身が入力したデータを可視化します。いかなる疾患や医学的状態も予測、診断、検出しません。",
           "どの疾患をフォローするかを選ぶことは、表示されるトラッカーをパーソナライズするだけです。診断ではなく、Chronic Friends は医学的助言を提供しません。",
           "ご自宅の機器からあなたが入力した測定値(血圧、ピークフロー、血糖値など)は、入力した内容の単純な時系列として表示されるだけであり、基準範囲、色分けゾーン、「高い／低い／正常」といったラベル、アラートや解釈は一切ありません。",
-          "AI 生成の要約は、あなたが記録したデータをわかりやすい言葉で説明します。情報提供のみを目的としており、再燃の予測、診断、治療の推奨は行いません。",
+          "このバージョンのアプリは、あなたの健康データに人工知能を使用せず、AI 事業者に送信することもありません。",
           "あなたの状態について疑問がある場合は、常に医師またはその他の資格のある医療専門家の助言を求め、アプリで見た内容を理由に専門的な医学的助言を決して無視しないでください。",
           "オンライン相談は独立した有資格の専門家によって行われ、確認済みの医師があなたの地域で免許を有する場合にのみ利用できます。",
           "緊急の場合は、お住まいの地域の緊急サービスに電話してください。"
@@ -1125,7 +1137,7 @@ window.CF_PRIVACY_T = {
   "ko": {
     "legal": "개인정보",
     "title": "개인정보처리방침",
-    "updated": "최종 업데이트: 2026년 7월 21일 · 버전: 2.3",
+    "updated": "최종 업데이트: 2026년 7월 27일 · 버전: 2.4",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1147,7 +1159,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "데이터 사용 방법", "b": [
         { "p": "저희는 다음을 위해 여러분의 데이터를 사용합니다. 계정 운영, 건강 및 자가 추적 기능 제공, 커뮤니티 및 메시징 운영, 화상 상담 지원, 구독 및 결제 관리, 의사 인증, 앱 보안 유지, 개선, 그리고 중요한 서비스 공지 발송." },
-        { "p": "일부 기능은 인공지능을 사용하여 여러분이 입력한 데이터 내의 그래프와 추세를 쉬운 언어로 설명함으로써, 자신의 패턴을 더 쉽게 검토할 수 있게 합니다. 이러한 AI 생성 요약은 그러한 것으로 명확히 표시됩니다. 이는 정보 제공용일 뿐이며, 여러분이 직접 기록한 데이터를 설명할 뿐 예측, 진단, 치료 권고를 하지 않습니다(제11조 참조)." },
+        { "b": "인공지능.", "p": "이 버전의 Chronic Friends는 회원님의 건강 데이터를 어떤 인공지능 서비스에도 전송하지 않습니다. 기록한 내용이 제3자 AI 제공업체로 전송되지 않으며, 앱에서 활성화된 AI 기능도 없습니다." },
+        { "p": "앞으로 데이터를 AI 제공업체로 전송하는 기능을 도입하게 되더라도, 조용히 켜지 않습니다. 먼저 이 방침을 업데이트하여 제공업체, 관련 데이터, 처리 장소, 보관 기간을 명시하고, 기록이 단 한 건이라도 기기를 떠나기 전에 별도의 명시적 동의를 요청합니다. 이 동의는 언제든 철회할 수 있으며, 거부하더라도 앱의 나머지 기능은 결코 막히지 않습니다. 그러한 기능은 정보 제공 목적일 뿐이며, 회원님이 직접 기록한 데이터를 설명할 뿐 예측하거나 진단하거나 치료를 권고하지 않습니다(제11조 참조)." },
         { "p": "저희는 여러분의 데이터를 절대 판매하지 않으며 광고에 사용하지 않습니다." }
       ]},
       { "t": "법적 근거", "b": [
@@ -1200,7 +1213,7 @@ window.CF_PRIVACY_T = {
           "레이더, 바디맵, 그래프, 추세는 여러분이 직접 입력한 데이터를 시각화합니다. 이들은 어떤 질병이나 의학적 상태도 예측, 진단 또는 발견하지 않습니다.",
           "팔로우할 질환을 선택하는 것은 표시되는 추적기를 개인화할 뿐입니다. 이는 진단이 아니며, Chronic Friends는 의학적 조언을 제공하지 않습니다.",
           "가정용 기기에서 입력한 측정값(예: 혈압, 최대호기유량, 혈당)은 입력한 내용의 단순한 타임라인으로만 표시되며, 참고 범위, 색상 구역, \"높음/낮음/정상\" 라벨, 경고나 해석은 전혀 없습니다.",
-          "AI 생성 요약은 여러분이 기록한 데이터를 쉬운 언어로 설명합니다. 이는 정보 제공용일 뿐이며 재발을 예측하거나 진단하거나 치료를 권고하지 않습니다.",
+          "이 버전의 앱은 건강 데이터에 인공지능을 사용하지 않으며, 어떤 AI 제공업체에도 전송하지 않습니다.",
           "여러분의 상태에 관한 어떤 질문이든 항상 의사나 다른 자격 있는 의료 전문가의 조언을 구하고, 앱에서 본 내용 때문에 전문적인 의학적 조언을 절대 무시하지 마세요.",
           "온라인 상담은 독립적이고 면허를 소지한 전문가가 수행하며, 인증된 의사가 여러분의 지역에서 면허를 보유한 경우에만 이용할 수 있습니다.",
           "응급 상황에서는 현지 응급 서비스에 전화하세요."
@@ -1218,7 +1231,7 @@ window.CF_PRIVACY_T = {
   "tr": {
     "legal": "Gizlilik",
     "title": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 21 Temmuz 2026 · Sürüm: 2.3",
+    "updated": "Son güncelleme: 27 Temmuz 2026 · Sürüm: 2.4",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1240,7 +1253,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Verilerinizi nasıl kullanıyoruz", "b": [
         { "p": "Verilerinizi şunlar için kullanırız: hesabınızı çalıştırmak; sağlık ve kişisel takip özelliklerini sunmak; topluluğu ve mesajlaşmayı yürütmek; video görüşmelerini mümkün kılmak; abonelikleri ve ödemeleri yönetmek; doktorları doğrulamak; uygulamayı güvende tutmak; onu iyileştirmek; ve size önemli hizmet bildirimleri göndermek." },
-        { "p": "Bazı özellikler, girdiğiniz veriler içindeki grafiklerin ve eğilimlerin sade dilde açıklamalarını oluşturmak için yapay zekâ kullanır; böylece kendi örüntülerinizi daha kolay inceleyebilirsiniz. Bu yapay zekâ tarafından oluşturulan özetler açıkça bu şekilde belirtilir. Yalnızca bilgilendirme amaçlıdır: kendi kayıtlı verilerinizi tanımlarlar ve tahmin, teşhis veya tedavi önerisinde bulunmazlar (bkz. Bölüm 11)." },
+        { "b": "Yapay zekâ.", "p": "Chronic Friends'in bu sürümü sağlık verilerinizi hiçbir yapay zekâ hizmetine göndermez. Kaydettiğiniz hiçbir şey üçüncü taraf bir yapay zekâ sağlayıcısına iletilmez ve uygulamada etkin bir yapay zekâ özelliği yoktur." },
+        { "p": "İleride verilerinizi gerçekten bir yapay zekâ sağlayıcısına gönderen bir özellik sunarsak, bunu sessizce açmayacağız. Önce bu politikayı güncelleyerek sağlayıcıyı, ilgili verileri, verilerin nerede işlendiğini ve ne kadar süre saklandığını belirteceğiz; cihazınızdan tek bir kayıt bile çıkmadan önce sizden ayrı ve açık rıza isteyeceğiz. Bu rızayı istediğiniz zaman geri çekebilirsiniz ve reddetmeniz uygulamanın geri kalanını asla engellemez. Böyle bir özellik yalnızca bilgilendirme amaçlı olurdu: kendi kaydettiğiniz verileri anlatır; tahmin, teşhis veya tedavi önerisi sunmaz (bkz. Bölüm 11)." },
         { "p": "Verilerinizi asla satmayız ve asla reklam için kullanmayız." }
       ]},
       { "t": "Hukuki dayanak", "b": [
@@ -1293,7 +1307,7 @@ window.CF_PRIVACY_T = {
           "Radar, vücut haritası, grafikler ve eğilimler, bizzat girdiğiniz verileri görselleştirir. Herhangi bir hastalığı veya tıbbi durumu tahmin etmez, teşhis etmez veya saptamaz.",
           "Hangi hastalık(lar)ı takip edeceğinizi seçmek yalnızca gördüğünüz takipçileri kişiselleştirir. Bu bir teşhis değildir ve Chronic Friends tıbbi tavsiye vermez.",
           "Kendi ev cihazlarınızdan girdiğiniz herhangi bir ölçüm (tansiyon, tepe akış hızı veya glukoz gibi) yalnızca girdiğiniz şeyin basit bir zaman çizelgesi olarak gösterilir; referans aralıkları, renk bölgeleri, \"yüksek/düşük/normal\" etiketleri ve uyarılar veya yorumlar olmadan.",
-          "Yapay zekâ tarafından oluşturulan özetler, kayıtlı verilerinizi sade bir dille tanımlar. Yalnızca bilgilendirme amaçlıdır ve alevlenmeleri tahmin etmez, teşhis koymaz veya tedavi önermez.",
+          "Uygulamanın bu sürümü sağlık verilerinizde yapay zekâ kullanmaz ve bu verileri hiçbir yapay zekâ sağlayıcısına göndermez.",
           "Durumunuzla ilgili herhangi bir sorunuz için her zaman doktorunuzun veya başka bir nitelikli sağlık uzmanının tavsiyesini alın ve uygulamada gördüğünüz bir şey nedeniyle profesyonel tıbbi tavsiyeyi asla göz ardı etmeyin.",
           "Çevrimiçi danışmanlıklar bağımsız, ruhsatlı uzmanlar tarafından yürütülür ve yalnızca doğrulanmış bir doktorun sizin konumunuzda ruhsatlı olduğu yerlerde kullanılabilir.",
           "Acil bir durumda, yerel acil servislerinizi arayın."
@@ -1311,7 +1325,7 @@ window.CF_PRIVACY_T = {
   "vi": {
     "legal": "Quyền riêng tư",
     "title": "Chính sách quyền riêng tư",
-    "updated": "Cập nhật lần cuối: ngày 21 tháng 7 năm 2026 · Phiên bản: 2.3",
+    "updated": "Cập nhật lần cuối: ngày 27 tháng 7 năm 2026 · Phiên bản: 2.4",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1333,7 +1347,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Cách chúng tôi sử dụng dữ liệu của bạn", "b": [
         { "p": "Chúng tôi sử dụng dữ liệu của bạn để: vận hành tài khoản của bạn; cung cấp các tính năng sức khỏe và tự theo dõi; vận hành cộng đồng và nhắn tin; cho phép tư vấn video; quản lý đăng ký và thanh toán; xác minh bác sĩ; giữ an toàn cho ứng dụng; cải thiện ứng dụng; và gửi cho bạn các thông báo dịch vụ quan trọng." },
-        { "p": "Một số tính năng sử dụng trí tuệ nhân tạo để tạo ra các mô tả bằng ngôn ngữ dễ hiểu về các biểu đồ và xu hướng trong dữ liệu bạn đã nhập, để bạn có thể xem lại các quy luật của chính mình dễ dàng hơn. Các bản tóm tắt do AI tạo ra này được xác định rõ ràng là như vậy. Chúng chỉ mang tính thông tin: chúng mô tả dữ liệu bạn đã ghi lại và không dự đoán, chẩn đoán hay đề xuất điều trị (xem Mục 11)." },
+        { "b": "Trí tuệ nhân tạo.", "p": "Phiên bản Chronic Friends này không gửi dữ liệu sức khỏe của bạn tới bất kỳ dịch vụ trí tuệ nhân tạo nào. Không có nội dung nào bạn ghi lại được truyền tới nhà cung cấp AI bên thứ ba, và không có tính năng AI nào đang hoạt động trong ứng dụng." },
+        { "p": "Nếu một ngày chúng tôi giới thiệu tính năng thực sự gửi dữ liệu của bạn tới một nhà cung cấp AI, chúng tôi sẽ không âm thầm bật nó. Trước tiên chúng tôi sẽ cập nhật chính sách này để nêu rõ nhà cung cấp, dữ liệu liên quan, nơi xử lý và thời gian lưu giữ, đồng thời xin sự đồng ý riêng và rõ ràng của bạn trước khi dù chỉ một mục ghi rời khỏi thiết bị. Bạn có thể rút lại sự đồng ý đó bất cứ lúc nào, và việc từ chối sẽ không bao giờ chặn phần còn lại của ứng dụng. Mọi tính năng như vậy chỉ mang tính thông tin: nó mô tả dữ liệu do chính bạn ghi lại và không dự đoán, chẩn đoán hay khuyến nghị điều trị (xem Mục 11)." },
         { "p": "Chúng tôi không bao giờ bán dữ liệu của bạn và không bao giờ dùng cho quảng cáo." }
       ]},
       { "t": "Cơ sở pháp lý", "b": [
@@ -1386,7 +1401,7 @@ window.CF_PRIVACY_T = {
           "Radar, bản đồ cơ thể, biểu đồ và xu hướng trực quan hóa dữ liệu do chính bạn nhập. Chúng không dự đoán, chẩn đoán hay phát hiện bất kỳ bệnh hoặc tình trạng y tế nào.",
           "Việc chọn (các) tình trạng bạn theo dõi chỉ cá nhân hóa các công cụ theo dõi mà bạn nhìn thấy. Đó không phải là chẩn đoán, và Chronic Friends không đưa ra lời khuyên y tế.",
           "Bất kỳ chỉ số nào bạn nhập từ thiết bị tại nhà của mình (như huyết áp, lưu lượng đỉnh hoặc glucose) chỉ được hiển thị dưới dạng một dòng thời gian đơn giản về những gì bạn đã nhập, không có khoảng tham chiếu, không có vùng màu, không có nhãn \"cao/thấp/bình thường\" và không có cảnh báo hay diễn giải.",
-          "Các bản tóm tắt do AI tạo ra mô tả dữ liệu bạn đã ghi lại bằng ngôn ngữ dễ hiểu. Chúng chỉ mang tính thông tin và không dự đoán các đợt bùng phát, chẩn đoán hay đề xuất điều trị.",
+          "Phiên bản ứng dụng này không sử dụng trí tuệ nhân tạo trên dữ liệu sức khỏe của bạn và không gửi dữ liệu đó tới bất kỳ nhà cung cấp AI nào.",
           "Hãy luôn tìm lời khuyên của bác sĩ hoặc chuyên gia y tế đủ điều kiện khác cho bất kỳ thắc mắc nào về tình trạng của bạn, và đừng bao giờ bỏ qua lời khuyên y tế chuyên nghiệp vì điều gì đó bạn thấy trong ứng dụng.",
           "Các buổi tư vấn trực tuyến do các chuyên gia độc lập, có giấy phép thực hiện và chỉ có sẵn ở nơi mà một bác sĩ đã được xác minh có giấy phép tại vị trí của bạn.",
           "Trong trường hợp khẩn cấp, hãy gọi dịch vụ cấp cứu tại địa phương của bạn."
@@ -1404,7 +1419,7 @@ window.CF_PRIVACY_T = {
   "zh": {
     "legal": "隐私",
     "title": "隐私政策",
-    "updated": "最后更新：2026年7月21日 · 版本：2.3",
+    "updated": "最后更新：2026年7月27日 · 版本：2.4",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1426,7 +1441,8 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "我们如何使用你的数据", "b": [
         { "p": "我们使用你的数据来：运行你的账户；提供健康和自我追踪功能；运营社区和消息功能；启用视频咨询；管理订阅和付款；验证医生；保持应用安全；改进应用；并向你发送重要的服务通知。" },
-        { "p": "某些功能使用人工智能，为你所输入数据中的图表和趋势生成通俗易懂的描述，以便你更轻松地查看自己的规律。这些由 AI 生成的摘要会被清晰地标示为如此。它们仅供参考：它们描述你自己记录的数据，不进行预测、诊断或治疗建议(见第 11 节)。" },
+        { "b": "人工智能。", "p": "本版本的 Chronic Friends 不会将你的健康数据发送给任何人工智能服务。你记录的任何内容都不会传输给第三方 AI 提供商，应用中也没有启用任何 AI 功能。" },
+        { "p": "如果我们今后推出确实会把你的数据发送给 AI 提供商的功能，我们不会悄悄开启。我们会先更新本政策，写明提供商、所涉数据、处理地点和保存期限，并在任何一条记录离开你的设备之前，单独征得你的明确同意。你可以随时撤回该同意，拒绝也绝不会影响应用的其他功能。此类功能仅供参考：它只描述你自己记录的数据，不会预测、诊断或推荐治疗（见第 11 节）。" },
         { "p": "我们绝不出售你的数据，也绝不将其用于广告。" }
       ]},
       { "t": "法律依据", "b": [
@@ -1479,7 +1495,7 @@ window.CF_PRIVACY_T = {
           "雷达、身体地图、图表和趋势将你自己输入的数据可视化。它们不预测、不诊断，也不检测任何疾病或医疗状况。",
           "选择你关注哪些病症只会个性化你所看到的追踪器。这不是诊断，Chronic Friends 也不提供医疗建议。",
           "你从家用设备输入的任何读数(如血压、呼气峰流速或血糖)仅以你所输入内容的简单时间线形式显示，没有参考范围、没有颜色区域、没有“高/低/正常”标签，也没有任何警报或解读。",
-          "由 AI 生成的摘要以通俗语言描述你记录的数据。它们仅供参考，不预测发作、不诊断，也不建议治疗。",
+          "本版本的应用不会对你的健康数据使用人工智能，也不会将其发送给任何 AI 提供商。",
           "对于有关你病症的任何问题，请始终征求你的医生或其他合格医疗专业人员的意见，切勿因在应用中看到的内容而忽视专业医疗建议。",
           "在线咨询由独立、持证的专业人员进行，且仅在经验证的医生在你所在地持证时可用。",
           "在紧急情况下，请拨打你当地的紧急服务电话。"
