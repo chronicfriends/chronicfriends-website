@@ -1,0 +1,5 @@
+# www.chronicfriends.org
+User-agent: *
+Allow: /
+
+Sitemap: https://www.chronicfriends.org/sitemap.xml
