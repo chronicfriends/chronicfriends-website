@@ -1,4 +1,4 @@
-/* Chronic Friends — Privacy Policy (v2.4), translated for all 16 supported languages.
+/* Chronic Friends — Privacy Policy (v2.5), translated for all 16 supported languages.
    Consumed by "Crohn Friends Landing.dc.html" (renderLegal). Shared by patient
    and doctor sections — the modal reads the page's currently selected language.
    Brand names, provider names, law names (GDPR, revFADP, CCPA/CPRA, My Health My
@@ -9,7 +9,7 @@ window.CF_PRIVACY_T = {
   "en": {
     "legal": "Privacy",
     "title": "Privacy Policy",
-    "updated": "Last updated: 27 July 2026 · Version: 2.4",
+    "updated": "Last updated: 28 July 2026 · Version: 2.5",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -21,7 +21,9 @@ window.CF_PRIVACY_T = {
       { "t": "What data we collect", "b": [
         { "ul": [
           { "b": "Account / profile:", "t": " email, username, encrypted password, language, country." },
-          { "b": "Health & wellness data (special category):", "t": " the condition(s) you choose to follow; symptom and wellness check-ins; journal entries and notes about how you feel; food logging and scanning; and the parameters you enter for self-tracking and visualization — including body-map entries, the inputs shown in the symptom/wellness radar, energy and fatigue logs, and any readings you type in yourself from your own home devices (for example blood pressure, peak flow, or glucose). All of this is data you enter yourself." },
+          { "b": "Health & wellness data (special category):", "t": " the condition(s) you choose to follow; symptom and wellness check-ins; journal entries and notes about how you feel; food logging and scanning; and the parameters you enter for self-tracking and visualization — including body-map entries, the inputs shown in the symptom/wellness radar, energy and fatigue logs, and any readings you type in yourself from your own home devices (for example blood pressure, peak flow, or glucose). All of this is data you enter yourself. The only exception is Health Sync, described next, which reads from your phone's own health store if you switch it on." },
+          { "b": "Health Sync — readings from your phone's health store (optional, off until you turn it on):", "t": " if you enable Health Sync and grant permission in your phone's own system dialog, the app reads your step count, sleep duration and activity minutes — and, only if your device records them, resting heart rate and heart-rate variability — from Apple Health (HealthKit) on iPhone or Health Connect on Android. Three things about this: it is read-only (we never write anything into Apple Health or Health Connect); those readings stay on your device and are never uploaded to our servers, so they are shown next to your journal and can appear in a PDF report that you choose to generate, but we do not receive them; and if a day has no data, the app says so instead of estimating a value. You can withdraw this permission at any time from your phone's settings, and the rest of the app keeps working exactly the same." },
+          { "b": "Self-assessment questionnaires (optional):", "t": " the answers you give to standardised questionnaires you choose to complete — such as the PHQ-9, the GAD-7, the AUDIT-C or a condition activity index — and the score they add up to. You choose whether to open one and you can delete the result afterwards. These questionnaires are reproduced from their official published versions and the app shows you the score without interpreting it (see Section 11)." },
           { "b": "Community:", "t": " posts and private messages." },
           { "b": "Teleconsultation:", "t": " appointment details, communications with doctors, and any health information you choose to share. We do not record video consultations." },
           { "b": "Subscription / payment:", "t": " subscription status via RevenueCat; charges via Apple / Google; consultation payments via Stripe. We never store card details." },
@@ -56,6 +58,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Where your data is stored, and international transfers", "b": [
         { "p": "Your account and health data are stored on Google Cloud / Firebase servers located in the European Union (Frankfurt, Germany — region europe-west3). We deliberately chose an EU region so that health data stays within Europe under the GDPR and the Swiss revFADP. This location is permanent." },
+        { "p": "One thing never leaves your phone: the readings Health Sync takes from Apple Health or Health Connect (steps, sleep, activity minutes) are stored only on your device. They are not sent to Firebase, they do not reach our servers, and they are not transferred anywhere. If you delete the app, they go with it." },
         { "p": "A limited set of providers may process certain non-health data outside Switzerland or the EEA (for example, in the United States): RevenueCat (subscription status), Stripe (doctor verification and consultation payments), and Apple / Google (billing and app distribution). Where this happens, we rely on safeguards such as Standard Contractual Clauses (SCCs) or the EU–US / Swiss–US Data Privacy Framework." }
       ]},
       { "t": "Retention", "b": [
@@ -85,6 +88,7 @@ window.CF_PRIVACY_T = {
           "The radar, body map, graphs, and trends visualize the data you enter yourself. They do not predict, diagnose, or detect any disease or medical condition.",
           "Choosing which condition(s) you follow only personalizes which trackers you see. It is not a diagnosis, and Chronic Friends does not provide medical advice.",
           "Any readings you type in from your own home devices (such as blood pressure, peak flow, or glucose) are shown only as a simple timeline of what you entered, with no reference ranges, no colour zones, no \"high/low/normal\" labels, and no alerts or interpretation.",
+          "Standardised questionnaires (such as the PHQ-9, the GAD-7, the AUDIT-C, or a condition activity index) are self-assessment tools, reproduced from their official published versions and offered only in the languages in which an official translation exists. The app shows you the score you obtained and does not interpret it: it assigns no severity category, no risk level, and no clinical threshold, it raises no alert, and no other feature of the app reads that score to change what you are shown. A score is not a diagnosis. It is there for you to discuss with your doctor.",
           "This version of the app does not use artificial intelligence on your health data, and does not send it to any AI provider.",
           "Always seek the advice of your physician or another qualified health professional with any questions about your condition, and never disregard professional medical advice because of something you saw in the app.",
           "Online consultations are conducted by independent, licensed professionals and are only available where a verified doctor is licensed in your location.",
@@ -103,7 +107,7 @@ window.CF_PRIVACY_T = {
   "es": {
     "legal": "Privacidad",
     "title": "Política de Privacidad",
-    "updated": "Última actualización: 27 de julio de 2026 · Versión: 2.4",
+    "updated": "Última actualización: 28 de julio de 2026 · Versión: 2.5",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -115,7 +119,9 @@ window.CF_PRIVACY_T = {
       { "t": "Qué datos recopilamos", "b": [
         { "ul": [
           { "b": "Cuenta / perfil:", "t": " correo electrónico, nombre de usuario, contraseña cifrada, idioma, país." },
-          { "b": "Datos de salud y bienestar (categoría especial):", "t": " la(s) afección(es) que elijas seguir; los registros de síntomas y bienestar; las entradas del diario y las notas sobre cómo te sientes; el registro y escaneo de alimentos; y los parámetros que introduces para el autoseguimiento y la visualización, incluidas las entradas del mapa corporal, los datos que se muestran en el radar de síntomas/bienestar, los registros de energía y fatiga, y cualquier medición que introduzcas tú mismo desde tus propios dispositivos domésticos (por ejemplo, presión arterial, flujo espiratorio máximo o glucosa). Todos estos son datos que introduces tú mismo." },
+          { "b": "Datos de salud y bienestar (categoría especial):", "t": " la(s) afección(es) que elijas seguir; los registros de síntomas y bienestar; las entradas del diario y las notas sobre cómo te sientes; el registro y escaneo de alimentos; y los parámetros que introduces para el autoseguimiento y la visualización, incluidas las entradas del mapa corporal, los datos que se muestran en el radar de síntomas/bienestar, los registros de energía y fatiga, y cualquier medición que introduzcas tú mismo desde tus propios dispositivos domésticos (por ejemplo, presión arterial, flujo espiratorio máximo o glucosa). Todos estos son datos que introduces tú mismo. La única excepción es Health Sync, que se describe a continuación y que lee del propio almacén de salud de tu teléfono si lo activas." },
+          { "b": "Health Sync — lecturas del almacén de salud de tu teléfono (opcional, desactivado hasta que tú lo actives):", "t": " si activas Health Sync y concedes el permiso en el propio diálogo del sistema de tu teléfono, la aplicación lee tus pasos, la duración del sueño y los minutos de actividad —y, solo si tu dispositivo los registra, la frecuencia cardíaca en reposo y la variabilidad de la frecuencia cardíaca— de Apple Health (HealthKit) en iPhone o de Health Connect en Android. Tres cosas al respecto: es solo de lectura (nunca escribimos nada en Apple Health ni en Health Connect); esas lecturas permanecen en tu dispositivo y nunca se suben a nuestros servidores, por lo que se muestran junto a tu diario y pueden aparecer en un informe PDF que tú decidas generar, pero nosotros no las recibimos; y si un día no tiene datos, la aplicación lo indica en lugar de estimar un valor. Puedes retirar este permiso en cualquier momento desde los ajustes de tu teléfono, y el resto de la aplicación sigue funcionando exactamente igual." },
+          { "b": "Cuestionarios de autoevaluación (opcional):", "t": " las respuestas que das a cuestionarios estandarizados que eliges completar —como el PHQ-9, el GAD-7, el AUDIT-C o un índice de actividad de la enfermedad— y la puntuación que suman. Tú decides si abres uno y puedes eliminar el resultado después. Estos cuestionarios se reproducen a partir de sus versiones oficiales publicadas y la aplicación te muestra la puntuación sin interpretarla (consulta la Sección 11)." },
           { "b": "Comunidad:", "t": " publicaciones y mensajes privados." },
           { "b": "Teleconsulta:", "t": " detalles de las citas, comunicaciones con los médicos y cualquier información de salud que elijas compartir. No grabamos las videoconsultas." },
           { "b": "Suscripción / pago:", "t": " estado de la suscripción a través de RevenueCat; cargos a través de Apple / Google; pagos de consultas a través de Stripe. Nunca almacenamos los datos de la tarjeta." },
@@ -150,6 +156,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Dónde se almacenan tus datos y transferencias internacionales", "b": [
         { "p": "Tus datos de cuenta y de salud se almacenan en servidores de Google Cloud / Firebase ubicados en la Unión Europea (Fráncfort, Alemania — región europe-west3). Elegimos deliberadamente una región de la UE para que los datos de salud permanezcan dentro de Europa bajo el GDPR y la revFADP suiza. Esta ubicación es permanente." },
+        { "p": "Hay algo que nunca sale de tu teléfono: las lecturas que Health Sync toma de Apple Health o Health Connect (pasos, sueño, minutos de actividad) se almacenan únicamente en tu dispositivo. No se envían a Firebase, no llegan a nuestros servidores y no se transfieren a ningún sitio. Si eliminas la aplicación, desaparecen con ella." },
         { "p": "Un conjunto limitado de proveedores puede tratar determinados datos que no son de salud fuera de Suiza o del EEE (por ejemplo, en Estados Unidos): RevenueCat (estado de la suscripción), Stripe (verificación de médicos y pagos de consultas) y Apple / Google (facturación y distribución de la app). Cuando esto ocurre, nos basamos en salvaguardas como las Cláusulas Contractuales Tipo (SCC) o el marco de privacidad de datos UE–EE. UU. / Suiza–EE. UU." }
       ]},
       { "t": "Conservación", "b": [
@@ -179,6 +186,7 @@ window.CF_PRIVACY_T = {
           "El radar, el mapa corporal, los gráficos y las tendencias visualizan los datos que introduces tú mismo. No predicen, diagnostican ni detectan ninguna enfermedad o afección médica.",
           "Elegir qué afección(es) sigues solo personaliza los rastreadores que ves. No es un diagnóstico, y Chronic Friends no ofrece consejo médico.",
           "Cualquier medición que introduzcas desde tus propios dispositivos domésticos (como la presión arterial, el flujo espiratorio máximo o la glucosa) se muestra únicamente como una simple línea de tiempo de lo que has introducido, sin rangos de referencia, sin zonas de color, sin etiquetas de \"alto/bajo/normal\" y sin alertas ni interpretación.",
+          "Los cuestionarios estandarizados (como el PHQ-9, el GAD-7, el AUDIT-C o un índice de actividad de la enfermedad) son herramientas de autoevaluación, reproducidas a partir de sus versiones oficiales publicadas y ofrecidas solo en los idiomas en los que existe una traducción oficial. La aplicación te muestra la puntuación que has obtenido y no la interpreta: no asigna ninguna categoría de gravedad, ningún nivel de riesgo ni ningún umbral clínico, no genera ninguna alerta y ninguna otra función de la aplicación lee esa puntuación para cambiar lo que ves. Una puntuación no es un diagnóstico. Está ahí para que la comentes con tu médico.",
           "Esta versión de la aplicación no utiliza inteligencia artificial sobre tus datos de salud ni los envía a ningún proveedor de IA.",
           "Consulta siempre a tu médico o a otro profesional de la salud cualificado ante cualquier duda sobre tu afección, y nunca ignores el consejo médico profesional por algo que hayas visto en la app.",
           "Las consultas en línea las realizan profesionales independientes y con licencia, y solo están disponibles donde un médico verificado tenga licencia en tu ubicación.",
@@ -197,7 +205,7 @@ window.CF_PRIVACY_T = {
   "ca": {
     "legal": "Privadesa",
     "title": "Política de privadesa",
-    "updated": "Última actualització: 27 de juliol de 2026 · Versió: 2.4",
+    "updated": "Última actualització: 28 de juliol de 2026 · Versió: 2.5",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -209,7 +217,9 @@ window.CF_PRIVACY_T = {
       { "t": "Quines dades recopilem", "b": [
         { "ul": [
           { "b": "Compte / perfil:", "t": " correu electrònic, nom d'usuari, contrasenya xifrada, idioma, país." },
-          { "b": "Dades de salut i benestar (categoria especial):", "t": " l'afecció o afeccions que triïs seguir; els registres de símptomes i benestar; les entrades del diari i les notes sobre com et sents; el registre i l'escaneig d'aliments; i els paràmetres que introdueixes per a l'autoseguiment i la visualització, incloses les entrades del mapa corporal, les dades que es mostren al radar de símptomes/benestar, els registres d'energia i fatiga, i qualsevol mesura que introdueixis tu mateix des dels teus propis dispositius domèstics (per exemple, pressió arterial, flux espiratori màxim o glucosa). Totes aquestes són dades que introdueixes tu mateix." },
+          { "b": "Dades de salut i benestar (categoria especial):", "t": " l'afecció o afeccions que triïs seguir; els registres de símptomes i benestar; les entrades del diari i les notes sobre com et sents; el registre i l'escaneig d'aliments; i els paràmetres que introdueixes per a l'autoseguiment i la visualització, incloses les entrades del mapa corporal, les dades que es mostren al radar de símptomes/benestar, els registres d'energia i fatiga, i qualsevol mesura que introdueixis tu mateix des dels teus propis dispositius domèstics (per exemple, pressió arterial, flux espiratori màxim o glucosa). Totes aquestes són dades que introdueixes tu mateix. L'única excepció és Health Sync, que es descriu a continuació i que llegeix del magatzem de salut del teu propi telèfon si l'actives." },
+          { "b": "Health Sync — lectures del magatzem de salut del teu telèfon (opcional, desactivat fins que l'actives):", "t": " si actives Health Sync i concedeixes el permís en el diàleg del sistema del teu propi telèfon, l'aplicació llegeix els teus passos, la durada del son i els minuts d'activitat —i, només si el teu dispositiu els registra, la freqüència cardíaca en repòs i la variabilitat de la freqüència cardíaca— d'Apple Health (HealthKit) a l'iPhone o de Health Connect a Android. Tres coses sobre això: només és de lectura (mai no escrivim res a Apple Health ni a Health Connect); aquestes lectures es queden al teu dispositiu i no es pugen mai als nostres servidors, de manera que es mostren al costat del teu diari i poden aparèixer en un informe PDF que decideixis generar, però nosaltres no les rebem; i si un dia no té dades, l'aplicació ho diu en lloc d'estimar un valor. Pots retirar aquest permís en qualsevol moment des dels ajustos del telèfon, i la resta de l'aplicació continua funcionant exactament igual." },
+          { "b": "Qüestionaris d'autoavaluació (opcional):", "t": " les respostes que dones a qüestionaris estandarditzats que decideixes completar —com el PHQ-9, el GAD-7, l'AUDIT-C o un índex d'activitat de la malaltia— i la puntuació que sumen. Tu decideixes si n'obres un i pots eliminar-ne el resultat després. Aquests qüestionaris es reprodueixen a partir de les seves versions oficials publicades i l'aplicació et mostra la puntuació sense interpretar-la (consulta la Secció 11)." },
           { "b": "Comunitat:", "t": " publicacions i missatges privats." },
           { "b": "Teleconsulta:", "t": " detalls de les cites, comunicacions amb els metges i qualsevol informació de salut que triïs compartir. No enregistrem les videoconsultes." },
           { "b": "Subscripció / pagament:", "t": " estat de la subscripció mitjançant RevenueCat; càrrecs mitjançant Apple / Google; pagaments de consultes mitjançant Stripe. Mai no emmagatzemem les dades de la targeta." },
@@ -244,6 +254,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "On s'emmagatzemen les teves dades i transferències internacionals", "b": [
         { "p": "Les teves dades de compte i de salut s'emmagatzemen en servidors de Google Cloud / Firebase ubicats a la Unió Europea (Frankfurt, Alemanya — regió europe-west3). Vam triar deliberadament una regió de la UE perquè les dades de salut es mantinguin dins d'Europa sota el GDPR i la revFADP suïssa. Aquesta ubicació és permanent." },
+        { "p": "Hi ha una cosa que no surt mai del teu telèfon: les lectures que Health Sync pren d'Apple Health o de Health Connect (passos, son, minuts d'activitat) s'emmagatzemen només al teu dispositiu. No s'envien a Firebase, no arriben als nostres servidors i no es transfereixen enlloc. Si esborres l'aplicació, desapareixen amb ella." },
         { "p": "Un conjunt limitat de proveïdors pot tractar determinades dades que no són de salut fora de Suïssa o de l'EEE (per exemple, als Estats Units): RevenueCat (estat de la subscripció), Stripe (verificació de metges i pagaments de consultes) i Apple / Google (facturació i distribució de l'app). Quan això passa, ens basem en salvaguardes com les Clàusules Contractuals Tipus (SCC) o el marc de privadesa de dades UE–EUA / Suïssa–EUA." }
       ]},
       { "t": "Conservació", "b": [
@@ -273,6 +284,7 @@ window.CF_PRIVACY_T = {
           "El radar, el mapa corporal, els gràfics i les tendències visualitzen les dades que introdueixes tu mateix. No prediuen, diagnostiquen ni detecten cap malaltia o afecció mèdica.",
           "Triar quines afeccions segueixes només personalitza els rastrejadors que veus. No és un diagnòstic, i Chronic Friends no ofereix consell mèdic.",
           "Qualsevol mesura que introdueixis des dels teus propis dispositius domèstics (com la pressió arterial, el flux espiratori màxim o la glucosa) es mostra únicament com una simple línia de temps del que has introduït, sense rangs de referència, sense zones de color, sense etiquetes d'\"alt/baix/normal\" i sense alertes ni interpretació.",
+          "Els qüestionaris estandarditzats (com el PHQ-9, el GAD-7, l'AUDIT-C o un índex d'activitat de la malaltia) són eines d'autoavaluació, reproduïdes a partir de les seves versions oficials publicades i ofertes només en els idiomes en què existeix una traducció oficial. L'aplicació et mostra la puntuació que has obtingut i no la interpreta: no assigna cap categoria de gravetat, cap nivell de risc ni cap llindar clínic, no genera cap alerta i cap altra funció de l'aplicació no llegeix aquesta puntuació per canviar el que veus. Una puntuació no és un diagnòstic. Hi és perquè la comentis amb el teu metge.",
           "Aquesta versió de l'aplicació no utilitza intel·ligència artificial sobre les teves dades de salut ni les envia a cap proveïdor d'IA.",
           "Consulta sempre el teu metge o un altre professional de la salut qualificat davant qualsevol dubte sobre la teva afecció, i no ignoris mai el consell mèdic professional per alguna cosa que hagis vist a l'app.",
           "Les consultes en línia les fan professionals independents i amb llicència, i només estan disponibles allà on un metge verificat tingui llicència a la teva ubicació.",
@@ -291,7 +303,7 @@ window.CF_PRIVACY_T = {
   "fr": {
     "legal": "Confidentialité",
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 27 juillet 2026 · Version : 2.4",
+    "updated": "Dernière mise à jour : 28 juillet 2026 · Version : 2.5",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -303,7 +315,9 @@ window.CF_PRIVACY_T = {
       { "t": "Quelles données nous collectons", "b": [
         { "ul": [
           { "b": "Compte / profil :", "t": " e-mail, nom d'utilisateur, mot de passe chiffré, langue, pays." },
-          { "b": "Données de santé et de bien-être (catégorie particulière) :", "t": " la ou les affections que vous choisissez de suivre ; les bilans de symptômes et de bien-être ; les entrées du journal et les notes sur votre ressenti ; l'enregistrement et le scan des aliments ; et les paramètres que vous saisissez pour le suivi personnel et la visualisation — y compris les entrées de la cartographie corporelle, les données affichées dans le radar de symptômes/bien-être, les journaux d'énergie et de fatigue, et toute mesure que vous saisissez vous-même à partir de vos propres appareils domestiques (par exemple, tension artérielle, débit de pointe ou glycémie). Toutes ces données sont saisies par vous-même." },
+          { "b": "Données de santé et de bien-être (catégorie particulière) :", "t": " la ou les affections que vous choisissez de suivre ; les bilans de symptômes et de bien-être ; les entrées du journal et les notes sur votre ressenti ; l'enregistrement et le scan des aliments ; et les paramètres que vous saisissez pour le suivi personnel et la visualisation — y compris les entrées de la cartographie corporelle, les données affichées dans le radar de symptômes/bien-être, les journaux d'énergie et de fatigue, et toute mesure que vous saisissez vous-même à partir de vos propres appareils domestiques (par exemple, tension artérielle, débit de pointe ou glycémie). Toutes ces données sont saisies par vous-même. La seule exception est Health Sync, décrit ci-dessous, qui lit dans le magasin de santé de votre propre téléphone si vous l'activez." },
+          { "b": "Health Sync — relevés issus du magasin de santé de votre téléphone (facultatif, désactivé jusqu'à ce que vous l'activiez) :", "t": " si vous activez Health Sync et accordez l'autorisation dans la boîte de dialogue système de votre téléphone, l'application lit votre nombre de pas, votre durée de sommeil et vos minutes d'activité — et, uniquement si votre appareil les enregistre, votre fréquence cardiaque au repos et votre variabilité de la fréquence cardiaque — depuis Apple Health (HealthKit) sur iPhone ou Health Connect sur Android. Trois précisions : l'accès est en lecture seule (nous n'écrivons jamais rien dans Apple Health ni dans Health Connect) ; ces relevés restent sur votre appareil et ne sont jamais téléversés vers nos serveurs, de sorte qu'ils s'affichent à côté de votre journal et peuvent figurer dans un rapport PDF que vous choisissez de générer, mais nous ne les recevons pas ; et si une journée n'a pas de données, l'application le signale au lieu d'estimer une valeur. Vous pouvez retirer cette autorisation à tout moment dans les réglages de votre téléphone, et le reste de l'application continue de fonctionner exactement de la même manière." },
+          { "b": "Questionnaires d'auto-évaluation (facultatif) :", "t": " les réponses que vous donnez à des questionnaires standardisés que vous choisissez de remplir — comme le PHQ-9, le GAD-7, l'AUDIT-C ou un indice d'activité de la maladie — et le score qu'elles totalisent. Vous décidez d'en ouvrir un ou non et vous pouvez supprimer le résultat ensuite. Ces questionnaires sont reproduits à partir de leurs versions officielles publiées et l'application vous montre le score sans l'interpréter (voir la Section 11)." },
           { "b": "Communauté :", "t": " publications et messages privés." },
           { "b": "Téléconsultation :", "t": " détails des rendez-vous, communications avec les médecins et toute information de santé que vous choisissez de partager. Nous n'enregistrons pas les consultations vidéo." },
           { "b": "Abonnement / paiement :", "t": " statut de l'abonnement via RevenueCat ; facturation via Apple / Google ; paiements des consultations via Stripe. Nous ne stockons jamais les données de carte." },
@@ -338,6 +352,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Où vos données sont stockées, et transferts internationaux", "b": [
         { "p": "Vos données de compte et de santé sont stockées sur des serveurs Google Cloud / Firebase situés dans l'Union européenne (Francfort, Allemagne — région europe-west3). Nous avons délibérément choisi une région de l'UE afin que les données de santé restent en Europe, sous le régime du GDPR et de la revFADP suisse. Cet emplacement est permanent." },
+        { "p": "Une chose ne quitte jamais votre téléphone : les relevés que Health Sync prend dans Apple Health ou Health Connect (pas, sommeil, minutes d'activité) sont stockés uniquement sur votre appareil. Ils ne sont pas envoyés à Firebase, ils n'atteignent pas nos serveurs et ils ne sont transférés nulle part. Si vous supprimez l'application, ils disparaissent avec elle." },
         { "p": "Un ensemble limité de prestataires peut traiter certaines données non liées à la santé en dehors de la Suisse ou de l'EEE (par exemple, aux États-Unis) : RevenueCat (statut de l'abonnement), Stripe (vérification des médecins et paiements des consultations) et Apple / Google (facturation et distribution de l'application). Lorsque c'est le cas, nous nous appuyons sur des garanties telles que les Clauses Contractuelles Types (CCT) ou le cadre de protection des données UE–États-Unis / Suisse–États-Unis." }
       ]},
       { "t": "Conservation", "b": [
@@ -367,6 +382,7 @@ window.CF_PRIVACY_T = {
           "Le radar, la cartographie corporelle, les graphiques et les tendances visualisent les données que vous saisissez vous-même. Ils ne prédisent, ne diagnostiquent ni ne détectent aucune maladie ou affection médicale.",
           "Choisir la ou les affections que vous suivez ne fait que personnaliser les outils de suivi que vous voyez. Ce n'est pas un diagnostic, et Chronic Friends ne fournit pas d'avis médical.",
           "Toute mesure que vous saisissez à partir de vos propres appareils domestiques (comme la tension artérielle, le débit de pointe ou la glycémie) est affichée uniquement sous forme de simple chronologie de ce que vous avez saisi, sans plages de référence, sans zones de couleur, sans étiquettes « élevé/bas/normal » et sans alertes ni interprétation.",
+          "Les questionnaires standardisés (comme le PHQ-9, le GAD-7, l'AUDIT-C ou un indice d'activité de la maladie) sont des outils d'auto-évaluation, reproduits à partir de leurs versions officielles publiées et proposés uniquement dans les langues pour lesquelles une traduction officielle existe. L'application vous montre le score obtenu et ne l'interprète pas : elle n'attribue aucune catégorie de sévérité, aucun niveau de risque et aucun seuil clinique, elle ne déclenche aucune alerte, et aucune autre fonctionnalité de l'application ne lit ce score pour modifier ce qui vous est présenté. Un score n'est pas un diagnostic. Il est là pour que vous en parliez avec votre médecin.",
           "Cette version de l'application n'utilise pas d'intelligence artificielle sur vos données de santé et ne les envoie à aucun fournisseur d'IA.",
           "Demandez toujours l'avis de votre médecin ou d'un autre professionnel de santé qualifié pour toute question concernant votre affection, et ne négligez jamais un avis médical professionnel à cause de quelque chose que vous avez vu dans l'application.",
           "Les consultations en ligne sont menées par des professionnels indépendants et agréés, et ne sont disponibles que là où un médecin vérifié est autorisé à exercer dans votre localité.",
@@ -385,7 +401,7 @@ window.CF_PRIVACY_T = {
   "de": {
     "legal": "Datenschutz",
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 27. Juli 2026 · Version: 2.4",
+    "updated": "Zuletzt aktualisiert: 28. Juli 2026 · Version: 2.5",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -397,7 +413,9 @@ window.CF_PRIVACY_T = {
       { "t": "Welche Daten wir erheben", "b": [
         { "ul": [
           { "b": "Konto / Profil:", "t": " E-Mail, Benutzername, verschlüsseltes Passwort, Sprache, Land." },
-          { "b": "Gesundheits- und Wohlbefindensdaten (besondere Kategorie):", "t": " die Erkrankung(en), der bzw. denen Sie folgen möchten; Symptom- und Wohlbefindens-Check-ins; Tagebucheinträge und Notizen darüber, wie Sie sich fühlen; Ernährungsprotokolle und -scans; sowie die Parameter, die Sie für das Selbst-Tracking und die Visualisierung eingeben – einschließlich Einträgen in der Körperkarte, der im Symptom-/Wohlbefindens-Radar angezeigten Eingaben, Energie- und Erschöpfungsprotokollen sowie aller Messwerte, die Sie selbst von Ihren eigenen Heimgeräten eingeben (zum Beispiel Blutdruck, Peak-Flow oder Glukose). All dies sind Daten, die Sie selbst eingeben." },
+          { "b": "Gesundheits- und Wohlbefindensdaten (besondere Kategorie):", "t": " die Erkrankung(en), der bzw. denen Sie folgen möchten; Symptom- und Wohlbefindens-Check-ins; Tagebucheinträge und Notizen darüber, wie Sie sich fühlen; Ernährungsprotokolle und -scans; sowie die Parameter, die Sie für das Selbst-Tracking und die Visualisierung eingeben – einschließlich Einträgen in der Körperkarte, der im Symptom-/Wohlbefindens-Radar angezeigten Eingaben, Energie- und Erschöpfungsprotokollen sowie aller Messwerte, die Sie selbst von Ihren eigenen Heimgeräten eingeben (zum Beispiel Blutdruck, Peak-Flow oder Glukose). All dies sind Daten, die Sie selbst eingeben. Die einzige Ausnahme ist Health Sync, das im Folgenden beschrieben wird und aus dem Gesundheitsspeicher Ihres eigenen Telefons liest, wenn Sie es einschalten." },
+          { "b": "Health Sync — Werte aus dem Gesundheitsspeicher Ihres Telefons (optional, aus, bis Sie es einschalten):", "t": " wenn Sie Health Sync aktivieren und die Berechtigung im Systemdialog Ihres Telefons erteilen, liest die App Ihre Schrittzahl, Ihre Schlafdauer und Ihre Aktivitätsminuten — und, nur sofern Ihr Gerät sie erfasst, Ihren Ruhepuls und Ihre Herzfrequenzvariabilität — aus Apple Health (HealthKit) auf dem iPhone oder aus Health Connect auf Android. Drei Punkte dazu: Der Zugriff erfolgt nur lesend (wir schreiben niemals etwas in Apple Health oder Health Connect); diese Werte bleiben auf Ihrem Gerät und werden nie auf unsere Server hochgeladen — sie erscheinen neben Ihrem Tagebuch und können in einem PDF-Bericht auftauchen, den Sie selbst erstellen, aber wir erhalten sie nicht; und liegen für einen Tag keine Daten vor, sagt die App das, anstatt einen Wert zu schätzen. Sie können diese Berechtigung jederzeit in den Einstellungen Ihres Telefons widerrufen, und der Rest der App funktioniert genau wie vorher." },
+          { "b": "Selbsteinschätzungs-Fragebögen (optional):", "t": " die Antworten, die Sie in standardisierten Fragebögen geben, die Sie freiwillig ausfüllen — etwa im PHQ-9, im GAD-7, im AUDIT-C oder in einem Krankheitsaktivitätsindex — und der daraus resultierende Punktwert. Sie entscheiden, ob Sie einen Fragebogen öffnen, und können das Ergebnis danach löschen. Diese Fragebögen werden aus ihren offiziell veröffentlichten Fassungen wiedergegeben, und die App zeigt Ihnen den Punktwert, ohne ihn zu interpretieren (siehe Abschnitt 11)." },
           { "b": "Community:", "t": " Beiträge und private Nachrichten." },
           { "b": "Telekonsultation:", "t": " Termindetails, Kommunikation mit Ärzten und alle Gesundheitsinformationen, die Sie teilen möchten. Wir zeichnen Videokonsultationen nicht auf." },
           { "b": "Abonnement / Zahlung:", "t": " Abonnementstatus über RevenueCat; Abrechnung über Apple / Google; Zahlungen für Konsultationen über Stripe. Wir speichern niemals Kartendaten." },
@@ -432,6 +450,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Wo Ihre Daten gespeichert werden, und internationale Übermittlungen", "b": [
         { "p": "Ihre Konto- und Gesundheitsdaten werden auf Servern von Google Cloud / Firebase gespeichert, die sich in der Europäischen Union befinden (Frankfurt, Deutschland – Region europe-west3). Wir haben bewusst eine EU-Region gewählt, damit Gesundheitsdaten gemäß der GDPR und der schweizerischen revFADP innerhalb Europas bleiben. Dieser Standort ist dauerhaft." },
+        { "p": "Eines verlässt Ihr Telefon nie: Die Werte, die Health Sync aus Apple Health oder Health Connect übernimmt (Schritte, Schlaf, Aktivitätsminuten), werden ausschließlich auf Ihrem Gerät gespeichert. Sie werden nicht an Firebase gesendet, erreichen unsere Server nicht und werden nirgendwohin übertragen. Wenn Sie die App löschen, verschwinden sie mit ihr." },
         { "p": "Eine begrenzte Zahl von Anbietern verarbeitet möglicherweise bestimmte nicht gesundheitsbezogene Daten außerhalb der Schweiz oder des EWR (zum Beispiel in den Vereinigten Staaten): RevenueCat (Abonnementstatus), Stripe (Ärzteverifizierung und Zahlungen für Konsultationen) und Apple / Google (Abrechnung und App-Vertrieb). In diesem Fall stützen wir uns auf Schutzmaßnahmen wie Standardvertragsklauseln (SCCs) oder das EU–US / Schweiz–US Data Privacy Framework." }
       ]},
       { "t": "Aufbewahrung", "b": [
@@ -461,6 +480,7 @@ window.CF_PRIVACY_T = {
           "Das Radar, die Körperkarte, die Diagramme und die Trends visualisieren die Daten, die Sie selbst eingeben. Sie sagen keine Krankheit oder keinen medizinischen Zustand voraus, diagnostizieren oder erkennen sie nicht.",
           "Die Auswahl der Erkrankung(en), der bzw. denen Sie folgen, personalisiert lediglich, welche Tracker Sie sehen. Es ist keine Diagnose, und Chronic Friends bietet keine medizinische Beratung.",
           "Alle Messwerte, die Sie von Ihren eigenen Heimgeräten eingeben (wie Blutdruck, Peak-Flow oder Glukose), werden nur als einfache Zeitleiste dessen angezeigt, was Sie eingegeben haben – ohne Referenzbereiche, ohne Farbzonen, ohne Kennzeichnungen wie „hoch/niedrig/normal“ und ohne Warnungen oder Interpretation.",
+          "Standardisierte Fragebögen (wie der PHQ-9, der GAD-7, der AUDIT-C oder ein Krankheitsaktivitätsindex) sind Selbsteinschätzungsinstrumente, die aus ihren offiziell veröffentlichten Fassungen wiedergegeben und nur in den Sprachen angeboten werden, für die eine offizielle Übersetzung vorliegt. Die App zeigt Ihnen den erreichten Punktwert und interpretiert ihn nicht: Sie ordnet keine Schweregradkategorie, kein Risikoniveau und keinen klinischen Grenzwert zu, löst keine Warnung aus, und keine andere Funktion der App liest diesen Wert, um die Anzeige zu verändern. Ein Punktwert ist keine Diagnose. Er ist dafür da, dass Sie ihn mit Ihrer Ärztin oder Ihrem Arzt besprechen.",
           "Diese Version der App verwendet keine künstliche Intelligenz für deine Gesundheitsdaten und sendet sie an keinen KI-Anbieter.",
           "Holen Sie bei allen Fragen zu Ihrer Erkrankung stets den Rat Ihres Arztes oder einer anderen qualifizierten medizinischen Fachkraft ein und missachten Sie professionellen medizinischen Rat niemals aufgrund von etwas, das Sie in der App gesehen haben.",
           "Online-Konsultationen werden von unabhängigen, zugelassenen Fachkräften durchgeführt und sind nur dort verfügbar, wo ein verifizierter Arzt an Ihrem Standort zugelassen ist.",
@@ -479,7 +499,7 @@ window.CF_PRIVACY_T = {
   "it": {
     "legal": "Privacy",
     "title": "Informativa sulla privacy",
-    "updated": "Ultimo aggiornamento: 27 luglio 2026 · Versione: 2.4",
+    "updated": "Ultimo aggiornamento: 28 luglio 2026 · Versione: 2.5",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -491,7 +511,9 @@ window.CF_PRIVACY_T = {
       { "t": "Quali dati raccogliamo", "b": [
         { "ul": [
           { "b": "Account / profilo:", "t": " e-mail, nome utente, password crittografata, lingua, Paese." },
-          { "b": "Dati sanitari e di benessere (categoria particolare):", "t": " la o le patologie che scegli di seguire; i check-in su sintomi e benessere; le voci del diario e le note su come ti senti; la registrazione e la scansione degli alimenti; e i parametri che inserisci per il monitoraggio personale e la visualizzazione, tra cui le voci della mappa corporea, i dati mostrati nel radar dei sintomi/benessere, i registri di energia e affaticamento e qualsiasi misurazione che inserisci tu stesso dai tuoi dispositivi domestici (ad esempio pressione sanguigna, picco di flusso espiratorio o glicemia). Tutti questi sono dati che inserisci tu stesso." },
+          { "b": "Dati sanitari e di benessere (categoria particolare):", "t": " la o le patologie che scegli di seguire; i check-in su sintomi e benessere; le voci del diario e le note su come ti senti; la registrazione e la scansione degli alimenti; e i parametri che inserisci per il monitoraggio personale e la visualizzazione, tra cui le voci della mappa corporea, i dati mostrati nel radar dei sintomi/benessere, i registri di energia e affaticamento e qualsiasi misurazione che inserisci tu stesso dai tuoi dispositivi domestici (ad esempio pressione sanguigna, picco di flusso espiratorio o glicemia). Tutti questi sono dati che inserisci tu stesso. L'unica eccezione è Health Sync, descritto qui di seguito, che legge dall'archivio salute del tuo telefono se lo attivi." },
+          { "b": "Health Sync — letture dall'archivio salute del tuo telefono (opzionale, disattivato finché non lo attivi):", "t": " se attivi Health Sync e concedi l'autorizzazione nella finestra di sistema del tuo telefono, l'app legge i tuoi passi, la durata del sonno e i minuti di attività — e, solo se il tuo dispositivo li registra, la frequenza cardiaca a riposo e la variabilità della frequenza cardiaca — da Apple Health (HealthKit) su iPhone o da Health Connect su Android. Tre precisazioni: l'accesso è in sola lettura (non scriviamo mai nulla in Apple Health o Health Connect); quelle letture restano sul tuo dispositivo e non vengono mai caricate sui nostri server, quindi sono mostrate accanto al tuo diario e possono comparire in un report PDF che scegli di generare, ma noi non le riceviamo; e se un giorno non ha dati, l'app lo dice invece di stimare un valore. Puoi revocare questa autorizzazione in qualsiasi momento dalle impostazioni del telefono, e il resto dell'app continua a funzionare esattamente come prima." },
+          { "b": "Questionari di autovalutazione (opzionale):", "t": " le risposte che dai a questionari standardizzati che scegli di compilare — come il PHQ-9, il GAD-7, l'AUDIT-C o un indice di attività della malattia — e il punteggio che ne risulta. Sei tu a decidere se aprirne uno e puoi eliminare il risultato in seguito. Questi questionari sono riprodotti dalle loro versioni ufficiali pubblicate e l'app ti mostra il punteggio senza interpretarlo (vedi la Sezione 11)." },
           { "b": "Community:", "t": " post e messaggi privati." },
           { "b": "Teleconsulto:", "t": " dettagli degli appuntamenti, comunicazioni con i medici e qualsiasi informazione sanitaria che scegli di condividere. Non registriamo i videoconsulti." },
           { "b": "Abbonamento / pagamento:", "t": " stato dell'abbonamento tramite RevenueCat; addebiti tramite Apple / Google; pagamenti dei consulti tramite Stripe. Non memorizziamo mai i dati della carta." },
@@ -526,6 +548,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Dove sono conservati i tuoi dati e trasferimenti internazionali", "b": [
         { "p": "I tuoi dati di account e sanitari sono conservati su server Google Cloud / Firebase situati nell'Unione Europea (Francoforte, Germania — regione europe-west3). Abbiamo scelto deliberatamente una regione dell'UE affinché i dati sanitari restino in Europa ai sensi del GDPR e della revFADP svizzera. Questa ubicazione è permanente." },
+        { "p": "Una cosa non lascia mai il tuo telefono: le letture che Health Sync prende da Apple Health o Health Connect (passi, sonno, minuti di attività) sono archiviate solo sul tuo dispositivo. Non vengono inviate a Firebase, non raggiungono i nostri server e non sono trasferite da nessuna parte. Se elimini l'app, se ne vanno con essa." },
         { "p": "Un insieme limitato di fornitori potrebbe trattare determinati dati non sanitari al di fuori della Svizzera o del SEE (ad esempio, negli Stati Uniti): RevenueCat (stato dell'abbonamento), Stripe (verifica dei medici e pagamenti dei consulti) e Apple / Google (fatturazione e distribuzione dell'app). Quando ciò accade, ci basiamo su garanzie come le Clausole Contrattuali Standard (SCC) o il quadro per la privacy dei dati UE–USA / Svizzera–USA." }
       ]},
       { "t": "Conservazione", "b": [
@@ -555,6 +578,7 @@ window.CF_PRIVACY_T = {
           "Il radar, la mappa corporea, i grafici e le tendenze visualizzano i dati che inserisci tu stesso. Non prevedono, diagnosticano né rilevano alcuna malattia o condizione medica.",
           "La scelta della o delle patologie che segui personalizza soltanto i tracker che vedi. Non è una diagnosi e Chronic Friends non fornisce pareri medici.",
           "Qualsiasi misurazione che inserisci dai tuoi dispositivi domestici (come pressione sanguigna, picco di flusso espiratorio o glicemia) viene mostrata solo come una semplice cronologia di ciò che hai inserito, senza intervalli di riferimento, senza zone colorate, senza etichette \"alto/basso/normale\" e senza avvisi o interpretazioni.",
+          "I questionari standardizzati (come il PHQ-9, il GAD-7, l'AUDIT-C o un indice di attività della malattia) sono strumenti di autovalutazione, riprodotti dalle loro versioni ufficiali pubblicate e offerti solo nelle lingue in cui esiste una traduzione ufficiale. L'app ti mostra il punteggio che hai ottenuto e non lo interpreta: non assegna alcuna categoria di gravità, alcun livello di rischio né alcuna soglia clinica, non genera alcun avviso e nessun'altra funzione dell'app legge quel punteggio per modificare ciò che vedi. Un punteggio non è una diagnosi. È lì perché tu ne parli con il tuo medico.",
           "Questa versione dell'app non utilizza l'intelligenza artificiale sui tuoi dati sanitari e non li invia ad alcun fornitore di IA.",
           "Chiedi sempre il parere del tuo medico o di un altro professionista sanitario qualificato per qualsiasi domanda sulla tua patologia e non ignorare mai il parere medico professionale a causa di qualcosa che hai visto nell'app.",
           "I consulti online sono condotti da professionisti indipendenti e autorizzati e sono disponibili solo dove un medico verificato è autorizzato a esercitare nella tua località.",
@@ -573,7 +597,7 @@ window.CF_PRIVACY_T = {
   "pt": {
     "legal": "Privacidade",
     "title": "Política de Privacidade",
-    "updated": "Última atualização: 27 de julho de 2026 · Versão: 2.4",
+    "updated": "Última atualização: 28 de julho de 2026 · Versão: 2.5",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -585,7 +609,9 @@ window.CF_PRIVACY_T = {
       { "t": "Que dados recolhemos", "b": [
         { "ul": [
           { "b": "Conta / perfil:", "t": " e-mail, nome de utilizador, palavra-passe cifrada, idioma, país." },
-          { "b": "Dados de saúde e bem-estar (categoria especial):", "t": " a(s) patologia(s) que escolhes seguir; os registos de sintomas e bem-estar; as entradas do diário e as notas sobre como te sentes; o registo e a leitura de alimentos; e os parâmetros que introduzes para automonitorização e visualização — incluindo as entradas do mapa corporal, os dados apresentados no radar de sintomas/bem-estar, os registos de energia e fadiga e quaisquer leituras que introduzas tu próprio a partir dos teus dispositivos domésticos (por exemplo, tensão arterial, débito expiratório máximo ou glicose). Todos estes são dados que introduzes tu próprio." },
+          { "b": "Dados de saúde e bem-estar (categoria especial):", "t": " a(s) patologia(s) que escolhes seguir; os registos de sintomas e bem-estar; as entradas do diário e as notas sobre como te sentes; o registo e a leitura de alimentos; e os parâmetros que introduzes para automonitorização e visualização — incluindo as entradas do mapa corporal, os dados apresentados no radar de sintomas/bem-estar, os registos de energia e fadiga e quaisquer leituras que introduzas tu próprio a partir dos teus dispositivos domésticos (por exemplo, tensão arterial, débito expiratório máximo ou glicose). Todos estes são dados que introduzes tu próprio. A única exceção é o Health Sync, descrito a seguir, que lê do próprio repositório de saúde do seu telefone se o ativar." },
+          { "b": "Health Sync — leituras do repositório de saúde do seu telefone (opcional, desligado até o ativar):", "t": " se ativar o Health Sync e conceder a permissão na caixa de diálogo do sistema do seu telefone, a aplicação lê os seus passos, a duração do sono e os minutos de atividade — e, apenas se o seu dispositivo os registar, a frequência cardíaca em repouso e a variabilidade da frequência cardíaca — do Apple Health (HealthKit) no iPhone ou do Health Connect no Android. Três notas sobre isto: o acesso é apenas de leitura (nunca escrevemos nada no Apple Health nem no Health Connect); essas leituras ficam no seu dispositivo e nunca são enviadas para os nossos servidores, pelo que são mostradas junto ao seu diário e podem aparecer num relatório PDF que decida gerar, mas nós não as recebemos; e se um dia não tiver dados, a aplicação diz isso em vez de estimar um valor. Pode retirar esta permissão a qualquer momento nas definições do telefone, e o resto da aplicação continua a funcionar exatamente da mesma forma." },
+          { "b": "Questionários de autoavaliação (opcional):", "t": " as respostas que dá a questionários padronizados que opta por preencher — como o PHQ-9, o GAD-7, o AUDIT-C ou um índice de atividade da doença — e a pontuação que somam. É você que decide se abre um e pode eliminar o resultado depois. Estes questionários são reproduzidos a partir das suas versões oficiais publicadas e a aplicação mostra-lhe a pontuação sem a interpretar (ver a Secção 11)." },
           { "b": "Comunidade:", "t": " publicações e mensagens privadas." },
           { "b": "Teleconsulta:", "t": " detalhes das marcações, comunicações com os médicos e quaisquer informações de saúde que escolhas partilhar. Não gravamos as videoconsultas." },
           { "b": "Subscrição / pagamento:", "t": " estado da subscrição através da RevenueCat; cobranças através da Apple / Google; pagamentos de consultas através da Stripe. Nunca armazenamos os dados do cartão." },
@@ -620,6 +646,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Onde os teus dados são armazenados e transferências internacionais", "b": [
         { "p": "Os teus dados de conta e de saúde são armazenados em servidores da Google Cloud / Firebase localizados na União Europeia (Frankfurt, Alemanha — região europe-west3). Escolhemos deliberadamente uma região da UE para que os dados de saúde permaneçam na Europa ao abrigo do GDPR e da revFADP suíça. Esta localização é permanente." },
+        { "p": "Há uma coisa que nunca sai do seu telefone: as leituras que o Health Sync recolhe do Apple Health ou do Health Connect (passos, sono, minutos de atividade) são guardadas apenas no seu dispositivo. Não são enviadas para o Firebase, não chegam aos nossos servidores e não são transferidas para nenhum lugar. Se apagar a aplicação, desaparecem com ela." },
         { "p": "Um conjunto limitado de fornecedores pode tratar determinados dados que não são de saúde fora da Suíça ou do EEE (por exemplo, nos Estados Unidos): RevenueCat (estado da subscrição), Stripe (verificação de médicos e pagamentos de consultas) e Apple / Google (faturação e distribuição da app). Quando tal acontece, baseamo-nos em salvaguardas como as Cláusulas Contratuais-Tipo (CCT) ou o quadro de privacidade de dados UE–EUA / Suíça–EUA." }
       ]},
       { "t": "Conservação", "b": [
@@ -649,6 +676,7 @@ window.CF_PRIVACY_T = {
           "O radar, o mapa corporal, os gráficos e as tendências visualizam os dados que introduzes tu próprio. Não preveem, diagnosticam nem detetam qualquer doença ou condição médica.",
           "Escolher que patologia(s) segues apenas personaliza os monitorizadores que vês. Não é um diagnóstico e a Chronic Friends não presta aconselhamento médico.",
           "Quaisquer leituras que introduzas a partir dos teus dispositivos domésticos (como tensão arterial, débito expiratório máximo ou glicose) são apresentadas apenas como uma simples linha temporal do que introduziste, sem intervalos de referência, sem zonas de cor, sem etiquetas de \"alto/baixo/normal\" e sem alertas ou interpretação.",
+          "Os questionários padronizados (como o PHQ-9, o GAD-7, o AUDIT-C ou um índice de atividade da doença) são ferramentas de autoavaliação, reproduzidas a partir das suas versões oficiais publicadas e oferecidas apenas nos idiomas em que existe uma tradução oficial. A aplicação mostra-lhe a pontuação que obteve e não a interpreta: não atribui qualquer categoria de gravidade, nível de risco ou limiar clínico, não gera qualquer alerta e nenhuma outra funcionalidade da aplicação lê essa pontuação para alterar o que lhe é mostrado. Uma pontuação não é um diagnóstico. Está ali para falar sobre ela com o seu médico.",
           "Esta versão da aplicação não utiliza inteligência artificial sobre os teus dados de saúde nem os envia para qualquer fornecedor de IA.",
           "Procura sempre o aconselhamento do teu médico ou de outro profissional de saúde qualificado para qualquer dúvida sobre a tua patologia e nunca ignores o aconselhamento médico profissional por causa de algo que viste na app.",
           "As consultas online são realizadas por profissionais independentes e licenciados e só estão disponíveis onde um médico verificado tenha licença na tua localização.",
@@ -667,7 +695,7 @@ window.CF_PRIVACY_T = {
   "ru": {
     "legal": "Конфиденциальность",
     "title": "Политика конфиденциальности",
-    "updated": "Последнее обновление: 27 июля 2026 г. · Версия: 2.4",
+    "updated": "Последнее обновление: 28 июля 2026 г. · Версия: 2.5",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -679,7 +707,9 @@ window.CF_PRIVACY_T = {
       { "t": "Какие данные мы собираем", "b": [
         { "ul": [
           { "b": "Учётная запись / профиль:", "t": " электронная почта, имя пользователя, зашифрованный пароль, язык, страна." },
-          { "b": "Данные о здоровье и самочувствии (особая категория):", "t": " состояние(я), за которым(и) вы решили следить; отметки о симптомах и самочувствии; записи дневника и заметки о том, как вы себя чувствуете; учёт и сканирование продуктов; а также параметры, которые вы вводите для самоконтроля и визуализации, — включая отметки на карте тела, данные, показанные в радаре симптомов/самочувствия, журналы энергии и усталости, а также любые показатели, которые вы сами вводите со своих домашних устройств (например, артериальное давление, пиковую скорость выдоха или глюкозу). Всё это — данные, которые вы вводите сами." },
+          { "b": "Данные о здоровье и самочувствии (особая категория):", "t": " состояние(я), за которым(и) вы решили следить; отметки о симптомах и самочувствии; записи дневника и заметки о том, как вы себя чувствуете; учёт и сканирование продуктов; а также параметры, которые вы вводите для самоконтроля и визуализации, — включая отметки на карте тела, данные, показанные в радаре симптомов/самочувствия, журналы энергии и усталости, а также любые показатели, которые вы сами вводите со своих домашних устройств (например, артериальное давление, пиковую скорость выдоха или глюкозу). Всё это — данные, которые вы вводите сами. Единственное исключение — Health Sync, описанный далее: если вы его включите, он считывает данные из хранилища здоровья вашего собственного телефона." },
+          { "b": "Health Sync — показания из хранилища здоровья вашего телефона (по желанию, выключено, пока вы сами не включите):", "t": " если вы включите Health Sync и дадите разрешение в системном диалоге вашего телефона, приложение считывает количество шагов, продолжительность сна и минуты активности — а также, только если ваше устройство их записывает, пульс в покое и вариабельность сердечного ритма — из Apple Health (HealthKit) на iPhone или из Health Connect на Android. Три уточнения: доступ только для чтения (мы никогда ничего не записываем в Apple Health или Health Connect); эти показания остаются на вашем устройстве и никогда не загружаются на наши серверы, поэтому они отображаются рядом с дневником и могут попасть в PDF-отчёт, который вы сами решите создать, но мы их не получаем; и если за день данных нет, приложение сообщает об этом, а не оценивает значение приблизительно. Вы можете отозвать это разрешение в любой момент в настройках телефона, и всё остальное в приложении продолжит работать точно так же." },
+          { "b": "Опросники самооценки (по желанию):", "t": " ответы, которые вы даёте в стандартизированных опросниках по своему выбору — например PHQ-9, GAD-7, AUDIT-C или индекс активности заболевания, — и итоговый балл. Вы сами решаете, открывать ли опросник, и можете затем удалить результат. Эти опросники воспроизводятся по официально опубликованным версиям, и приложение показывает балл, не интерпретируя его (см. раздел 11)." },
           { "b": "Сообщество:", "t": " публикации и личные сообщения." },
           { "b": "Телеконсультация:", "t": " сведения о приёмах, переписка с врачами и любая медицинская информация, которой вы решите поделиться. Мы не записываем видеоконсультации." },
           { "b": "Подписка / оплата:", "t": " статус подписки через RevenueCat; списания через Apple / Google; оплата консультаций через Stripe. Мы никогда не храним данные карты." },
@@ -714,6 +744,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Где хранятся ваши данные и международная передача", "b": [
         { "p": "Данные вашей учётной записи и данные о здоровье хранятся на серверах Google Cloud / Firebase, расположенных в Европейском союзе (Франкфурт, Германия — регион europe-west3). Мы намеренно выбрали регион ЕС, чтобы данные о здоровье оставались в пределах Европы в соответствии с GDPR и швейцарским revFADP. Это местоположение является постоянным." },
+        { "p": "Одно никогда не покидает ваш телефон: показания, которые Health Sync берёт из Apple Health или Health Connect (шаги, сон, минуты активности), хранятся только на вашем устройстве. Они не отправляются в Firebase, не попадают на наши серверы и никуда не передаются. Если вы удалите приложение, они исчезнут вместе с ним." },
         { "p": "Ограниченный круг поставщиков может обрабатывать определённые данные, не относящиеся к здоровью, за пределами Швейцарии или ЕЭЗ (например, в Соединённых Штатах): RevenueCat (статус подписки), Stripe (верификация врачей и оплата консультаций) и Apple / Google (биллинг и распространение приложения). В таких случаях мы полагаемся на такие гарантии, как Стандартные договорные положения (SCC) или рамочную программу конфиденциальности данных ЕС–США / Швейцария–США." }
       ]},
       { "t": "Хранение", "b": [
@@ -743,6 +774,7 @@ window.CF_PRIVACY_T = {
           "Радар, карта тела, графики и тенденции визуализируют данные, которые вы вводите сами. Они не прогнозируют, не диагностируют и не выявляют никаких болезней или медицинских состояний.",
           "Выбор состояния(й), за которым(и) вы следите, лишь персонализирует то, какие трекеры вы видите. Это не диагноз, и Chronic Friends не предоставляет медицинских консультаций.",
           "Любые показатели, которые вы вводите со своих домашних устройств (такие как артериальное давление, пиковая скорость выдоха или глюкоза), отображаются лишь как простая хронология того, что вы ввели, без референсных диапазонов, без цветовых зон, без пометок «высокий/низкий/нормальный» и без предупреждений или интерпретации.",
+          "Стандартизированные опросники (такие как PHQ-9, GAD-7, AUDIT-C или индекс активности заболевания) — это инструменты самооценки, воспроизведённые по официально опубликованным версиям и предлагаемые только на тех языках, для которых существует официальный перевод. Приложение показывает полученный вами балл и не интерпретирует его: оно не присваивает категорию тяжести, уровень риска или клинический порог, не выдаёт предупреждений, и никакая другая функция приложения не использует этот балл, чтобы изменить то, что вы видите. Балл — это не диагноз. Он нужен для того, чтобы вы обсудили его с врачом.",
           "Эта версия приложения не использует искусственный интеллект для ваших данных о здоровье и не передаёт их поставщикам ИИ.",
           "Всегда обращайтесь за советом к своему врачу или другому квалифицированному медицинскому специалисту по любым вопросам о вашем состоянии и никогда не пренебрегайте профессиональной медицинской консультацией из-за чего-либо, что вы увидели в приложении.",
           "Онлайн-консультации проводятся независимыми лицензированными специалистами и доступны только там, где верифицированный врач имеет лицензию в вашем регионе.",
@@ -761,7 +793,7 @@ window.CF_PRIVACY_T = {
   "ar": {
     "legal": "الخصوصية",
     "title": "سياسة الخصوصية",
-    "updated": "آخر تحديث: 27 يوليو 2026 · الإصدار: 2.4",
+    "updated": "آخر تحديث: 28 يوليو 2026 · الإصدار: 2.5",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -773,7 +805,9 @@ window.CF_PRIVACY_T = {
       { "t": "ما البيانات التي نجمعها", "b": [
         { "ul": [
           { "b": "الحساب / الملف الشخصي:", "t": " البريد الإلكتروني واسم المستخدم وكلمة المرور المشفّرة واللغة والبلد." },
-          { "b": "بيانات الصحة والعافية (فئة خاصة):", "t": " الحالة (الحالات) التي تختار متابعتها؛ وتسجيلات الأعراض والعافية؛ ومدوّنات اليوميات والملاحظات حول شعورك؛ وتسجيل الطعام ومسحه؛ والمعايير التي تُدخلها للتتبّع الذاتي والتصوّر — بما في ذلك مدخلات خريطة الجسم، والمدخلات المعروضة في رادار الأعراض/العافية، وسجلّات الطاقة والإرهاق، وأي قراءات تُدخلها بنفسك من أجهزتك المنزلية (على سبيل المثال ضغط الدم أو ذروة التدفق أو الجلوكوز). كل هذه بيانات تُدخلها بنفسك." },
+          { "b": "بيانات الصحة والعافية (فئة خاصة):", "t": " الحالة (الحالات) التي تختار متابعتها؛ وتسجيلات الأعراض والعافية؛ ومدوّنات اليوميات والملاحظات حول شعورك؛ وتسجيل الطعام ومسحه؛ والمعايير التي تُدخلها للتتبّع الذاتي والتصوّر — بما في ذلك مدخلات خريطة الجسم، والمدخلات المعروضة في رادار الأعراض/العافية، وسجلّات الطاقة والإرهاق، وأي قراءات تُدخلها بنفسك من أجهزتك المنزلية (على سبيل المثال ضغط الدم أو ذروة التدفق أو الجلوكوز). كل هذه بيانات تُدخلها بنفسك. الاستثناء الوحيد هو Health Sync، الموضَّح تاليًا، الذي يقرأ من مخزن الصحة في هاتفك إن شغّلته." },
+          { "b": "Health Sync — قراءات من مخزن الصحة في هاتفك (اختياري، مُعطَّل حتى تشغّله):", "t": " إذا شغّلت Health Sync ومنحت الإذن في مربّع حوار النظام على هاتفك، يقرأ التطبيق عدد خطواتك ومدة نومك ودقائق نشاطك — وكذلك، فقط إذا كان جهازك يسجّلها، معدل ضربات القلب في الراحة وتغيّر معدل ضربات القلب — من Apple Health (HealthKit) على iPhone أو من Health Connect على Android. ثلاث ملاحظات: الوصول للقراءة فقط (لا نكتب شيئًا أبدًا في Apple Health أو Health Connect)؛ وتبقى هذه القراءات على جهازك ولا تُرفع أبدًا إلى خدماتنا، فتُعرض بجانب مذكّرتك ويمكن أن تظهر في تقرير PDF تختار أنت إنشاءه، لكننا لا نتلقّاها؛ وإذا لم تكن هناك بيانات ليوم ما، يقول التطبيق ذلك بدلًا من تقدير قيمة. ويمكنك سحب هذا الإذن في أي وقت من إعدادات هاتفك، وتبقى بقية التطبيق تعمل كما هي تمامًا." },
+          { "b": "استبيانات التقييم الذاتي (اختياري):", "t": " الأجوبة التي تقدّمها في استبيانات موحّدة تختار إكمالها — مثل PHQ-9 وGAD-7 وAUDIT-C أو مؤشر نشاط المرض — والدرجة التي تُجمع منها. أنت من يقرّر فتح أي استبيان، ويمكنك حذف النتيجة بعد ذلك. تُستنسخ هذه الاستبيانات من نسخها الرسمية المنشورة، ويعرض لك التطبيق الدرجة دون تفسيرها (انظر القسم 11)." },
           { "b": "المجتمع:", "t": " المنشورات والرسائل الخاصة." },
           { "b": "الاستشارة عن بُعد:", "t": " تفاصيل المواعيد والمراسلات مع الأطباء وأي معلومات صحية تختار مشاركتها. نحن لا نسجّل استشارات الفيديو." },
           { "b": "الاشتراك / الدفع:", "t": " حالة الاشتراك عبر RevenueCat؛ والرسوم عبر Apple / Google؛ ومدفوعات الاستشارات عبر Stripe. لا نخزّن أبدًا تفاصيل البطاقة." },
@@ -808,6 +842,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "أين تُخزَّن بياناتك وعمليات النقل الدولية", "b": [
         { "p": "تُخزَّن بيانات حسابك وبياناتك الصحية على خوادم Google Cloud / Firebase الواقعة في الاتحاد الأوروبي (فرانكفورت، ألمانيا — منطقة europe-west3). لقد اخترنا عمدًا منطقة في الاتحاد الأوروبي حتى تبقى البيانات الصحية داخل أوروبا بموجب GDPR وrevFADP السويسري. هذا الموقع دائم." },
+        { "p": "هناك شيء لا يخرج من هاتفك أبدًا: القراءات التي يأخذها Health Sync من Apple Health أو Health Connect (الخطوات والنوم ودقائق النشاط) تُخزَّن على جهازك فقط. لا تُرسل إلى Firebase، ولا تصل إلى خدماتنا، ولا تُنقل إلى أي مكان. وإذا حذفت التطبيق، تختفي معه." },
         { "p": "قد يعالج عدد محدود من المزوّدين بيانات معيّنة غير صحية خارج سويسرا أو المنطقة الاقتصادية الأوروبية (على سبيل المثال، في الولايات المتحدة): RevenueCat (حالة الاشتراك)، وStripe (التحقق من الأطباء ومدفوعات الاستشارات)، وApple / Google (الفوترة وتوزيع التطبيق). وحين يحدث ذلك، نعتمد على ضمانات مثل الشروط التعاقدية القياسية (SCCs) أو إطار خصوصية البيانات بين الاتحاد الأوروبي والولايات المتحدة / بين سويسرا والولايات المتحدة." }
       ]},
       { "t": "الاحتفاظ", "b": [
@@ -837,6 +872,7 @@ window.CF_PRIVACY_T = {
           "يعرض الرادار وخريطة الجسم والرسوم البيانية والاتجاهات البيانات التي تُدخلها بنفسك. وهي لا تتنبأ بأي مرض أو حالة طبية ولا تشخّصها ولا تكتشفها.",
           "اختيار الحالة (الحالات) التي تتابعها يخصّص فقط أدوات التتبّع التي تراها. وهو ليس تشخيصًا، ولا يقدّم Chronic Friends مشورة طبية.",
           "أي قراءات تُدخلها من أجهزتك المنزلية (مثل ضغط الدم أو ذروة التدفق أو الجلوكوز) تُعرض فقط كخط زمني بسيط لما أدخلته، دون نطاقات مرجعية، ودون مناطق ملوّنة، ودون تسميات \"مرتفع/منخفض/طبيعي\"، ودون تنبيهات أو تفسير.",
+          "الاستبيانات الموحّدة (مثل PHQ-9 وGAD-7 وAUDIT-C أو مؤشر نشاط المرض) هي أدوات تقييم ذاتي، مُستنسخة من نسخها الرسمية المنشورة ومتوفّرة فقط باللغات التي توجد لها ترجمة رسمية. يعرض التطبيق الدرجة التي حصلت عليها ولا يفسّرها: فهو لا يحدّد فئة شدة ولا مستوى خطورة ولا حدًّا سريريًا، ولا يُصدر أي تنبيه، ولا تقرأ أي ميزة أخرى في التطبيق تلك الدرجة لتغيير ما يُعرض عليك. الدرجة ليست تشخيصًا، بل هي لتناقشها مع طبيبك.",
           "لا تستخدم هذه النسخة من التطبيق الذكاء الاصطناعي على بياناتك الصحية ولا ترسلها إلى أي مزوّد ذكاء اصطناعي.",
           "اطلب دائمًا مشورة طبيبك أو أخصائي صحي مؤهل آخر بشأن أي أسئلة عن حالتك، ولا تتجاهل أبدًا المشورة الطبية المهنية بسبب شيء رأيته في التطبيق.",
           "تُجرى الاستشارات عبر الإنترنت من قِبل مهنيين مستقلّين ومرخّصين، وهي متاحة فقط حيثما يكون الطبيب المُتحقَّق منه مرخّصًا في موقعك.",
@@ -855,7 +891,7 @@ window.CF_PRIVACY_T = {
   "hi": {
     "legal": "गोपनीयता",
     "title": "गोपनीयता नीति",
-    "updated": "अंतिम अद्यतन: 27 जुलाई 2026 · संस्करण: 2.4",
+    "updated": "अंतिम अद्यतन: 28 जुलाई 2026 · संस्करण: 2.5",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -867,7 +903,9 @@ window.CF_PRIVACY_T = {
       { "t": "हम कौन-सा डेटा एकत्र करते हैं", "b": [
         { "ul": [
           { "b": "खाता / प्रोफ़ाइल:", "t": " ईमेल, उपयोगकर्ता नाम, एन्क्रिप्टेड पासवर्ड, भाषा, देश।" },
-          { "b": "स्वास्थ्य और वेलनेस डेटा (विशेष श्रेणी):", "t": " वह स्थिति/स्थितियाँ जिन्हें आप ट्रैक करना चुनते हैं; लक्षण और वेलनेस चेक-इन; डायरी प्रविष्टियाँ और इस बारे में नोट्स कि आप कैसा महसूस करते हैं; भोजन लॉगिंग और स्कैनिंग; और सेल्फ़-ट्रैकिंग तथा विज़ुअलाइज़ेशन के लिए आपके द्वारा दर्ज किए गए पैरामीटर — जिनमें बॉडी-मैप प्रविष्टियाँ, लक्षण/वेलनेस रडार में दिखाए गए इनपुट, ऊर्जा और थकान के लॉग, और अपने घरेलू उपकरणों से आपके द्वारा स्वयं दर्ज की गई कोई भी रीडिंग (उदाहरण के लिए रक्तचाप, पीक फ़्लो या ग्लूकोज़) शामिल हैं। यह सब वह डेटा है जो आप स्वयं दर्ज करते हैं।" },
+          { "b": "स्वास्थ्य और वेलनेस डेटा (विशेष श्रेणी):", "t": " वह स्थिति/स्थितियाँ जिन्हें आप ट्रैक करना चुनते हैं; लक्षण और वेलनेस चेक-इन; डायरी प्रविष्टियाँ और इस बारे में नोट्स कि आप कैसा महसूस करते हैं; भोजन लॉगिंग और स्कैनिंग; और सेल्फ़-ट्रैकिंग तथा विज़ुअलाइज़ेशन के लिए आपके द्वारा दर्ज किए गए पैरामीटर — जिनमें बॉडी-मैप प्रविष्टियाँ, लक्षण/वेलनेस रडार में दिखाए गए इनपुट, ऊर्जा और थकान के लॉग, और अपने घरेलू उपकरणों से आपके द्वारा स्वयं दर्ज की गई कोई भी रीडिंग (उदाहरण के लिए रक्तचाप, पीक फ़्लो या ग्लूकोज़) शामिल हैं। यह सब वह डेटा है जो आप स्वयं दर्ज करते हैं। इसका एकमात्र अपवाद Health Sync है, जिसका वर्णन आगे है और जो आपके चालू करने पर आपके फ़ोन के स्वास्थ्य स्टोर से पढ़ता है।" },
+          { "b": "Health Sync — आपके फ़ोन के स्वास्थ्य स्टोर से रीडिंग (वैकल्पिक, जब तक आप चालू न करें बंद):", "t": " यदि आप Health Sync चालू करते हैं और अपने फ़ोन के सिस्टम डायलॉग में अनुमति देते हैं, तो ऐप iPhone पर Apple Health (HealthKit) या Android पर Health Connect से आपके कदमों की संख्या, नींद की अवधि और गतिविधि के मिनट पढ़ता है — और, केवल तब जब आपका डिवाइस उन्हें रिकॉर्ड करता है, विश्राम हृदय गति और हृदय-गति परिवर्तनशीलता भी। इसके बारे में तीन बातें: यह केवल पढ़ने के लिए है (हम Apple Health या Health Connect में कभी कुछ नहीं लिखते); ये रीडिंग आपके डिवाइस पर रहती हैं और कभी हमारे सर्वर पर अपलोड नहीं होतीं, इसलिए ये आपके जर्नल के साथ दिखती हैं और आपके द्वारा बनाई गई PDF रिपोर्ट में आ सकती हैं, लेकिन हमें नहीं मिलतीं; और यदि किसी दिन का डेटा नहीं है, तो ऐप कोई मान अनुमानित करने के बजाय यह बता देता है। आप यह अनुमति अपने फ़ोन की सेटिंग से कभी भी वापस ले सकते हैं, और बाकी ऐप ठीक पहले की तरह काम करता रहता है।" },
+          { "b": "स्व-मूल्यांकन प्रश्नावली (वैकल्पिक):", "t": " उन मानकीकृत प्रश्नावली में आपके दिए उत्तर जिन्हें आप भरना चुनते हैं — जैसे PHQ-9, GAD-7, AUDIT-C या रोग-सक्रियता सूचकांक — और उनसे बनने वाला स्कोर। कोई प्रश्नावली खोलना आपकी पसंद है और आप बाद में परिणाम मिटा सकते हैं। ये प्रश्नावली उनके आधिकारिक प्रकाशित संस्करणों से पुनरुत्पादित हैं और ऐप आपको स्कोर दिखाता है, उसकी व्याख्या नहीं करता (धारा 11 देखें)।" },
           { "b": "समुदाय:", "t": " पोस्ट और निजी संदेश।" },
           { "b": "टेलीकंसल्टेशन:", "t": " अपॉइंटमेंट का विवरण, डॉक्टरों के साथ संचार, और कोई भी स्वास्थ्य जानकारी जिसे आप साझा करना चुनते हैं। हम वीडियो परामर्श रिकॉर्ड नहीं करते।" },
           { "b": "सदस्यता / भुगतान:", "t": " RevenueCat के माध्यम से सदस्यता की स्थिति; Apple / Google के माध्यम से शुल्क; Stripe के माध्यम से परामर्श भुगतान। हम कभी भी कार्ड का विवरण संग्रहीत नहीं करते।" },
@@ -902,6 +940,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "आपका डेटा कहाँ संग्रहीत होता है, और अंतरराष्ट्रीय स्थानांतरण", "b": [
         { "p": "आपके खाते और स्वास्थ्य का डेटा यूरोपीय संघ में स्थित Google Cloud / Firebase सर्वरों पर संग्रहीत किया जाता है (फ़्रैंकफ़र्ट, जर्मनी — क्षेत्र europe-west3)। हमने जानबूझकर एक EU क्षेत्र चुना है ताकि स्वास्थ्य डेटा GDPR और स्विस revFADP के तहत यूरोप के भीतर ही रहे। यह स्थान स्थायी है।" },
+        { "p": "एक चीज़ आपके फ़ोन से कभी बाहर नहीं जाती: Health Sync जो रीडिंग Apple Health या Health Connect से लेता है (कदम, नींद, गतिविधि के मिनट), वे केवल आपके डिवाइस पर संग्रहीत होती हैं। वे Firebase पर नहीं भेजी जातीं, हमारे सर्वर तक नहीं पहुँचतीं और कहीं स्थानांतरित नहीं की जातीं। यदि आप ऐप हटा देते हैं, तो वे भी उसके साथ चली जाती हैं।" },
         { "p": "प्रदाताओं का एक सीमित समूह कुछ गैर-स्वास्थ्य डेटा को स्विट्ज़रलैंड या EEA के बाहर (उदाहरण के लिए, संयुक्त राज्य अमेरिका में) संसाधित कर सकता है: RevenueCat (सदस्यता की स्थिति), Stripe (डॉक्टर सत्यापन और परामर्श भुगतान), और Apple / Google (बिलिंग और ऐप वितरण)। जहाँ ऐसा होता है, हम Standard Contractual Clauses (SCCs) या EU–US / Swiss–US Data Privacy Framework जैसी सुरक्षा-व्यवस्थाओं पर भरोसा करते हैं।" }
       ]},
       { "t": "अवधारण", "b": [
@@ -931,6 +970,7 @@ window.CF_PRIVACY_T = {
           "रडार, बॉडी मैप, ग्राफ़ और रुझान वही डेटा दर्शाते हैं जो आप स्वयं दर्ज करते हैं। वे किसी भी बीमारी या चिकित्सा स्थिति की भविष्यवाणी, निदान या पहचान नहीं करते।",
           "आप किन स्थिति/स्थितियों को ट्रैक करते हैं, यह चुनना केवल यह वैयक्तिकृत करता है कि आप कौन-से ट्रैकर देखते हैं। यह कोई निदान नहीं है, और Chronic Friends चिकित्सा सलाह नहीं देता।",
           "अपने घरेलू उपकरणों से आपके द्वारा दर्ज की गई कोई भी रीडिंग (जैसे रक्तचाप, पीक फ़्लो या ग्लूकोज़) केवल आपके द्वारा दर्ज की गई चीज़ की एक सरल समयरेखा के रूप में दिखाई जाती है — बिना किसी संदर्भ सीमा, बिना रंग-क्षेत्रों, बिना \"उच्च/निम्न/सामान्य\" लेबल, और बिना किसी अलर्ट या व्याख्या के।",
+          "मानकीकृत प्रश्नावली (जैसे PHQ-9, GAD-7, AUDIT-C या रोग-सक्रियता सूचकांक) स्व-मूल्यांकन के उपकरण हैं, जो उनके आधिकारिक प्रकाशित संस्करणों से पुनरुत्पादित हैं और केवल उन भाषाओं में उपलब्ध हैं जिनमें आधिकारिक अनुवाद मौजूद है। ऐप आपको प्राप्त स्कोर दिखाता है और उसकी व्याख्या नहीं करता: वह कोई गंभीरता श्रेणी, कोई जोखिम स्तर या कोई नैदानिक सीमा निर्धारित नहीं करता, कोई अलर्ट नहीं देता, और ऐप की कोई अन्य सुविधा उस स्कोर को पढ़कर आपको दिखाई जाने वाली चीज़ नहीं बदलती। स्कोर निदान नहीं है। यह इसलिए है कि आप इसे अपने डॉक्टर से साझा कर सकें।",
           "ऐप का यह संस्करण आपके स्वास्थ्य डेटा पर कृत्रिम बुद्धिमत्ता का उपयोग नहीं करता और उसे किसी AI प्रदाता को नहीं भेजता।",
           "अपनी स्थिति के बारे में किसी भी प्रश्न के लिए हमेशा अपने चिकित्सक या किसी अन्य योग्य स्वास्थ्य पेशेवर की सलाह लें, और ऐप में देखी गई किसी बात के कारण कभी भी पेशेवर चिकित्सा सलाह की अनदेखी न करें।",
           "ऑनलाइन परामर्श स्वतंत्र, लाइसेंस-प्राप्त पेशेवरों द्वारा किए जाते हैं और केवल वहीं उपलब्ध होते हैं जहाँ कोई सत्यापित डॉक्टर आपके स्थान पर लाइसेंस-प्राप्त हो।",
@@ -949,7 +989,7 @@ window.CF_PRIVACY_T = {
   "id": {
     "legal": "Privasi",
     "title": "Kebijakan Privasi",
-    "updated": "Terakhir diperbarui: 27 Juli 2026 · Versi: 2.4",
+    "updated": "Terakhir diperbarui: 28 Juli 2026 · Versi: 2.5",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -961,7 +1001,9 @@ window.CF_PRIVACY_T = {
       { "t": "Data apa yang kami kumpulkan", "b": [
         { "ul": [
           { "b": "Akun / profil:", "t": " email, nama pengguna, kata sandi terenkripsi, bahasa, negara." },
-          { "b": "Data kesehatan & kesejahteraan (kategori khusus):", "t": " kondisi yang Anda pilih untuk diikuti; check-in gejala dan kesejahteraan; entri jurnal dan catatan tentang perasaan Anda; pencatatan dan pemindaian makanan; dan parameter yang Anda masukkan untuk pelacakan mandiri dan visualisasi — termasuk entri peta tubuh, masukan yang ditampilkan pada radar gejala/kesejahteraan, catatan energi dan kelelahan, serta bacaan apa pun yang Anda masukkan sendiri dari perangkat rumah Anda (misalnya tekanan darah, arus puncak, atau glukosa). Semua ini adalah data yang Anda masukkan sendiri." },
+          { "b": "Data kesehatan & kesejahteraan (kategori khusus):", "t": " kondisi yang Anda pilih untuk diikuti; check-in gejala dan kesejahteraan; entri jurnal dan catatan tentang perasaan Anda; pencatatan dan pemindaian makanan; dan parameter yang Anda masukkan untuk pelacakan mandiri dan visualisasi — termasuk entri peta tubuh, masukan yang ditampilkan pada radar gejala/kesejahteraan, catatan energi dan kelelahan, serta bacaan apa pun yang Anda masukkan sendiri dari perangkat rumah Anda (misalnya tekanan darah, arus puncak, atau glukosa). Semua ini adalah data yang Anda masukkan sendiri. Satu-satunya pengecualian adalah Health Sync, yang dijelaskan berikut ini, yang membaca dari penyimpanan kesehatan ponsel Anda sendiri jika Anda mengaktifkannya." },
+          { "b": "Health Sync — bacaan dari penyimpanan kesehatan ponsel Anda (opsional, nonaktif sampai Anda menyalakannya):", "t": " jika Anda mengaktifkan Health Sync dan memberikan izin pada dialog sistem ponsel Anda, aplikasi membaca jumlah langkah, durasi tidur, dan menit aktivitas Anda — serta, hanya jika perangkat Anda mencatatnya, detak jantung istirahat dan variabilitas detak jantung — dari Apple Health (HealthKit) di iPhone atau Health Connect di Android. Tiga hal tentang ini: aksesnya hanya-baca (kami tidak pernah menulis apa pun ke Apple Health atau Health Connect); bacaan tersebut tetap di perangkat Anda dan tidak pernah diunggah ke server kami, sehingga ditampilkan di samping jurnal Anda dan dapat muncul dalam laporan PDF yang Anda pilih untuk dibuat, tetapi kami tidak menerimanya; dan jika suatu hari tidak memiliki data, aplikasi mengatakannya alih-alih memperkirakan nilai. Anda dapat menarik izin ini kapan saja dari pengaturan ponsel, dan bagian lain aplikasi tetap bekerja sama seperti sebelumnya." },
+          { "b": "Kuesioner penilaian diri (opsional):", "t": " jawaban yang Anda berikan pada kuesioner terstandarisasi yang Anda pilih untuk diisi — seperti PHQ-9, GAD-7, AUDIT-C, atau indeks aktivitas penyakit — dan skor yang dihasilkan. Anda yang memutuskan apakah membukanya, dan Anda dapat menghapus hasilnya setelahnya. Kuesioner ini direproduksi dari versi resmi yang diterbitkan dan aplikasi menampilkan skor tanpa menafsirkannya (lihat Bagian 11)." },
           { "b": "Komunitas:", "t": " unggahan dan pesan pribadi." },
           { "b": "Telekonsultasi:", "t": " detail janji temu, komunikasi dengan dokter, dan informasi kesehatan apa pun yang Anda pilih untuk dibagikan. Kami tidak merekam konsultasi video." },
           { "b": "Langganan / pembayaran:", "t": " status langganan melalui RevenueCat; tagihan melalui Apple / Google; pembayaran konsultasi melalui Stripe. Kami tidak pernah menyimpan detail kartu." },
@@ -996,6 +1038,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Di mana data Anda disimpan, dan transfer internasional", "b": [
         { "p": "Data akun dan kesehatan Anda disimpan di server Google Cloud / Firebase yang berlokasi di Uni Eropa (Frankfurt, Jerman — region europe-west3). Kami sengaja memilih region UE agar data kesehatan tetap berada di dalam Eropa berdasarkan GDPR dan revFADP Swiss. Lokasi ini bersifat permanen." },
+        { "p": "Ada satu hal yang tidak pernah meninggalkan ponsel Anda: bacaan yang diambil Health Sync dari Apple Health atau Health Connect (langkah, tidur, menit aktivitas) hanya disimpan di perangkat Anda. Bacaan itu tidak dikirim ke Firebase, tidak sampai ke server kami, dan tidak ditransfer ke mana pun. Jika Anda menghapus aplikasi, bacaan itu ikut terhapus." },
         { "p": "Sekelompok terbatas penyedia mungkin memproses data tertentu yang bukan data kesehatan di luar Swiss atau EEA (misalnya, di Amerika Serikat): RevenueCat (status langganan), Stripe (verifikasi dokter dan pembayaran konsultasi), dan Apple / Google (penagihan dan distribusi aplikasi). Jika hal ini terjadi, kami mengandalkan pengamanan seperti Standard Contractual Clauses (SCCs) atau EU–US / Swiss–US Data Privacy Framework." }
       ]},
       { "t": "Penyimpanan", "b": [
@@ -1025,6 +1068,7 @@ window.CF_PRIVACY_T = {
           "Radar, peta tubuh, grafik, dan tren memvisualisasikan data yang Anda masukkan sendiri. Semua itu tidak memprediksi, mendiagnosis, atau mendeteksi penyakit atau kondisi medis apa pun.",
           "Memilih kondisi yang Anda ikuti hanya mempersonalisasi pelacak yang Anda lihat. Itu bukan diagnosis, dan Chronic Friends tidak memberikan nasihat medis.",
           "Bacaan apa pun yang Anda masukkan dari perangkat rumah Anda (seperti tekanan darah, arus puncak, atau glukosa) hanya ditampilkan sebagai lini masa sederhana dari apa yang Anda masukkan, tanpa rentang rujukan, tanpa zona warna, tanpa label \"tinggi/rendah/normal\", dan tanpa peringatan atau interpretasi.",
+          "Kuesioner terstandarisasi (seperti PHQ-9, GAD-7, AUDIT-C, atau indeks aktivitas penyakit) adalah alat penilaian diri, direproduksi dari versi resmi yang diterbitkan dan hanya ditawarkan dalam bahasa yang memiliki terjemahan resmi. Aplikasi menampilkan skor yang Anda peroleh dan tidak menafsirkannya: tidak menetapkan kategori keparahan, tingkat risiko, atau ambang klinis, tidak memunculkan peringatan, dan tidak ada fitur lain dalam aplikasi yang membaca skor itu untuk mengubah apa yang Anda lihat. Skor bukanlah diagnosis. Skor ada agar Anda membicarakannya dengan dokter Anda.",
           "Versi aplikasi ini tidak menggunakan kecerdasan buatan pada data kesehatanmu dan tidak mengirimkannya ke penyedia AI mana pun.",
           "Selalu mintalah nasihat dokter Anda atau tenaga kesehatan berkualifikasi lain untuk pertanyaan apa pun tentang kondisi Anda, dan jangan pernah mengabaikan nasihat medis profesional karena sesuatu yang Anda lihat di aplikasi.",
           "Konsultasi daring dilakukan oleh profesional independen dan berlisensi, dan hanya tersedia di tempat seorang dokter terverifikasi memiliki lisensi di lokasi Anda.",
@@ -1043,7 +1087,7 @@ window.CF_PRIVACY_T = {
   "ja": {
     "legal": "プライバシー",
     "title": "プライバシーポリシー",
-    "updated": "最終更新日: 2026年7月27日 · バージョン: 2.4",
+    "updated": "最終更新日: 2026年7月28日 · バージョン: 2.5",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1055,7 +1099,9 @@ window.CF_PRIVACY_T = {
       { "t": "収集するデータ", "b": [
         { "ul": [
           { "b": "アカウント／プロフィール:", "t": " メールアドレス、ユーザー名、暗号化されたパスワード、言語、国。" },
-          { "b": "健康・ウェルネスデータ(特別カテゴリー):", "t": " あなたがフォローすることを選んだ疾患、症状やウェルネスのチェックイン、気分についての日記の記入やメモ、食事の記録とスキャン、そしてセルフトラッキングと可視化のために入力するパラメーター(ボディマップの入力、症状／ウェルネスのレーダーに表示される入力、エネルギーや疲労のログ、ご自宅の機器からあなた自身が入力する測定値(例:血圧、ピークフロー、血糖値)を含みます)。これらはすべて、あなた自身が入力するデータです。" },
+          { "b": "健康・ウェルネスデータ(特別カテゴリー):", "t": " あなたがフォローすることを選んだ疾患、症状やウェルネスのチェックイン、気分についての日記の記入やメモ、食事の記録とスキャン、そしてセルフトラッキングと可視化のために入力するパラメーター(ボディマップの入力、症状／ウェルネスのレーダーに表示される入力、エネルギーや疲労のログ、ご自宅の機器からあなた自身が入力する測定値(例:血圧、ピークフロー、血糖値)を含みます)。これらはすべて、あなた自身が入力するデータです。 唯一の例外は次に説明する Health Sync で、これを有効にした場合に端末自身の健康データ保存領域から読み取ります。" },
+          { "b": "Health Sync — 端末の健康データ保存領域からの値（任意。ご自身が有効にするまでオフ）:", "t": " Health Sync を有効にし、端末のシステムダイアログで許可を与えると、アプリは iPhone の Apple Health（HealthKit）または Android の Health Connect から、歩数、睡眠時間、アクティビティの時間（分）を読み取ります。端末が記録している場合にのみ、安静時心拍数と心拍変動も読み取ります。三つの点をお伝えします。読み取り専用です（Apple Health や Health Connect に書き込むことは一切ありません）。これらの値は端末内にとどまり、当社のサーバーにアップロードされることはありません。そのためジャーナルの横に表示され、ご自身が作成する PDF レポートに含まれることもありますが、当社が受け取ることはありません。そして、その日のデータがない場合は、値を推定せずデータがないことをお知らせします。この許可は端末の設定からいつでも取り消せます。取り消してもアプリの他の機能はまったく同じように動作します。" },
+          { "b": "自己評価アンケート（任意）:", "t": " PHQ-9、GAD-7、AUDIT-C、疾患活動性指標など、ご自身が回答することを選んだ標準化アンケートへの回答と、その合計点です。開くかどうかはご自身の判断で、あとから結果を削除できます。これらのアンケートは公式に公開された版をそのまま用いており、アプリは点数を表示するだけで解釈は行いません（第11条を参照）。" },
           { "b": "コミュニティ:", "t": " 投稿とプライベートメッセージ。" },
           { "b": "遠隔相談:", "t": " 予約の詳細、医師とのやり取り、およびあなたが共有することを選んだ健康情報。ビデオ相談は録画しません。" },
           { "b": "サブスクリプション／支払い:", "t": " RevenueCat を通じたサブスクリプションの状態、Apple／Google を通じた課金、Stripe を通じた相談料の支払い。カード情報を保存することは一切ありません。" },
@@ -1090,6 +1136,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "データの保存場所と国際的な移転", "b": [
         { "p": "あなたのアカウントデータと健康データは、欧州連合内(ドイツ・フランクフルト — リージョン europe-west3)にある Google Cloud / Firebase のサーバーに保存されます。私たちは、健康データが GDPR およびスイスの revFADP のもとで欧州域内にとどまるよう、意図的に EU リージョンを選択しました。この所在地は恒久的なものです。" },
+        { "p": "端末から出ないものが一つあります。Health Sync が Apple Health または Health Connect から取り込む値（歩数、睡眠、アクティビティの分数）は、端末内にのみ保存されます。Firebase に送信されることはなく、当社のサーバーに届くこともなく、どこにも移転されません。アプリを削除すれば、これらの値も一緒に消えます。" },
         { "p": "限られた一部のプロバイダーは、スイスまたは EEA 域外(例:米国)で、健康以外の特定のデータを処理する場合があります。RevenueCat(サブスクリプションの状態)、Stripe(医師の確認と相談料の支払い)、Apple / Google(課金とアプリの配信)です。その場合、当社は標準契約条項(SCC)や EU–US／Swiss–US Data Privacy Framework などの保護措置に依拠します。" }
       ]},
       { "t": "保持", "b": [
@@ -1119,6 +1166,7 @@ window.CF_PRIVACY_T = {
           "レーダー、ボディマップ、グラフ、傾向は、あなた自身が入力したデータを可視化します。いかなる疾患や医学的状態も予測、診断、検出しません。",
           "どの疾患をフォローするかを選ぶことは、表示されるトラッカーをパーソナライズするだけです。診断ではなく、Chronic Friends は医学的助言を提供しません。",
           "ご自宅の機器からあなたが入力した測定値(血圧、ピークフロー、血糖値など)は、入力した内容の単純な時系列として表示されるだけであり、基準範囲、色分けゾーン、「高い／低い／正常」といったラベル、アラートや解釈は一切ありません。",
+          "標準化アンケート（PHQ-9、GAD-7、AUDIT-C、疾患活動性指標など）は自己評価のための道具であり、公式に公開された版をそのまま用い、公式翻訳が存在する言語でのみ提供します。アプリは算出された点数を表示するだけで、解釈は行いません。重症度の区分、リスクの水準、臨床的なしきい値を割り当てることはなく、警告も出さず、アプリの他のどの機能もその点数を読み取って表示内容を変えることはありません。点数は診断ではありません。医師と話し合うためのものです。",
           "このバージョンのアプリは、あなたの健康データに人工知能を使用せず、AI 事業者に送信することもありません。",
           "あなたの状態について疑問がある場合は、常に医師またはその他の資格のある医療専門家の助言を求め、アプリで見た内容を理由に専門的な医学的助言を決して無視しないでください。",
           "オンライン相談は独立した有資格の専門家によって行われ、確認済みの医師があなたの地域で免許を有する場合にのみ利用できます。",
@@ -1137,7 +1185,7 @@ window.CF_PRIVACY_T = {
   "ko": {
     "legal": "개인정보",
     "title": "개인정보처리방침",
-    "updated": "최종 업데이트: 2026년 7월 27일 · 버전: 2.4",
+    "updated": "최종 업데이트: 2026년 7월 28일 · 버전: 2.5",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1149,7 +1197,9 @@ window.CF_PRIVACY_T = {
       { "t": "저희가 수집하는 데이터", "b": [
         { "ul": [
           { "b": "계정 / 프로필:", "t": " 이메일, 사용자 이름, 암호화된 비밀번호, 언어, 국가." },
-          { "b": "건강 및 웰니스 데이터(특별 범주):", "t": " 팔로우하기로 선택한 질환, 증상 및 웰니스 체크인, 기분에 대한 일기 항목과 메모, 음식 기록 및 스캔, 그리고 자가 추적과 시각화를 위해 입력하는 매개변수 — 바디맵 항목, 증상/웰니스 레이더에 표시되는 입력값, 에너지 및 피로 로그, 그리고 가정용 기기에서 직접 입력하는 모든 측정값(예: 혈압, 최대호기유량, 혈당)을 포함합니다. 이 모든 것은 여러분이 직접 입력하는 데이터입니다." },
+          { "b": "건강 및 웰니스 데이터(특별 범주):", "t": " 팔로우하기로 선택한 질환, 증상 및 웰니스 체크인, 기분에 대한 일기 항목과 메모, 음식 기록 및 스캔, 그리고 자가 추적과 시각화를 위해 입력하는 매개변수 — 바디맵 항목, 증상/웰니스 레이더에 표시되는 입력값, 에너지 및 피로 로그, 그리고 가정용 기기에서 직접 입력하는 모든 측정값(예: 혈압, 최대호기유량, 혈당)을 포함합니다. 이 모든 것은 여러분이 직접 입력하는 데이터입니다. 유일한 예외는 다음에 설명하는 Health Sync로, 이를 켜면 휴대전화 자체의 건강 데이터 저장소에서 값을 읽어옵니다." },
+          { "b": "Health Sync — 휴대전화 건강 데이터 저장소의 값(선택, 직접 켜기 전까지는 꺼져 있음):", "t": " Health Sync를 켜고 휴대전화의 시스템 권한 창에서 허용하면 앱은 iPhone의 Apple Health(HealthKit) 또는 Android의 Health Connect에서 걸음 수, 수면 시간, 활동 시간(분)을 읽고, 기기가 기록하는 경우에만 안정 시 심박수와 심박 변이도도 읽습니다. 세 가지를 알려 드립니다. 읽기 전용입니다(Apple Health나 Health Connect에 아무것도 기록하지 않습니다). 이 값들은 기기에 남고 저희 서버로 업로드되지 않으므로, 일지 옆에 표시되고 직접 생성하는 PDF 리포트에 포함될 수 있지만 저희는 받지 않습니다. 그리고 어떤 날에 데이터가 없으면 값을 추정하지 않고 없다고 알려 드립니다. 이 권한은 휴대전화 설정에서 언제든 철회할 수 있으며, 앱의 나머지 기능은 이전과 똑같이 작동합니다." },
+          { "b": "자기평가 설문(선택):", "t": " PHQ-9, GAD-7, AUDIT-C 또는 질병 활성도 지수처럼 직접 작성하기로 선택한 표준화 설문에 대한 답변과 그 합산 점수입니다. 설문을 열지 여부는 본인이 결정하며, 이후 결과를 삭제할 수 있습니다. 이 설문들은 공식 발행본을 그대로 수록하며, 앱은 점수를 해석하지 않고 그대로 보여 줍니다(제11조 참조)." },
           { "b": "커뮤니티:", "t": " 게시물 및 비공개 메시지." },
           { "b": "원격 상담:", "t": " 예약 세부 정보, 의사와의 커뮤니케이션, 그리고 여러분이 공유하기로 선택한 모든 건강 정보. 저희는 화상 상담을 녹화하지 않습니다." },
           { "b": "구독 / 결제:", "t": " RevenueCat을 통한 구독 상태, Apple / Google을 통한 청구, Stripe를 통한 상담 결제. 저희는 카드 정보를 저장하지 않습니다." },
@@ -1184,6 +1234,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "데이터 저장 위치 및 국제 이전", "b": [
         { "p": "여러분의 계정 및 건강 데이터는 유럽 연합 내(독일 프랑크푸르트 — europe-west3 리전)에 위치한 Google Cloud / Firebase 서버에 저장됩니다. 저희는 건강 데이터가 GDPR 및 스위스 revFADP에 따라 유럽 내에 유지되도록 의도적으로 EU 리전을 선택했습니다. 이 위치는 영구적입니다." },
+        { "p": "휴대전화를 절대 벗어나지 않는 것이 하나 있습니다. Health Sync가 Apple Health 또는 Health Connect에서 가져오는 값(걸음 수, 수면, 활동 시간)은 기기에만 저장됩니다. Firebase로 전송되지 않고, 저희 서버에 도달하지 않으며, 어디로도 이전되지 않습니다. 앱을 삭제하면 이 값들도 함께 사라집니다." },
         { "p": "제한된 일부 제공업체는 스위스 또는 EEA 밖(예: 미국)에서 건강 정보가 아닌 특정 데이터를 처리할 수 있습니다. RevenueCat(구독 상태), Stripe(의사 인증 및 상담 결제), Apple / Google(청구 및 앱 배포)입니다. 그러한 경우, 저희는 표준계약조항(SCC)이나 EU–US / Swiss–US Data Privacy Framework와 같은 보호 장치에 의존합니다." }
       ]},
       { "t": "보존", "b": [
@@ -1213,6 +1264,7 @@ window.CF_PRIVACY_T = {
           "레이더, 바디맵, 그래프, 추세는 여러분이 직접 입력한 데이터를 시각화합니다. 이들은 어떤 질병이나 의학적 상태도 예측, 진단 또는 발견하지 않습니다.",
           "팔로우할 질환을 선택하는 것은 표시되는 추적기를 개인화할 뿐입니다. 이는 진단이 아니며, Chronic Friends는 의학적 조언을 제공하지 않습니다.",
           "가정용 기기에서 입력한 측정값(예: 혈압, 최대호기유량, 혈당)은 입력한 내용의 단순한 타임라인으로만 표시되며, 참고 범위, 색상 구역, \"높음/낮음/정상\" 라벨, 경고나 해석은 전혀 없습니다.",
+          "표준화 설문(PHQ-9, GAD-7, AUDIT-C, 질병 활성도 지수 등)은 자기평가 도구로, 공식 발행본을 그대로 수록하며 공식 번역이 존재하는 언어로만 제공됩니다. 앱은 산출된 점수를 보여줄 뿐 해석하지 않습니다. 중증도 분류나 위험 수준, 임상 기준값을 부여하지 않고 경고도 표시하지 않으며, 앱의 다른 어떤 기능도 그 점수를 읽어 표시 내용을 바꾸지 않습니다. 점수는 진단이 아닙니다. 의사와 상의하기 위한 것입니다.",
           "이 버전의 앱은 건강 데이터에 인공지능을 사용하지 않으며, 어떤 AI 제공업체에도 전송하지 않습니다.",
           "여러분의 상태에 관한 어떤 질문이든 항상 의사나 다른 자격 있는 의료 전문가의 조언을 구하고, 앱에서 본 내용 때문에 전문적인 의학적 조언을 절대 무시하지 마세요.",
           "온라인 상담은 독립적이고 면허를 소지한 전문가가 수행하며, 인증된 의사가 여러분의 지역에서 면허를 보유한 경우에만 이용할 수 있습니다.",
@@ -1231,7 +1283,7 @@ window.CF_PRIVACY_T = {
   "tr": {
     "legal": "Gizlilik",
     "title": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 27 Temmuz 2026 · Sürüm: 2.4",
+    "updated": "Son güncelleme: 28 Temmuz 2026 · Sürüm: 2.5",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1243,7 +1295,9 @@ window.CF_PRIVACY_T = {
       { "t": "Hangi verileri topluyoruz", "b": [
         { "ul": [
           { "b": "Hesap / profil:", "t": " e-posta, kullanıcı adı, şifrelenmiş parola, dil, ülke." },
-          { "b": "Sağlık ve esenlik verileri (özel kategori):", "t": " takip etmeyi seçtiğiniz hastalık(lar); belirti ve esenlik kayıtları; nasıl hissettiğinize dair günlük girişleri ve notlar; besin kaydı ve taraması; ve kişisel takip ve görselleştirme için girdiğiniz parametreler — vücut haritası girişleri, belirti/esenlik radarında gösterilen girdiler, enerji ve yorgunluk kayıtları ve kendi ev cihazlarınızdan bizzat girdiğiniz her türlü ölçüm (örneğin tansiyon, tepe akış hızı veya glukoz) dâhil. Bunların tümü, bizzat girdiğiniz verilerdir." },
+          { "b": "Sağlık ve esenlik verileri (özel kategori):", "t": " takip etmeyi seçtiğiniz hastalık(lar); belirti ve esenlik kayıtları; nasıl hissettiğinize dair günlük girişleri ve notlar; besin kaydı ve taraması; ve kişisel takip ve görselleştirme için girdiğiniz parametreler — vücut haritası girişleri, belirti/esenlik radarında gösterilen girdiler, enerji ve yorgunluk kayıtları ve kendi ev cihazlarınızdan bizzat girdiğiniz her türlü ölçüm (örneğin tansiyon, tepe akış hızı veya glukoz) dâhil. Bunların tümü, bizzat girdiğiniz verilerdir. Tek istisna, aşağıda açıklanan Health Sync'tir: siz açarsanız telefonunuzun kendi sağlık deposundan okur." },
+          { "b": "Health Sync — telefonunuzun sağlık deposundan gelen ölçümler (isteğe bağlı; siz açana kadar kapalı):", "t": " Health Sync'i açar ve telefonunuzun kendi sistem penceresinde izin verirseniz uygulama, adım sayınızı, uyku sürenizi ve etkinlik dakikalarınızı — yalnızca cihazınız kaydediyorsa dinlenme kalp atış hızınızı ve kalp atış hızı değişkenliğinizi de — iPhone'da Apple Health (HealthKit) veya Android'de Health Connect üzerinden okur. Bu konuda üç nokta: erişim yalnızca okumaya yöneliktir (Apple Health veya Health Connect'e hiçbir zaman veri yazmayız); bu ölçümler cihazınızda kalır ve sunucularımıza hiçbir zaman yüklenmez, dolayısıyla günlüğünüzün yanında görünür ve sizin oluşturmayı seçtiğiniz bir PDF raporunda yer alabilir, ancak bize ulaşmaz; ve bir günün verisi yoksa uygulama bir değer tahmin etmek yerine bunu söyler. Bu izni telefonunuzun ayarlarından dilediğiniz an geri alabilirsiniz; uygulamanın geri kalanı tam olarak aynı şekilde çalışmaya devam eder." },
+          { "b": "Öz değerlendirme anketleri (isteğe bağlı):", "t": " doldurmayı seçtiğiniz standart anketlere verdiğiniz yanıtlar — PHQ-9, GAD-7, AUDIT-C veya bir hastalık aktivite indeksi gibi — ve bunların toplandığı puan. Bir anketi açıp açmamaya siz karar verirsiniz ve sonucu sonradan silebilirsiniz. Bu anketler resmî olarak yayımlanmış sürümlerinden birebir alınmıştır ve uygulama puanı yorumlamadan gösterir (bkz. Bölüm 11)." },
           { "b": "Topluluk:", "t": " gönderiler ve özel mesajlar." },
           { "b": "Teletıp danışmanlığı:", "t": " randevu ayrıntıları, doktorlarla iletişimler ve paylaşmayı seçtiğiniz her türlü sağlık bilgisi. Video görüşmeleri kaydetmiyoruz." },
           { "b": "Abonelik / ödeme:", "t": " RevenueCat aracılığıyla abonelik durumu; Apple / Google aracılığıyla ücretlendirmeler; Stripe aracılığıyla danışmanlık ödemeleri. Kart bilgilerini asla saklamayız." },
@@ -1278,6 +1332,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Verilerinizin nerede saklandığı ve uluslararası aktarımlar", "b": [
         { "p": "Hesap ve sağlık verileriniz, Avrupa Birliği'nde bulunan (Frankfurt, Almanya — europe-west3 bölgesi) Google Cloud / Firebase sunucularında saklanır. Sağlık verilerinin GDPR ve İsviçre revFADP kapsamında Avrupa içinde kalması için bilinçli olarak bir AB bölgesi seçtik. Bu konum kalıcıdır." },
+        { "p": "Telefonunuzdan hiç çıkmayan bir şey var: Health Sync'in Apple Health veya Health Connect'ten aldığı ölçümler (adım, uyku, etkinlik dakikası) yalnızca cihazınızda saklanır. Firebase'e gönderilmez, sunucularımıza ulaşmaz ve hiçbir yere aktarılmaz. Uygulamayı silerseniz onlar da silinir." },
         { "p": "Sınırlı sayıda sağlayıcı, sağlıkla ilgili olmayan belirli verileri İsviçre veya AEA dışında (örneğin, Amerika Birleşik Devletleri'nde) işleyebilir: RevenueCat (abonelik durumu), Stripe (doktor doğrulama ve danışmanlık ödemeleri) ve Apple / Google (faturalandırma ve uygulama dağıtımı). Bu durumda, Standart Sözleşme Maddeleri (SCC'ler) veya AB–ABD / İsviçre–ABD Veri Gizliliği Çerçevesi gibi güvencelere dayanırız." }
       ]},
       { "t": "Saklama", "b": [
@@ -1307,6 +1362,7 @@ window.CF_PRIVACY_T = {
           "Radar, vücut haritası, grafikler ve eğilimler, bizzat girdiğiniz verileri görselleştirir. Herhangi bir hastalığı veya tıbbi durumu tahmin etmez, teşhis etmez veya saptamaz.",
           "Hangi hastalık(lar)ı takip edeceğinizi seçmek yalnızca gördüğünüz takipçileri kişiselleştirir. Bu bir teşhis değildir ve Chronic Friends tıbbi tavsiye vermez.",
           "Kendi ev cihazlarınızdan girdiğiniz herhangi bir ölçüm (tansiyon, tepe akış hızı veya glukoz gibi) yalnızca girdiğiniz şeyin basit bir zaman çizelgesi olarak gösterilir; referans aralıkları, renk bölgeleri, \"yüksek/düşük/normal\" etiketleri ve uyarılar veya yorumlar olmadan.",
+          "Standart anketler (PHQ-9, GAD-7, AUDIT-C veya bir hastalık aktivite indeksi gibi) öz değerlendirme araçlarıdır; resmî olarak yayımlanmış sürümlerinden birebir alınmıştır ve yalnızca resmî çevirisi bulunan dillerde sunulur. Uygulama aldığınız puanı gösterir ve yorumlamaz: hiçbir şiddet kategorisi, risk düzeyi veya klinik eşik atamaz, uyarı vermez ve uygulamadaki başka hiçbir özellik gördüklerinizi değiştirmek için bu puanı okumaz. Puan bir teşhis değildir. Doktorunuzla konuşmanız için vardır.",
           "Uygulamanın bu sürümü sağlık verilerinizde yapay zekâ kullanmaz ve bu verileri hiçbir yapay zekâ sağlayıcısına göndermez.",
           "Durumunuzla ilgili herhangi bir sorunuz için her zaman doktorunuzun veya başka bir nitelikli sağlık uzmanının tavsiyesini alın ve uygulamada gördüğünüz bir şey nedeniyle profesyonel tıbbi tavsiyeyi asla göz ardı etmeyin.",
           "Çevrimiçi danışmanlıklar bağımsız, ruhsatlı uzmanlar tarafından yürütülür ve yalnızca doğrulanmış bir doktorun sizin konumunuzda ruhsatlı olduğu yerlerde kullanılabilir.",
@@ -1325,7 +1381,7 @@ window.CF_PRIVACY_T = {
   "vi": {
     "legal": "Quyền riêng tư",
     "title": "Chính sách quyền riêng tư",
-    "updated": "Cập nhật lần cuối: ngày 27 tháng 7 năm 2026 · Phiên bản: 2.4",
+    "updated": "Cập nhật lần cuối: ngày 28 tháng 7 năm 2026 · Phiên bản: 2.5",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1337,7 +1393,9 @@ window.CF_PRIVACY_T = {
       { "t": "Chúng tôi thu thập dữ liệu nào", "b": [
         { "ul": [
           { "b": "Tài khoản / hồ sơ:", "t": " email, tên người dùng, mật khẩu đã mã hóa, ngôn ngữ, quốc gia." },
-          { "b": "Dữ liệu sức khỏe và wellness (danh mục đặc biệt):", "t": " (các) tình trạng bạn chọn theo dõi; các lần ghi nhận triệu chứng và wellness; các mục nhật ký và ghi chú về cảm giác của bạn; ghi nhận và quét thực phẩm; và các tham số bạn nhập để tự theo dõi và trực quan hóa — bao gồm các mục bản đồ cơ thể, dữ liệu hiển thị trong radar triệu chứng/wellness, nhật ký năng lượng và mệt mỏi, cùng bất kỳ chỉ số nào bạn tự nhập từ thiết bị tại nhà của mình (ví dụ huyết áp, lưu lượng đỉnh hoặc glucose). Tất cả những dữ liệu này đều do bạn tự nhập." },
+          { "b": "Dữ liệu sức khỏe và wellness (danh mục đặc biệt):", "t": " (các) tình trạng bạn chọn theo dõi; các lần ghi nhận triệu chứng và wellness; các mục nhật ký và ghi chú về cảm giác của bạn; ghi nhận và quét thực phẩm; và các tham số bạn nhập để tự theo dõi và trực quan hóa — bao gồm các mục bản đồ cơ thể, dữ liệu hiển thị trong radar triệu chứng/wellness, nhật ký năng lượng và mệt mỏi, cùng bất kỳ chỉ số nào bạn tự nhập từ thiết bị tại nhà của mình (ví dụ huyết áp, lưu lượng đỉnh hoặc glucose). Tất cả những dữ liệu này đều do bạn tự nhập. Ngoại lệ duy nhất là Health Sync, được nói đến ngay sau đây: nếu bạn bật, tính năng này đọc từ kho dữ liệu sức khỏe của chính điện thoại bạn." },
+          { "b": "Health Sync — số đo từ kho dữ liệu sức khỏe của điện thoại bạn (không bắt buộc, tắt cho đến khi bạn tự bật):", "t": " nếu bạn bật Health Sync và cấp quyền trong hộp thoại hệ thống của điện thoại, ứng dụng sẽ đọc số bước chân, thời lượng giấc ngủ và số phút hoạt động của bạn — và, chỉ khi thiết bị của bạn có ghi lại, cả nhịp tim khi nghỉ và biến thiên nhịp tim — từ Apple Health (HealthKit) trên iPhone hoặc Health Connect trên Android. Ba điều cần biết: quyền này chỉ để đọc (chúng tôi không bao giờ ghi bất cứ điều gì vào Apple Health hay Health Connect); các số đo đó nằm lại trên thiết bị của bạn và không bao giờ được tải lên máy chủ của chúng tôi, nên chúng hiện bên cạnh nhật ký của bạn và có thể xuất hiện trong báo cáo PDF mà bạn chọn tạo, nhưng chúng tôi không nhận được; và nếu một ngày không có dữ liệu, ứng dụng sẽ nói rõ điều đó thay vì ước lượng một giá trị. Bạn có thể thu hồi quyền này bất cứ lúc nào trong phần cài đặt của điện thoại, và phần còn lại của ứng dụng vẫn hoạt động y như trước." },
+          { "b": "Bộ câu hỏi tự đánh giá (không bắt buộc):", "t": " các câu trả lời bạn đưa ra trong những bộ câu hỏi chuẩn hóa mà bạn chọn hoàn thành — như PHQ-9, GAD-7, AUDIT-C hoặc một chỉ số hoạt động bệnh — và điểm số cộng lại. Bạn quyết định có mở hay không, và có thể xóa kết quả sau đó. Các bộ câu hỏi này được tái tạo từ bản chính thức đã công bố và ứng dụng cho bạn thấy điểm số mà không diễn giải nó (xem Mục 11)." },
           { "b": "Cộng đồng:", "t": " bài đăng và tin nhắn riêng tư." },
           { "b": "Tư vấn từ xa:", "t": " chi tiết lịch hẹn, trao đổi với bác sĩ và bất kỳ thông tin sức khỏe nào bạn chọn chia sẻ. Chúng tôi không ghi hình các buổi tư vấn video." },
           { "b": "Đăng ký / thanh toán:", "t": " trạng thái đăng ký qua RevenueCat; các khoản phí qua Apple / Google; thanh toán tư vấn qua Stripe. Chúng tôi không bao giờ lưu trữ thông tin thẻ." },
@@ -1372,6 +1430,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Nơi lưu trữ dữ liệu của bạn và việc chuyển dữ liệu quốc tế", "b": [
         { "p": "Dữ liệu tài khoản và sức khỏe của bạn được lưu trữ trên các máy chủ Google Cloud / Firebase đặt tại Liên minh Châu Âu (Frankfurt, Đức — khu vực europe-west3). Chúng tôi cố ý chọn một khu vực EU để dữ liệu sức khỏe luôn nằm trong phạm vi Châu Âu theo GDPR và revFADP của Thụy Sĩ. Vị trí này là cố định." },
+        { "p": "Có một thứ không bao giờ rời khỏi điện thoại bạn: các số đo mà Health Sync lấy từ Apple Health hoặc Health Connect (bước chân, giấc ngủ, số phút hoạt động) chỉ được lưu trên thiết bị của bạn. Chúng không được gửi tới Firebase, không đến máy chủ của chúng tôi và không được chuyển đi bất cứ đâu. Nếu bạn xóa ứng dụng, chúng cũng mất theo." },
         { "p": "Một số nhà cung cấp giới hạn có thể xử lý một số dữ liệu không liên quan đến sức khỏe bên ngoài Thụy Sĩ hoặc EEA (ví dụ, tại Hoa Kỳ): RevenueCat (trạng thái đăng ký), Stripe (xác minh bác sĩ và thanh toán tư vấn) và Apple / Google (lập hóa đơn và phân phối ứng dụng). Khi điều này xảy ra, chúng tôi dựa vào các biện pháp bảo vệ như Điều khoản Hợp đồng Tiêu chuẩn (SCC) hoặc Khung Bảo mật Dữ liệu EU–US / Thụy Sĩ–US." }
       ]},
       { "t": "Lưu giữ", "b": [
@@ -1401,6 +1460,7 @@ window.CF_PRIVACY_T = {
           "Radar, bản đồ cơ thể, biểu đồ và xu hướng trực quan hóa dữ liệu do chính bạn nhập. Chúng không dự đoán, chẩn đoán hay phát hiện bất kỳ bệnh hoặc tình trạng y tế nào.",
           "Việc chọn (các) tình trạng bạn theo dõi chỉ cá nhân hóa các công cụ theo dõi mà bạn nhìn thấy. Đó không phải là chẩn đoán, và Chronic Friends không đưa ra lời khuyên y tế.",
           "Bất kỳ chỉ số nào bạn nhập từ thiết bị tại nhà của mình (như huyết áp, lưu lượng đỉnh hoặc glucose) chỉ được hiển thị dưới dạng một dòng thời gian đơn giản về những gì bạn đã nhập, không có khoảng tham chiếu, không có vùng màu, không có nhãn \"cao/thấp/bình thường\" và không có cảnh báo hay diễn giải.",
+          "Các bộ câu hỏi chuẩn hóa (như PHQ-9, GAD-7, AUDIT-C hoặc một chỉ số hoạt động bệnh) là công cụ tự đánh giá, được tái tạo từ bản chính thức đã công bố và chỉ cung cấp ở những ngôn ngữ có bản dịch chính thức. Ứng dụng cho bạn thấy điểm số bạn đạt được và không diễn giải nó: không gán mức độ nặng, không gán mức nguy cơ, không gán ngưỡng lâm sàng, không phát cảnh báo, và không tính năng nào khác của ứng dụng đọc điểm đó để thay đổi những gì bạn thấy. Điểm số không phải là chẩn đoán. Nó ở đó để bạn trao đổi với bác sĩ.",
           "Phiên bản ứng dụng này không sử dụng trí tuệ nhân tạo trên dữ liệu sức khỏe của bạn và không gửi dữ liệu đó tới bất kỳ nhà cung cấp AI nào.",
           "Hãy luôn tìm lời khuyên của bác sĩ hoặc chuyên gia y tế đủ điều kiện khác cho bất kỳ thắc mắc nào về tình trạng của bạn, và đừng bao giờ bỏ qua lời khuyên y tế chuyên nghiệp vì điều gì đó bạn thấy trong ứng dụng.",
           "Các buổi tư vấn trực tuyến do các chuyên gia độc lập, có giấy phép thực hiện và chỉ có sẵn ở nơi mà một bác sĩ đã được xác minh có giấy phép tại vị trí của bạn.",
@@ -1419,7 +1479,7 @@ window.CF_PRIVACY_T = {
   "zh": {
     "legal": "隐私",
     "title": "隐私政策",
-    "updated": "最后更新：2026年7月27日 · 版本：2.4",
+    "updated": "最后更新：2026年7月28日 · 版本：2.5",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1431,7 +1491,9 @@ window.CF_PRIVACY_T = {
       { "t": "我们收集哪些数据", "b": [
         { "ul": [
           { "b": "账户 / 个人资料：", "t": " 电子邮件、用户名、加密密码、语言、国家/地区。" },
-          { "b": "健康与 wellness 数据(特殊类别)：", "t": " 你选择关注的病症；症状与 wellness 打卡；关于你感受的日记条目和笔记；食物记录与扫描；以及你为自我追踪和可视化而输入的参数——包括身体地图条目、症状/wellness 雷达中显示的输入、能量与疲劳日志，以及你自己从家用设备输入的任何读数(例如血压、呼气峰流速或血糖)。所有这些都是你自己输入的数据。" },
+          { "b": "健康与 wellness 数据(特殊类别)：", "t": " 你选择关注的病症；症状与 wellness 打卡；关于你感受的日记条目和笔记；食物记录与扫描；以及你为自我追踪和可视化而输入的参数——包括身体地图条目、症状/wellness 雷达中显示的输入、能量与疲劳日志，以及你自己从家用设备输入的任何读数(例如血压、呼气峰流速或血糖)。所有这些都是你自己输入的数据。 唯一的例外是下面介绍的 Health Sync：如果你开启它，它会从你手机自身的健康数据存储中读取数据。" },
+          { "b": "Health Sync — 来自手机健康数据存储的读数（可选，在你开启之前一直关闭）：", "t": " 如果你开启 Health Sync 并在手机自身的系统弹窗中授予权限，应用会从 iPhone 上的 Apple Health（HealthKit）或 Android 上的 Health Connect 读取你的步数、睡眠时长和活动分钟数；只有在你的设备有记录时，才会读取静息心率和心率变异性。关于这一点有三件事：权限仅为只读（我们绝不会向 Apple Health 或 Health Connect 写入任何内容）；这些读数保留在你的设备上，绝不会上传到我们的服务器，因此它们会显示在你的日记旁边，也可能出现在你自己选择生成的 PDF 报告中，但我们不会收到；如果某一天没有数据，应用会明确告知，而不会估算数值。你可以随时在手机设置中撤销该权限，应用的其余功能将完全照常运行。" },
+          { "b": "自评问卷（可选）：", "t": " 你选择填写的标准化问卷中所给的答案——例如 PHQ-9、GAD-7、AUDIT-C 或疾病活动指数——以及由此累计得出的分数。是否打开问卷由你决定，事后也可以删除结果。这些问卷依据官方发布版本呈现，应用只显示分数而不作解读（见第 11 节）。" },
           { "b": "社区：", "t": " 帖子和私信。" },
           { "b": "远程咨询：", "t": " 预约详情、与医生的沟通，以及你选择分享的任何健康信息。我们不会录制视频咨询。" },
           { "b": "订阅 / 付款：", "t": " 通过 RevenueCat 的订阅状态；通过 Apple / Google 的扣费；通过 Stripe 的咨询付款。我们绝不存储卡片信息。" },
@@ -1466,6 +1528,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "你的数据存储在何处，以及国际传输", "b": [
         { "p": "你的账户数据和健康数据存储在位于欧盟(德国法兰克福——europe-west3 区域)的 Google Cloud / Firebase 服务器上。我们特意选择了欧盟区域，以便健康数据依据 GDPR 和瑞士 revFADP 留在欧洲境内。此存储位置是永久性的。" },
+        { "p": "有一样东西永远不会离开你的手机：Health Sync 从 Apple Health 或 Health Connect 取得的读数（步数、睡眠、活动分钟数）只保存在你的设备上。它们不会发送到 Firebase，不会到达我们的服务器，也不会传输到任何地方。如果你删除应用，它们也随之消失。" },
         { "p": "少数提供商可能在瑞士或欧洲经济区(EEA)以外(例如在美国)处理某些非健康数据：RevenueCat(订阅状态)、Stripe(医生验证和咨询付款)以及 Apple / Google(计费和应用分发)。在这种情况下，我们依赖诸如标准合同条款(SCCs)或欧盟–美国 / 瑞士–美国数据隐私框架等保障措施。" }
       ]},
       { "t": "保留", "b": [
@@ -1495,6 +1558,7 @@ window.CF_PRIVACY_T = {
           "雷达、身体地图、图表和趋势将你自己输入的数据可视化。它们不预测、不诊断，也不检测任何疾病或医疗状况。",
           "选择你关注哪些病症只会个性化你所看到的追踪器。这不是诊断，Chronic Friends 也不提供医疗建议。",
           "你从家用设备输入的任何读数(如血压、呼气峰流速或血糖)仅以你所输入内容的简单时间线形式显示，没有参考范围、没有颜色区域、没有“高/低/正常”标签，也没有任何警报或解读。",
+          "标准化问卷（如 PHQ-9、GAD-7、AUDIT-C 或疾病活动指数）是自评工具，依据官方发布版本呈现，且仅提供存在官方译本的语言版本。应用只显示你所得的分数，并不作解读：不划分严重程度等级、不判定风险级别、不设临床阈值，不发出任何警报，应用中也没有其他功能会读取该分数来改变呈现给你的内容。分数不是诊断，它是供你与医生讨论的。",
           "本版本的应用不会对你的健康数据使用人工智能，也不会将其发送给任何 AI 提供商。",
           "对于有关你病症的任何问题，请始终征求你的医生或其他合格医疗专业人员的意见，切勿因在应用中看到的内容而忽视专业医疗建议。",
           "在线咨询由独立、持证的专业人员进行，且仅在经验证的医生在你所在地持证时可用。",

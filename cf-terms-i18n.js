@@ -1,4 +1,4 @@
-/* Chronic Friends — Terms of Service (v2.2), translated for all 16 supported languages.
+/* Chronic Friends — Terms of Service (v2.3), translated for all 16 supported languages.
    Consumed by "Crohn Friends Landing.dc.html" (renderLegal). Shared by patient
    and doctor sections — the modal reads the page's currently selected language.
    Brand names, provider names, condition names, prices, URLs and the contact email
@@ -8,7 +8,7 @@ window.CF_TERMS_T = {
   "en": {
     "legal": "Legal",
     "title": "Terms of Service",
-    "updated": "Last updated: July 27, 2026",
+    "updated": "Last updated: July 28, 2026",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -38,6 +38,8 @@ window.CF_TERMS_T = {
           { "b": "Community:", "t": " open posts and private chats between people living with chronic conditions." },
           { "b": "Self-tracking:", "t": " daily logging of wellness, symptoms, food, and habits, with tools that help you see your own patterns over time." },
           { "b": "Access to verified doctors:", "t": " where available, the ability to request video consultations with accredited healthcare professionals." },
+          { "b": "Health Sync (optional):", "t": " if you switch it on and grant permission on your device, the app reads your step count, sleep duration and activity minutes — and, where your device records them, resting heart rate and heart-rate variability — from Apple Health (HealthKit) on iPhone or Health Connect on Android. It is read-only: we never write anything back into them. Those readings stay on your device, and you can revoke the permission at any time from your phone's settings without losing the rest of the app." },
+          { "b": "Self-assessment questionnaires (optional):", "t": " standardised questionnaires you may choose to complete, such as the PHQ-9, the GAD-7, the AUDIT-C or a condition activity index. They are reproduced from their official published versions and are offered only in the languages in which an official translation exists." },
           { "b": "Wellness and supply-management tools." }
         ]},
         { "p": "We strive to keep the Service available and up to date, but we may modify, suspend, or withdraw features at any time." }
@@ -46,6 +48,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends is NOT a medical device and does NOT replace the advice, diagnosis, or treatment of a healthcare professional." },
         { "ul": [
           "The information, self-tracking, and visualization tools in the app are for general informational and wellness purposes only. They visualize the data you enter yourself and do not predict, diagnose, or detect any disease.",
+          "Self-assessment questionnaires (such as the PHQ-9, the GAD-7, the AUDIT-C, or a condition activity index) are screening and self-observation tools, not diagnostic tests. The app shows you the score you obtained and does not interpret it: it assigns no severity category, no risk level, and no clinical threshold, it raises no alert, and no other feature reads that score to change what you are shown. A score is not a diagnosis; discuss it with your doctor.",
+          "Readings brought in by Health Sync come from your phone's own health store and from the consumer devices that feed it. They are shown for your own reference, they are not medical-grade measurements, and they are not verified by us. If a day has no data, the app tells you so rather than estimating a value.",
           "Nothing in the Service should be interpreted as a medical diagnosis or as a treatment recommendation.",
           "Always consult your doctor or a qualified healthcare professional before making any decision about your health, your medication, or your diet.",
           "In a medical emergency, call your country's emergency services immediately. Do not use the app for urgent situations."
@@ -96,7 +100,8 @@ window.CF_TERMS_T = {
         { "p": "Payments, refunds, and renewals are handled according to the policies of the relevant app store." }
       ]},
       { "t": "Intellectual property", "b": [
-        { "p": "The Service, its design, brand, logos, and content are the property of Chronic Friends or its licensors. You may not copy, modify, or distribute the Service without authorization. The content you post remains yours, but you grant us a license to display it within the Service." }
+        { "p": "The Service, its design, brand, logos, and content are the property of Chronic Friends or its licensors. You may not copy, modify, or distribute the Service without authorization. The content you post remains yours, but you grant us a license to display it within the Service." },
+        { "b": "Third-party instruments.", "p": " The self-assessment questionnaires offered in the app belong to their respective authors and are reproduced under the terms those authors set. The PHQ-9 and the GAD-7 were developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc., and require no permission to reproduce, translate, display or distribute. The AUDIT is a World Health Organization instrument and is used with attribution. Each questionnaire carries its attribution where it is shown. Instruments whose authors require written permission are not included in the app." }
       ]},
       { "t": "Limitation of liability", "b": [
         { "p": "To the fullest extent permitted by law:" },
@@ -122,7 +127,7 @@ window.CF_TERMS_T = {
   "es": {
     "legal": "Legal",
     "title": "Términos del Servicio",
-    "updated": "Última actualización: 27 de julio de 2026",
+    "updated": "Última actualización: 28 de julio de 2026",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -152,6 +157,8 @@ window.CF_TERMS_T = {
           { "b": "Comunidad:", "t": " publicaciones abiertas y chats privados entre personas que viven con afecciones crónicas." },
           { "b": "Autoseguimiento:", "t": " registro diario de bienestar, síntomas, alimentación y hábitos, con herramientas que te ayudan a ver tus propios patrones a lo largo del tiempo." },
           { "b": "Acceso a médicos verificados:", "t": " cuando esté disponible, la posibilidad de solicitar videoconsultas con profesionales sanitarios acreditados." },
+          { "b": "Health Sync (opcional):", "t": " si lo activas y concedes el permiso en tu dispositivo, la aplicación lee tus pasos, la duración del sueño y los minutos de actividad —y, cuando tu dispositivo los registra, la frecuencia cardíaca en reposo y la variabilidad de la frecuencia cardíaca— de Apple Health (HealthKit) en iPhone o de Health Connect en Android. Es solo de lectura: nunca escribimos nada en ellos. Esas lecturas permanecen en tu dispositivo y puedes revocar el permiso en cualquier momento desde los ajustes de tu teléfono sin perder el resto de la aplicación." },
+          { "b": "Cuestionarios de autoevaluación (opcional):", "t": " cuestionarios estandarizados que puedes elegir completar, como el PHQ-9, el GAD-7, el AUDIT-C o un índice de actividad de la enfermedad. Se reproducen a partir de sus versiones oficiales publicadas y solo se ofrecen en los idiomas en los que existe una traducción oficial." },
           { "b": "Herramientas de bienestar y gestión de suministros." }
         ]},
         { "p": "Nos esforzamos por mantener el Servicio disponible y actualizado, pero podemos modificar, suspender o retirar funciones en cualquier momento." }
@@ -160,6 +167,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends NO es un dispositivo médico y NO sustituye el consejo, el diagnóstico ni el tratamiento de un profesional sanitario." },
         { "ul": [
           "La información y las herramientas de autoseguimiento y visualización de la aplicación tienen únicamente fines informativos y de bienestar generales. Visualizan los datos que introduces tú mismo y no predicen, diagnostican ni detectan ninguna enfermedad.",
+          "Los cuestionarios de autoevaluación (como el PHQ-9, el GAD-7, el AUDIT-C o un índice de actividad de la enfermedad) son herramientas de cribado y autoobservación, no pruebas diagnósticas. La aplicación te muestra la puntuación que has obtenido y no la interpreta: no asigna ninguna categoría de gravedad, ningún nivel de riesgo ni ningún umbral clínico, no genera ninguna alerta y ninguna otra función lee esa puntuación para cambiar lo que ves. Una puntuación no es un diagnóstico; coméntala con tu médico.",
+          "Las lecturas que trae Health Sync provienen del propio almacén de salud de tu teléfono y de los dispositivos de consumo que lo alimentan. Se muestran para tu propia referencia, no son mediciones de grado médico y no están verificadas por nosotros. Si un día no tiene datos, la aplicación te lo indica en lugar de estimar un valor.",
           "Nada en el Servicio debe interpretarse como un diagnóstico médico o como una recomendación de tratamiento.",
           "Consulta siempre a tu médico o a un profesional sanitario cualificado antes de tomar cualquier decisión sobre tu salud, tu medicación o tu dieta.",
           "En una emergencia médica, llama de inmediato a los servicios de emergencia de tu país. No uses la aplicación para situaciones urgentes."
@@ -210,7 +219,8 @@ window.CF_TERMS_T = {
         { "p": "Los pagos, reembolsos y renovaciones se gestionan según las políticas de la tienda de aplicaciones correspondiente." }
       ]},
       { "t": "Propiedad intelectual", "b": [
-        { "p": "El Servicio, su diseño, marca, logotipos y contenido son propiedad de Chronic Friends o de sus licenciantes. No puedes copiar, modificar ni distribuir el Servicio sin autorización. El contenido que publicas sigue siendo tuyo, pero nos concedes una licencia para mostrarlo dentro del Servicio." }
+        { "p": "El Servicio, su diseño, marca, logotipos y contenido son propiedad de Chronic Friends o de sus licenciantes. No puedes copiar, modificar ni distribuir el Servicio sin autorización. El contenido que publicas sigue siendo tuyo, pero nos concedes una licencia para mostrarlo dentro del Servicio." },
+        { "b": "Instrumentos de terceros.", "p": " Los cuestionarios de autoevaluación que se ofrecen en la aplicación pertenecen a sus respectivos autores y se reproducen según las condiciones que esos autores establecen. El PHQ-9 y el GAD-7 fueron desarrollados por los Dres. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke y colegas, con una beca educativa de Pfizer Inc., y no requieren permiso para reproducirse, traducirse, mostrarse ni distribuirse. El AUDIT es un instrumento de la Organización Mundial de la Salud y se utiliza con la atribución correspondiente. Cada cuestionario lleva su atribución allí donde se muestra. Los instrumentos cuyos autores exigen permiso por escrito no se incluyen en la aplicación." }
       ]},
       { "t": "Limitación de responsabilidad", "b": [
         { "p": "En la máxima medida permitida por la ley:" },
@@ -236,7 +246,7 @@ window.CF_TERMS_T = {
   "ca": {
     "legal": "Legal",
     "title": "Condicions del servei",
-    "updated": "Última actualització: 27 de juliol de 2026",
+    "updated": "Última actualització: 28 de juliol de 2026",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -266,6 +276,8 @@ window.CF_TERMS_T = {
           { "b": "Comunitat:", "t": " publicacions obertes i xats privats entre persones que viuen amb afeccions cròniques." },
           { "b": "Autoseguiment:", "t": " registre diari de benestar, símptomes, alimentació i hàbits, amb eines que t'ajuden a veure els teus propis patrons al llarg del temps." },
           { "b": "Accés a metges verificats:", "t": " quan estigui disponible, la possibilitat de sol·licitar videoconsultes amb professionals sanitaris acreditats." },
+          { "b": "Health Sync (opcional):", "t": " si l'actives i concedeixes el permís al teu dispositiu, l'aplicació llegeix els teus passos, la durada del son i els minuts d'activitat —i, quan el teu dispositiu els registra, la freqüència cardíaca en repòs i la variabilitat de la freqüència cardíaca— d'Apple Health (HealthKit) a l'iPhone o de Health Connect a Android. Només és de lectura: mai no hi escrivim res. Aquestes lectures es queden al teu dispositiu i pots revocar el permís en qualsevol moment des dels ajustos del telèfon sense perdre la resta de l'aplicació." },
+          { "b": "Qüestionaris d'autoavaluació (opcional):", "t": " qüestionaris estandarditzats que pots decidir completar, com el PHQ-9, el GAD-7, l'AUDIT-C o un índex d'activitat de la malaltia. Es reprodueixen a partir de les seves versions oficials publicades i només s'ofereixen en els idiomes en què existeix una traducció oficial." },
           { "b": "Eines de benestar i de gestió de subministraments." }
         ]},
         { "p": "Ens esforcem per mantenir el Servei disponible i actualitzat, però podem modificar, suspendre o retirar funcions en qualsevol moment." }
@@ -274,6 +286,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends NO és un dispositiu mèdic i NO substitueix el consell, el diagnòstic ni el tractament d'un professional sanitari." },
         { "ul": [
           "La informació i les eines d'autoseguiment i visualització de l'aplicació tenen únicament finalitats informatives i de benestar generals. Visualitzen les dades que introdueixes tu mateix i no prediuen, diagnostiquen ni detecten cap malaltia.",
+          "Els qüestionaris d'autoavaluació (com el PHQ-9, el GAD-7, l'AUDIT-C o un índex d'activitat de la malaltia) són eines de cribratge i autoobservació, no proves diagnòstiques. L'aplicació et mostra la puntuació que has obtingut i no la interpreta: no assigna cap categoria de gravetat, cap nivell de risc ni cap llindar clínic, no genera cap alerta i cap altra funció no llegeix aquesta puntuació per canviar el que veus. Una puntuació no és un diagnòstic; comenta-la amb el teu metge.",
+          "Les lectures que aporta Health Sync provenen del magatzem de salut del teu propi telèfon i dels dispositius de consum que l'alimenten. Es mostren per a la teva referència, no són mesures de grau mèdic i no estan verificades per nosaltres. Si un dia no té dades, l'aplicació t'ho diu en lloc d'estimar un valor.",
           "Res del Servei no s'ha d'interpretar com un diagnòstic mèdic o com una recomanació de tractament.",
           "Consulta sempre el teu metge o un professional sanitari qualificat abans de prendre qualsevol decisió sobre la teva salut, la teva medicació o la teva dieta.",
           "En una emergència mèdica, truca immediatament als serveis d'emergència del teu país. No usis l'aplicació per a situacions urgents."
@@ -324,7 +338,8 @@ window.CF_TERMS_T = {
         { "p": "Els pagaments, reemborsaments i renovacions es gestionen segons les polítiques de la botiga d'aplicacions corresponent." }
       ]},
       { "t": "Propietat intel·lectual", "b": [
-        { "p": "El Servei, el seu disseny, marca, logotips i contingut són propietat de Chronic Friends o dels seus llicenciadors. No pots copiar, modificar ni distribuir el Servei sense autorització. El contingut que publiques continua sent teu, però ens concedeixes una llicència per mostrar-lo dins del Servei." }
+        { "p": "El Servei, el seu disseny, marca, logotips i contingut són propietat de Chronic Friends o dels seus llicenciadors. No pots copiar, modificar ni distribuir el Servei sense autorització. El contingut que publiques continua sent teu, però ens concedeixes una llicència per mostrar-lo dins del Servei." },
+        { "b": "Instruments de tercers.", "p": " Els qüestionaris d'autoavaluació que s'ofereixen a l'aplicació pertanyen als seus autors respectius i es reprodueixen segons les condicions que aquests autors estableixen. El PHQ-9 i el GAD-7 van ser desenvolupats pels Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke i col·legues, amb una beca educativa de Pfizer Inc., i no requereixen permís per reproduir-los, traduir-los, mostrar-los ni distribuir-los. L'AUDIT és un instrument de l'Organització Mundial de la Salut i s'utilitza amb l'atribució corresponent. Cada qüestionari porta la seva atribució allà on es mostra. Els instruments els autors dels quals exigeixen permís per escrit no s'inclouen a l'aplicació." }
       ]},
       { "t": "Limitació de responsabilitat", "b": [
         { "p": "En la màxima mesura permesa per la llei:" },
@@ -350,7 +365,7 @@ window.CF_TERMS_T = {
   "fr": {
     "legal": "Légal",
     "title": "Conditions d'utilisation",
-    "updated": "Dernière mise à jour : 27 juillet 2026",
+    "updated": "Dernière mise à jour : 28 juillet 2026",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -380,6 +395,8 @@ window.CF_TERMS_T = {
           { "b": "Communauté :", "t": " publications ouvertes et discussions privées entre personnes vivant avec des affections chroniques." },
           { "b": "Suivi personnel :", "t": " enregistrement quotidien du bien-être, des symptômes, de l'alimentation et des habitudes, avec des outils qui vous aident à voir vos propres tendances au fil du temps." },
           { "b": "Accès à des médecins vérifiés :", "t": " lorsque cela est disponible, la possibilité de demander des consultations vidéo avec des professionnels de santé accrédités." },
+          { "b": "Health Sync (facultatif) :", "t": " si vous l'activez et accordez l'autorisation sur votre appareil, l'application lit votre nombre de pas, votre durée de sommeil et vos minutes d'activité — et, lorsque votre appareil les enregistre, votre fréquence cardiaque au repos et votre variabilité de la fréquence cardiaque — depuis Apple Health (HealthKit) sur iPhone ou Health Connect sur Android. L'accès est en lecture seule : nous n'y écrivons jamais rien. Ces relevés restent sur votre appareil et vous pouvez révoquer l'autorisation à tout moment dans les réglages de votre téléphone sans perdre le reste de l'application." },
+          { "b": "Questionnaires d'auto-évaluation (facultatif) :", "t": " des questionnaires standardisés que vous pouvez choisir de remplir, comme le PHQ-9, le GAD-7, l'AUDIT-C ou un indice d'activité de la maladie. Ils sont reproduits à partir de leurs versions officielles publiées et ne sont proposés que dans les langues pour lesquelles une traduction officielle existe." },
           { "b": "Outils de bien-être et de gestion des approvisionnements." }
         ]},
         { "p": "Nous nous efforçons de maintenir le Service disponible et à jour, mais nous pouvons modifier, suspendre ou retirer des fonctionnalités à tout moment." }
@@ -388,6 +405,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends N'EST PAS un dispositif médical et NE remplace PAS l'avis, le diagnostic ou le traitement d'un professionnel de santé." },
         { "ul": [
           "Les informations et les outils de suivi personnel et de visualisation de l'application ont uniquement une finalité d'information générale et de bien-être. Ils visualisent les données que vous saisissez vous-même et ne prédisent, ne diagnostiquent ni ne détectent aucune maladie.",
+          "Les questionnaires d'auto-évaluation (comme le PHQ-9, le GAD-7, l'AUDIT-C ou un indice d'activité de la maladie) sont des outils de dépistage et d'auto-observation, pas des tests diagnostiques. L'application vous montre le score obtenu et ne l'interprète pas : elle n'attribue aucune catégorie de sévérité, aucun niveau de risque et aucun seuil clinique, elle ne déclenche aucune alerte, et aucune autre fonctionnalité ne lit ce score pour modifier ce qui vous est présenté. Un score n'est pas un diagnostic ; parlez-en à votre médecin.",
+          "Les relevés importés par Health Sync proviennent du magasin de santé de votre propre téléphone et des appareils grand public qui l'alimentent. Ils sont affichés à titre de référence personnelle, ne sont pas des mesures de qualité médicale et ne sont pas vérifiés par nous. Si une journée n'a pas de données, l'application vous le signale au lieu d'estimer une valeur.",
           "Rien dans le Service ne doit être interprété comme un diagnostic médical ou comme une recommandation de traitement.",
           "Consultez toujours votre médecin ou un professionnel de santé qualifié avant de prendre toute décision concernant votre santé, vos médicaments ou votre alimentation.",
           "En cas d'urgence médicale, appelez immédiatement les services d'urgence de votre pays. N'utilisez pas l'application pour des situations urgentes."
@@ -438,7 +457,8 @@ window.CF_TERMS_T = {
         { "p": "Les paiements, remboursements et renouvellements sont gérés conformément aux politiques de la boutique d'applications concernée." }
       ]},
       { "t": "Propriété intellectuelle", "b": [
-        { "p": "Le Service, son design, sa marque, ses logos et son contenu sont la propriété de Chronic Friends ou de ses concédants de licence. Vous ne pouvez pas copier, modifier ni distribuer le Service sans autorisation. Le contenu que vous publiez reste le vôtre, mais vous nous accordez une licence pour l'afficher au sein du Service." }
+        { "p": "Le Service, son design, sa marque, ses logos et son contenu sont la propriété de Chronic Friends ou de ses concédants de licence. Vous ne pouvez pas copier, modifier ni distribuer le Service sans autorisation. Le contenu que vous publiez reste le vôtre, mais vous nous accordez une licence pour l'afficher au sein du Service." },
+        { "b": "Instruments de tiers.", "p": " Les questionnaires d'auto-évaluation proposés dans l'application appartiennent à leurs auteurs respectifs et sont reproduits selon les conditions fixées par ces auteurs. Le PHQ-9 et le GAD-7 ont été élaborés par les Drs Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke et leurs collègues, grâce à une subvention éducative de Pfizer Inc., et ne nécessitent aucune autorisation pour être reproduits, traduits, affichés ou distribués. L'AUDIT est un instrument de l'Organisation mondiale de la Santé, utilisé avec mention de sa source. Chaque questionnaire porte sa mention de source là où il est affiché. Les instruments dont les auteurs exigent une autorisation écrite ne sont pas inclus dans l'application." }
       ]},
       { "t": "Limitation de responsabilité", "b": [
         { "p": "Dans toute la mesure permise par la loi :" },
@@ -464,7 +484,7 @@ window.CF_TERMS_T = {
   "de": {
     "legal": "Rechtliches",
     "title": "Nutzungsbedingungen",
-    "updated": "Zuletzt aktualisiert: 27. Juli 2026",
+    "updated": "Zuletzt aktualisiert: 28. Juli 2026",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -494,6 +514,8 @@ window.CF_TERMS_T = {
           { "b": "Community:", "t": " offene Beiträge und private Chats zwischen Menschen, die mit chronischen Erkrankungen leben." },
           { "b": "Selbst-Tracking:", "t": " tägliche Protokollierung von Wohlbefinden, Symptomen, Ernährung und Gewohnheiten, mit Werkzeugen, die Ihnen helfen, Ihre eigenen Muster im Laufe der Zeit zu erkennen." },
           { "b": "Zugang zu verifizierten Ärzten:", "t": " sofern verfügbar, die Möglichkeit, Videokonsultationen mit akkreditierten medizinischen Fachkräften anzufordern." },
+          { "b": "Health Sync (optional):", "t": " wenn Sie es einschalten und die Berechtigung auf Ihrem Gerät erteilen, liest die App Ihre Schrittzahl, Ihre Schlafdauer und Ihre Aktivitätsminuten — und, sofern Ihr Gerät sie erfasst, Ihren Ruhepuls und Ihre Herzfrequenzvariabilität — aus Apple Health (HealthKit) auf dem iPhone oder aus Health Connect auf Android. Der Zugriff erfolgt nur lesend: Wir schreiben niemals etwas zurück. Diese Werte bleiben auf Ihrem Gerät, und Sie können die Berechtigung jederzeit in den Einstellungen Ihres Telefons widerrufen, ohne den Rest der App zu verlieren." },
+          { "b": "Selbsteinschätzungs-Fragebögen (optional):", "t": " standardisierte Fragebögen, die Sie freiwillig ausfüllen können, etwa der PHQ-9, der GAD-7, der AUDIT-C oder ein Krankheitsaktivitätsindex. Sie werden aus ihren offiziell veröffentlichten Fassungen wiedergegeben und nur in den Sprachen angeboten, für die eine offizielle Übersetzung vorliegt." },
           { "b": "Werkzeuge für Wohlbefinden und Vorratsverwaltung." }
         ]},
         { "p": "Wir bemühen uns, den Dienst verfügbar und aktuell zu halten, können jedoch Funktionen jederzeit ändern, aussetzen oder zurückziehen." }
@@ -502,6 +524,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends ist KEIN Medizinprodukt und ersetzt NICHT die Beratung, Diagnose oder Behandlung durch eine medizinische Fachkraft." },
         { "ul": [
           "Die Informationen sowie die Selbst-Tracking- und Visualisierungswerkzeuge in der App dienen ausschließlich allgemeinen Informations- und Wellnesszwecken. Sie visualisieren die Daten, die Sie selbst eingeben, und sagen keine Krankheit voraus, diagnostizieren oder erkennen sie nicht.",
+          "Selbsteinschätzungs-Fragebögen (wie der PHQ-9, der GAD-7, der AUDIT-C oder ein Krankheitsaktivitätsindex) sind Screening- und Selbstbeobachtungsinstrumente, keine diagnostischen Tests. Die App zeigt Ihnen den erreichten Punktwert an und interpretiert ihn nicht: Sie ordnet keine Schweregradkategorie, kein Risikoniveau und keinen klinischen Grenzwert zu, löst keine Warnung aus, und keine andere Funktion liest diesen Wert, um die Anzeige zu verändern. Ein Punktwert ist keine Diagnose; sprechen Sie darüber mit Ihrer Ärztin oder Ihrem Arzt.",
+          "Über Health Sync übernommene Werte stammen aus dem Gesundheitsspeicher Ihres eigenen Telefons und von den Consumer-Geräten, die ihn befüllen. Sie werden nur zu Ihrer eigenen Orientierung angezeigt, sind keine medizinisch validierten Messungen und werden von uns nicht überprüft. Liegen für einen Tag keine Daten vor, teilt die App dies mit, anstatt einen Wert zu schätzen.",
           "Nichts im Dienst sollte als medizinische Diagnose oder als Behandlungsempfehlung ausgelegt werden.",
           "Konsultieren Sie stets Ihren Arzt oder eine qualifizierte medizinische Fachkraft, bevor Sie eine Entscheidung über Ihre Gesundheit, Ihre Medikation oder Ihre Ernährung treffen.",
           "Rufen Sie in einem medizinischen Notfall sofort den Notdienst Ihres Landes an. Nutzen Sie die App nicht für dringende Situationen."
@@ -552,7 +576,8 @@ window.CF_TERMS_T = {
         { "p": "Zahlungen, Rückerstattungen und Verlängerungen werden gemäß den Richtlinien des jeweiligen App-Stores abgewickelt." }
       ]},
       { "t": "Geistiges Eigentum", "b": [
-        { "p": "Der Dienst, sein Design, seine Marke, Logos und Inhalte sind Eigentum von Chronic Friends oder seinen Lizenzgebern. Sie dürfen den Dienst nicht ohne Genehmigung kopieren, ändern oder verbreiten. Die von Ihnen veröffentlichten Inhalte bleiben Ihre, aber Sie gewähren uns eine Lizenz, sie innerhalb des Dienstes anzuzeigen." }
+        { "p": "Der Dienst, sein Design, seine Marke, Logos und Inhalte sind Eigentum von Chronic Friends oder seinen Lizenzgebern. Sie dürfen den Dienst nicht ohne Genehmigung kopieren, ändern oder verbreiten. Die von Ihnen veröffentlichten Inhalte bleiben Ihre, aber Sie gewähren uns eine Lizenz, sie innerhalb des Dienstes anzuzeigen." },
+        { "b": "Instrumente Dritter.", "p": " Die in der App angebotenen Selbsteinschätzungs-Fragebögen gehören ihren jeweiligen Autoren und werden zu den von diesen festgelegten Bedingungen wiedergegeben. Der PHQ-9 und der GAD-7 wurden von Dr. Robert L. Spitzer, Dr. Janet B.W. Williams, Dr. Kurt Kroenke und Kollegen mit einem Bildungszuschuss von Pfizer Inc. entwickelt; für Vervielfältigung, Übersetzung, Anzeige und Verbreitung ist keine Genehmigung erforderlich. Der AUDIT ist ein Instrument der Weltgesundheitsorganisation und wird mit Quellenangabe verwendet. Jeder Fragebogen trägt seine Quellenangabe an der Stelle, an der er angezeigt wird. Instrumente, deren Autoren eine schriftliche Genehmigung verlangen, sind nicht in der App enthalten." }
       ]},
       { "t": "Haftungsbeschränkung", "b": [
         { "p": "Im größtmöglichen gesetzlich zulässigen Umfang:" },
@@ -578,7 +603,7 @@ window.CF_TERMS_T = {
   "it": {
     "legal": "Legale",
     "title": "Termini di servizio",
-    "updated": "Ultimo aggiornamento: 27 luglio 2026",
+    "updated": "Ultimo aggiornamento: 28 luglio 2026",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -608,6 +633,8 @@ window.CF_TERMS_T = {
           { "b": "Community:", "t": " post aperti e chat private tra persone che convivono con patologie croniche." },
           { "b": "Monitoraggio personale:", "t": " registrazione quotidiana di benessere, sintomi, alimentazione e abitudini, con strumenti che ti aiutano a vedere i tuoi schemi nel tempo." },
           { "b": "Accesso a medici verificati:", "t": " ove disponibile, la possibilità di richiedere videoconsulti con professionisti sanitari accreditati." },
+          { "b": "Health Sync (opzionale):", "t": " se lo attivi e concedi l'autorizzazione sul tuo dispositivo, l'app legge i tuoi passi, la durata del sonno e i minuti di attività — e, dove il tuo dispositivo li registra, la frequenza cardiaca a riposo e la variabilità della frequenza cardiaca — da Apple Health (HealthKit) su iPhone o da Health Connect su Android. L'accesso è in sola lettura: non scriviamo mai nulla al loro interno. Quelle letture restano sul tuo dispositivo e puoi revocare l'autorizzazione in qualsiasi momento dalle impostazioni del telefono senza perdere il resto dell'app." },
+          { "b": "Questionari di autovalutazione (opzionale):", "t": " questionari standardizzati che puoi scegliere di compilare, come il PHQ-9, il GAD-7, l'AUDIT-C o un indice di attività della malattia. Sono riprodotti dalle loro versioni ufficiali pubblicate e sono offerti solo nelle lingue in cui esiste una traduzione ufficiale." },
           { "b": "Strumenti di benessere e di gestione delle scorte." }
         ]},
         { "p": "Ci impegniamo a mantenere il Servizio disponibile e aggiornato, ma possiamo modificare, sospendere o ritirare funzionalità in qualsiasi momento." }
@@ -616,6 +643,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends NON è un dispositivo medico e NON sostituisce il parere, la diagnosi o il trattamento di un professionista sanitario." },
         { "ul": [
           "Le informazioni e gli strumenti di monitoraggio personale e visualizzazione presenti nell'app hanno finalità puramente informative e di benessere generale. Visualizzano i dati che inserisci tu stesso e non prevedono, diagnosticano né rilevano alcuna malattia.",
+          "I questionari di autovalutazione (come il PHQ-9, il GAD-7, l'AUDIT-C o un indice di attività della malattia) sono strumenti di screening e di auto-osservazione, non test diagnostici. L'app ti mostra il punteggio che hai ottenuto e non lo interpreta: non assegna alcuna categoria di gravità, alcun livello di rischio né alcuna soglia clinica, non genera alcun avviso e nessun'altra funzione legge quel punteggio per modificare ciò che vedi. Un punteggio non è una diagnosi; parlane con il tuo medico.",
+          "Le letture importate da Health Sync provengono dall'archivio salute del tuo telefono e dai dispositivi di consumo che lo alimentano. Sono mostrate come riferimento personale, non sono misurazioni di grado medico e non sono verificate da noi. Se un giorno non ha dati, l'app te lo dice invece di stimare un valore.",
           "Nulla nel Servizio deve essere interpretato come una diagnosi medica o come una raccomandazione terapeutica.",
           "Consulta sempre il tuo medico o un professionista sanitario qualificato prima di prendere qualsiasi decisione sulla tua salute, sui tuoi farmaci o sulla tua dieta.",
           "In caso di emergenza medica, chiama immediatamente i servizi di emergenza del tuo Paese. Non usare l'app per situazioni urgenti."
@@ -666,7 +695,8 @@ window.CF_TERMS_T = {
         { "p": "I pagamenti, i rimborsi e i rinnovi sono gestiti secondo le politiche dello store delle app pertinente." }
       ]},
       { "t": "Proprietà intellettuale", "b": [
-        { "p": "Il Servizio, il suo design, il marchio, i loghi e i contenuti sono di proprietà di Chronic Friends o dei suoi licenzianti. Non puoi copiare, modificare o distribuire il Servizio senza autorizzazione. I contenuti che pubblichi restano tuoi, ma ci concedi una licenza per mostrarli all'interno del Servizio." }
+        { "p": "Il Servizio, il suo design, il marchio, i loghi e i contenuti sono di proprietà di Chronic Friends o dei suoi licenzianti. Non puoi copiare, modificare o distribuire il Servizio senza autorizzazione. I contenuti che pubblichi restano tuoi, ma ci concedi una licenza per mostrarli all'interno del Servizio." },
+        { "b": "Strumenti di terze parti.", "p": " I questionari di autovalutazione offerti nell'app appartengono ai rispettivi autori e sono riprodotti secondo le condizioni stabilite da tali autori. Il PHQ-9 e il GAD-7 sono stati sviluppati dai dott. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke e colleghi, con un finanziamento educativo di Pfizer Inc., e non richiedono alcuna autorizzazione per essere riprodotti, tradotti, mostrati o distribuiti. L'AUDIT è uno strumento dell'Organizzazione Mondiale della Sanità e viene utilizzato con la relativa attribuzione. Ogni questionario riporta la propria attribuzione nel punto in cui viene mostrato. Gli strumenti i cui autori richiedono un'autorizzazione scritta non sono inclusi nell'app." }
       ]},
       { "t": "Limitazione di responsabilità", "b": [
         { "p": "Nella misura massima consentita dalla legge:" },
@@ -692,7 +722,7 @@ window.CF_TERMS_T = {
   "pt": {
     "legal": "Legal",
     "title": "Termos de Serviço",
-    "updated": "Última atualização: 27 de julho de 2026",
+    "updated": "Última atualização: 28 de julho de 2026",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -722,6 +752,8 @@ window.CF_TERMS_T = {
           { "b": "Comunidade:", "t": " publicações abertas e conversas privadas entre pessoas que vivem com patologias crónicas." },
           { "b": "Automonitorização:", "t": " registo diário de bem-estar, sintomas, alimentação e hábitos, com ferramentas que te ajudam a ver os teus padrões ao longo do tempo." },
           { "b": "Acesso a médicos verificados:", "t": " quando disponível, a possibilidade de solicitar videoconsultas com profissionais de saúde acreditados." },
+          { "b": "Health Sync (opcional):", "t": " se o ativar e conceder a permissão no seu dispositivo, a aplicação lê os seus passos, a duração do sono e os minutos de atividade — e, quando o seu dispositivo os registar, a frequência cardíaca em repouso e a variabilidade da frequência cardíaca — do Apple Health (HealthKit) no iPhone ou do Health Connect no Android. O acesso é apenas de leitura: nunca escrevemos nada nesses serviços. Essas leituras ficam no seu dispositivo e pode revogar a permissão a qualquer momento nas definições do telefone sem perder o resto da aplicação." },
+          { "b": "Questionários de autoavaliação (opcional):", "t": " questionários padronizados que pode optar por preencher, como o PHQ-9, o GAD-7, o AUDIT-C ou um índice de atividade da doença. São reproduzidos a partir das suas versões oficiais publicadas e apenas são oferecidos nos idiomas em que existe uma tradução oficial." },
           { "b": "Ferramentas de bem-estar e de gestão de existências." }
         ]},
         { "p": "Esforçamo-nos por manter o Serviço disponível e atualizado, mas podemos modificar, suspender ou retirar funcionalidades a qualquer momento." }
@@ -730,6 +762,8 @@ window.CF_TERMS_T = {
         { "note": "A Chronic Friends NÃO é um dispositivo médico e NÃO substitui o aconselhamento, o diagnóstico ou o tratamento de um profissional de saúde." },
         { "ul": [
           "As informações e as ferramentas de automonitorização e visualização na aplicação destinam-se apenas a fins informativos e de bem-estar gerais. Visualizam os dados que introduzes tu próprio e não preveem, diagnosticam nem detetam qualquer doença.",
+          "Os questionários de autoavaliação (como o PHQ-9, o GAD-7, o AUDIT-C ou um índice de atividade da doença) são ferramentas de rastreio e de auto-observação, não testes de diagnóstico. A aplicação mostra-lhe a pontuação que obteve e não a interpreta: não atribui qualquer categoria de gravidade, nível de risco ou limiar clínico, não gera qualquer alerta e nenhuma outra funcionalidade lê essa pontuação para alterar o que lhe é mostrado. Uma pontuação não é um diagnóstico; fale sobre ela com o seu médico.",
+          "As leituras trazidas pelo Health Sync provêm do próprio repositório de saúde do seu telefone e dos dispositivos de consumo que o alimentam. São mostradas para sua referência, não são medições de grau médico e não são verificadas por nós. Se um dia não tiver dados, a aplicação informa-o em vez de estimar um valor.",
           "Nada no Serviço deve ser interpretado como um diagnóstico médico ou como uma recomendação de tratamento.",
           "Consulta sempre o teu médico ou um profissional de saúde qualificado antes de tomares qualquer decisão sobre a tua saúde, a tua medicação ou a tua dieta.",
           "Numa emergência médica, liga imediatamente para os serviços de emergência do teu país. Não uses a aplicação para situações urgentes."
@@ -780,7 +814,8 @@ window.CF_TERMS_T = {
         { "p": "Os pagamentos, reembolsos e renovações são geridos de acordo com as políticas da loja de aplicações relevante." }
       ]},
       { "t": "Propriedade intelectual", "b": [
-        { "p": "O Serviço, o seu design, marca, logótipos e conteúdo são propriedade da Chronic Friends ou dos seus licenciadores. Não podes copiar, modificar nem distribuir o Serviço sem autorização. O conteúdo que publicas continua a ser teu, mas concedes-nos uma licença para o apresentar dentro do Serviço." }
+        { "p": "O Serviço, o seu design, marca, logótipos e conteúdo são propriedade da Chronic Friends ou dos seus licenciadores. Não podes copiar, modificar nem distribuir o Serviço sem autorização. O conteúdo que publicas continua a ser teu, mas concedes-nos uma licença para o apresentar dentro do Serviço." },
+        { "b": "Instrumentos de terceiros.", "p": " Os questionários de autoavaliação oferecidos na aplicação pertencem aos respetivos autores e são reproduzidos nos termos definidos por esses autores. O PHQ-9 e o GAD-7 foram desenvolvidos pelos Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke e colegas, com um subsídio educacional da Pfizer Inc., e não exigem autorização para serem reproduzidos, traduzidos, exibidos ou distribuídos. O AUDIT é um instrumento da Organização Mundial da Saúde e é utilizado com a devida atribuição. Cada questionário apresenta a sua atribuição no local onde é mostrado. Os instrumentos cujos autores exigem autorização escrita não são incluídos na aplicação." }
       ]},
       { "t": "Limitação de responsabilidade", "b": [
         { "p": "Na medida máxima permitida por lei:" },
@@ -806,7 +841,7 @@ window.CF_TERMS_T = {
   "ru": {
     "legal": "Юридическое",
     "title": "Условия обслуживания",
-    "updated": "Последнее обновление: 27 июля 2026 г.",
+    "updated": "Последнее обновление: 28 июля 2026 г.",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -836,6 +871,8 @@ window.CF_TERMS_T = {
           { "b": "Сообщество:", "t": " открытые публикации и личные чаты между людьми, живущими с хроническими состояниями." },
           { "b": "Самоконтроль:", "t": " ежедневная фиксация самочувствия, симптомов, питания и привычек с инструментами, которые помогают вам видеть собственные закономерности со временем." },
           { "b": "Доступ к верифицированным врачам:", "t": " где это доступно, возможность запросить видеоконсультации с аккредитованными медицинскими специалистами." },
+          { "b": "Health Sync (по желанию):", "t": " если вы включите эту функцию и дадите разрешение на устройстве, приложение считывает количество шагов, продолжительность сна и минуты активности — а также, если ваше устройство их записывает, пульс в покое и вариабельность сердечного ритма — из Apple Health (HealthKit) на iPhone или из Health Connect на Android. Доступ только для чтения: мы никогда ничего не записываем обратно. Эти показания остаются на вашем устройстве, и вы можете в любой момент отозвать разрешение в настройках телефона, не теряя остальные возможности приложения." },
+          { "b": "Опросники самооценки (по желанию):", "t": " стандартизированные опросники, которые вы можете заполнить по своему выбору, например PHQ-9, GAD-7, AUDIT-C или индекс активности заболевания. Они воспроизводятся по официально опубликованным версиям и предлагаются только на тех языках, для которых существует официальный перевод." },
           { "b": "Инструменты для самочувствия и управления запасами." }
         ]},
         { "p": "Мы стремимся поддерживать Сервис доступным и актуальным, но можем изменять, приостанавливать или отзывать функции в любое время." }
@@ -844,6 +881,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends НЕ является медицинским изделием и НЕ заменяет консультацию, диагностику или лечение медицинского специалиста." },
         { "ul": [
           "Информация, а также инструменты самоконтроля и визуализации в приложении предназначены только для общих информационных целей и заботы о самочувствии. Они визуализируют данные, которые вы вводите сами, и не прогнозируют, не диагностируют и не выявляют никаких заболеваний.",
+          "Опросники самооценки (такие как PHQ-9, GAD-7, AUDIT-C или индекс активности заболевания) — это инструменты скрининга и самонаблюдения, а не диагностические тесты. Приложение показывает полученный вами балл и не интерпретирует его: оно не присваивает категорию тяжести, уровень риска или клинический порог, не выдаёт предупреждений, и никакая другая функция не использует этот балл, чтобы изменить то, что вы видите. Балл — это не диагноз; обсудите его с врачом.",
+          "Показания, полученные через Health Sync, поступают из хранилища здоровья вашего телефона и с потребительских устройств, которые его наполняют. Они отображаются только для вашего сведения, не являются измерениями медицинского класса и не проверяются нами. Если за день данных нет, приложение сообщает об этом, а не оценивает значение приблизительно.",
           "Ничто в Сервисе не следует толковать как медицинский диагноз или как рекомендацию по лечению.",
           "Всегда консультируйтесь со своим врачом или квалифицированным медицинским специалистом, прежде чем принимать любое решение о своём здоровье, лекарствах или питании.",
           "В случае неотложной медицинской ситуации немедленно звоните в экстренные службы вашей страны. Не используйте приложение в срочных ситуациях."
@@ -894,7 +933,8 @@ window.CF_TERMS_T = {
         { "p": "Платежи, возвраты и продления обрабатываются в соответствии с политиками соответствующего магазина приложений." }
       ]},
       { "t": "Интеллектуальная собственность", "b": [
-        { "p": "Сервис, его дизайн, бренд, логотипы и контент являются собственностью Chronic Friends или её лицензиаров. Вы не можете копировать, изменять или распространять Сервис без разрешения. Контент, который вы публикуете, остаётся вашим, но вы предоставляете нам лицензию на его отображение в рамках Сервиса." }
+        { "p": "Сервис, его дизайн, бренд, логотипы и контент являются собственностью Chronic Friends или её лицензиаров. Вы не можете копировать, изменять или распространять Сервис без разрешения. Контент, который вы публикуете, остаётся вашим, но вы предоставляете нам лицензию на его отображение в рамках Сервиса." },
+        { "b": "Инструменты третьих сторон.", "p": " Опросники самооценки, предлагаемые в приложении, принадлежат их авторам и воспроизводятся на условиях, установленных этими авторами. PHQ-9 и GAD-7 разработаны д-ром Робертом Л. Спитцером, д-ром Джанет Б. У. Уильямс, д-ром Куртом Кроенке и коллегами при образовательном гранте Pfizer Inc.; для их воспроизведения, перевода, отображения и распространения разрешение не требуется. AUDIT — инструмент Всемирной организации здравоохранения, используется с указанием источника. Каждый опросник сопровождается указанием источника там, где он показан. Инструменты, авторы которых требуют письменного разрешения, в приложение не включены." }
       ]},
       { "t": "Ограничение ответственности", "b": [
         { "p": "В максимальной степени, разрешённой законом:" },
@@ -920,7 +960,7 @@ window.CF_TERMS_T = {
   "ar": {
     "legal": "قانوني",
     "title": "شروط الخدمة",
-    "updated": "آخر تحديث: 27 يوليو 2026",
+    "updated": "آخر تحديث: 28 يوليو 2026",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -950,6 +990,8 @@ window.CF_TERMS_T = {
           { "b": "المجتمع:", "t": " منشورات مفتوحة ومحادثات خاصة بين الأشخاص الذين يتعايشون مع حالات مزمنة." },
           { "b": "التتبّع الذاتي:", "t": " تسجيل يومي للعافية والأعراض والطعام والعادات، بأدوات تساعدك على رؤية أنماطك الخاصة بمرور الوقت." },
           { "b": "الوصول إلى أطباء مُتحقَّق منهم:", "t": " حيثما كان متاحًا، إمكانية طلب استشارات فيديو مع مهنيي رعاية صحية معتمدين." },
+          { "b": "Health Sync (اختياري):", "t": " إذا شغّلته ومنحت الإذن على جهازك، يقرأ التطبيق عدد خطواتك ومدة نومك ودقائق نشاطك — وكذلك، حيث يسجّلها جهازك، معدل ضربات القلب في الراحة وتغيّر معدل ضربات القلب — من Apple Health (HealthKit) على iPhone أو من Health Connect على Android. الوصول للقراءة فقط: لا نكتب فيها أي شيء أبدًا. تبقى هذه القراءات على جهازك، ويمكنك إلغاء الإذن في أي وقت من إعدادات هاتفك دون أن تفقد بقية التطبيق." },
+          { "b": "استبيانات التقييم الذاتي (اختياري):", "t": " استبيانات موحّدة يمكنك اختيار إكمالها، مثل PHQ-9 وGAD-7 وAUDIT-C أو مؤشر نشاط المرض. تُستنسخ من نسخها الرسمية المنشورة وتُقدَّم فقط باللغات التي توجد لها ترجمة رسمية." },
           { "b": "أدوات العافية وإدارة الإمدادات." }
         ]},
         { "p": "نسعى للحفاظ على توفّر الخدمة وتحديثها، لكن يجوز لنا تعديل الميزات أو تعليقها أو سحبها في أي وقت." }
@@ -958,6 +1000,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends ليس جهازًا طبيًا ولا يحل محل المشورة أو التشخيص أو العلاج من مهني رعاية صحية." },
         { "ul": [
           "المعلومات وأدوات التتبّع الذاتي والتصوّر في التطبيق مخصّصة لأغراض إعلامية وأغراض العافية العامة فقط. وهي تعرض البيانات التي تُدخلها بنفسك ولا تتنبأ بأي مرض ولا تشخّصه ولا تكتشفه.",
+          "استبيانات التقييم الذاتي (مثل PHQ-9 وGAD-7 وAUDIT-C أو مؤشر نشاط المرض) هي أدوات فحص ومراقبة ذاتية، وليست اختبارات تشخيصية. يعرض التطبيق الدرجة التي حصلت عليها ولا يفسّرها: فهو لا يحدّد فئة شدة ولا مستوى خطورة ولا حدًّا سريريًا، ولا يُصدر أي تنبيه، ولا تقرأ أي ميزة أخرى تلك الدرجة لتغيير ما يُعرض عليك. الدرجة ليست تشخيصًا؛ ناقشها مع طبيبك.",
+          "القراءات التي يجلبها Health Sync تأتي من مخزن الصحة في هاتفك ومن الأجهزة الاستهلاكية التي تغذّيه. تُعرض لمرجعيتك الشخصية، وهي ليست قياسات بدرجة طبية، ولا نتحقّق منها. وإذا لم تكن هناك بيانات ليوم ما، يخبرك التطبيق بذلك بدلًا من تقدير قيمة.",
           "لا ينبغي تفسير أي شيء في الخدمة على أنه تشخيص طبي أو توصية بعلاج.",
           "استشِر دائمًا طبيبك أو مهني رعاية صحية مؤهلًا قبل اتخاذ أي قرار بشأن صحتك أو دوائك أو نظامك الغذائي.",
           "في حالة الطوارئ الطبية، اتصل فورًا بخدمات الطوارئ في بلدك. لا تستخدم التطبيق في الحالات العاجلة."
@@ -1008,7 +1052,8 @@ window.CF_TERMS_T = {
         { "p": "تُعالَج المدفوعات والمبالغ المستردة والتجديدات وفقًا لسياسات متجر التطبيقات المعني." }
       ]},
       { "t": "الملكية الفكرية", "b": [
-        { "p": "الخدمة وتصميمها وعلامتها التجارية وشعاراتها ومحتواها ملك لـ Chronic Friends أو للمرخِّصين لها. لا يجوز لك نسخ الخدمة أو تعديلها أو توزيعها دون إذن. يبقى المحتوى الذي تنشره ملكًا لك، لكنك تمنحنا ترخيصًا لعرضه ضمن الخدمة." }
+        { "p": "الخدمة وتصميمها وعلامتها التجارية وشعاراتها ومحتواها ملك لـ Chronic Friends أو للمرخِّصين لها. لا يجوز لك نسخ الخدمة أو تعديلها أو توزيعها دون إذن. يبقى المحتوى الذي تنشره ملكًا لك، لكنك تمنحنا ترخيصًا لعرضه ضمن الخدمة." },
+        { "b": "أدوات جهات خارجية.", "p": " استبيانات التقييم الذاتي المتوفّرة في التطبيق تخصّ مؤلفيها وتُستنسخ وفق الشروط التي يحدّدها هؤلاء المؤلفون. طُوِّر PHQ-9 وGAD-7 على يد الدكتور Robert L. Spitzer والدكتورة Janet B.W. Williams والدكتور Kurt Kroenke وزملائهم بمنحة تعليمية من Pfizer Inc.، ولا يحتاج استنساخها أو ترجمتها أو عرضها أو توزيعها إلى إذن. وAUDIT أداة من منظمة الصحة العالمية وتُستخدم مع الإشارة إلى مصدرها. ويحمل كل استبيان الإشارة إلى مصدره في المكان الذي يُعرض فيه. أما الأدوات التي يشترط مؤلفوها إذنًا مكتوبًا فهي غير مُدرجة في التطبيق." }
       ]},
       { "t": "تحديد المسؤولية", "b": [
         { "p": "إلى أقصى حد يسمح به القانون:" },
@@ -1034,7 +1079,7 @@ window.CF_TERMS_T = {
   "hi": {
     "legal": "कानूनी",
     "title": "सेवा की शर्तें",
-    "updated": "अंतिम अद्यतन: 27 जुलाई 2026",
+    "updated": "अंतिम अद्यतन: 28 जुलाई 2026",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -1064,6 +1109,8 @@ window.CF_TERMS_T = {
           { "b": "समुदाय:", "t": " दीर्घकालिक स्थितियों के साथ जी रहे लोगों के बीच खुली पोस्ट और निजी चैट।" },
           { "b": "सेल्फ़-ट्रैकिंग:", "t": " वेलनेस, लक्षण, भोजन और आदतों का दैनिक लॉगिंग, ऐसे टूल के साथ जो समय के साथ आपके अपने पैटर्न देखने में आपकी मदद करते हैं।" },
           { "b": "सत्यापित डॉक्टरों तक पहुँच:", "t": " जहाँ उपलब्ध हो, मान्यता-प्राप्त स्वास्थ्य पेशेवरों के साथ वीडियो परामर्श का अनुरोध करने की क्षमता।" },
+          { "b": "Health Sync (वैकल्पिक):", "t": " यदि आप इसे चालू करते हैं और अपने डिवाइस पर अनुमति देते हैं, तो ऐप iPhone पर Apple Health (HealthKit) या Android पर Health Connect से आपके कदमों की संख्या, नींद की अवधि और गतिविधि के मिनट पढ़ता है — और, जहाँ आपका डिवाइस उन्हें रिकॉर्ड करता है, वहाँ विश्राम हृदय गति और हृदय-गति परिवर्तनशीलता भी। यह केवल पढ़ने के लिए है: हम उनमें कभी कुछ नहीं लिखते। ये रीडिंग आपके डिवाइस पर ही रहती हैं, और आप अपने फ़ोन की सेटिंग से किसी भी समय अनुमति वापस ले सकते हैं, बाकी ऐप खोए बिना।" },
+          { "b": "स्व-मूल्यांकन प्रश्नावली (वैकल्पिक):", "t": " मानकीकृत प्रश्नावली जिन्हें आप चाहें तो भर सकते हैं, जैसे PHQ-9, GAD-7, AUDIT-C या रोग-सक्रियता सूचकांक। ये उनके आधिकारिक प्रकाशित संस्करणों से पुनरुत्पादित हैं और केवल उन भाषाओं में उपलब्ध हैं जिनमें आधिकारिक अनुवाद मौजूद है।" },
           { "b": "वेलनेस और आपूर्ति-प्रबंधन टूल।" }
         ]},
         { "p": "हम सेवा को उपलब्ध और अद्यतन बनाए रखने का प्रयास करते हैं, लेकिन हम किसी भी समय सुविधाओं को संशोधित, निलंबित या वापस ले सकते हैं।" }
@@ -1072,6 +1119,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends कोई चिकित्सा उपकरण नहीं है और किसी स्वास्थ्य पेशेवर की सलाह, निदान या उपचार का स्थान नहीं लेता।" },
         { "ul": [
           "ऐप में दी गई जानकारी और सेल्फ़-ट्रैकिंग एवं विज़ुअलाइज़ेशन टूल केवल सामान्य सूचनात्मक और वेलनेस उद्देश्यों के लिए हैं। वे आपके द्वारा स्वयं दर्ज किए गए डेटा को दर्शाते हैं और किसी भी बीमारी की भविष्यवाणी, निदान या पहचान नहीं करते।",
+          "स्व-मूल्यांकन प्रश्नावली (जैसे PHQ-9, GAD-7, AUDIT-C या रोग-सक्रियता सूचकांक) स्क्रीनिंग और स्व-अवलोकन के उपकरण हैं, नैदानिक परीक्षण नहीं। ऐप आपको प्राप्त स्कोर दिखाता है और उसकी व्याख्या नहीं करता: वह कोई गंभीरता श्रेणी, कोई जोखिम स्तर या कोई नैदानिक सीमा निर्धारित नहीं करता, कोई अलर्ट नहीं देता, और कोई अन्य सुविधा उस स्कोर को पढ़कर आपको दिखाई जाने वाली चीज़ नहीं बदलती। स्कोर निदान नहीं है; इसके बारे में अपने डॉक्टर से बात करें।",
+          "Health Sync से आने वाली रीडिंग आपके फ़ोन के स्वास्थ्य स्टोर और उसे भरने वाले उपभोक्ता डिवाइसों से आती हैं। ये केवल आपकी जानकारी के लिए दिखाई जाती हैं, ये चिकित्सा-श्रेणी की माप नहीं हैं, और हम इनकी पुष्टि नहीं करते। यदि किसी दिन का डेटा नहीं है, तो ऐप कोई मान अनुमानित करने के बजाय आपको यह बता देता है।",
           "सेवा की किसी भी बात को चिकित्सा निदान या उपचार की सिफ़ारिश के रूप में नहीं समझा जाना चाहिए।",
           "अपने स्वास्थ्य, अपनी दवा या अपने आहार के बारे में कोई भी निर्णय लेने से पहले हमेशा अपने डॉक्टर या किसी योग्य स्वास्थ्य पेशेवर से परामर्श करें।",
           "किसी चिकित्सा आपात स्थिति में, तुरंत अपने देश की आपातकालीन सेवाओं को कॉल करें। अत्यावश्यक स्थितियों के लिए ऐप का उपयोग न करें।"
@@ -1122,7 +1171,8 @@ window.CF_TERMS_T = {
         { "p": "भुगतान, धनवापसी और नवीनीकरण संबंधित ऐप स्टोर की नीतियों के अनुसार संभाले जाते हैं।" }
       ]},
       { "t": "बौद्धिक संपदा", "b": [
-        { "p": "सेवा, उसका डिज़ाइन, ब्रांड, लोगो और सामग्री Chronic Friends या उसके लाइसेंसकर्ताओं की संपत्ति हैं। आप बिना अनुमति के सेवा की नकल, संशोधन या वितरण नहीं कर सकते। आपके द्वारा पोस्ट की गई सामग्री आपकी ही रहती है, लेकिन आप हमें उसे सेवा के भीतर प्रदर्शित करने का लाइसेंस देते हैं।" }
+        { "p": "सेवा, उसका डिज़ाइन, ब्रांड, लोगो और सामग्री Chronic Friends या उसके लाइसेंसकर्ताओं की संपत्ति हैं। आप बिना अनुमति के सेवा की नकल, संशोधन या वितरण नहीं कर सकते। आपके द्वारा पोस्ट की गई सामग्री आपकी ही रहती है, लेकिन आप हमें उसे सेवा के भीतर प्रदर्शित करने का लाइसेंस देते हैं।" },
+        { "b": "तृतीय-पक्ष उपकरण।", "p": " ऐप में दी गई स्व-मूल्यांकन प्रश्नावली उनके संबंधित लेखकों की हैं और उन लेखकों द्वारा निर्धारित शर्तों के अनुसार पुनरुत्पादित की जाती हैं। PHQ-9 और GAD-7 को डॉ. Robert L. Spitzer, डॉ. Janet B.W. Williams, डॉ. Kurt Kroenke और सहयोगियों ने Pfizer Inc. के शैक्षिक अनुदान से विकसित किया था, और उनके पुनरुत्पादन, अनुवाद, प्रदर्शन या वितरण के लिए किसी अनुमति की आवश्यकता नहीं है। AUDIT विश्व स्वास्थ्य संगठन का उपकरण है और श्रेय के साथ प्रयोग किया जाता है। प्रत्येक प्रश्नावली जहाँ दिखाई जाती है, वहाँ अपना श्रेय-कथन साथ रखती है। जिन उपकरणों के लेखक लिखित अनुमति की मांग करते हैं, उन्हें ऐप में शामिल नहीं किया गया है।" }
       ]},
       { "t": "दायित्व की सीमा", "b": [
         { "p": "कानून द्वारा अनुमत अधिकतम सीमा तक:" },
@@ -1148,7 +1198,7 @@ window.CF_TERMS_T = {
   "id": {
     "legal": "Hukum",
     "title": "Ketentuan Layanan",
-    "updated": "Terakhir diperbarui: 27 Juli 2026",
+    "updated": "Terakhir diperbarui: 28 Juli 2026",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -1178,6 +1228,8 @@ window.CF_TERMS_T = {
           { "b": "Komunitas:", "t": " unggahan terbuka dan obrolan pribadi antara orang-orang yang hidup dengan kondisi kronis." },
           { "b": "Pelacakan mandiri:", "t": " pencatatan harian kesejahteraan, gejala, makanan, dan kebiasaan, dengan alat yang membantu Anda melihat pola Anda sendiri dari waktu ke waktu." },
           { "b": "Akses ke dokter terverifikasi:", "t": " jika tersedia, kemampuan untuk meminta konsultasi video dengan tenaga kesehatan terakreditasi." },
+          { "b": "Health Sync (opsional):", "t": " jika Anda mengaktifkannya dan memberikan izin di perangkat Anda, aplikasi membaca jumlah langkah, durasi tidur, dan menit aktivitas Anda — serta, jika perangkat Anda mencatatnya, detak jantung istirahat dan variabilitas detak jantung — dari Apple Health (HealthKit) di iPhone atau Health Connect di Android. Aksesnya hanya-baca: kami tidak pernah menulis apa pun ke dalamnya. Bacaan tersebut tetap berada di perangkat Anda, dan Anda dapat mencabut izin kapan saja dari pengaturan ponsel tanpa kehilangan bagian lain aplikasi." },
+          { "b": "Kuesioner penilaian diri (opsional):", "t": " kuesioner terstandarisasi yang dapat Anda pilih untuk diisi, seperti PHQ-9, GAD-7, AUDIT-C, atau indeks aktivitas penyakit. Kuesioner direproduksi dari versi resmi yang diterbitkan dan hanya ditawarkan dalam bahasa yang memiliki terjemahan resmi." },
           { "b": "Alat kesehatan dan pengelolaan persediaan." }
         ]},
         { "p": "Kami berupaya menjaga Layanan tetap tersedia dan terkini, tetapi kami dapat mengubah, menangguhkan, atau menarik fitur kapan saja." }
@@ -1186,6 +1238,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends BUKAN perangkat medis dan TIDAK menggantikan nasihat, diagnosis, atau perawatan dari tenaga kesehatan." },
         { "ul": [
           "Informasi serta alat pelacakan mandiri dan visualisasi dalam aplikasi hanya untuk tujuan informasi umum dan kesehatan. Semua itu memvisualisasikan data yang Anda masukkan sendiri dan tidak memprediksi, mendiagnosis, atau mendeteksi penyakit apa pun.",
+          "Kuesioner penilaian diri (seperti PHQ-9, GAD-7, AUDIT-C, atau indeks aktivitas penyakit) adalah alat penyaringan dan pengamatan diri, bukan tes diagnostik. Aplikasi menampilkan skor yang Anda peroleh dan tidak menafsirkannya: tidak menetapkan kategori keparahan, tingkat risiko, atau ambang klinis, tidak memunculkan peringatan, dan tidak ada fitur lain yang membaca skor itu untuk mengubah apa yang Anda lihat. Skor bukanlah diagnosis; bicarakan dengan dokter Anda.",
+          "Bacaan yang dibawa Health Sync berasal dari penyimpanan kesehatan ponsel Anda sendiri dan dari perangkat konsumen yang mengisinya. Bacaan ditampilkan sebagai referensi pribadi, bukan pengukuran berkualitas medis, dan tidak kami verifikasi. Jika suatu hari tidak memiliki data, aplikasi memberi tahu Anda alih-alih memperkirakan nilai.",
           "Tidak ada dalam Layanan yang boleh ditafsirkan sebagai diagnosis medis atau rekomendasi pengobatan.",
           "Selalu konsultasikan dengan dokter Anda atau tenaga kesehatan yang berkualifikasi sebelum membuat keputusan apa pun tentang kesehatan, obat, atau pola makan Anda.",
           "Dalam keadaan darurat medis, segera hubungi layanan darurat negara Anda. Jangan gunakan aplikasi untuk situasi mendesak."
@@ -1236,7 +1290,8 @@ window.CF_TERMS_T = {
         { "p": "Pembayaran, pengembalian dana, dan perpanjangan ditangani sesuai dengan kebijakan toko aplikasi yang relevan." }
       ]},
       { "t": "Kekayaan intelektual", "b": [
-        { "p": "Layanan, desain, merek, logo, dan kontennya adalah milik Chronic Friends atau pemberi lisensinya. Anda tidak boleh menyalin, memodifikasi, atau mendistribusikan Layanan tanpa izin. Konten yang Anda posting tetap menjadi milik Anda, tetapi Anda memberi kami lisensi untuk menampilkannya di dalam Layanan." }
+        { "p": "Layanan, desain, merek, logo, dan kontennya adalah milik Chronic Friends atau pemberi lisensinya. Anda tidak boleh menyalin, memodifikasi, atau mendistribusikan Layanan tanpa izin. Konten yang Anda posting tetap menjadi milik Anda, tetapi Anda memberi kami lisensi untuk menampilkannya di dalam Layanan." },
+        { "b": "Instrumen pihak ketiga.", "p": " Kuesioner penilaian diri yang ditawarkan dalam aplikasi adalah milik penulisnya masing-masing dan direproduksi sesuai ketentuan yang ditetapkan para penulis tersebut. PHQ-9 dan GAD-7 dikembangkan oleh Dr. Robert L. Spitzer, Dr. Janet B.W. Williams, Dr. Kurt Kroenke, dan rekan-rekan, dengan hibah pendidikan dari Pfizer Inc., dan tidak memerlukan izin untuk direproduksi, diterjemahkan, ditampilkan, atau didistribusikan. AUDIT adalah instrumen Organisasi Kesehatan Dunia dan digunakan dengan atribusi. Setiap kuesioner mencantumkan atribusinya di tempat kuesioner tersebut ditampilkan. Instrumen yang penulisnya mensyaratkan izin tertulis tidak disertakan dalam aplikasi." }
       ]},
       { "t": "Batasan tanggung jawab", "b": [
         { "p": "Sejauh diizinkan oleh hukum:" },
@@ -1262,7 +1317,7 @@ window.CF_TERMS_T = {
   "ja": {
     "legal": "法的事項",
     "title": "利用規約",
-    "updated": "最終更新日: 2026年7月27日",
+    "updated": "最終更新日: 2026年7月28日",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1292,6 +1347,8 @@ window.CF_TERMS_T = {
           { "b": "コミュニティ:", "t": " 慢性疾患とともに生きる人々の間での公開投稿とプライベートチャット。" },
           { "b": "セルフトラッキング:", "t": " ウェルネス、症状、食事、習慣の毎日の記録。時間の経過とともにご自身のパターンを見るのに役立つツールを備えています。" },
           { "b": "確認済み医師へのアクセス:", "t": " 利用可能な場合、認定された医療専門家とのビデオ相談を依頼できる機能。" },
+          { "b": "Health Sync（任意）:", "t": " 有効にして端末で許可を与えると、アプリは iPhone の Apple Health（HealthKit）または Android の Health Connect から、歩数、睡眠時間、アクティビティの時間（分）を読み取ります。端末が記録している場合は、安静時心拍数と心拍変動も読み取ります。読み取り専用であり、こちらから書き込むことは一切ありません。これらの値は端末内にとどまり、許可は端末の設定からいつでも取り消せます。取り消してもアプリの他の機能はそのままご利用いただけます。" },
+          { "b": "自己評価アンケート（任意）:", "t": " PHQ-9、GAD-7、AUDIT-C、疾患活動性指標など、任意で回答できる標準化されたアンケートです。公式に公開された版をそのまま用いており、公式翻訳が存在する言語でのみ提供します。" },
           { "b": "ウェルネスおよび在庫管理のツール。" }
         ]},
         { "p": "当社は本サービスを利用可能かつ最新の状態に保つよう努めますが、いつでも機能を変更、停止、または撤回することがあります。" }
@@ -1300,6 +1357,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends は医療機器ではなく、医療専門家の助言、診断、治療に代わるものではありません。" },
         { "ul": [
           "アプリ内の情報およびセルフトラッキング・可視化ツールは、一般的な情報提供およびウェルネスのみを目的としています。これらはあなた自身が入力したデータを可視化するものであり、いかなる疾患も予測、診断、検出しません。",
+          "自己評価アンケート（PHQ-9、GAD-7、AUDIT-C、疾患活動性指標など）はスクリーニングと自己観察のための道具であり、診断検査ではありません。アプリは算出された点数を表示するだけで、解釈は行いません。重症度の区分、リスクの水準、臨床的なしきい値を割り当てることはなく、警告も出さず、他のどの機能もその点数を読み取って表示内容を変えることはありません。点数は診断ではありません。医師に相談してください。",
+          "Health Sync が取り込む値は、端末自身の健康データ保存領域と、そこにデータを送る一般消費者向け機器から得られたものです。ご自身の参考のために表示するもので、医療機器レベルの測定値ではなく、当社が検証したものでもありません。その日のデータがない場合、アプリは値を推定せず、データがないことをお知らせします。",
           "本サービスのいかなる内容も、医学的診断や治療の推奨として解釈されるべきではありません。",
           "あなたの健康、薬、食事について何らかの決定を下す前に、必ず医師または資格のある医療専門家に相談してください。",
           "医療上の緊急時には、直ちにお住まいの国の緊急サービスに電話してください。緊急の状況では本アプリを使用しないでください。"
@@ -1350,7 +1409,8 @@ window.CF_TERMS_T = {
         { "p": "支払い、返金、更新は、該当するアプリストアのポリシーに従って処理されます。" }
       ]},
       { "t": "知的財産", "b": [
-        { "p": "本サービス、そのデザイン、ブランド、ロゴ、コンテンツは、Chronic Friends またはそのライセンサーに帰属します。あなたは、許可なく本サービスを複製、変更、または配布することはできません。あなたが投稿したコンテンツはあなたのものですが、あなたは当社に対し、本サービス内で表示するためのライセンスを付与します。" }
+        { "p": "本サービス、そのデザイン、ブランド、ロゴ、コンテンツは、Chronic Friends またはそのライセンサーに帰属します。あなたは、許可なく本サービスを複製、変更、または配布することはできません。あなたが投稿したコンテンツはあなたのものですが、あなたは当社に対し、本サービス内で表示するためのライセンスを付与します。" },
+        { "b": "第三者の評価尺度について。", "p": " アプリで提供する自己評価アンケートは、それぞれの著作者に権利があり、著作者が定める条件に従って掲載しています。PHQ-9 と GAD-7 は Robert L. Spitzer 博士、Janet B.W. Williams 博士、Kurt Kroenke 博士および共同研究者らが Pfizer Inc. の教育助成を受けて開発したもので、複製、翻訳、表示、配布に許諾は不要です。AUDIT は世界保健機関の尺度であり、出典を明示して使用しています。各アンケートには、表示される場所に出典の表示を添えています。著作者が書面による許諾を求める尺度は、アプリには含めていません。" }
       ]},
       { "t": "責任の制限", "b": [
         { "p": "法律で認められる最大限の範囲で:" },
@@ -1376,7 +1436,7 @@ window.CF_TERMS_T = {
   "ko": {
     "legal": "법적 고지",
     "title": "서비스 약관",
-    "updated": "최종 업데이트: 2026년 7월 27일",
+    "updated": "최종 업데이트: 2026년 7월 28일",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1406,6 +1466,8 @@ window.CF_TERMS_T = {
           { "b": "커뮤니티:", "t": " 만성 질환과 함께 사는 사람들 간의 공개 게시물 및 비공개 채팅." },
           { "b": "자가 추적:", "t": " 웰빙, 증상, 음식, 습관의 매일 기록으로, 시간이 지남에 따라 자신의 패턴을 볼 수 있게 돕는 도구를 제공합니다." },
           { "b": "인증된 의사 이용:", "t": " 가능한 경우, 공인된 의료 전문가와의 화상 상담을 요청할 수 있는 기능." },
+          { "b": "Health Sync(선택):", "t": " 이 기능을 켜고 기기에서 권한을 허용하면 앱은 iPhone의 Apple Health(HealthKit) 또는 Android의 Health Connect에서 걸음 수, 수면 시간, 활동 시간(분)을 읽고, 기기가 기록하는 경우 안정 시 심박수와 심박 변이도도 읽습니다. 읽기 전용이며, 저희가 그쪽에 무언가를 기록하는 일은 없습니다. 이 값들은 기기에 남아 있고, 휴대전화 설정에서 언제든 권한을 철회할 수 있으며 그래도 앱의 나머지 기능은 그대로 사용할 수 있습니다." },
+          { "b": "자기평가 설문(선택):", "t": " PHQ-9, GAD-7, AUDIT-C 또는 질병 활성도 지수처럼 원하실 때 작성할 수 있는 표준화된 설문입니다. 공식 발행본을 그대로 수록하며, 공식 번역이 존재하는 언어로만 제공합니다." },
           { "b": "웰니스 및 보급품 관리 도구." }
         ]},
         { "p": "당사는 서비스를 이용 가능하고 최신 상태로 유지하기 위해 노력하지만, 언제든지 기능을 수정, 중단 또는 철회할 수 있습니다." }
@@ -1414,6 +1476,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends는 의료 기기가 아니며 의료 전문가의 조언, 진단 또는 치료를 대체하지 않습니다." },
         { "ul": [
           "앱의 정보와 자가 추적 및 시각화 도구는 일반적인 정보 제공 및 웰니스 목적으로만 제공됩니다. 이들은 귀하가 직접 입력한 데이터를 시각화하며, 어떤 질병도 예측, 진단 또는 발견하지 않습니다.",
+          "자기평가 설문(PHQ-9, GAD-7, AUDIT-C, 질병 활성도 지수 등)은 선별 및 자기관찰 도구이며 진단 검사가 아닙니다. 앱은 산출된 점수를 보여줄 뿐 해석하지 않습니다. 중증도 분류나 위험 수준, 임상 기준값을 부여하지 않고 경고도 표시하지 않으며, 다른 어떤 기능도 그 점수를 읽어 표시 내용을 바꾸지 않습니다. 점수는 진단이 아니므로 의사와 상의하세요.",
+          "Health Sync가 가져오는 값은 휴대전화 자체의 건강 데이터 저장소와 그곳에 데이터를 보내는 일반 소비자용 기기에서 온 것입니다. 참고용으로만 표시되며, 의료기기 수준의 측정값이 아니고 저희가 검증하지도 않습니다. 어떤 날에 데이터가 없으면 앱은 값을 추정하지 않고 데이터가 없다고 알려 드립니다.",
           "서비스의 어떤 내용도 의학적 진단이나 치료 권고로 해석되어서는 안 됩니다.",
           "귀하의 건강, 약물 또는 식단에 관한 어떤 결정을 내리기 전에 항상 의사나 자격 있는 의료 전문가와 상담하세요.",
           "의료 응급 상황에서는 즉시 귀하 국가의 응급 서비스에 전화하세요. 긴급한 상황에는 앱을 사용하지 마세요."
@@ -1464,7 +1528,8 @@ window.CF_TERMS_T = {
         { "p": "결제, 환불 및 갱신은 해당 앱 스토어의 정책에 따라 처리됩니다." }
       ]},
       { "t": "지식 재산권", "b": [
-        { "p": "서비스와 그 디자인, 브랜드, 로고 및 콘텐츠는 Chronic Friends 또는 그 라이선스 제공자의 재산입니다. 귀하는 허가 없이 서비스를 복사, 수정 또는 배포할 수 없습니다. 귀하가 게시한 콘텐츠는 귀하의 것으로 남지만, 귀하는 당사에 서비스 내에서 이를 표시할 라이선스를 부여합니다." }
+        { "p": "서비스와 그 디자인, 브랜드, 로고 및 콘텐츠는 Chronic Friends 또는 그 라이선스 제공자의 재산입니다. 귀하는 허가 없이 서비스를 복사, 수정 또는 배포할 수 없습니다. 귀하가 게시한 콘텐츠는 귀하의 것으로 남지만, 귀하는 당사에 서비스 내에서 이를 표시할 라이선스를 부여합니다." },
+        { "b": "제3자 도구.", "p": " 앱에서 제공하는 자기평가 설문은 각 저작자의 것이며, 해당 저작자가 정한 조건에 따라 수록합니다. PHQ-9과 GAD-7은 Robert L. Spitzer 박사, Janet B.W. Williams 박사, Kurt Kroenke 박사와 동료들이 Pfizer Inc.의 교육 보조금을 받아 개발했으며, 복제·번역·표시·배포에 별도의 허가가 필요하지 않습니다. AUDIT는 세계보건기구의 도구로, 출처를 밝혀 사용합니다. 각 설문에는 표시되는 위치에 출처가 함께 적혀 있습니다. 저작자가 서면 허가를 요구하는 도구는 앱에 포함하지 않습니다." }
       ]},
       { "t": "책임의 제한", "b": [
         { "p": "법률이 허용하는 최대 범위에서:" },
@@ -1490,7 +1555,7 @@ window.CF_TERMS_T = {
   "tr": {
     "legal": "Yasal",
     "title": "Hizmet Şartları",
-    "updated": "Son güncelleme: 27 Temmuz 2026",
+    "updated": "Son güncelleme: 28 Temmuz 2026",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1520,6 +1585,8 @@ window.CF_TERMS_T = {
           { "b": "Topluluk:", "t": " kronik hastalıklarla yaşayan insanlar arasında açık gönderiler ve özel sohbetler." },
           { "b": "Kişisel takip:", "t": " esenlik, belirtiler, beslenme ve alışkanlıkların günlük kaydı; zamanla kendi örüntülerinizi görmenize yardımcı olan araçlarla." },
           { "b": "Doğrulanmış doktorlara erişim:", "t": " mevcut olduğunda, akredite sağlık uzmanlarıyla video görüşme talep etme imkânı." },
+          { "b": "Health Sync (isteğe bağlı):", "t": " bunu açıp cihazınızda izin verirseniz uygulama, adım sayınızı, uyku sürenizi ve etkinlik dakikalarınızı — cihazınız kaydediyorsa dinlenme kalp atış hızınızı ve kalp atış hızı değişkenliğinizi de — iPhone'da Apple Health (HealthKit) veya Android'de Health Connect üzerinden okur. Erişim yalnızca okumaya yöneliktir: bu servislere hiçbir zaman veri yazmayız. Bu ölçümler cihazınızda kalır ve izni, uygulamanın geri kalanını kaybetmeden telefonunuzun ayarlarından dilediğiniz an geri alabilirsiniz." },
+          { "b": "Öz değerlendirme anketleri (isteğe bağlı):", "t": " PHQ-9, GAD-7, AUDIT-C veya bir hastalık aktivite indeksi gibi, doldurmayı seçebileceğiniz standart anketler. Resmî olarak yayımlanmış sürümlerinden birebir alınmıştır ve yalnızca resmî çevirisi bulunan dillerde sunulur." },
           { "b": "Esenlik ve stok yönetimi araçları." }
         ]},
         { "p": "Hizmet'i erişilebilir ve güncel tutmaya çalışıyoruz, ancak özellikleri istediğimiz zaman değiştirebilir, askıya alabilir veya geri çekebiliriz." }
@@ -1528,6 +1595,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends bir tıbbi cihaz DEĞİLDİR ve bir sağlık uzmanının tavsiyesinin, teşhisinin veya tedavisinin yerini TUTMAZ." },
         { "ul": [
           "Uygulamadaki bilgiler ile kişisel takip ve görselleştirme araçları yalnızca genel bilgilendirme ve esenlik amaçlıdır. Bizzat girdiğiniz verileri görselleştirirler ve herhangi bir hastalığı tahmin etmez, teşhis etmez veya saptamazlar.",
+          "Öz değerlendirme anketleri (PHQ-9, GAD-7, AUDIT-C veya bir hastalık aktivite indeksi gibi) tarama ve kendini gözlemleme araçlarıdır; teşhis testi değildir. Uygulama aldığınız puanı gösterir ve yorumlamaz: hiçbir şiddet kategorisi, risk düzeyi veya klinik eşik atamaz, uyarı vermez ve başka hiçbir özellik gördüklerinizi değiştirmek için bu puanı okumaz. Puan bir teşhis değildir; doktorunuzla konuşun.",
+          "Health Sync'in getirdiği ölçümler telefonunuzun kendi sağlık deposundan ve bu depoyu besleyen tüketici cihazlarından gelir. Yalnızca kendi bilginiz için gösterilir, tıbbi sınıfta ölçümler değildir ve tarafımızdan doğrulanmaz. Bir günün verisi yoksa uygulama bir değer tahmin etmek yerine bunu size bildirir.",
           "Hizmet'teki hiçbir şey tıbbi teşhis veya tedavi önerisi olarak yorumlanmamalıdır.",
           "Sağlığınız, ilacınız veya beslenmeniz hakkında herhangi bir karar vermeden önce daima doktorunuza veya nitelikli bir sağlık uzmanına danışın.",
           "Tıbbi acil durumda, derhal ülkenizin acil servislerini arayın. Acil durumlar için uygulamayı kullanmayın."
@@ -1578,7 +1647,8 @@ window.CF_TERMS_T = {
         { "p": "Ödemeler, geri ödemeler ve yenilemeler ilgili uygulama mağazasının politikalarına göre yönetilir." }
       ]},
       { "t": "Fikri mülkiyet", "b": [
-        { "p": "Hizmet, tasarımı, markası, logoları ve içeriği Chronic Friends'in veya lisans verenlerinin mülkiyetindedir. Hizmet'i izinsiz kopyalayamaz, değiştiremez veya dağıtamazsınız. Yayınladığınız içerik sizin kalır, ancak bize bunu Hizmet içinde gösterme lisansı verirsiniz." }
+        { "p": "Hizmet, tasarımı, markası, logoları ve içeriği Chronic Friends'in veya lisans verenlerinin mülkiyetindedir. Hizmet'i izinsiz kopyalayamaz, değiştiremez veya dağıtamazsınız. Yayınladığınız içerik sizin kalır, ancak bize bunu Hizmet içinde gösterme lisansı verirsiniz." },
+        { "b": "Üçüncü taraf araçlar.", "p": " Uygulamada sunulan öz değerlendirme anketleri ilgili yazarlarına aittir ve bu yazarların belirlediği koşullara göre kullanılır. PHQ-9 ve GAD-7, Dr. Robert L. Spitzer, Dr. Janet B.W. Williams, Dr. Kurt Kroenke ve meslektaşları tarafından Pfizer Inc.'in eğitim desteğiyle geliştirilmiştir; çoğaltılması, çevrilmesi, gösterilmesi veya dağıtılması için izin gerekmez. AUDIT, Dünya Sağlık Örgütü'nün bir aracıdır ve kaynak belirtilerek kullanılır. Her anket, gösterildiği yerde kaynak bilgisini taşır. Yazarları yazılı izin isteyen araçlar uygulamaya dahil edilmemiştir." }
       ]},
       { "t": "Sorumluluğun sınırlandırılması", "b": [
         { "p": "Yasaların izin verdiği azami ölçüde:" },
@@ -1604,7 +1674,7 @@ window.CF_TERMS_T = {
   "vi": {
     "legal": "Pháp lý",
     "title": "Điều khoản dịch vụ",
-    "updated": "Cập nhật lần cuối: ngày 27 tháng 7 năm 2026",
+    "updated": "Cập nhật lần cuối: ngày 28 tháng 7 năm 2026",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1634,6 +1704,8 @@ window.CF_TERMS_T = {
           { "b": "Cộng đồng:", "t": " bài đăng mở và trò chuyện riêng tư giữa những người sống chung với các tình trạng mãn tính." },
           { "b": "Tự theo dõi:", "t": " ghi nhận hằng ngày về sức khỏe, triệu chứng, thực phẩm và thói quen, với các công cụ giúp bạn thấy các quy luật của chính mình theo thời gian." },
           { "b": "Tiếp cận bác sĩ đã xác minh:", "t": " khi có sẵn, khả năng yêu cầu tư vấn video với các chuyên gia chăm sóc sức khỏe được công nhận." },
+          { "b": "Health Sync (không bắt buộc):", "t": " nếu bạn bật tính năng này và cấp quyền trên thiết bị, ứng dụng sẽ đọc số bước chân, thời lượng giấc ngủ và số phút hoạt động của bạn — và, nếu thiết bị của bạn có ghi lại, cả nhịp tim khi nghỉ và biến thiên nhịp tim — từ Apple Health (HealthKit) trên iPhone hoặc Health Connect trên Android. Quyền này chỉ để đọc: chúng tôi không bao giờ ghi bất cứ điều gì trở lại. Các số đo đó nằm lại trên thiết bị của bạn, và bạn có thể thu hồi quyền bất cứ lúc nào trong phần cài đặt của điện thoại mà vẫn dùng được phần còn lại của ứng dụng." },
+          { "b": "Bộ câu hỏi tự đánh giá (không bắt buộc):", "t": " các bộ câu hỏi chuẩn hóa mà bạn có thể chọn hoàn thành, như PHQ-9, GAD-7, AUDIT-C hoặc một chỉ số hoạt động bệnh. Chúng được tái tạo từ bản chính thức đã công bố và chỉ được cung cấp ở những ngôn ngữ có bản dịch chính thức." },
           { "b": "Công cụ chăm sóc sức khỏe và quản lý nguồn cung." }
         ]},
         { "p": "Chúng tôi nỗ lực giữ cho Dịch vụ luôn khả dụng và cập nhật, nhưng chúng tôi có thể sửa đổi, tạm ngừng hoặc rút lại các tính năng bất cứ lúc nào." }
@@ -1642,6 +1714,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends KHÔNG phải là thiết bị y tế và KHÔNG thay thế cho lời khuyên, chẩn đoán hoặc điều trị của chuyên gia chăm sóc sức khỏe." },
         { "ul": [
           "Thông tin cùng các công cụ tự theo dõi và trực quan hóa trong ứng dụng chỉ nhằm mục đích thông tin chung và chăm sóc sức khỏe. Chúng trực quan hóa dữ liệu do chính bạn nhập và không dự đoán, chẩn đoán hay phát hiện bất kỳ bệnh nào.",
+          "Bộ câu hỏi tự đánh giá (như PHQ-9, GAD-7, AUDIT-C hoặc một chỉ số hoạt động bệnh) là công cụ sàng lọc và tự quan sát, không phải xét nghiệm chẩn đoán. Ứng dụng cho bạn thấy điểm số bạn đạt được và không diễn giải nó: không gán mức độ nặng, không gán mức nguy cơ, không gán ngưỡng lâm sàng, không phát cảnh báo, và không tính năng nào khác đọc điểm đó để thay đổi những gì bạn thấy. Điểm số không phải là chẩn đoán; hãy trao đổi với bác sĩ của bạn.",
+          "Các số đo do Health Sync mang vào đến từ kho dữ liệu sức khỏe của chính điện thoại bạn và từ các thiết bị tiêu dùng cung cấp dữ liệu cho kho đó. Chúng được hiển thị để bạn tham khảo, không phải phép đo đạt chuẩn y tế và không được chúng tôi xác minh. Nếu một ngày không có dữ liệu, ứng dụng sẽ nói rõ điều đó thay vì ước lượng một giá trị.",
           "Không nội dung nào trong Dịch vụ được diễn giải là chẩn đoán y tế hoặc khuyến nghị điều trị.",
           "Luôn tham khảo ý kiến bác sĩ hoặc chuyên gia chăm sóc sức khỏe đủ điều kiện trước khi đưa ra bất kỳ quyết định nào về sức khỏe, thuốc men hoặc chế độ ăn của bạn.",
           "Trong trường hợp cấp cứu y tế, hãy gọi ngay dịch vụ cấp cứu của quốc gia bạn. Đừng dùng ứng dụng cho các tình huống khẩn cấp."
@@ -1692,7 +1766,8 @@ window.CF_TERMS_T = {
         { "p": "Các khoản thanh toán, hoàn tiền và gia hạn được xử lý theo chính sách của cửa hàng ứng dụng liên quan." }
       ]},
       { "t": "Sở hữu trí tuệ", "b": [
-        { "p": "Dịch vụ, thiết kế, thương hiệu, logo và nội dung của nó là tài sản của Chronic Friends hoặc các bên cấp phép của Chronic Friends. Bạn không được sao chép, sửa đổi hoặc phân phối Dịch vụ mà không được phép. Nội dung bạn đăng vẫn thuộc về bạn, nhưng bạn cấp cho chúng tôi giấy phép để hiển thị nội dung đó trong Dịch vụ." }
+        { "p": "Dịch vụ, thiết kế, thương hiệu, logo và nội dung của nó là tài sản của Chronic Friends hoặc các bên cấp phép của Chronic Friends. Bạn không được sao chép, sửa đổi hoặc phân phối Dịch vụ mà không được phép. Nội dung bạn đăng vẫn thuộc về bạn, nhưng bạn cấp cho chúng tôi giấy phép để hiển thị nội dung đó trong Dịch vụ." },
+        { "b": "Công cụ của bên thứ ba.", "p": " Các bộ câu hỏi tự đánh giá được cung cấp trong ứng dụng thuộc về tác giả tương ứng của chúng và được tái tạo theo các điều kiện do những tác giả đó đặt ra. PHQ-9 và GAD-7 do TS. Robert L. Spitzer, TS. Janet B.W. Williams, TS. Kurt Kroenke và các đồng nghiệp phát triển, với tài trợ giáo dục từ Pfizer Inc., và không cần xin phép để tái tạo, dịch, trình bày hay phân phối. AUDIT là công cụ của Tổ chức Y tế Thế giới và được sử dụng kèm ghi nguồn. Mỗi bộ câu hỏi đều kèm ghi nguồn tại nơi nó được hiển thị. Những công cụ mà tác giả yêu cầu phải có phép bằng văn bản thì không được đưa vào ứng dụng." }
       ]},
       { "t": "Giới hạn trách nhiệm", "b": [
         { "p": "Trong phạm vi tối đa mà pháp luật cho phép:" },
@@ -1718,7 +1793,7 @@ window.CF_TERMS_T = {
   "zh": {
     "legal": "法律",
     "title": "服务条款",
-    "updated": "最后更新：2026年7月27日",
+    "updated": "最后更新：2026年7月28日",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1748,6 +1823,8 @@ window.CF_TERMS_T = {
           { "b": "社区：", "t": " 慢性病患者之间的公开帖子和私密聊天。" },
           { "b": "自我追踪：", "t": " 对健康、症状、饮食和习惯的每日记录，配有帮助你随时间查看自身规律的工具。" },
           { "b": "访问经验证的医生：", "t": " 在可用的情况下，可请求与经认证的医疗专业人员进行视频咨询。" },
+          { "b": "Health Sync（可选）：", "t": " 开启该功能并在设备上授予权限后，应用会从 iPhone 上的 Apple Health（HealthKit）或 Android 上的 Health Connect 读取你的步数、睡眠时长和活动分钟数；如果你的设备有记录，还会读取静息心率和心率变异性。权限仅为只读：我们绝不会向其中写入任何内容。这些读数保留在你的设备上，你可以随时在手机设置中撤销该权限，应用的其余功能不受影响。" },
+          { "b": "自评问卷（可选）：", "t": " 你可以自行选择填写的标准化问卷，例如 PHQ-9、GAD-7、AUDIT-C 或疾病活动指数。它们依据官方发布版本呈现，且仅提供存在官方译本的语言版本。" },
           { "b": "健康与用品管理工具。" }
         ]},
         { "p": "我们努力保持服务可用并保持更新，但我们可能随时修改、暂停或撤回功能。" }
@@ -1756,6 +1833,8 @@ window.CF_TERMS_T = {
         { "note": "Chronic Friends 不是医疗器械，也不能替代医疗专业人员的建议、诊断或治疗。" },
         { "ul": [
           "应用中的信息以及自我追踪和可视化工具仅用于一般信息和健康目的。它们将你自己输入的数据可视化，不预测、不诊断，也不检测任何疾病。",
+          "自评问卷（如 PHQ-9、GAD-7、AUDIT-C 或疾病活动指数）是筛查与自我观察工具，不是诊断检测。应用只显示你所得的分数，并不作解读：不划分严重程度等级、不判定风险级别、不设临床阈值，不发出任何警报，也没有其他功能会读取该分数来改变呈现给你的内容。分数不是诊断；请与你的医生讨论。",
+          "Health Sync 引入的读数来自你手机自身的健康数据存储以及向其提供数据的消费级设备。它们仅供你本人参考，并非医疗级测量，我们也不对其进行验证。如果某一天没有数据，应用会明确告知，而不会估算数值。",
           "服务中的任何内容都不应被解释为医疗诊断或治疗建议。",
           "在就你的健康、用药或饮食做出任何决定之前，请务必咨询你的医生或合格的医疗专业人员。",
           "在医疗紧急情况下，请立即拨打你所在国家的紧急服务电话。请勿将应用用于紧急情况。"
@@ -1806,7 +1885,8 @@ window.CF_TERMS_T = {
         { "p": "付款、退款和续订依据相关应用商店的政策处理。" }
       ]},
       { "t": "知识产权", "b": [
-        { "p": "服务及其设计、品牌、徽标和内容归 Chronic Friends 或其许可方所有。未经授权，你不得复制、修改或分发服务。你发布的内容仍归你所有，但你授予我们在服务内展示这些内容的许可。" }
+        { "p": "服务及其设计、品牌、徽标和内容归 Chronic Friends 或其许可方所有。未经授权，你不得复制、修改或分发服务。你发布的内容仍归你所有，但你授予我们在服务内展示这些内容的许可。" },
+        { "b": "第三方量表。", "p": " 应用中提供的自评问卷归各自作者所有，并按这些作者设定的条件呈现。PHQ-9 和 GAD-7 由 Robert L. Spitzer 博士、Janet B.W. Williams 博士、Kurt Kroenke 博士及其同事在 Pfizer Inc. 的教育资助下开发，复制、翻译、展示或分发均无需授权。AUDIT 是世界卫生组织的量表，使用时标注来源。每份问卷在显示处均附有来源说明。作者要求书面许可的量表未纳入应用。" }
       ]},
       { "t": "责任限制", "b": [
         { "p": "在法律允许的最大范围内：" },
