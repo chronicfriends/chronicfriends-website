@@ -57,7 +57,7 @@ device and does not provide medical advice, diagnosis or treatment.</p>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Noto+Sans+KR:wght@400;500;600;700;800&amp;display=swap">
   <style>
-    html, body { margin: 0; padding: 0; background: #f3f7ee; overflow-x: hidden; max-width: 100%; }
+    html, body { margin: 0; padding: 0; background: #f3f7ee; }
     html { scroll-behavior: smooth; }
 
     /* ---- Korean: Poppins has no Hangul glyphs; use Noto Sans KR + keep-all wrapping ---- */
@@ -90,14 +90,6 @@ device and does not provide medical advice, diagnosis or treatment.</p>
          box-sizing obligatorio: sin él el relleno de 8px se suma al max-height y
          el menú se salía 28px por debajo de la pantalla (medido a 390x844). */
       [data-r="langmenu"] { box-sizing: border-box !important; max-height: calc(100vh - 200px) !important; overflow-y: auto !important; max-width: calc(100vw - 24px) !important; }
-      /* Contener el scroll lateral SIN recortar las maquetas de teléfonos */
-      [data-screen-label="Hero"], [data-r="root"] section { overflow-x: clip !important; }
-      /* Footer: apilar la tarjeta de 5 columnas en una sola centrada */
-      [data-r="root"] footer div[style*="repeat(5"] { grid-template-columns: 1fr !important; gap: 24px !important; padding: 34px 22px !important; text-align: center !important; }
-      [data-r="root"] footer div[style*="repeat(5"] > div { width: 100% !important; align-items: center !important; justify-content: center !important; }
-      [data-r="root"] footer div[style*="repeat(5"] p { width: 100% !important; max-width: 340px !important; margin-left: auto !important; margin-right: auto !important; text-align: center !important; }
-      [data-r="root"] footer div[style*="space-between"] { flex-direction: column !important; align-items: center !important; justify-content: center !important; text-align: center !important; gap: 8px !important; flex-wrap: nowrap !important; }
-      [data-r="root"] footer div[style*="space-between"] > span { display: block !important; width: 100% !important; white-space: normal !important; }
       [data-r="langmenu"] { right: auto !important; left: 0 !important; }
       [data-r="footergrid"] { grid-template-columns: 1fr !important; gap: 26px !important; padding: 34px 26px !important; justify-items: start !important; }
       [data-r="footergrid"] > div:first-child { justify-content: flex-start !important; }
