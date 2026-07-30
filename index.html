@@ -84,13 +84,7 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       [data-r="vhead"] { margin-top: 18px !important; }
       #download > div, #apply > div { padding: 48px 24px !important; }
       [data-r="ovgrid"] { grid-template-columns: 1fr !important; gap: 30px !important; padding: 40px 26px !important; }
-      /* cf-mobile-patch — añadido por deploy-landing-chronic.sh */
-      /* Menú de idiomas: 16 idiomas no caben de alto; que quepa y haga scroll.
-         NO tocamos left/right: de eso se encarga Claude Design.
-         box-sizing obligatorio: sin él el relleno de 8px se suma al max-height y
-         el menú se salía 28px por debajo de la pantalla (medido a 390x844). */
-      [data-r="langmenu"] { box-sizing: border-box !important; max-height: calc(100vh - 200px) !important; overflow-y: auto !important; max-width: calc(100vw - 24px) !important; }
-      [data-r="langmenu"] { right: auto !important; left: 0 !important; }
+      [data-r="langmenu"] { right: auto !important; left: 0 !important; box-sizing: border-box !important; max-height: calc(100vh - 200px) !important; overflow-y: auto !important; -webkit-overflow-scrolling: touch !important; max-width: calc(100vw - 24px) !important; }
       [data-r="footergrid"] { grid-template-columns: 1fr !important; gap: 26px !important; padding: 34px 26px !important; justify-items: start !important; }
       [data-r="footergrid"] > div:first-child { justify-content: flex-start !important; }
       [data-r="footergrid"] > div:nth-child(2) { padding-bottom: 6px !important; border-bottom: 1px solid rgba(120,140,115,.16) !important; width: 100% !important; }
