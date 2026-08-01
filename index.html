@@ -96,8 +96,8 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       [data-r="root"] h2 { font-size: 24px !important; }
     }
   </style>
-  <script src="cf-terms-i18n.js?v=202607281357"></script>
-  <script src="cf-privacy-i18n.js?v=202607281357"></script>
+  <script src="cf-terms-i18n.js?v=202608011840"></script>
+  <script src="cf-privacy-i18n.js?v=202608011840"></script>
 </helmet>
 
 <div dir="{{ dir }}" lang="{{ langCode }}" data-r="root" style="font-family: 'Poppins', system-ui, sans-serif; color: #21302a; background: #f3f7ee; min-height: 100vh; overflow-x: hidden;">
@@ -3656,19 +3656,19 @@ class Component extends DCLogic {
     const dt = { ...CF_DOCTOR_T.en, ...(CF_DOCTOR_T[lang] || {}) };
     const rl = CF_ROLE_LABELS[lang] || CF_ROLE_LABELS.en;
     const imp = CF_IMPACT_T[lang] || CF_IMPACT_T.en;
-    const HOME_SCREENS = ['en', 'es', 'ca', 'fr', 'de', 'it', 'pt'];
+    const HOME_SCREENS = ['en', 'es', 'ca', 'fr', 'de', 'it', 'pt', 'id', 'vi', 'tr', 'ru', 'ar', 'hi', 'ko', 'zh', 'ja'];
     const img = { home: 'assets/screens/' + (HOME_SCREENS.indexOf(lang) >= 0 ? lang : 'en') + '-home.png' };
     const HERO1_LANGS = ['ar', 'ca', 'fr', 'de', 'hi', 'id', 'it', 'ja', 'ko', 'zh', 'pt', 'ru', 'es', 'tr', 'vi']; // langs with a localized center hero phone (hero-phone-1-<lang>.png)
     const heroLocalized = HERO1_LANGS.indexOf(lang) >= 0;
     img.hero1 = 'assets/screens/hero-phone-1' + (heroLocalized ? '-' + lang : '') + '.png';
-    const HERO2_LANGS = ['ar', 'ca', 'fr', 'de', 'hi', 'id', 'it', 'ja', 'ko', 'zh', 'ru', 'es', 'tr', 'vi']; // langs with a localized left hero phone (hero-phone-2-<lang>.png)
+    const HERO2_LANGS = ['ar', 'ca', 'fr', 'de', 'hi', 'id', 'it', 'ja', 'ko', 'zh', 'ru', 'es', 'tr', 'vi', 'pt']; // langs with a localized left hero phone (hero-phone-2-<lang>.png)
     const hero2Localized = HERO2_LANGS.indexOf(lang) >= 0;
     img.hero2 = 'assets/screens/hero-phone-2' + (hero2Localized ? '-' + lang : '') + '.png';
     // Localized "Closer look" phones — add lang codes to each list as assets arrive (p-<name>-<lang>.png)
-    const P_COMMUNITY_LANGS = ['ca', 'ar', 'fr'];
+    const P_COMMUNITY_LANGS = ['ca', 'ar', 'fr', 'es', 'de', 'it', 'pt', 'id', 'vi', 'tr', 'ru', 'hi', 'ko', 'zh', 'ja'];
     const P_DOCTORS_LANGS = ['ca', 'ar', 'fr'];
-    const P_REPORT_LANGS = ['ca', 'ar', 'fr'];
-    const P_MEDS_LANGS = ['ca', 'ar', 'fr'];
+    const P_REPORT_LANGS = ['ca', 'ar', 'fr', 'es', 'de', 'it', 'pt', 'id', 'vi', 'tr', 'ru', 'hi', 'ko', 'zh', 'ja'];
+    const P_MEDS_LANGS = ['ca', 'ar', 'fr', 'es', 'de', 'it', 'pt', 'id', 'vi', 'tr', 'ru', 'hi', 'ko', 'zh', 'ja'];
     const communityLocalized = P_COMMUNITY_LANGS.indexOf(lang) >= 0;
     const doctorsLocalized = P_DOCTORS_LANGS.indexOf(lang) >= 0;
     const reportLocalized = P_REPORT_LANGS.indexOf(lang) >= 0;
