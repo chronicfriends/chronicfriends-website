@@ -96,8 +96,8 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       [data-r="root"] h2 { font-size: 24px !important; }
     }
   </style>
-  <script src="cf-terms-i18n.js?v=202608011840"></script>
-  <script src="cf-privacy-i18n.js?v=202608011840"></script>
+  <script src="cf-terms-i18n.js?v=202608011911"></script>
+  <script src="cf-privacy-i18n.js?v=202608011911"></script>
 </helmet>
 
 <div dir="{{ dir }}" lang="{{ langCode }}" data-r="root" style="font-family: 'Poppins', system-ui, sans-serif; color: #21302a; background: #f3f7ee; min-height: 100vh; overflow-x: hidden;">
@@ -353,7 +353,17 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       <h2 style="margin: 0; font-size: 38px; font-weight: 800; letter-spacing: -0.015em; color: #21302a; text-wrap: balance;">{{ t.howH2 }}</h2>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 22px;">
+    <div style="display: flex; flex-wrap: wrap; gap: 56px; align-items: center; justify-content: center;">
+      <div style="flex: none; position: relative;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 420px; height: 420px; border-radius: 50%; background: radial-gradient(circle, rgba(140,255,82,.2) 0%, rgba(140,255,82,0) 66%); pointer-events: none;"></div>
+        <div style="position: relative; width: 252px; background: linear-gradient(180deg, #2b3a30, #17231b); border-radius: 44px; padding: 11px; box-shadow: 0 34px 60px -22px rgba(0,0,0,.55), 0 12px 24px -10px rgba(0,0,0,.4), inset 0 1px 1px rgba(255,255,255,.18);">
+          <div style="border-radius: 33px; overflow: hidden; background: #0e1712;">
+            <img src="{{ img.home }}" alt="Chronic Friends home screen" style="width: 100%; display: block;">
+          </div>
+        </div>
+      </div>
+
+      <div style="flex: 1; min-width: min(100%, 320px); max-width: 560px; display: flex; flex-direction: column; gap: 22px;">
       <div style="background: rgba(255,255,255,.72); backdrop-filter: blur(14px); border: 1px solid rgba(255,255,255,.65); border-radius: 26px; padding: 30px 28px; box-shadow: 0 12px 30px -10px rgba(30,60,30,.25), inset 0 1px 1px rgba(255,255,255,.7); display: flex; flex-direction: column; gap: 16px;">
         <div style="width: 46px; height: 46px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; color: #dff5d3; background: radial-gradient(120% 120% at 32% 26%, #3f7a40, #234e28); box-shadow: 0 7px 14px rgba(18,45,18,.5), inset 0 2px 2px rgba(255,255,255,.28), inset 0 -4px 7px rgba(12,40,15,.55);">1</div>
         <div style="font-size: 17px; font-weight: 700; color: #21302a;">{{ t.s1t }}</div>
@@ -368,6 +378,7 @@ device and does not provide medical advice, diagnosis or treatment.</p>
         <div style="width: 46px; height: 46px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; color: #dff5d3; background: radial-gradient(120% 120% at 32% 26%, #3f7a40, #234e28); box-shadow: 0 7px 14px rgba(18,45,18,.5), inset 0 2px 2px rgba(255,255,255,.28), inset 0 -4px 7px rgba(12,40,15,.55);">3</div>
         <div style="font-size: 17px; font-weight: 700; color: #21302a;">{{ t.s3t }}</div>
         <p style="margin: 0; font-size: 14px; line-height: 1.6; font-weight: 500; color: #3c5142; text-wrap: pretty;">{{ t.s3b }}</p>
+      </div>
       </div>
     </div>
   </section>
