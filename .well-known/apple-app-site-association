@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["PGVU395843.org.chronicfriends.app"],
+        "components": [{ "/": "/open*" }]
+      }
+    ]
+  }
+}
