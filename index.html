@@ -96,8 +96,8 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       [data-r="root"] h2 { font-size: 24px !important; }
     }
   </style>
-  <script src="cf-terms-i18n.js?v=202608080728"></script>
-  <script src="cf-privacy-i18n.js?v=202608080728"></script>
+  <script src="cf-terms-i18n.js?v=202608080746"></script>
+  <script src="cf-privacy-i18n.js?v=202608080746"></script>
 </helmet>
 
 <div dir="{{ dir }}" lang="{{ langCode }}" data-r="root" style="font-family: 'Poppins', system-ui, sans-serif; color: #21302a; background: #f3f7ee; min-height: 100vh; overflow-x: hidden;">
@@ -170,7 +170,12 @@ device and does not provide medical advice, diagnosis or treatment.</p>
               <span style="font-size: 19px; font-weight: 600; color: #ffffff; letter-spacing: -.01em; margin-top: 2px;">Google Play</span>
             </span>
           </a>
+          <a href="https://chronicfriends.app" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; padding: 10px 20px; border-radius: 13px; background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.32);" style-hover="background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.6);">
+            <svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none;"><rect x="2.5" y="3.5" width="19" height="13" rx="2.5"></rect><path d="M8.5 20.5h7M12 16.5v4"></path></svg>
+            <span style="font-size: 15px; font-weight: 700; color: #ffffff; letter-spacing: -.01em;">{{ t.lWebApp }}</span>
+          </a>
         </div>
+        <div style="font-size: 13px; font-weight: 600; color: rgba(234,253,227,.72); max-width: 460px;">{{ t.lWebAppSub }}</div>
 
       </div>
 
@@ -489,7 +494,12 @@ device and does not provide medical advice, diagnosis or treatment.</p>
             <span style="font-size: 20px; font-weight: 600; color: #ffffff; letter-spacing: -.01em; margin-top: 2px;">Google Play</span>
           </span>
         </a>
+        <a href="https://chronicfriends.app" target="_blank" rel="noopener noreferrer" style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; border-radius: 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.35); box-shadow: 0 8px 18px rgba(10,30,10,.4);" style-hover="transform: translateY(-2px); background: rgba(255,255,255,.2);">
+          <svg viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none;"><rect x="2.5" y="3.5" width="19" height="13" rx="2.5"></rect><path d="M8.5 20.5h7M12 16.5v4"></path></svg>
+          <span style="font-size: 16px; font-weight: 700; color: #ffffff; letter-spacing: -.01em;">{{ t.lWebApp }}</span>
+        </a>
       </div>
+      <div style="position: relative; font-size: 13.5px; font-weight: 600; color: rgba(234,253,227,.75); max-width: 520px;">{{ t.lWebAppSub }}</div>
     </div>
   </section>
 
@@ -942,12 +952,14 @@ device and does not provide medical advice, diagnosis or treatment.</p>
             <a href="#" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lHelp }}</a>
             <a href="#" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lContact }}</a>
             <a href="#community" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lGuide }}</a>
+            <a href="/blog/" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lBlog }}</a>
           </div>
           <div style="display: flex; flex-direction: column; gap: 13px;">
             <span style="font-size: 11px; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; color: #469a3f;">{{ t.colLegal }}</span>
             <a href="#" onClick="{{ openPrivacy }}" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lPrivacy }}</a>
             <a href="#" onClick="{{ openTerms }}" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lTerms }}</a>
             <a href="#" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lDisc }}</a>
+            <a href="/delete-account/" style="font-size: 13px; font-weight: 500; color: #3c5142; text-decoration: none; transition: color .2s;" style-hover="color: #1f8a2f;">{{ t.lDelete }}</a>
           </div>
       </div>
       <div style="display: flex; justify-content: center; padding-top: 6px;">
@@ -1133,6 +1145,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Privacy policy",
             "lTerms": "Terms of Service",
             "lDisc": "Medical disclaimer",
+            "lBlog": "Blog",
+            "lDelete": "Delete your account",
+            "lWebApp": "Use it on your computer",
+            "lWebAppSub": "Works in your browser — and you can install it on your computer",
             "fCopy": "© 2026 Chronic Friends. All rights reserved.",
             "fNotice": "Chronic Friends is not a medical device and does not provide medical advice.",
             "cl1t": "Community",
@@ -1224,6 +1240,10 @@ const CF_LANDING_T = {
             "lPrivacy": "سياسة الخصوصية",
             "lTerms": "شروط الخدمة",
             "lDisc": "إخلاء مسؤولية طبية",
+            "lBlog": "المدونة",
+            "lDelete": "حذف حسابك",
+            "lWebApp": "استخدمه على حاسوبك",
+            "lWebAppSub": "يعمل في متصفحك — ويمكنك تثبيته على حاسوبك",
             "fCopy": "© 2026 Chronic Friends. جميع الحقوق محفوظة.",
             "fNotice": "Chronic Friends ليس جهازًا طبيًّا ولا يقدّم نصيحة طبية.",
             "cl1t": "المجتمع",
@@ -1315,6 +1335,10 @@ const CF_LANDING_T = {
             "lPrivacy": "गोपनीयता नीति",
             "lTerms": "सेवा की शर्तें",
             "lDisc": "चिकित्सीय अस्वीकरण",
+            "lBlog": "ब्लॉग",
+            "lDelete": "अपना खाता हटाएं",
+            "lWebApp": "इसे अपने कंप्यूटर पर इस्तेमाल करें",
+            "lWebAppSub": "आपके ब्राउज़र में चलता है — और आप इसे अपने कंप्यूटर पर इंस्टॉल कर सकते हैं",
             "fCopy": "© 2026 Chronic Friends. सर्वाधिकार सुरक्षित।",
             "fNotice": "Chronic Friends एक चिकित्सा उपकरण नहीं है और चिकित्सीय सलाह प्रदान नहीं करता।",
             "cl1t": "समुदाय",
@@ -1406,6 +1430,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Kebijakan privasi",
             "lTerms": "Ketentuan Layanan",
             "lDisc": "Penafian medis",
+            "lBlog": "Blog",
+            "lDelete": "Hapus akun Anda",
+            "lWebApp": "Pakai di komputermu",
+            "lWebAppSub": "Berjalan di browser — dan bisa kamu instal di komputer",
             "fCopy": "© 2026 Chronic Friends. Semua hak dilindungi.",
             "fNotice": "Chronic Friends bukan perangkat medis dan tidak memberikan nasihat medis.",
             "cl1t": "Komunitas",
@@ -1497,6 +1525,10 @@ const CF_LANDING_T = {
             "lPrivacy": "プライバシーポリシー",
             "lTerms": "利用規約",
             "lDisc": "医療免責事項",
+            "lBlog": "ブログ",
+            "lDelete": "アカウントを削除",
+            "lWebApp": "パソコンでも使えます",
+            "lWebAppSub": "ブラウザで動作します — パソコンにインストールもできます",
             "fCopy": "© 2026 Chronic Friends. 無断転載を禁じます。",
             "fNotice": "Chronic Friends は医療機器ではなく、医療上のアドバイスを提供するものではありません。",
             "cl1t": "コミュニティ",
@@ -1588,6 +1620,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Chính sách bảo mật",
             "lTerms": "Điều khoản dịch vụ",
             "lDisc": "Tuyên bố miễn trừ y khoa",
+            "lBlog": "Blog",
+            "lDelete": "Xóa tài khoản của bạn",
+            "lWebApp": "Dùng trên máy tính",
+            "lWebAppSub": "Chạy trong trình duyệt — và bạn có thể cài đặt trên máy tính",
             "fCopy": "© 2026 Chronic Friends. Bảo lưu mọi quyền.",
             "fNotice": "Chronic Friends không phải là thiết bị y tế và không cung cấp lời khuyên y khoa.",
             "cl1t": "Cộng đồng",
@@ -1679,6 +1715,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Gizlilik politikası",
             "lTerms": "Hizmet Şartları",
             "lDisc": "Tıbbi sorumluluk reddi",
+            "lBlog": "Blog",
+            "lDelete": "Hesabınızı silin",
+            "lWebApp": "Bilgisayarında kullan",
+            "lWebAppSub": "Tarayıcında çalışır — ve bilgisayarına kurabilirsin",
             "fCopy": "© 2026 Chronic Friends. Tüm hakları saklıdır.",
             "fNotice": "Chronic Friends bir tıbbi cihaz değildir ve tıbbi tavsiye vermez.",
             "cl1t": "Topluluk",
@@ -1770,6 +1810,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Política de privacidad",
             "lTerms": "Términos del Servicio",
             "lDisc": "Aviso médico",
+            "lBlog": "Blog",
+            "lDelete": "Eliminar tu cuenta",
+            "lWebApp": "Úsala en tu ordenador",
+            "lWebAppSub": "Funciona en tu navegador — y puedes instalarla en tu ordenador",
             "fCopy": "© 2026 Chronic Friends. Todos los derechos reservados.",
             "fNotice": "Chronic Friends no es un producto sanitario y no ofrece consejo médico.",
             "cl1t": "Comunidad",
@@ -1861,6 +1905,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Política de privadesa",
             "lTerms": "Condicions del servei",
             "lDisc": "Avís mèdic",
+            "lBlog": "Blog",
+            "lDelete": "Elimina el teu compte",
+            "lWebApp": "Fes-la servir a l'ordinador",
+            "lWebAppSub": "Funciona al teu navegador — i la pots instal·lar a l’ordinador",
             "fCopy": "© 2026 Chronic Friends. Tots els drets reservats.",
             "fNotice": "Chronic Friends no és un producte sanitari i no ofereix consell mèdic.",
             "cl1t": "Comunitat",
@@ -1952,6 +2000,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Politique de confidentialité",
             "lTerms": "Conditions d’utilisation",
             "lDisc": "Avertissement médical",
+            "lBlog": "Blog",
+            "lDelete": "Supprimer votre compte",
+            "lWebApp": "Utilisez-la sur votre ordinateur",
+            "lWebAppSub": "Fonctionne dans votre navigateur — et vous pouvez l’installer sur votre ordinateur",
             "fCopy": "© 2026 Chronic Friends. Tous droits réservés.",
             "fNotice": "Chronic Friends n’est pas un dispositif médical et ne fournit pas d’avis médical.",
             "cl1t": "Communauté",
@@ -2043,6 +2095,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Datenschutz",
             "lTerms": "Nutzungsbedingungen",
             "lDisc": "Medizinischer Hinweis",
+            "lBlog": "Blog",
+            "lDelete": "Konto löschen",
+            "lWebApp": "Am Computer nutzen",
+            "lWebAppSub": "Läuft im Browser — und lässt sich auf dem Computer installieren",
             "fCopy": "© 2026 Chronic Friends. Alle Rechte vorbehalten.",
             "fNotice": "Chronic Friends ist kein Medizinprodukt und bietet keinen medizinischen Rat.",
             "cl1t": "Community",
@@ -2134,6 +2190,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Privacy",
             "lTerms": "Termini di servizio",
             "lDisc": "Avvertenza medica",
+            "lBlog": "Blog",
+            "lDelete": "Elimina il tuo account",
+            "lWebApp": "Usala sul computer",
+            "lWebAppSub": "Funziona nel browser — e puoi installarla sul computer",
             "fCopy": "© 2026 Chronic Friends. Tutti i diritti riservati.",
             "fNotice": "Chronic Friends non è un dispositivo medico e non fornisce consigli medici.",
             "cl1t": "Comunità",
@@ -2225,6 +2285,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Política de privacidade",
             "lTerms": "Termos de Serviço",
             "lDisc": "Aviso médico",
+            "lBlog": "Blog",
+            "lDelete": "Eliminar a tua conta",
+            "lWebApp": "Usa-a no teu computador",
+            "lWebAppSub": "Funciona no teu navegador — e podes instalá-la no computador",
             "fCopy": "© 2026 Chronic Friends. Todos os direitos reservados.",
             "fNotice": "A Chronic Friends não é um dispositivo médico e não fornece aconselhamento médico.",
             "cl1t": "Comunidade",
@@ -2316,6 +2380,10 @@ const CF_LANDING_T = {
             "lPrivacy": "隐私政策",
             "lTerms": "服务条款",
             "lDisc": "医疗免责声明",
+            "lBlog": "博客",
+            "lDelete": "删除您的账户",
+            "lWebApp": "在电脑上使用",
+            "lWebAppSub": "在浏览器中运行 — 也可以安装到电脑上",
             "fCopy": "© 2026 Chronic Friends。保留所有权利。",
             "fNotice": "Chronic Friends 不是医疗器械，也不提供医疗建议。",
             "cl1t": "社区",
@@ -2407,6 +2475,10 @@ const CF_LANDING_T = {
             "lPrivacy": "개인정보 처리방침",
             "lTerms": "서비스 약관",
             "lDisc": "의료 면책 조항",
+            "lBlog": "블로그",
+            "lDelete": "계정 삭제",
+            "lWebApp": "컴퓨터에서 사용하기",
+            "lWebAppSub": "브라우저에서 작동하며, 컴퓨터에 설치할 수도 있습니다",
             "fCopy": "© 2026 Chronic Friends. 모든 권리 보유.",
             "fNotice": "Chronic Friends는 의료기기가 아니며 의료 조언을 제공하지 않습니다.",
             "cl1t": "커뮤니티",
@@ -2498,6 +2570,10 @@ const CF_LANDING_T = {
             "lPrivacy": "Политика конфиденциальности",
             "lTerms": "Условия обслуживания",
             "lDisc": "Медицинская оговорка",
+            "lBlog": "Блог",
+            "lDelete": "Удалить аккаунт",
+            "lWebApp": "Используйте на компьютере",
+            "lWebAppSub": "Работает в браузере — и её можно установить на компьютер",
             "fCopy": "© 2026 Chronic Friends. Все права защищены.",
             "fNotice": "Chronic Friends не является медицинским устройством и не даёт медицинских советов.",
             "cl1t": "Сообщество",
