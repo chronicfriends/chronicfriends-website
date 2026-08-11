@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Doctors screen — capture harness</title>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+<style>
+  html,body{margin:0;background:#8f9c8a;}
+  #slots{display:flex;gap:26px;padding:26px;align-items:flex-start;}
+  .cap{position:relative;width:563px;height:1249px;flex:none;}
+  .screenwrap{
+    position:absolute;left:18px;top:18px;width:527px;height:1183px;
+    border-radius:52px;overflow:hidden;background:var(--card);
+  }
+  .phone-inner{position:absolute;left:0;top:0;width:393px;height:882.2px;transform:scale(1.340967);transform-origin:top left;}
+  .screen{width:393px;height:882.2px;display:flex;flex-direction:column;overflow:hidden;background:var(--card);border-radius:0;}
+  /* tab strip in the captured build: equal columns, wrapping labels */
+  .screen .cf-tabs{padding:0 10px !important;}
+  .screen .cf-tabs > button{flex:1 1 0 !important;white-space:normal !important;font-size:10.7px !important;padding:10px 3px 12px !important;line-height:1.25 !important;}
+  /* html-to-image cannot rasterise backdrop-filter */
+  .screen .tabbar{backdrop-filter:none;-webkit-backdrop-filter:none;background:#f7faf4;}
+  .screen .fade-in{animation:none !important;}
+</style>
+</head>
+<body>
+<div id="slots"></div>
+<div id="live" style="position:fixed;left:-4000px;top:0;"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="icons.jsx"></script>
+<script type="text/babel" src="i18n.jsx"></script>
+<script type="text/babel" src="i18n2.jsx"></script>
+<script type="text/babel" src="i18n3.jsx"></script>
+<script type="text/babel" src="i18n4.jsx"></script>
+<script type="text/babel" src="i18n5.jsx"></script>
+<script type="text/babel" src="i18n6.jsx"></script>
+<script type="text/babel" src="i18n7.jsx"></script>
+<script type="text/babel" src="profile.jsx"></script>
+<script type="text/babel" src="components.jsx"></script>
+<script type="text/babel" src="chat.jsx"></script>
+<script type="text/babel" src="posts.jsx"></script>
+<script type="text/babel" src="checkin.jsx"></script>
+<script type="text/babel" src="appointments.jsx"></script>
+<script type="text/babel" src="reviews.jsx"></script>
+<script type="text/babel" src="screens.jsx"></script>
+<script type="text/babel" src="meds.jsx"></script>
+<script type="text/babel" src="settings.jsx"></script>
+<script type="text/babel" src="drcf.jsx"></script>
+
+<script type="text/babel">
+/* ============================================================
+   Capture harness for assets/screens/p-doctors*.png
+   Renders Community → Doctors in en / ca / ar / fr with the
+   current brand (Chronic Friends).
+   ============================================================ */
+
+const OV = {
+  'Community':        { en:'Community', ca:'Comunitat', fr:'Communauté', ar:'المجتمع' },
+  'Posts':            { en:'Posts', ca:'Publicacions', fr:'Posts', ar:'المنشورات' },
+  'CF Online':        { en:'Chronic Friends', ca:'Chronic Friends', fr:'Chronic Friends', ar:'Chronic Friends' },
+  'Best CF Online':   { en:'Best Chronic\u00A0Friends', ca:'Millors Chronic\u00A0Friends', fr:'Meilleurs Chronic\u00A0Friends', ar:'أفضل Chronic\u00A0Friends' },
+  'Doctors':          { en:'Doctors', ca:'Metges', fr:'Médecins', ar:'الأطباء' },
+  'Verified Doctors': { ar:'أطباء موثوقون' },
+  "A network of verified doctors supporting Crohn Friends. Pick a specialty below and we'll show you the right experts. \ud83c\udf3f":
+                      { ar:'شبكة من الأطباء الموثوقين تدعم Chronic Friends. اختر تخصصًا في الأسفل وسنعرض لك الخبراء المناسبين. 🌿' },
+  'Choose a specialization': { ar:'اختر التخصص' },
+  'Gastroenterologist':      { ar:'أخصائي الجهاز الهضمي' },
+  "Gut, digestion & Crohn's care": { ar:'الأمعاء والهضم ورعاية كرون' },
+  'IBD Specialist':          { ar:'أخصائي أمراض الأمعاء الالتهابية' },
+  "Crohn's & colitis experts": { ar:'خبراء كرون والتهاب القولون' },
+  'Colorectal Surgeon':      { ar:'جراح القولون والمستقيم' },
+  'Surgery & bowel resections': { ar:'الجراحة واستئصال الأمعاء' },
+  'IBD & Nutrition':         { ar:'التغذية وأمراض الأمعاء' },
+  'Diet plans built for IBD': { ar:'خطط غذائية للأمعاء الالتهابية' },
+  'All listed specialists are identity- and license-verified by Crohn Friends.':
+                      { ar:'جميع الأخصائيين المدرجين موثّقون بالهوية والترخيص من Chronic\u00A0Friends' },
+};
+
+const _tr = window.tr;
+window.tr = function (en) {
+  const lang = (window.I18n && I18n.lang) || 'en';
+  const o = OV[en];
+  if (o && o[lang]) return o[lang];
+  const s = _tr(en);
+  return typeof s === 'string' ? s.split('Crohn Friends').join('Chronic\u00A0Friends') : s;
+};
+
+const NAV = {
+  en: ['Home', 'Community', 'Journal', 'Medication'],
+  ca: ['Inici', 'Comunitat', 'Diari', 'Medicació'],
+  fr: ['Accueil', 'Communauté', 'Journal', 'Médicaments'],
+  ar: ['الرئيسية', 'المجتمع', 'اليوميات', 'الدواء'],
+};
+
+function CapFrame({ lang }) {
+  const nav = NAV[lang];
+  return (
+    <div className="screenwrap">
+      <div className="phone-inner">
+        <div className="screen">
+          <div className="screen-scroll" style={{ letterSpacing: '0px' }}>
+            <CommunityScreen go={() => {}} communityTab="doctors" setCommunityTab={() => {}} />
+          </div>
+          <div className="tabbar">
+            {[['home', nav[0]], ['users', nav[1]], ['cal', nav[2]], ['pill', nav[3]]].map(([ic, lbl], i) => (
+              <button key={ic} className={'tab' + (i === 1 ? ' active' : '')}>
+                <span className="tab-ic">{Ic[ic]()}</span>
+                <span>{lbl}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>);
+}
+
+/* tag the category-tab strip so the CSS override can reach it */
+function tagTabs(node) {
+  const strip = node.querySelector('.screen-scroll .no-scrollbar');
+  if (strip && strip.querySelector('button')) strip.classList.add('cf-tabs');
+}
+
+/* the shipped screen lists 10 / 3 / 2 / 1 specialists — this app copy carries a
+   trimmed doctor seed list, so restore the published counts */
+const COUNTS = ['10', '3', '2', '1'];
+function fixCounts(node) {
+  const btns = node.querySelectorAll('.screen-scroll .no-scrollbar:not(.cf-tabs) button');
+  btns.forEach((b, i) => {
+    if (i > 3) { b.remove(); return; }
+    const badge = b.querySelector('span:last-child > span:first-child');
+    if (badge && COUNTS[i]) badge.textContent = COUNTS[i];
+  });
+  /* drop the trailing reassurance line when it would be clipped by the tab bar */
+  const scroll = node.querySelector('.screen-scroll');
+  const foot = node.querySelector('.screen-scroll p.muted');
+  if (scroll && foot) {
+    const s = scroll.getBoundingClientRect(), f = foot.getBoundingClientRect();
+    if (f.bottom > s.bottom - 6) foot.remove();
+  }
+}
+
+(async function build() {
+  const slots = document.getElementById('slots');
+  const live = document.getElementById('live');
+  const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+  for (const lang of ['en', 'ca', 'ar', 'fr']) {
+    I18n.setLang(lang);
+    const host = document.createElement('div');
+    live.appendChild(host);
+    host.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    const root = ReactDOM.createRoot(host);
+    root.render(<CapFrame lang={lang} />);
+    await wait(500);
+    tagTabs(host);
+    fixCounts(host);
+    await wait(150);
+    const slot = document.createElement('div');
+    slot.className = 'cap';
+    slot.id = 'cap-' + lang;
+    slot.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    slot.appendChild(host.firstElementChild.cloneNode(true));
+    slots.appendChild(slot);
+    root.unmount();
+    live.removeChild(host);
+    I18n.listeners.length = 0;
+  }
+  document.documentElement.dir = 'ltr';
+  window.__capReady = true;
+})();
+</script>
+</body>
+</html>

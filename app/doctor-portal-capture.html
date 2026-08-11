@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Doctor portal — capture harness (d-dash / d-profile / d-history / d-schedule3)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=block">
+<style>
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:#8f9c8a;}
+  #slots{display:grid;grid-template-columns:repeat(4,447px);gap:34px;padding:34px;justify-content:start;}
+  #templates{display:none;}
+  .cap{position:relative;width:447px;height:981px;flex:none;font-family:'Poppins',sans-serif;}
+  .cap.L-ru,.cap.L-vi{font-family:'Noto Sans','Poppins',sans-serif;}
+  .cap.L-ar{font-family:'Poppins','Noto Sans Arabic',sans-serif;}
+  .cap.L-ko{font-family:'Poppins','Noto Sans KR',sans-serif;}
+  .cap.L-zh{font-family:'Poppins','Noto Sans SC',sans-serif;}
+  .cap.L-ja{font-family:'Poppins','Noto Sans JP',sans-serif;}
+  .cap[dir=rtl] *{letter-spacing:0 !important;}
+  .frame{position:absolute;inset:0;background:#0b150d;border-radius:60px;}
+  .screen{position:absolute;left:15px;top:14px;width:417px;height:939px;border-radius:46px;overflow:hidden;
+    background:#f1f5ec;color:#21302a;display:flex;flex-direction:column;}
+  .island{position:absolute;left:50%;transform:translateX(-50%);top:0;width:136px;height:37px;
+    background:#0b150d;border-radius:0 0 19px 19px;z-index:20;}
+  .hdr{position:relative;flex:none;background-image:url(assets/forest-bg.png);background-size:cover;}
+  .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,48,26,.66) 0%,rgba(28,55,30,.5) 100%);}
+  .htitle{position:absolute;left:0;right:0;text-align:center;font-weight:800;color:#fff;font-size:28.5px;letter-spacing:.2px;
+    text-shadow:0 3px 14px rgba(10,30,12,.45);}
+  .backbtn{position:absolute;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    background:rgba(24,52,28,.42);border:1px solid rgba(226,246,216,.22);color:#eafde3;}
+  .cap[dir=rtl] .backbtn{left:auto;right:21px;}
+  .cap[dir=rtl] .backbtn svg{transform:scaleX(-1);}
+  .body{position:relative;z-index:4;flex:1;padding:0 26px;background:#f1f5ec;}
+  .card{background:#fcfdfa;border-radius:30px;box-shadow:0 18px 40px -20px rgba(30,60,30,.3);}
+  .soft{background:#e9f1e2;border-radius:18px;}
+  .pill{display:inline-flex;align-items:center;gap:7px;background:#e9f1e2;border-radius:22px;}
+  .row{display:flex;align-items:center;}
+  .muted{color:#7a8d7e;}
+  .tabbar{flex:none;height:115px;display:flex;align-items:flex-start;padding:12px 10px 0;
+    background:#f7faf4;border-top:1px solid rgba(120,140,115,.14);}
+  .tabbar.abs{position:absolute;left:0;right:0;bottom:0;z-index:10;}
+  .tab{flex:1 1 0;display:flex;flex-direction:column;align-items:center;gap:12px;font-size:11.5px;font-weight:600;color:#9aab9d;text-align:center;}
+  .tab .ic{width:52px;height:40px;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#7a8d7e;}
+  .tab.active{color:#3a7a3e;font-weight:700;}
+  .tab.active .ic{color:#fff;background:linear-gradient(180deg,#7bd853,#54b035);
+    box-shadow:0 8px 14px rgba(58,140,45,.42),inset 0 2px 2px rgba(255,255,255,.5),inset 0 -3px 5px rgba(40,95,30,.4);}
+
+  /* ===== d-dash (dark) ===== */
+  .dscreen{background:linear-gradient(180deg,#132516 0%,#0e1c11 40%,#0b130d 100%);}
+  .dd-head{display:flex;align-items:center;gap:12px;padding:46px 20px 0;}
+  .dd-ic{width:42px;height:42px;flex:none;border-radius:14px;display:flex;align-items:center;justify-content:center;
+    background:rgba(125,255,82,.08);border:1px solid rgba(125,255,82,.28);color:#7dff52;}
+  .dd-titles{flex:1;min-width:0;}
+  .dd-t{font-size:19px;font-weight:800;color:#fff;line-height:1.15;}
+  .dd-s{font-size:12.5px;font-weight:600;color:#8fa892;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .dd-live{flex:none;display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:20px;
+    border:1.5px solid rgba(125,255,82,.5);white-space:nowrap;}
+  .dd-live b{font-size:11.5px;font-weight:800;letter-spacing:.12em;color:#7dff52;white-space:nowrap;}
+  .dd-live i{width:8px;height:8px;border-radius:50%;background:#52e01f;box-shadow:0 0 8px 2px rgba(82,224,31,.7);}
+  .radarwrap{position:relative;height:258px;margin-top:8px;}
+  .radar{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:242px;height:242px;border-radius:50%;
+    border:1px solid rgba(134,255,110,.22);
+    background:radial-gradient(circle,rgba(90,220,80,.28) 0%,rgba(60,160,60,.12) 34%,rgba(30,80,35,.06) 60%,transparent 75%);}
+  .radar .ring{position:absolute;border-radius:50%;border:1px solid rgba(134,255,110,.15);}
+  .radar .cross-h{position:absolute;left:0;right:0;top:50%;height:1px;background:rgba(134,255,110,.13);}
+  .radar .cross-v{position:absolute;top:0;bottom:0;left:50%;width:1px;background:rgba(134,255,110,.13);}
+  .radar .sweep{position:absolute;inset:0;border-radius:50%;filter:blur(1.5px);
+    background:conic-gradient(from 222deg at 50% 50%,rgba(150,255,100,.34) 0deg,rgba(150,255,100,.1) 22deg,transparent 30deg);}
+  .dot{position:absolute;border-radius:50%;transform:translate(-50%,-50%);}
+  .dot.r{width:14px;height:14px;background:#ff5348;box-shadow:0 0 10px 2px rgba(255,83,72,.55);}
+  .dot.a{width:15px;height:15px;background:#f2b23c;box-shadow:0 0 10px 2px rgba(242,178,60,.55);}
+  .dot.g{width:11px;height:11px;background:#52e01f;box-shadow:0 0 10px 2px rgba(82,224,31,.6);}
+  .rlabel{position:absolute;transform:translate(-50%,0);background:#0a120b;color:#f2c76a;font-size:12px;font-weight:800;
+    padding:5px 12px;border-radius:14px;white-space:nowrap;}
+  .rnow{position:absolute;transform:translate(-50%,0);font-size:10px;font-weight:800;letter-spacing:.35em;color:#4fd14a;white-space:nowrap;}
+  .legend{display:flex;gap:9px;padding:0 18px;margin-top:10px;}
+  .lg{flex:1 1 auto;display:flex;align-items:center;justify-content:center;gap:7px;padding:11px 8px;border-radius:15px;
+    background:rgba(255,255,255,.05);white-space:nowrap;min-width:0;}
+  .lg i{width:9px;height:9px;border-radius:50%;flex:none;}
+  .lg b{font-size:15px;font-weight:800;color:#fff;}
+  .lg span{font-size:12px;font-weight:600;color:#9fb5a0;overflow:hidden;text-overflow:ellipsis;}
+  .pcard{position:relative;margin:16px 20px 0;padding:15px 18px 16px;border-radius:24px;background:#16291b;}
+  .pc-name{margin-left:66px;font-size:20px;font-weight:800;color:#fff;}
+  .cap[dir=rtl] .pc-name,.cap[dir=rtl] .pc-elev,.cap[dir=rtl] .pc-spark,.cap[dir=rtl] .pc-note{margin-left:0;margin-right:66px;}
+  .pc-elev{margin:7px 0 0 66px;display:inline-block;border:1.5px solid #cf9c3a;color:#eab44e;border-radius:16px;
+    padding:4px 12px;font-size:10.5px;font-weight:800;letter-spacing:.1em;}
+  .pc-ava{position:absolute;left:18px;top:48px;width:52px;height:52px;border-radius:50%;border:2.5px solid #e9b34c;
+    box-shadow:0 0 14px 2px rgba(233,179,76,.4);overflow:hidden;}
+  .cap[dir=rtl] .pc-ava{left:auto;right:20px;}
+  .pc-ava img{width:100%;height:100%;display:block;}
+  .pc-risk{position:absolute;right:18px;top:34px;text-align:right;}
+  .cap[dir=rtl] .pc-risk{right:auto;left:20px;text-align:left;}
+  .pc-risk .n{font-size:36px;font-weight:800;color:#f0b348;line-height:1;}
+  .pc-risk .n small{font-size:19px;font-weight:800;}
+  .pc-risk .l{margin-top:4px;font-size:9.5px;font-weight:800;letter-spacing:.1em;color:#c49a45;max-width:86px;line-height:1.35;}
+  .pc-spark{margin:2px 0 0 66px;height:36px;}
+  .pc-note{display:flex;gap:9px;margin:2px 0 0 66px;align-items:flex-start;color:#7e937f;font-size:12px;font-weight:600;line-height:1.45;}
+  .pc-note svg{flex:none;margin-top:2px;}
+  .btn-inv{white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:10px;margin-top:13px;height:48px;border-radius:16px;
+    background:linear-gradient(180deg,#71f13c,#3fd214);color:#0a2606;font-size:15.5px;font-weight:800;
+    box-shadow:0 10px 24px rgba(82,224,31,.32),inset 0 2px 2px rgba(255,255,255,.5);}
+  .btn-full{white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:9px;margin-top:9px;height:43px;border-radius:14px;
+    background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.09);color:#e8f5e4;font-size:14px;font-weight:700;}
+  .dd-foot{display:flex;gap:10px;margin:13px 24px 0;color:#7cc95f;font-size:12px;font-weight:600;line-height:1.45;}
+  .dd-foot svg{flex:none;margin-top:2px;}
+  .dscreen .tabbar{border-top:none;}
+
+  /* ===== d-schedule3 (light) ===== */
+  .sscreen{background:#edf1e8;}
+  .sbody{padding:34px 20px 0;}
+  .scard{background:#fcfdfa;border-radius:32px;box-shadow:0 18px 40px -20px rgba(30,60,30,.28);padding:20px 22px 20px;}
+  .sc-head{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .sc-title{font-size:19.5px;font-weight:800;color:#1f2d26;line-height:1.25;}
+  .sc-edit{display:inline-flex;align-items:center;gap:7px;color:#3a8a3e;font-size:15px;font-weight:700;white-space:nowrap;}
+  .days{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px;}
+  .day{width:46px;height:40px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+    background:#e8eee4;color:#a3b3a4;font-size:12px;font-weight:800;letter-spacing:.03em;}
+  .day.on{background:linear-gradient(180deg,#7bd853,#54b035);color:#fff;
+    box-shadow:0 8px 14px rgba(58,140,45,.4),inset 0 2px 2px rgba(255,255,255,.5),inset 0 -3px 5px rgba(40,95,30,.35);}
+  .slot-pill{display:inline-flex;white-space:nowrap;margin-top:14px;padding:10px 18px;border-radius:14px;background:#e0f1d4;
+    box-shadow:inset 0 0 0 1.5px #c2e2ab;color:#3a7a3e;font-size:15px;font-weight:800;}
+  .sc-empty-ic{width:56px;height:56px;border-radius:18px;background:#e7f3dd;color:#4ca03f;
+    display:flex;align-items:center;justify-content:center;margin:14px auto 0;}
+  .sc-empty-t{text-align:center;font-size:16.5px;font-weight:800;color:#21302a;margin-top:12px;}
+  .sc-empty-b{text-align:center;font-size:14px;line-height:1.42;color:#97a89a;font-weight:500;margin:7px auto 0;max-width:310px;}
+  .req-head{display:flex;align-items:center;gap:12px;}
+  .req-ic{width:38px;height:38px;flex:none;border-radius:13px;display:flex;align-items:center;justify-content:center;color:#fff;
+    background:linear-gradient(180deg,#63c447,#3f9636);box-shadow:0 7px 12px rgba(58,140,45,.32),inset 0 2px 2px rgba(255,255,255,.4);}
+  .req-title{flex:1;font-size:19px;font-weight:800;color:#1f2d26;min-width:0;}
+  .req-new{flex:none;background:#f6e2bd;color:#a4711b;font-size:12px;font-weight:800;border-radius:13px;padding:6px 11px;white-space:nowrap;}
+  .req-sub{font-size:14px;font-weight:500;color:#8b9d8e;margin-top:10px;}
+  .req-row{display:flex;gap:14px;margin-top:14px;}
+  .req-ava{width:46px;height:46px;flex:none;border-radius:50%;overflow:hidden;box-shadow:0 3px 8px rgba(40,70,35,.18);}
+  .req-ava img{width:100%;height:100%;display:block;}
+  .req-name{font-size:17px;font-weight:800;color:#21302a;}
+  .req-meta{font-size:13.5px;font-weight:600;color:#7a8d7e;margin-top:4px;}
+  .req-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px;}
+  .wpill{display:inline-flex;align-items:center;gap:8px;background:#fff;border-radius:14px;padding:10px 14px;
+    box-shadow:0 3px 9px rgba(40,70,35,.09),inset 0 0 0 1px rgba(120,150,115,.12);color:#3c5142;font-size:13px;font-weight:700;white-space:nowrap;}
+  .req-btns{display:flex;gap:12px;margin-top:14px;align-items:center;}
+  .btn-dec{display:inline-flex;align-items:center;justify-content:center;padding:12px 23px;border-radius:22px;background:#fff;
+    box-shadow:0 4px 10px rgba(40,70,35,.12);color:#3c5142;font-size:14px;font-weight:800;}
+  .btn-con{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 24px;border-radius:22px;color:#fff;
+    background:linear-gradient(180deg,#7bd853,#54b035);font-size:14px;font-weight:800;
+    box-shadow:0 9px 16px rgba(58,140,45,.4),inset 0 2px 2px rgba(255,255,255,.5),inset 0 -3px 5px rgba(40,95,30,.35);}
+</style>
+</head>
+<body>
+
+<div id="templates">
+
+  <!-- ============ d-dash ============ -->
+  <div class="cap" data-screen="d-dash">
+    <div class="frame"></div>
+    <div class="screen dscreen">
+      <div class="island"></div>
+      <div class="dd-head">
+        <div class="dd-ic">
+          <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h3.5l2.5-6 4.5 12 2.5-6H21"/></svg>
+        </div>
+        <div class="dd-titles">
+          <div class="dd-t">Flare Radar</div>
+          <div class="dd-s">Patients trending toward a flare</div>
+        </div>
+        <div class="dd-live"><i></i><b>LIVE</b></div>
+      </div>
+      <div class="radarwrap">
+        <div class="radar">
+          <div class="ring" style="inset:40px;"></div>
+          <div class="ring" style="inset:80px;"></div>
+          <div class="cross-h"></div><div class="cross-v"></div>
+          <div class="sweep"></div>
+          <div class="dot r" style="left:88px;top:81px;"></div>
+          <div class="dot r" style="left:78px;top:104px;"></div>
+          <div class="dot r" style="left:92px;top:112px;"></div>
+          <div class="dot a" style="left:145px;top:72px;"></div>
+          <div class="rlabel" style="left:145px;top:42px;transform:translate(-50%,-100%);">Lena</div>
+          <div class="dot a" style="left:138px;top:166px;"></div>
+          <div class="dot g" style="left:121px;top:121px;"></div>
+          <div class="rnow" style="left:124px;top:135px;">NOW</div>
+        </div>
+      </div>
+      <div class="legend">
+        <div class="lg"><i style="background:#ff5348;box-shadow:0 0 7px 1px rgba(255,83,72,.5);"></i><b>3</b><span>High</span></div>
+        <div class="lg"><i style="background:#f2b23c;box-shadow:0 0 7px 1px rgba(242,178,60,.5);"></i><b>2</b><span>Elevated</span></div>
+        <div class="lg"><i style="background:#52e01f;box-shadow:0 0 7px 1px rgba(82,224,31,.5);"></i><b>0</b><span>Low</span></div>
+      </div>
+      <div class="pcard">
+        <div class="pc-name">Lena Bauer</div>
+        <div class="pc-elev">ELEVATED</div>
+        <div class="pc-ava"><img src="assets/loc-avatar-lena.png" alt=""/></div>
+        <div class="pc-risk">
+          <div class="n">49<small>%</small></div>
+          <div class="l">FLARE RISK</div>
+        </div>
+        <div class="pc-spark">
+          <svg viewBox="0 0 190 36" width="190" height="36" style="display:block;max-width:100%;">
+            <path d="M2,31 C36,30 62,27 96,21 C126,15 158,10 178,7" fill="none" stroke="#e9b34c" stroke-width="2.6" stroke-linecap="round"/>
+            <circle cx="178" cy="7" r="4" fill="#e9b34c"/>
+          </svg>
+        </div>
+        <div class="pc-note">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h3.5l2.5-6 4.5 12 2.5-6H21"/></svg>
+          <span>Tap for their signal breakdown</span>
+        </div>
+        <div class="btn-inv">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>
+          <span>Invite to consult</span>
+        </div>
+        <div class="btn-full">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h3.5l2.5-6 4.5 12 2.5-6H21"/></svg>
+          <span>Full panel</span>
+        </div>
+      </div>
+      <div class="dd-foot">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="#52e01f"><path d="M13 2.5L5.5 13.5H11l-1.2 8L18.5 10H13l0-7.5z"/></svg>
+        <span>5 at elevated/high risk for 10+ days — same scores they see in their own app. 15 hidden: 2 in active care, 2 too early (&lt;10 days), 11 in the Low band.</span>
+      </div>
+      <div class="tabbar abs">
+        <div class="tab active">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5L12 4l8 7.5M6 10v9h12v-9"/></svg></span>
+          <span>Dashboard</span>
+        </div>
+        <div class="tab">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg></span>
+          <span>Schedule</span>
+        </div>
+        <div class="tab">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5"/><path d="M19 9v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7z"/><path d="M9 13h6M9 17h4"/></svg></span>
+          <span>History</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ d-schedule3 ============ -->
+  <div class="cap" data-screen="d-schedule3">
+    <div class="frame"></div>
+    <div class="screen sscreen">
+      <div class="island"></div>
+      <div class="sbody">
+        <div class="scard">
+          <div class="sc-head">
+            <div class="sc-title">Your availability</div>
+            <div class="sc-edit">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.2-4.2L16.5 4.5l3 3L8.2 18.8z"/></svg>
+              <span>Edit</span>
+            </div>
+          </div>
+          <div class="days">
+            <div class="day">MO</div>
+            <div class="day on">TU</div>
+            <div class="day">WE</div>
+            <div class="day">TH</div>
+            <div class="day">FR</div>
+            <div class="day">SA</div>
+            <div class="day">SU</div>
+          </div>
+          <div class="slot-pill">2:00 PM</div>
+        </div>
+        <div class="scard" style="margin-top:18px;">
+          <div class="sc-title">Upcoming calls</div>
+          <div class="sc-empty-ic">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>
+          </div>
+          <div class="sc-empty-t">No upcoming calls</div>
+          <div class="sc-empty-b">When you confirm a patient's request, their call will appear here.</div>
+        </div>
+        <div class="scard" style="margin-top:18px;">
+          <div class="req-head">
+            <div class="req-ic">
+              <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 6-2.5 7.5-2.5 7.5h17S18 14 18 8z"/><path d="M10.3 20a2 2 0 0 0 3.4 0"/></svg>
+            </div>
+            <div class="req-title">Appointment requests</div>
+            <div class="req-new">1 new</div>
+          </div>
+          <div class="req-sub">Patients waiting for you to confirm a time.</div>
+          <div class="req-row">
+            <div class="req-ava"><img src="assets/loc-avatar-alex.png" alt=""/></div>
+            <div style="flex:1;min-width:0;">
+              <div class="req-name">Alex</div>
+              <div class="req-meta">Consultation · 17 min ago</div>
+              <div class="req-pills">
+                <div class="wpill">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#5b7561" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>
+                  <span>Tue, Jun 23</span>
+                </div>
+                <div class="wpill">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#5b7561" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>
+                  <span>2:00 PM</span>
+                </div>
+              </div>
+              <div class="req-btns">
+                <div class="btn-dec">Decline</div>
+                <div class="btn-con">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+                  <span>Confirm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabbar abs">
+        <div class="tab">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5L12 4l8 7.5M6 10v9h12v-9"/></svg></span>
+          <span>Dashboard</span>
+        </div>
+        <div class="tab active">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg></span>
+          <span>Schedule</span>
+        </div>
+        <div class="tab">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5"/><path d="M19 9v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7z"/><path d="M9 13h6M9 17h4"/></svg></span>
+          <span>History</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ d-profile ============ -->
+  <div class="cap" data-screen="d-profile">
+    <div class="frame"></div>
+    <div class="screen">
+      <div class="hdr" style="height:205px;background-position:center 52%;">
+        <div class="scrim"></div>
+        <div class="backbtn" style="left:21px;top:59px;">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </div>
+        <div class="htitle" style="top:54px;">Profile</div>
+        <svg viewBox="0 0 393 100" preserveAspectRatio="none" style="position:absolute;left:0;top:106px;width:417px;height:100px;">
+          <defs>
+            <filter id="pg" x="-10%" y="-60%" width="120%" height="240%"><feGaussianBlur stdDeviation="4.5"/></filter>
+            <linearGradient id="pgg" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#7dff52"/><stop offset="0.5" stop-color="#b6ff7e"/><stop offset="1" stop-color="#6fe84a"/>
+            </linearGradient>
+          </defs>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38 L393,100 L0,100 Z" fill="#f1f5ec"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="#5dff2e" stroke-width="16" stroke-linecap="round" opacity="0.4" filter="url(#pg)"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="#86ff52" stroke-width="7" stroke-linecap="round" opacity="0.85" filter="url(#pg)"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="url(#pgg)" stroke-width="3.4" stroke-linecap="round"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="#f2ffe6" stroke-width="1.3" stroke-linecap="round" opacity="0.95"/>
+        </svg>
+      </div>
+
+      <div class="body" style="padding-top:22px;">
+        <div class="card" style="padding:18px 20px 20px;">
+          <div style="font-size:12.5px;font-weight:800;letter-spacing:1.4px;color:#3a7a3e;">HOW PATIENTS SEE YOU</div>
+
+          <div style="display:flex;gap:17px;align-items:center;margin-top:20px;">
+            <div style="width:70px;height:70px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;
+                        color:#fff;font-weight:800;font-size:25px;letter-spacing:.5px;
+                        background:radial-gradient(120% 120% at 32% 26%, #4a9a4b, #2b6b32);
+                        box-shadow:0 8px 16px rgba(20,50,20,.28),inset 0 2px 2px rgba(255,255,255,.28);">DM</div>
+            <div style="padding-top:2px;min-width:0;">
+              <div style="font-size:20.5px;font-weight:800;color:#21302a;white-space:nowrap;">Dr. Lourdes Mor</div>
+              <div style="font-size:16.5px;font-weight:700;color:#469a3f;margin-top:5px;">Rheumatologist</div>
+              <div class="pill" style="margin-top:11px;padding:6px 13px;">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#56b83f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.3l2.5 2.5 4.5-5"/></svg>
+                <span style="font-size:13px;font-weight:700;color:#2e5a35;">Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pill" style="margin-top:17px;padding:9px 15px;">
+            <span style="width:8px;height:8px;border-radius:50%;background:#4cc03f;display:block;flex:none;"></span>
+            <span style="font-size:14px;font-weight:700;color:#2e5a35;">Accepting new patients</span>
+          </div>
+
+          <div style="display:flex;align-items:center;flex-wrap:wrap;gap:7px 16px;margin-top:18px;font-size:13.5px;font-weight:600;color:#3c5142;">
+            <span class="row" style="gap:6px;"><svg viewBox="0 0 24 24" width="15" height="15" fill="#f0a92a"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.7l5.9-.8z"/></svg>4.9</span>
+            <span class="row" style="gap:6px;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#7a8d7e" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"/><path d="M9 13.5L8 21l4-2 4 2-1-7.5"/></svg><span>12 yrs experience</span></span>
+            <span class="row" style="gap:6px;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#7a8d7e" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span>Spain</span></span>
+          </div>
+
+          <div class="soft" style="margin-top:17px;padding:15px 16px;">
+            <div style="display:flex;gap:13px;align-items:flex-start;">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#3a7a3e" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="margin-top:8px;flex:none;"><path d="M4 21V7l8-4 8 4v14"/><path d="M12 8.5v5M9.5 11h5"/><path d="M9 21v-4h6v4"/></svg>
+              <div style="min-width:0;">
+                <div style="font-size:14.5px;font-weight:700;color:#21302a;">Northgate University Hospital</div>
+                <div style="font-size:12px;font-weight:600;color:#8b9d8e;margin-top:4px;">Barcelona · Hospital</div>
+              </div>
+            </div>
+            <div style="display:flex;gap:13px;align-items:flex-start;margin-top:13px;">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#3a7a3e" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="margin-top:8px;flex:none;"><rect x="3" y="7.5" width="18" height="12" rx="3"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5"/></svg>
+              <div style="min-width:0;">
+                <div style="font-size:14.5px;font-weight:700;color:#21302a;">Vallmar Digestive Clinic</div>
+                <div style="font-size:12px;font-weight:600;color:#8b9d8e;margin-top:4px;">Private practice</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:17px;font-size:14.5px;line-height:22px;color:#3c5142;">I'm a verified specialist on Chronic Friends. I work with each person to calm inflammation, simplify treatment and make living with Crohn's feel manageable.</div>
+
+          <div class="soft" style="margin-top:15px;padding:15px 16px;display:flex;align-items:center;gap:14px;">
+            <div style="flex:1;min-width:0;">
+              <div style="font-size:13px;font-weight:700;color:#8b9d8e;">Your fee · 30-min call</div>
+              <div style="font-size:14px;font-weight:600;color:#3c5142;margin-top:8px;line-height:21px;">Patients pay $99 ($79 + $20 platform)</div>
+            </div>
+            <div style="font-size:29px;font-weight:800;color:#3a7a3e;">$79</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ d-history ============ -->
+  <div class="cap" data-screen="d-history">
+    <div class="frame"></div>
+    <div class="screen">
+      <div class="island"></div>
+      <div class="hdr" style="height:219px;background-position:center 50%;">
+        <div class="scrim"></div>
+        <div class="htitle" style="top:67px;">Consultations</div>
+        <svg viewBox="0 0 393 100" preserveAspectRatio="none" style="position:absolute;left:0;top:120px;width:417px;height:100px;">
+          <defs>
+            <filter id="hg" x="-10%" y="-60%" width="120%" height="240%"><feGaussianBlur stdDeviation="4.5"/></filter>
+            <linearGradient id="hgg" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#7dff52"/><stop offset="0.5" stop-color="#b6ff7e"/><stop offset="1" stop-color="#6fe84a"/>
+            </linearGradient>
+          </defs>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38 L393,100 L0,100 Z" fill="#f1f5ec"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="#5dff2e" stroke-width="16" stroke-linecap="round" opacity="0.4" filter="url(#hg)"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="#86ff52" stroke-width="7" stroke-linecap="round" opacity="0.85" filter="url(#hg)"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="url(#hgg)" stroke-width="3.4" stroke-linecap="round"/>
+          <path d="M0,52 C 70,18 150,16 220,40 C 290,62 340,58 393,38" fill="none" stroke="#f2ffe6" stroke-width="1.3" stroke-linecap="round" opacity="0.95"/>
+        </svg>
+      </div>
+
+      <div class="body" style="padding-top:20px;">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+          <div class="card" style="border-radius:26px;padding:24px 18px 18px;min-height:145px;">
+            <div style="width:42px;height:42px;border-radius:14px;display:flex;align-items:center;justify-content:center;color:#fff;
+                        background:linear-gradient(180deg,#63c447,#3f9636);box-shadow:0 7px 12px rgba(58,140,45,.32),inset 0 2px 2px rgba(255,255,255,.4);">
+              <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5"/><path d="M19 9v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7z"/><path d="M9 13h6M9 17h4"/></svg>
+            </div>
+            <div style="font-size:24px;font-weight:800;color:#21302a;margin-top:14px;line-height:1;">0</div>
+            <div style="font-size:13px;font-weight:600;color:#7a8d7e;margin-top:8px;">Past consultations</div>
+          </div>
+          <div class="card" style="border-radius:26px;padding:24px 18px 18px;min-height:145px;">
+            <div style="width:42px;height:42px;border-radius:14px;display:flex;align-items:center;justify-content:center;color:#fff;
+                        background:linear-gradient(180deg,#37b3a6,#1c8378);box-shadow:0 7px 12px rgba(28,120,110,.3),inset 0 2px 2px rgba(255,255,255,.4);">
+              <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>
+            </div>
+            <div style="font-size:24px;font-weight:800;color:#21302a;margin-top:14px;line-height:1;">0</div>
+            <div style="font-size:13px;font-weight:600;color:#7a8d7e;margin-top:8px;">Minutes consulted</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:18px;min-height:229px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:35px 26px 26px;">
+          <div style="width:64px;height:64px;border-radius:20px;background:#eaf6e1;display:flex;align-items:center;justify-content:center;flex:none;">
+            <svg viewBox="0 0 24 24" width="27" height="27" fill="none" stroke="#3f9636" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5"/><path d="M19 9v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7z"/><path d="M9 13h6M9 17h4"/></svg>
+          </div>
+          <div style="font-size:17px;font-weight:800;color:#21302a;margin-top:23px;text-align:center;">No consultations yet</div>
+          <div style="font-size:15px;line-height:22px;color:#7a8d7e;text-align:center;margin-top:13px;">When you finish a call, your notes appear here with the documents the patient shared.</div>
+        </div>
+
+        <div style="margin-top:23px;padding:0 8px;text-align:center;font-size:14.5px;line-height:21.5px;color:#a3b3a4;">Every visit is saved in your own notes. Records are confidential and visible only to you and your patient.</div>
+      </div>
+
+      <div class="tabbar">
+        <div class="tab">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5L12 4l8 7.5M6 10v9h12v-9"/></svg></span>
+          <span>Dashboard</span>
+        </div>
+        <div class="tab">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg></span>
+          <span>Schedule</span>
+        </div>
+        <div class="tab active">
+          <span class="ic"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v5h5"/><path d="M19 9v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7z"/><path d="M9 13h6M9 17h4"/></svg></span>
+          <span>History</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="slots"></div>
+
+<script>
+window.addEventListener('error', function (e) { console.log('PAGE ERROR: ' + e.message); });
+console.log('harness parse start');
+</script>
+<script src="doctor-portal-i18n.js"></script>
+<script>
+(function () {
+  let LANGS = ['en', 'es', 'ca', 'fr', 'de', 'it', 'pt', 'id', 'vi', 'tr', 'ru', 'ar', 'hi', 'ko', 'zh', 'ja'];
+  const only = (new URLSearchParams(location.search).get('langs') || '').split(',').filter(Boolean);
+  if (only.length) LANGS = only;
+  const TR = window.DP_TR;
+  function apply(root, lang) {
+    const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    let n;
+    while ((n = w.nextNode())) {
+      const raw = n.nodeValue, key = raw.trim();
+      if (!key) continue;
+      const e = TR[key];
+      if (e && e[lang]) n.nodeValue = raw.replace(key, e[lang]);
+    }
+  }
+  const slots = document.getElementById('slots');
+  for (const lang of LANGS) {
+    document.querySelectorAll('#templates .cap').forEach((tpl) => {
+      const c = tpl.cloneNode(true);
+      c.id = 'cap-' + tpl.dataset.screen + '-' + lang;
+      c.classList.add('L-' + lang);
+      if (lang === 'ar') c.dir = 'rtl';
+      if (lang !== 'en') apply(c, lang);
+      slots.appendChild(c);
+    });
+  }
+  document.fonts.ready.then(() => { window.__capReady = true; console.log('fonts ready'); });
+  console.log('built ' + document.querySelectorAll('#slots .cap').length + ' caps');
+})();
+</script>
+</body>
+</html>

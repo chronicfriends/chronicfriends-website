@@ -96,8 +96,8 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       [data-r="root"] h2 { font-size: 24px !important; }
     }
   </style>
-  <script src="cf-terms-i18n.js?v=202608080746"></script>
-  <script src="cf-privacy-i18n.js?v=202608080746"></script>
+  <script src="cf-terms-i18n.js?v=202608112211"></script>
+  <script src="cf-privacy-i18n.js?v=202608112211"></script>
 </helmet>
 
 <div dir="{{ dir }}" lang="{{ langCode }}" data-r="root" style="font-family: 'Poppins', system-ui, sans-serif; color: #21302a; background: #f3f7ee; min-height: 100vh; overflow-x: hidden;">
@@ -156,14 +156,14 @@ device and does not provide medical advice, diagnosis or treatment.</p>
         <p style="margin: 0; max-width: 460px; font-size: 16px; line-height: 1.65; font-weight: 500; color: rgba(234,253,227,.82); text-wrap: pretty;">{{ t.heroSub }}</p>
 
         <div data-r="dlbtns" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px;">
-          <a aria-label="Download on the App Store" style="pointer-events:none;opacity:.55;text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
+          <a href="{{ iosHref }}" target="{{ iosTarget }}" rel="{{ iosRel }}" aria-disabled="{{ iosDisabled }}" aria-label="Download on the App Store" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32); opacity: {{ iosOpacity }}; pointer-events: {{ iosPointer }};" style-hover="border-color: rgba(255,255,255,.6);">
             <svg viewBox="0 0 384 512" width="25" height="25" fill="#ffffff" style="flex: none;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zM262.1 104.5c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
             <span style="display: flex; flex-direction: column; line-height: 1;">
-              <span style="font-size: 10px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ imp.soon }}</span>
+              <span style="font-size: 10px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ iosTopLabel }}</span>
               <span style="font-size: 19px; font-weight: 600; color: #ffffff; letter-spacing: -.01em; margin-top: 2px;">App Store</span>
             </span>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
+          <a href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
             <svg viewBox="0 0 512 512" width="23" height="23" style="flex: none;"><path fill="#00C3FF" d="M21.8 11.1C16.6 16.6 13.5 25.1 13.5 36.1v439.8c0 11 3.1 19.5 8.5 24.9l1.5 1.4L268.9 257v-2.9L23.5 9.6l-1.7 1.5z"></path><path fill="#FFE000" d="M350.7 339.1l-81.8-81.9v-2.9l81.9-81.9 1.8 1.1 96.9 55.1c27.7 15.7 27.7 41.5 0 57.3l-96.9 55.1-1.9 1.1z"></path><path fill="#FF3A44" d="M352.6 338l-83.7-83.7L21.8 500.9c9.1 9.7 24.2 10.9 41.2 1.2l289.6-164.1z"></path><path fill="#00D971" d="M352.6 170.6L63 6.6C46-3.2 30.9-1.9 21.8 7.8l247.1 246.5 83.7-83.7z"></path></svg>
             <span style="display: flex; flex-direction: column; line-height: 1;">
               <span style="font-size: 10px; font-weight: 400; color: #ffffff; letter-spacing: .08em; text-transform: uppercase;">{{ t.dl2a }}</span>
@@ -225,14 +225,14 @@ device and does not provide medical advice, diagnosis or treatment.</p>
         </div>
 
         <div data-r="dlbtns" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 4px;">
-          <a aria-label="Download on the App Store" style="pointer-events:none;opacity:.55;text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
+          <a href="{{ iosHref }}" target="{{ iosTarget }}" rel="{{ iosRel }}" aria-disabled="{{ iosDisabled }}" aria-label="Download on the App Store" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32); opacity: {{ iosOpacity }}; pointer-events: {{ iosPointer }};" style-hover="border-color: rgba(255,255,255,.6);">
             <svg viewBox="0 0 384 512" width="25" height="25" fill="#ffffff" style="flex: none;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zM262.1 104.5c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
             <span style="display: flex; flex-direction: column; line-height: 1;">
-              <span style="font-size: 10px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ imp.soon }}</span>
+              <span style="font-size: 10px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ iosTopLabel }}</span>
               <span style="font-size: 19px; font-weight: 600; color: #ffffff; letter-spacing: -.01em; margin-top: 2px;">App Store</span>
             </span>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
+          <a href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px; border-radius: 13px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
             <svg viewBox="0 0 512 512" width="23" height="23" style="flex: none;"><path fill="#00C3FF" d="M21.8 11.1C16.6 16.6 13.5 25.1 13.5 36.1v439.8c0 11 3.1 19.5 8.5 24.9l1.5 1.4L268.9 257v-2.9L23.5 9.6l-1.7 1.5z"></path><path fill="#FFE000" d="M350.7 339.1l-81.8-81.9v-2.9l81.9-81.9 1.8 1.1 96.9 55.1c27.7 15.7 27.7 41.5 0 57.3l-96.9 55.1-1.9 1.1z"></path><path fill="#FF3A44" d="M352.6 338l-83.7-83.7L21.8 500.9c9.1 9.7 24.2 10.9 41.2 1.2l289.6-164.1z"></path><path fill="#00D971" d="M352.6 170.6L63 6.6C46-3.2 30.9-1.9 21.8 7.8l247.1 246.5 83.7-83.7z"></path></svg>
             <span style="display: flex; flex-direction: column; line-height: 1;">
               <span style="font-size: 10px; font-weight: 400; color: #ffffff; letter-spacing: .08em; text-transform: uppercase;">{{ t.dl2a }}</span>
@@ -480,14 +480,14 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       <h2 style="position: relative; margin: 0; font-size: 40px; font-weight: 800; letter-spacing: -0.015em; color: #ffffff; max-width: 560px; text-wrap: balance;">{{ t.ctaH2 }}</h2>
       <p style="position: relative; margin: 0; max-width: 460px; font-size: 16px; line-height: 1.6; font-weight: 500; color: rgba(234,253,227,.8); text-wrap: pretty;">{{ t.ctaSub }}</p>
       <div style="position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-top: 8px;">
-        <a aria-label="Download on the App Store" style="pointer-events:none;opacity:.55;text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; box-shadow: 0 8px 18px rgba(10,30,10,.4);" style-hover="transform: translateY(-2px);">
+        <a href="{{ iosHref }}" target="{{ iosTarget }}" rel="{{ iosRel }}" aria-disabled="{{ iosDisabled }}" aria-label="Download on the App Store" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; box-shadow: 0 8px 18px rgba(10,30,10,.4); opacity: {{ iosOpacity }}; pointer-events: {{ iosPointer }};" style-hover="transform: translateY(-2px);">
           <svg viewBox="0 0 384 512" width="27" height="27" fill="#ffffff" style="flex: none;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zM262.1 104.5c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
           <span style="display: flex; flex-direction: column; line-height: 1;">
-            <span style="font-size: 10.5px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ imp.soon }}</span>
+            <span style="font-size: 10.5px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ iosTopLabel }}</span>
             <span style="font-size: 20px; font-weight: 600; color: #ffffff; letter-spacing: -.01em; margin-top: 2px;">App Store</span>
           </span>
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; box-shadow: 0 8px 18px rgba(10,30,10,.4);" style-hover="transform: translateY(-2px);">
+        <a href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; box-shadow: 0 8px 18px rgba(10,30,10,.4);" style-hover="transform: translateY(-2px);">
           <svg viewBox="0 0 512 512" width="25" height="25" style="flex: none;"><path fill="#00C3FF" d="M21.8 11.1C16.6 16.6 13.5 25.1 13.5 36.1v439.8c0 11 3.1 19.5 8.5 24.9l1.5 1.4L268.9 257v-2.9L23.5 9.6l-1.7 1.5z"></path><path fill="#FFE000" d="M350.7 339.1l-81.8-81.9v-2.9l81.9-81.9 1.8 1.1 96.9 55.1c27.7 15.7 27.7 41.5 0 57.3l-96.9 55.1-1.9 1.1z"></path><path fill="#FF3A44" d="M352.6 338l-83.7-83.7L21.8 500.9c9.1 9.7 24.2 10.9 41.2 1.2l289.6-164.1z"></path><path fill="#00D971" d="M352.6 170.6L63 6.6C46-3.2 30.9-1.9 21.8 7.8l247.1 246.5 83.7-83.7z"></path></svg>
           <span style="display: flex; flex-direction: column; line-height: 1;">
             <span style="font-size: 10.5px; font-weight: 400; color: #ffffff; letter-spacing: .08em; text-transform: uppercase;">{{ t.dl2a }}</span>
@@ -847,14 +847,14 @@ device and does not provide medical advice, diagnosis or treatment.</p>
         <a href="#apply" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; color: #eafde3; font-size: 15px; font-weight: 700; padding: 13px 24px; border-radius: 30px; border: 1px solid rgba(255,255,255,.32); background: rgba(255,255,255,.08);" style-hover="background: rgba(255,255,255,.18);">{{ dt.ctaBtn2 }}</a>
       </div>
       <div style="position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 4px;">
-        <a aria-label="Download on the App Store" style="pointer-events:none;opacity:.55;text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
+        <a href="{{ iosHref }}" target="{{ iosTarget }}" rel="{{ iosRel }}" aria-disabled="{{ iosDisabled }}" aria-label="Download on the App Store" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; border: 1px solid rgba(255,255,255,.32); opacity: {{ iosOpacity }}; pointer-events: {{ iosPointer }};" style-hover="border-color: rgba(255,255,255,.6);">
           <svg viewBox="0 0 384 512" width="27" height="27" fill="#ffffff" style="flex: none;"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zM262.1 104.5c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
           <span style="display: flex; flex-direction: column; line-height: 1;">
-            <span style="font-size: 10.5px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ imp.soon }}</span>
+            <span style="font-size: 10.5px; font-weight: 400; color: #ffffff; letter-spacing: .01em;">{{ iosTopLabel }}</span>
             <span style="font-size: 20px; font-weight: 600; color: #ffffff; letter-spacing: -.01em; margin-top: 2px;">App Store</span>
           </span>
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
+        <a href="https://play.google.com/store/apps/details?id=org.chronicfriends.app" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play" style="text-decoration: none; display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; border-radius: 14px; background: #000000; border: 1px solid rgba(255,255,255,.32);" style-hover="border-color: rgba(255,255,255,.6);">
           <svg viewBox="0 0 512 512" width="25" height="25" style="flex: none;"><path fill="#00C3FF" d="M21.8 11.1C16.6 16.6 13.5 25.1 13.5 36.1v439.8c0 11 3.1 19.5 8.5 24.9l1.5 1.4L268.9 257v-2.9L23.5 9.6l-1.7 1.5z"></path><path fill="#FFE000" d="M350.7 339.1l-81.8-81.9v-2.9l81.9-81.9 1.8 1.1 96.9 55.1c27.7 15.7 27.7 41.5 0 57.3l-96.9 55.1-1.9 1.1z"></path><path fill="#FF3A44" d="M352.6 338l-83.7-83.7L21.8 500.9c9.1 9.7 24.2 10.9 41.2 1.2l289.6-164.1z"></path><path fill="#00D971" d="M352.6 170.6L63 6.6C46-3.2 30.9-1.9 21.8 7.8l247.1 246.5 83.7-83.7z"></path></svg>
           <span style="display: flex; flex-direction: column; line-height: 1;">
             <span style="font-size: 10.5px; font-weight: 400; color: #ffffff; letter-spacing: .08em; text-transform: uppercase;">{{ t.dl2a }}</span>
@@ -3700,6 +3700,8 @@ const CF_DOCTOR_T = {
 };
 
 const CF_LANDING_KEY = 'cf_landing_lang';
+const CF_IOS_LIVE = false; // <- set to true the day the iOS app is approved
+const CF_IOS_URL = 'https://apps.apple.com/app/id6792334658';
 const CF_LANDING_ROLE_KEY = 'cf_landing_role';
 
 class Component extends DCLogic {
@@ -3783,6 +3785,12 @@ class Component extends DCLogic {
     const dt = { ...CF_DOCTOR_T.en, ...(CF_DOCTOR_T[lang] || {}) };
     const rl = CF_ROLE_LABELS[lang] || CF_ROLE_LABELS.en;
     const imp = CF_IMPACT_T[lang] || CF_IMPACT_T.en;
+    // ==== Store availability ====
+    // iOS is in App Store review. Flip CF_IOS_LIVE to true once Apple approves:
+    // the four App Store badges then link to CF_IOS_URL and get their normal label back.
+    const iosLive = CF_IOS_LIVE;
+    const iosHref = iosLive ? CF_IOS_URL : undefined;
+    const iosTopLabel = iosLive ? t.dl1a : (imp.soon || CF_IMPACT_T.en.soon);
     const HOME_SCREENS = ['en', 'es', 'ca', 'fr', 'de', 'it', 'pt', 'id', 'vi', 'tr', 'ru', 'ar', 'hi', 'ko', 'zh', 'ja'];
     const img = { home: 'assets/screens/' + (HOME_SCREENS.indexOf(lang) >= 0 ? lang : 'en') + '-home.png' };
     const HERO1_LANGS = ['ar', 'ca', 'fr', 'de', 'hi', 'id', 'it', 'ja', 'ko', 'zh', 'pt', 'ru', 'es', 'tr', 'vi']; // langs with a localized center hero phone (hero-phone-1-<lang>.png)
@@ -3828,6 +3836,13 @@ class Component extends DCLogic {
       t,
       dt,
       imp,
+      iosHref,
+      iosTarget: iosLive ? '_blank' : undefined,
+      iosRel: iosLive ? 'noopener noreferrer' : undefined,
+      iosDisabled: iosLive ? undefined : 'true',
+      iosOpacity: iosLive ? '1' : '.55',
+      iosPointer: iosLive ? 'auto' : 'none',
+      iosTopLabel,
       img,
       dir: lang === 'ar' ? 'rtl' : 'ltr',
       langCode: lang,
