@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- cf-geo-schema: GEO1+GEO2 aplicados por parche-geo-schema.py -->
 <!-- cf-seo-head — inyectado por deploy-landing-chronic.sh, no editar a mano -->
 <title>Chronic Friends — Manage chronic illness with confidence</title>
 <meta name="description" content="One private place to log how you really feel, see your own patterns, keep your medication on track and meet people who understand. Around 50 chronic conditions.">
@@ -25,12 +26,81 @@
 <meta name="twitter:description" content="One private place to log how you really feel, see your own patterns, keep your medication on track and meet people who understand. Around 50 chronic conditions.">
 <meta name="twitter:image" content="https://www.chronicfriends.org/og-cover.png">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[
-{"@type":"Organization","@id":"https://www.chronicfriends.org/#org","name":"Chronic Friends",
- "url":"https://www.chronicfriends.org/","logo":"https://www.chronicfriends.org/favicon-256.png",
- "email":"info@chronicfriends.org"},
-{"@type":"WebSite","@id":"https://www.chronicfriends.org/#site","url":"https://www.chronicfriends.org/","name":"Chronic Friends",
- "inLanguage":"en","publisher":{"@id":"https://www.chronicfriends.org/#org"}}]}
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.chronicfriends.org/#org",
+   "name": "Chronic Friends",
+   "url": "https://www.chronicfriends.org/",
+   "logo": "https://www.chronicfriends.org/favicon-256.png",
+   "email": "info@chronicfriends.org"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://www.chronicfriends.org/#site",
+   "url": "https://www.chronicfriends.org/",
+   "name": "Chronic Friends",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://www.chronicfriends.org/#org"
+   }
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://www.chronicfriends.org/#app",
+   "name": "Chronic Friends",
+   "applicationCategory": "HealthApplication",
+   "applicationSubCategory": "Chronic illness symptom tracker and medication reminder",
+   "operatingSystem": "iOS, Android",
+   "url": "https://www.chronicfriends.org/",
+   "downloadUrl": [
+    "https://apps.apple.com/app/id6792334658",
+    "https://play.google.com/store/apps/details?id=org.chronicfriends.app"
+   ],
+   "installUrl": [
+    "https://apps.apple.com/app/id6792334658",
+    "https://play.google.com/store/apps/details?id=org.chronicfriends.app"
+   ],
+   "inLanguage": [
+    "ar",
+    "ca",
+    "de",
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "pt",
+    "ru",
+    "tr",
+    "vi",
+    "zh"
+   ],
+   "image": "https://www.chronicfriends.org/favicon-256.png",
+   "description": "Chronic Friends is a free mobile app for adults living with a chronic condition. It combines a daily symptom journal, a visual radar of your own patterns, medication reminders and PDF reports for your doctor with a community of people living with the same conditions. It supports around 50 chronic conditions, organised by body system, in 16 languages.",
+   "featureList": [
+    "Daily symptom journal with a visual radar of your own patterns",
+    "Medication reminders and alarms",
+    "PDF health reports to share with your doctor",
+    "Community of people living with the same condition",
+    "Around 50 chronic conditions, organised by body system"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "publisher": {
+    "@id": "https://www.chronicfriends.org/#org"
+   }
+  }
+ ]
+}
 </script>
 
 <script src="./support.js"></script>
@@ -38,19 +108,36 @@
 <body>
 <noscript>
 <h1>Chronic Friends — manage chronic illness with confidence</h1>
+<p>Chronic Friends is a free mobile app for adults living with a chronic condition.
+It is available on the <a href="https://apps.apple.com/app/id6792334658">App Store</a> for iPhone and on
+<a href="https://play.google.com/store/apps/details?id=org.chronicfriends.app">Google Play</a> for Android.</p>
 <p>A welcoming community that understands, a radar that turns your daily check-ins into a
 picture you can read at a glance, verified specialists within reach, and medication you'll
 never run short of.</p>
+<h2>What the app does</h2>
+<ul>
+<li><strong>Symptom journal:</strong> log how you really feel each day in under a minute.</li>
+<li><strong>Radar:</strong> your check-ins become a picture you can read at a glance, so you
+can see your own patterns instead of guessing.</li>
+<li><strong>Medication:</strong> reminders and alarms so you never run short or miss a dose.</li>
+<li><strong>PDF reports:</strong> take a clear summary of your months to your next appointment.</li>
+<li><strong>Community:</strong> talk to people living with the same condition, not to strangers.</li>
+</ul>
+<h2>Who it is for</h2>
 <p>Chronic Friends supports around 50 chronic conditions — Crohn's disease, ulcerative colitis,
 IBS, rheumatoid arthritis, fibromyalgia, psoriasis, endometriosis, asthma, COPD, diabetes,
-chronic fatigue (ME/CFS), migraine, anxiety, depression and many more — organised by body system.</p>
+chronic fatigue (ME/CFS), migraine, anxiety, depression and many more — organised by body system.
+People living with more than one condition can track all of them in the same place.</p>
+<h2>Price and languages</h2>
 <p>Free to use, including the community, the full journal, medication reminders and every PDF
-report. Chronic Friends is a wellness and self-tracking tool for adults; it is not a medical
+report. The app is available in 16 languages: Arabic, Catalan, Chinese, English, French, German,
+Hindi, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Turkish and
+Vietnamese.</p>
+<p>Chronic Friends is a wellness and self-tracking tool for adults; it is not a medical
 device and does not provide medical advice, diagnosis or treatment.</p>
 <p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Service</a>
 · <a href="mailto:info@chronicfriends.org">info@chronicfriends.org</a></p>
 </noscript>
-
 <x-dc>
 <helmet>
   <link rel="preconnect" href="https://fonts.googleapis.com">
