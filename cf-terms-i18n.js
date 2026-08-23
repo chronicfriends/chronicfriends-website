@@ -9,6 +9,8 @@ window.CF_TERMS_T = {
     "legal": "Legal",
     "title": "Terms of Service",
     "updated": "Last updated: July 28, 2026",
+    "summaryPre": "This is a summary. The full, current Terms of Service are at ",
+    "summaryPost": ".",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -85,13 +87,14 @@ window.CF_TERMS_T = {
         { "p": "You can report objectionable content or block another user at any time — from a post, from a chat, or from that person's profile. Reports reach our team and we aim to review them within 24 hours. We have zero tolerance for objectionable content and abusive behavior, and we may remove content, block users, or suspend or close accounts that break these rules." }
       ]},
       { "t": "Subscriptions and payments", "b": [
-        { "p": "Chronic Friends can be used free of charge, including the community, the full journal, medication reminders, connecting Health Sync and every PDF report. A paid Premium plan unlocks four features: Food Scan, Tools, Meditation and Entertainment." },
+        { "p": "Chronic Friends can be used free of charge, and no screen is locked. A free account can use the community and private chats, the tools and the tools room with no limits, and can record without limits — journal, daily check-in, body map, medication and its reminders. It can also connect Health Sync, join the steps tournament, and use the emergency card, the warning signs, the crisis resources and the flare episode report. Downloading a complete copy of your own data is always free." },
+        { "p": "What a free account has is limits, not locks: you can look back over the last 14 days of your history, download the doctor report for periods of up to 14 days, and use Food Scan five times a month and the meditation and entertainment sessions once a day. A paid Premium plan removes those limits: your full history, reports covering longer periods, and unlimited use." },
         { "p": "Premium is offered through the following plans:" },
         { "plans": [
-          { "n": "Monthly", "v": "$7.99", "u": " / month" },
-          { "n": "Semi-annual", "v": "$29.99", "u": " / 6 months" },
-          { "n": "Annual", "v": "$49.99", "u": " / year" },
-          { "n": "Lifetime", "v": "$149.99", "u": " one-time" }
+          { "n": "Monthly", "v": "$19.99", "u": " / month" },
+          { "n": "Semi-annual", "v": "$87.99", "u": " / 6 months" },
+          { "n": "Annual", "v": "$167.99", "u": " / year" },
+          { "n": "Lifetime", "v": "$599.99", "u": " one-time" }
         ]},
         { "p": "The recurring plans (monthly, semi-annual, and annual) include a 30-day free trial for new subscribers." },
         { "b": "Automatic renewal (recurring plans only):", "p": " unless you cancel, your monthly, semi-annual, or annual subscription renews automatically at the end of each period and is charged to your payment method through the app store (App Store or Google Play)." },
@@ -128,6 +131,8 @@ window.CF_TERMS_T = {
     "legal": "Legal",
     "title": "Términos del Servicio",
     "updated": "Última actualización: 28 de julio de 2026",
+    "summaryPre": "Este es un resumen. Los Términos del Servicio completos y vigentes están en ",
+    "summaryPost": ".",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -204,13 +209,14 @@ window.CF_TERMS_T = {
         { "p": "Puedes denunciar contenido objetable o bloquear a otro usuario en cualquier momento — desde una publicación, desde un chat o desde el perfil de esa persona. Las denuncias llegan a nuestro equipo y procuramos revisarlas en un plazo de 24 horas. Tenemos tolerancia cero con el contenido objetable y el comportamiento abusivo, y podemos eliminar contenido, bloquear usuarios o suspender o cerrar las cuentas que infrinjan estas normas." }
       ]},
       { "t": "Suscripciones y pagos", "b": [
-        { "p": "Chronic Friends se puede usar de forma gratuita, incluida la comunidad, el diario completo, los recordatorios de medicación, la conexión con Health Sync y todos los informes en PDF. Un plan Premium de pago desbloquea cuatro funciones: Food Scan, Tools, Meditation y Entertainment." },
+        { "p": "Chronic Friends se puede usar de forma gratuita y ninguna pantalla está bloqueada. Una cuenta gratuita puede usar la comunidad y los chats privados, las herramientas y la sala de herramientas sin límite, y puede registrar sin límites: diario, control diario, mapa corporal, medicación y sus recordatorios. También puede conectar Health Sync, participar en el torneo de pasos y usar la tarjeta de emergencia, las señales de alarma, los recursos de crisis y el informe de episodio de brote. Descargar una copia completa de tus propios datos es siempre gratis." },
+        { "p": "Lo que tiene una cuenta gratuita son límites, no bloqueos: puedes consultar los últimos 14 días de tu historial, descargar el informe para el médico de periodos de hasta 14 días y usar Food Scan cinco veces al mes y las sesiones de meditación y entretenimiento una vez al día. Un plan Premium de pago elimina esos límites: tu historial completo, informes de periodos más largos y uso sin límite." },
         { "p": "Premium se ofrece mediante los siguientes planes:" },
         { "plans": [
-          { "n": "Mensual", "v": "$7.99", "u": " / mes" },
-          { "n": "Semestral", "v": "$29.99", "u": " / 6 meses" },
-          { "n": "Anual", "v": "$49.99", "u": " / año" },
-          { "n": "De por vida", "v": "$149.99", "u": " pago único" }
+          { "n": "Mensual", "v": "$19.99", "u": " / mes" },
+          { "n": "Semestral", "v": "$87.99", "u": " / 6 meses" },
+          { "n": "Anual", "v": "$167.99", "u": " / año" },
+          { "n": "De por vida", "v": "$599.99", "u": " pago único" }
         ]},
         { "p": "Los planes recurrentes (mensual, semestral y anual) incluyen una prueba gratuita de 30 días para nuevos suscriptores." },
         { "b": "Renovación automática (solo planes recurrentes):", "p": " salvo que canceles, tu suscripción mensual, semestral o anual se renueva automáticamente al final de cada periodo y se cobra a tu método de pago a través de la tienda de aplicaciones (App Store o Google Play)." },
@@ -247,6 +253,8 @@ window.CF_TERMS_T = {
     "legal": "Legal",
     "title": "Condicions del servei",
     "updated": "Última actualització: 28 de juliol de 2026",
+    "summaryPre": "Aquest és un resum. Els Termes del Servei complets i vigents són a ",
+    "summaryPost": ".",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -323,13 +331,14 @@ window.CF_TERMS_T = {
         { "p": "Pots denunciar contingut objectable o bloquejar un altre usuari en qualsevol moment — des d'una publicació, des d'un xat o des del perfil d'aquesta persona. Les denúncies arriben al nostre equip i procurem revisar-les en un termini de 24 hores. Tenim tolerància zero amb el contingut objectable i el comportament abusiu, i podem eliminar contingut, bloquejar usuaris o suspendre o tancar els comptes que infringeixin aquestes normes." }
       ]},
       { "t": "Subscripcions i pagaments", "b": [
-        { "p": "Chronic Friends es pot fer servir de manera gratuïta, incloent-hi la comunitat, el diari complet, els recordatoris de medicació, la connexió amb Health Sync i tots els informes en PDF. Un pla Premium de pagament desbloqueja quatre funcions: Food Scan, Tools, Meditation i Entertainment." },
+        { "p": "Chronic Friends es pot fer servir de manera gratuïta i cap pantalla no està blocada. Un compte gratuït pot fer servir la comunitat i els xats privats, les eines i la sala d'eines sense límit, i pot registrar sense límits: diari, control diari, mapa corporal, medicació i els seus recordatoris. També pot connectar Health Sync, participar en el torneig de passos i fer servir la targeta d'emergència, els senyals d'alarma, els recursos de crisi i l'informe d'episodi de brot. Descarregar una còpia completa de les teves dades és sempre gratuït." },
+        { "p": "El que té un compte gratuït són límits, no blocatges: pots consultar els últims 14 dies del teu historial, descarregar l'informe per al metge de períodes de fins a 14 dies i fer servir Food Scan cinc vegades al mes i les sessions de meditació i entreteniment una vegada al dia. Un pla Premium de pagament elimina aquests límits: el teu historial complet, informes de períodes més llargs i ús sense límit." },
         { "p": "Premium s'ofereix amb els plans següents:" },
         { "plans": [
-          { "n": "Mensual", "v": "$7.99", "u": " / mes" },
-          { "n": "Semestral", "v": "$29.99", "u": " / 6 mesos" },
-          { "n": "Anual", "v": "$49.99", "u": " / any" },
-          { "n": "Per a tota la vida", "v": "$149.99", "u": " pagament únic" }
+          { "n": "Mensual", "v": "$19.99", "u": " / mes" },
+          { "n": "Semestral", "v": "$87.99", "u": " / 6 mesos" },
+          { "n": "Anual", "v": "$167.99", "u": " / any" },
+          { "n": "Per a tota la vida", "v": "$599.99", "u": " pagament únic" }
         ]},
         { "p": "Els plans recurrents (mensual, semestral i anual) inclouen una prova gratuïta de 30 dies per a nous subscriptors." },
         { "b": "Renovació automàtica (només plans recurrents):", "p": " tret que cancel·lis, la teva subscripció mensual, semestral o anual es renova automàticament al final de cada període i es cobra al teu mètode de pagament a través de la botiga d'aplicacions (App Store o Google Play)." },
@@ -366,6 +375,8 @@ window.CF_TERMS_T = {
     "legal": "Légal",
     "title": "Conditions d'utilisation",
     "updated": "Dernière mise à jour : 28 juillet 2026",
+    "summaryPre": "Ceci est un résumé. Les Conditions d'utilisation complètes et à jour se trouvent sur ",
+    "summaryPost": ".",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -442,13 +453,14 @@ window.CF_TERMS_T = {
         { "p": "Vous pouvez signaler un contenu répréhensible ou bloquer un autre utilisateur à tout moment — depuis une publication, depuis une discussion ou depuis le profil de cette personne. Les signalements parviennent à notre équipe et nous nous efforçons de les examiner sous 24 heures. Nous appliquons une tolérance zéro à l'égard des contenus répréhensibles et des comportements abusifs, et nous pouvons supprimer du contenu, bloquer des utilisateurs ou suspendre ou fermer les comptes qui enfreignent ces règles." }
       ]},
       { "t": "Abonnements et paiements", "b": [
-        { "p": "Chronic Friends peut être utilisé gratuitement, y compris la communauté, le journal complet, les rappels de médicaments, la connexion à Health Sync et tous les rapports PDF. Un abonnement Premium payant débloque quatre fonctionnalités : Food Scan, Tools, Meditation et Entertainment." },
+        { "p": "Chronic Friends peut être utilisé gratuitement et aucun écran n'est verrouillé. Un compte gratuit peut utiliser la communauté et les discussions privées, les outils et la salle d'outils sans limite, et peut enregistrer sans limites : journal, point quotidien, carte corporelle, médicaments et leurs rappels. Il peut aussi connecter Health Sync, participer au tournoi de pas et utiliser la carte d'urgence, les signaux d'alerte, les ressources de crise et le rapport d'épisode de poussée. Télécharger une copie complète de vos propres données est toujours gratuit." },
+        { "p": "Ce qu'un compte gratuit a, ce sont des limites, pas des verrous : vous pouvez consulter les 14 derniers jours de votre historique, télécharger le rapport pour le médecin sur des périodes allant jusqu'à 14 jours, et utiliser Food Scan cinq fois par mois et les séances de méditation et de divertissement une fois par jour. Un abonnement Premium payant supprime ces limites : votre historique complet, des rapports couvrant des périodes plus longues et un usage illimité." },
         { "p": "Premium est proposé selon les formules suivantes :" },
         { "plans": [
-          { "n": "Mensuel", "v": "$7.99", "u": " / mois" },
-          { "n": "Semestriel", "v": "$29.99", "u": " / 6 mois" },
-          { "n": "Annuel", "v": "$49.99", "u": " / an" },
-          { "n": "À vie", "v": "$149.99", "u": " paiement unique" }
+          { "n": "Mensuel", "v": "$19.99", "u": " / mois" },
+          { "n": "Semestriel", "v": "$87.99", "u": " / 6 mois" },
+          { "n": "Annuel", "v": "$167.99", "u": " / an" },
+          { "n": "À vie", "v": "$599.99", "u": " paiement unique" }
         ]},
         { "p": "Les formules récurrentes (mensuelle, semestrielle et annuelle) incluent un essai gratuit de 30 jours pour les nouveaux abonnés." },
         { "b": "Renouvellement automatique (formules récurrentes uniquement) :", "p": " sauf annulation de votre part, votre abonnement mensuel, semestriel ou annuel se renouvelle automatiquement à la fin de chaque période et est débité de votre moyen de paiement via la boutique d'applications (App Store ou Google Play)." },
@@ -485,6 +497,8 @@ window.CF_TERMS_T = {
     "legal": "Rechtliches",
     "title": "Nutzungsbedingungen",
     "updated": "Zuletzt aktualisiert: 28. Juli 2026",
+    "summaryPre": "Dies ist eine Zusammenfassung. Die vollständigen, aktuellen Nutzungsbedingungen finden Sie unter ",
+    "summaryPost": ".",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -561,13 +575,14 @@ window.CF_TERMS_T = {
         { "p": "Sie können jederzeit anstößige Inhalte melden oder einen anderen Nutzer blockieren — aus einem Beitrag, aus einem Chat oder aus dem Profil dieser Person. Meldungen erreichen unser Team, und wir bemühen uns, sie innerhalb von 24 Stunden zu prüfen. Wir haben null Toleranz gegenüber anstößigen Inhalten und missbräuchlichem Verhalten und können Inhalte entfernen, Nutzer blockieren oder Konten sperren oder schließen, die gegen diese Regeln verstoßen." }
       ]},
       { "t": "Abonnements und Zahlungen", "b": [
-        { "p": "Chronic Friends kann kostenlos genutzt werden — einschließlich Community, vollständigem Tagebuch, Medikamentenerinnerungen, der Verbindung mit Health Sync und allen PDF-Berichten. Ein kostenpflichtiges Premium-Abo schaltet vier Funktionen frei: Food Scan, Tools, Meditation und Entertainment." },
+        { "p": "Chronic Friends kann kostenlos genutzt werden, und kein Bildschirm ist gesperrt. Ein kostenloses Konto kann die Community und private Chats, die Tools und den Tools-Raum ohne Limit nutzen und ohne Limit aufzeichnen — Tagebuch, täglicher Check-in, Körperkarte, Medikamente und deren Erinnerungen. Es kann außerdem Health Sync verbinden, am Schritte-Turnier teilnehmen und die Notfallkarte, die Warnsignale, die Krisenressourcen und den Schub-Episodenbericht nutzen. Das Herunterladen einer vollständigen Kopie der eigenen Daten ist immer kostenlos." },
+        { "p": "Ein kostenloses Konto hat Limits, keine Sperren: Sie können die letzten 14 Tage Ihres Verlaufs einsehen, den Arztbericht für Zeiträume von bis zu 14 Tagen herunterladen und Food Scan fünfmal pro Monat sowie die Meditations- und Entertainment-Sitzungen einmal täglich nutzen. Ein kostenpflichtiges Premium-Abo hebt diese Limits auf: Ihr vollständiger Verlauf, Berichte über längere Zeiträume und unbegrenzte Nutzung." },
         { "p": "Premium wird in folgenden Plänen angeboten:" },
         { "plans": [
-          { "n": "Monatlich", "v": "$7.99", "u": " / Monat" },
-          { "n": "Halbjährlich", "v": "$29.99", "u": " / 6 Monate" },
-          { "n": "Jährlich", "v": "$49.99", "u": " / Jahr" },
-          { "n": "Lebenslang", "v": "$149.99", "u": " einmalig" }
+          { "n": "Monatlich", "v": "$19.99", "u": " / Monat" },
+          { "n": "Halbjährlich", "v": "$87.99", "u": " / 6 Monate" },
+          { "n": "Jährlich", "v": "$167.99", "u": " / Jahr" },
+          { "n": "Lebenslang", "v": "$599.99", "u": " einmalig" }
         ]},
         { "p": "Die wiederkehrenden Tarife (monatlich, halbjährlich und jährlich) beinhalten eine 30-tägige kostenlose Testphase für neue Abonnenten." },
         { "b": "Automatische Verlängerung (nur wiederkehrende Tarife):", "p": " sofern Sie nicht kündigen, verlängert sich Ihr monatliches, halbjährliches oder jährliches Abonnement am Ende jedes Zeitraums automatisch und wird über den App-Store (App Store oder Google Play) Ihrem Zahlungsmittel belastet." },
@@ -604,6 +619,8 @@ window.CF_TERMS_T = {
     "legal": "Legale",
     "title": "Termini di servizio",
     "updated": "Ultimo aggiornamento: 28 luglio 2026",
+    "summaryPre": "Questo è un riassunto. I Termini di servizio completi e aggiornati si trovano su ",
+    "summaryPost": ".",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -680,13 +697,14 @@ window.CF_TERMS_T = {
         { "p": "Puoi segnalare contenuti discutibili o bloccare un altro utente in qualsiasi momento — da un post, da una chat o dal profilo di quella persona. Le segnalazioni arrivano al nostro team e cerchiamo di esaminarle entro 24 ore. Abbiamo tolleranza zero verso i contenuti discutibili e i comportamenti abusivi e possiamo rimuovere contenuti, bloccare utenti o sospendere o chiudere gli account che violano queste regole." }
       ]},
       { "t": "Abbonamenti e pagamenti", "b": [
-        { "p": "Chronic Friends può essere usato gratuitamente, inclusi la community, il diario completo, i promemoria dei farmaci, il collegamento con Health Sync e tutti i report in PDF. Un piano Premium a pagamento sblocca quattro funzioni: Food Scan, Tools, Meditation ed Entertainment." },
+        { "p": "Chronic Friends può essere usato gratuitamente e nessuna schermata è bloccata. Un account gratuito può usare la community e le chat private, gli strumenti e la sala strumenti senza limiti, e può registrare senza limiti: diario, check-in quotidiano, mappa corporea, farmaci e i relativi promemoria. Può anche collegare Health Sync, partecipare al torneo dei passi e usare la scheda di emergenza, i segnali d'allarme, le risorse per le crisi e il report dell'episodio di riacutizzazione. Scaricare una copia completa dei propri dati è sempre gratuito." },
+        { "p": "Quello che un account gratuito ha sono limiti, non blocchi: puoi consultare gli ultimi 14 giorni della tua cronologia, scaricare il report per il medico per periodi fino a 14 giorni e usare Food Scan cinque volte al mese e le sessioni di meditazione e intrattenimento una volta al giorno. Un piano Premium a pagamento rimuove questi limiti: la cronologia completa, report su periodi più lunghi e uso illimitato." },
         { "p": "Premium è offerto con i seguenti piani:" },
         { "plans": [
-          { "n": "Mensile", "v": "$7.99", "u": " / mese" },
-          { "n": "Semestrale", "v": "$29.99", "u": " / 6 mesi" },
-          { "n": "Annuale", "v": "$49.99", "u": " / anno" },
-          { "n": "A vita", "v": "$149.99", "u": " pagamento unico" }
+          { "n": "Mensile", "v": "$19.99", "u": " / mese" },
+          { "n": "Semestrale", "v": "$87.99", "u": " / 6 mesi" },
+          { "n": "Annuale", "v": "$167.99", "u": " / anno" },
+          { "n": "A vita", "v": "$599.99", "u": " pagamento unico" }
         ]},
         { "p": "I piani ricorrenti (mensile, semestrale e annuale) includono una prova gratuita di 30 giorni per i nuovi abbonati." },
         { "b": "Rinnovo automatico (solo piani ricorrenti):", "p": " salvo annullamento, il tuo abbonamento mensile, semestrale o annuale si rinnova automaticamente al termine di ogni periodo e viene addebitato sul tuo metodo di pagamento tramite lo store delle app (App Store o Google Play)." },
@@ -723,6 +741,8 @@ window.CF_TERMS_T = {
     "legal": "Legal",
     "title": "Termos de Serviço",
     "updated": "Última atualização: 28 de julho de 2026",
+    "summaryPre": "Este é um resumo. Os Termos de Serviço completos e atuais estão em ",
+    "summaryPost": ".",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -799,13 +819,14 @@ window.CF_TERMS_T = {
         { "p": "Podes denunciar conteúdo censurável ou bloquear outro utilizador a qualquer momento — a partir de uma publicação, de uma conversa ou do perfil dessa pessoa. As denúncias chegam à nossa equipa e procuramos analisá-las no prazo de 24 horas. Temos tolerância zero para com conteúdo censurável e comportamento abusivo e podemos remover conteúdo, bloquear utilizadores ou suspender ou encerrar contas que violem estas regras." }
       ]},
       { "t": "Subscrições e pagamentos", "b": [
-        { "p": "O Chronic Friends pode ser usado gratuitamente, incluindo a comunidade, o diário completo, os lembretes de medicação, a ligação ao Health Sync e todos os relatórios em PDF. Um plano Premium pago desbloqueia quatro funcionalidades: Food Scan, Tools, Meditation e Entertainment." },
+        { "p": "O Chronic Friends pode ser usado gratuitamente e nenhum ecrã está bloqueado. Uma conta gratuita pode usar a comunidade e as conversas privadas, as ferramentas e a sala de ferramentas sem limite, e pode registar sem limites: diário, registo diário, mapa corporal, medicação e os seus lembretes. Também pode ligar o Health Sync, participar no torneio de passos e usar o cartão de emergência, os sinais de alerta, os recursos de crise e o relatório de episódio de agravamento. Descarregar uma cópia completa dos seus próprios dados é sempre gratuito." },
+        { "p": "O que uma conta gratuita tem são limites, não bloqueios: pode consultar os últimos 14 dias do seu histórico, descarregar o relatório para o médico de períodos de até 14 dias e usar o Food Scan cinco vezes por mês e as sessões de meditação e entretenimento uma vez por dia. Um plano Premium pago remove esses limites: o histórico completo, relatórios de períodos mais longos e uso ilimitado." },
         { "p": "O Premium é oferecido nos seguintes planos:" },
         { "plans": [
-          { "n": "Mensal", "v": "$7.99", "u": " / mês" },
-          { "n": "Semestral", "v": "$29.99", "u": " / 6 meses" },
-          { "n": "Anual", "v": "$49.99", "u": " / ano" },
-          { "n": "Vitalício", "v": "$149.99", "u": " pagamento único" }
+          { "n": "Mensal", "v": "$19.99", "u": " / mês" },
+          { "n": "Semestral", "v": "$87.99", "u": " / 6 meses" },
+          { "n": "Anual", "v": "$167.99", "u": " / ano" },
+          { "n": "Vitalício", "v": "$599.99", "u": " pagamento único" }
         ]},
         { "p": "Os planos recorrentes (mensal, semestral e anual) incluem um período de teste gratuito de 30 dias para novos subscritores." },
         { "b": "Renovação automática (apenas planos recorrentes):", "p": " salvo se cancelares, a tua subscrição mensal, semestral ou anual renova-se automaticamente no final de cada período e é cobrada no teu método de pagamento através da loja de aplicações (App Store ou Google Play)." },
@@ -842,6 +863,8 @@ window.CF_TERMS_T = {
     "legal": "Юридическое",
     "title": "Условия обслуживания",
     "updated": "Последнее обновление: 28 июля 2026 г.",
+    "summaryPre": "Это краткое изложение. Полные действующие Условия обслуживания размещены на ",
+    "summaryPost": ".",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -918,13 +941,14 @@ window.CF_TERMS_T = {
         { "p": "Вы можете в любой момент пожаловаться на недопустимый контент или заблокировать другого пользователя — из публикации, из чата или из профиля этого человека. Жалобы поступают нашей команде, и мы стремимся рассмотреть их в течение 24 часов. Мы придерживаемся нулевой терпимости к недопустимому контенту и оскорбительному поведению и можем удалять контент, блокировать пользователей, а также приостанавливать или закрывать учётные записи, нарушающие эти правила." }
       ]},
       { "t": "Подписки и платежи", "b": [
-        { "p": "Chronic Friends можно использовать бесплатно, включая сообщество, полный дневник, напоминания о лекарствах, подключение Health Sync и все PDF-отчёты. Платный план Premium открывает четыре функции: Food Scan, Tools, Meditation и Entertainment." },
+        { "p": "Chronic Friends можно использовать бесплатно, и ни один экран не заблокирован. Бесплатный аккаунт может пользоваться сообществом и личными чатами, инструментами и комнатой инструментов без ограничений и вести записи без ограничений: дневник, ежедневная отметка, карта тела, лекарства и напоминания о них. Он также может подключить Health Sync, участвовать в турнире шагов и использовать карту экстренной помощи, тревожные признаки, ресурсы при кризисе и отчёт об эпизоде обострения. Скачать полную копию своих данных всегда бесплатно." },
+        { "p": "У бесплатного аккаунта есть ограничения, а не блокировки: вы можете просматривать последние 14 дней своей истории, скачивать отчёт для врача за периоды до 14 дней и использовать Food Scan пять раз в месяц, а сессии медитации и развлечений — один раз в день. Платный план Premium снимает эти ограничения: полная история, отчёты за более длительные периоды и неограниченное использование." },
         { "p": "Premium предлагается по следующим планам:" },
         { "plans": [
-          { "n": "Ежемесячный", "v": "$7.99", "u": " / месяц" },
-          { "n": "Полугодовой", "v": "$29.99", "u": " / 6 месяцев" },
-          { "n": "Годовой", "v": "$49.99", "u": " / год" },
-          { "n": "Пожизненный", "v": "$149.99", "u": " разовый платёж" }
+          { "n": "Ежемесячный", "v": "$19.99", "u": " / месяц" },
+          { "n": "Полугодовой", "v": "$87.99", "u": " / 6 месяцев" },
+          { "n": "Годовой", "v": "$167.99", "u": " / год" },
+          { "n": "Пожизненный", "v": "$599.99", "u": " разовый платёж" }
         ]},
         { "p": "Повторяющиеся планы (ежемесячный, полугодовой и годовой) включают 30-дневный бесплатный пробный период для новых подписчиков." },
         { "b": "Автоматическое продление (только повторяющиеся планы):", "p": " если вы не отмените, ваша ежемесячная, полугодовая или годовая подписка автоматически продлевается в конце каждого периода и списывается с вашего способа оплаты через магазин приложений (App Store или Google Play)." },
@@ -961,6 +985,8 @@ window.CF_TERMS_T = {
     "legal": "قانوني",
     "title": "شروط الخدمة",
     "updated": "آخر تحديث: 28 يوليو 2026",
+    "summaryPre": "هذا ملخّص. شروط الخدمة الكاملة والسارية متاحة على ",
+    "summaryPost": ".",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -1037,13 +1063,14 @@ window.CF_TERMS_T = {
         { "p": "يمكنك الإبلاغ عن محتوى مرفوض أو حظر مستخدم آخر في أي وقت — من منشور أو من محادثة أو من الملف الشخصي لذلك الشخص. تصل البلاغات إلى فريقنا ونسعى إلى مراجعتها خلال 24 ساعة. لدينا عدم تسامح مطلق تجاه المحتوى المرفوض والسلوك المسيء، ويجوز لنا إزالة المحتوى أو حظر المستخدمين أو تعليق الحسابات التي تخالف هذه القواعد أو إغلاقها." }
       ]},
       { "t": "الاشتراكات والمدفوعات", "b": [
-        { "p": "يمكن استخدام Chronic Friends مجانًا، بما في ذلك المجتمع والمذكّرة الكاملة وتذكيرات الدواء والربط مع Health Sync وجميع تقارير PDF. وتفتح خطة Premium المدفوعة أربع ميزات: Food Scan وTools وMeditation وEntertainment." },
+        { "p": "يمكن استخدام Chronic Friends مجانًا، ولا توجد أي شاشة مقفلة. يمكن للحساب المجاني استخدام المجتمع والمحادثات الخاصة والأدوات وغرفة الأدوات بلا حدود، وتسجيل البيانات بلا حدود: المذكّرة والتسجيل اليومي وخريطة الجسم والدواء وتذكيراته. ويمكنه أيضًا ربط Health Sync والمشاركة في مسابقة الخطوات واستخدام بطاقة الطوارئ وعلامات الإنذار وموارد الأزمات وتقرير نوبة الاشتداد. وتنزيل نسخة كاملة من بياناتك الخاصة مجاني دائمًا." },
+        { "p": "ما لدى الحساب المجاني هو حدود لا أقفال: يمكنك الرجوع إلى آخر 14 يومًا من سجلك، وتنزيل تقرير الطبيب لفترات تصل إلى 14 يومًا، واستخدام Food Scan خمس مرات في الشهر وجلسات التأمل والترفيه مرة واحدة في اليوم. وتلغي خطة Premium المدفوعة هذه الحدود: سجلك الكامل وتقارير تغطي فترات أطول واستخدام غير محدود." },
         { "p": "تتوفّر Premium وفق الخطط التالية:" },
         { "plans": [
-          { "n": "شهري", "v": "$7.99", "u": " / شهر" },
-          { "n": "نصف سنوي", "v": "$29.99", "u": " / 6 أشهر" },
-          { "n": "سنوي", "v": "$49.99", "u": " / سنة" },
-          { "n": "مدى الحياة", "v": "$149.99", "u": " دفعة واحدة" }
+          { "n": "شهري", "v": "$19.99", "u": " / شهر" },
+          { "n": "نصف سنوي", "v": "$87.99", "u": " / 6 أشهر" },
+          { "n": "سنوي", "v": "$167.99", "u": " / سنة" },
+          { "n": "مدى الحياة", "v": "$599.99", "u": " دفعة واحدة" }
         ]},
         { "p": "تتضمّن الخطط المتكرّرة (الشهرية ونصف السنوية والسنوية) فترة تجريبية مجانية مدتها 30 يومًا للمشتركين الجدد." },
         { "b": "التجديد التلقائي (الخطط المتكرّرة فقط):", "p": " ما لم تُلغِ، يتجدّد اشتراكك الشهري أو نصف السنوي أو السنوي تلقائيًا في نهاية كل فترة ويُحصَّل من وسيلة الدفع الخاصة بك عبر متجر التطبيقات (App Store أو Google Play)." },
@@ -1080,6 +1107,8 @@ window.CF_TERMS_T = {
     "legal": "कानूनी",
     "title": "सेवा की शर्तें",
     "updated": "अंतिम अद्यतन: 28 जुलाई 2026",
+    "summaryPre": "यह एक सारांश है। पूरी और वर्तमान सेवा शर्तें ",
+    "summaryPost": " पर उपलब्ध हैं।",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -1156,13 +1185,14 @@ window.CF_TERMS_T = {
         { "p": "आप किसी भी समय आपत्तिजनक सामग्री की रिपोर्ट कर सकते हैं या किसी अन्य उपयोगकर्ता को ब्लॉक कर सकते हैं — किसी पोस्ट से, किसी चैट से, या उस व्यक्ति की प्रोफ़ाइल से। रिपोर्टें हमारी टीम तक पहुँचती हैं और हम उन्हें 24 घंटे के भीतर समीक्षा करने का लक्ष्य रखते हैं। आपत्तिजनक सामग्री और अपमानजनक व्यवहार के प्रति हमारी शून्य सहनशीलता है, और हम इन नियमों का उल्लंघन करने पर सामग्री हटा सकते हैं, उपयोगकर्ताओं को ब्लॉक कर सकते हैं, या खातों को निलंबित या बंद कर सकते हैं।" }
       ]},
       { "t": "सदस्यताएँ और भुगतान", "b": [
-        { "p": "Chronic Friends मुफ़्त में इस्तेमाल किया जा सकता है — इसमें समुदाय, पूरा जर्नल, दवा के रिमाइंडर, Health Sync से कनेक्ट करना और सभी PDF रिपोर्ट शामिल हैं। सशुल्क Premium प्लान चार सुविधाएँ खोलता है: Food Scan, Tools, Meditation और Entertainment।" },
+        { "p": "Chronic Friends मुफ़्त में इस्तेमाल किया जा सकता है और कोई भी स्क्रीन बंद नहीं है। मुफ़्त खाता समुदाय और निजी चैट, टूल और टूल रूम बिना किसी सीमा के इस्तेमाल कर सकता है, और बिना सीमा रिकॉर्ड कर सकता है — जर्नल, रोज़ का चेक-इन, बॉडी मैप, दवा और उसके रिमाइंडर। वह Health Sync से कनेक्ट भी कर सकता है, स्टेप्स टूर्नामेंट में शामिल हो सकता है, और इमरजेंसी कार्ड, चेतावनी के संकेत, संकट के संसाधन और फ्लेयर एपिसोड रिपोर्ट इस्तेमाल कर सकता है। अपने डेटा की पूरी कॉपी डाउनलोड करना हमेशा मुफ़्त है।" },
+        { "p": "मुफ़्त खाते के पास सीमाएँ हैं, ताले नहीं: आप अपने इतिहास के पिछले 14 दिन देख सकते हैं, डॉक्टर रिपोर्ट 14 दिन तक की अवधि के लिए डाउनलोड कर सकते हैं, और Food Scan महीने में पाँच बार तथा मेडिटेशन और एंटरटेनमेंट सेशन दिन में एक बार इस्तेमाल कर सकते हैं। सशुल्क Premium प्लान इन सीमाओं को हटा देता है: आपका पूरा इतिहास, लंबी अवधि की रिपोर्ट और असीमित इस्तेमाल।" },
         { "p": "Premium इन प्लान में उपलब्ध है:" },
         { "plans": [
-          { "n": "मासिक", "v": "$7.99", "u": " / माह" },
-          { "n": "अर्ध-वार्षिक", "v": "$29.99", "u": " / 6 माह" },
-          { "n": "वार्षिक", "v": "$49.99", "u": " / वर्ष" },
-          { "n": "आजीवन", "v": "$149.99", "u": " एकमुश्त" }
+          { "n": "मासिक", "v": "$19.99", "u": " / माह" },
+          { "n": "अर्ध-वार्षिक", "v": "$87.99", "u": " / 6 माह" },
+          { "n": "वार्षिक", "v": "$167.99", "u": " / वर्ष" },
+          { "n": "आजीवन", "v": "$599.99", "u": " एकमुश्त" }
         ]},
         { "p": "आवर्ती योजनाओं (मासिक, अर्ध-वार्षिक और वार्षिक) में नए ग्राहकों के लिए 30-दिन का निःशुल्क परीक्षण शामिल है।" },
         { "b": "स्वतः नवीनीकरण (केवल आवर्ती योजनाएँ):", "p": " जब तक आप रद्द नहीं करते, आपकी मासिक, अर्ध-वार्षिक या वार्षिक सदस्यता प्रत्येक अवधि के अंत में स्वतः नवीनीकृत हो जाती है और ऐप स्टोर (App Store या Google Play) के माध्यम से आपके भुगतान माध्यम से शुल्क लिया जाता है।" },
@@ -1199,6 +1229,8 @@ window.CF_TERMS_T = {
     "legal": "Hukum",
     "title": "Ketentuan Layanan",
     "updated": "Terakhir diperbarui: 28 Juli 2026",
+    "summaryPre": "Ini adalah ringkasan. Ketentuan Layanan yang lengkap dan terkini tersedia di ",
+    "summaryPost": ".",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -1275,13 +1307,14 @@ window.CF_TERMS_T = {
         { "p": "Anda dapat melaporkan konten yang tidak pantas atau memblokir pengguna lain kapan saja — dari sebuah unggahan, dari obrolan, atau dari profil orang tersebut. Laporan sampai ke tim kami dan kami berupaya meninjaunya dalam waktu 24 jam. Kami menerapkan toleransi nol terhadap konten yang tidak pantas dan perilaku kasar, dan kami dapat menghapus konten, memblokir pengguna, atau menangguhkan atau menutup akun yang melanggar aturan ini." }
       ]},
       { "t": "Langganan dan pembayaran", "b": [
-        { "p": "Chronic Friends dapat digunakan secara gratis, termasuk komunitas, jurnal lengkap, pengingat obat, koneksi Health Sync, dan semua laporan PDF. Paket Premium berbayar membuka empat fitur: Food Scan, Tools, Meditation, dan Entertainment." },
+        { "p": "Chronic Friends dapat digunakan secara gratis, dan tidak ada layar yang terkunci. Akun gratis dapat menggunakan komunitas dan obrolan pribadi, alat dan ruang alat tanpa batas, serta dapat mencatat tanpa batas: jurnal, check-in harian, peta tubuh, obat dan pengingatnya. Akun gratis juga dapat menghubungkan Health Sync, mengikuti turnamen langkah, dan menggunakan kartu darurat, tanda peringatan, sumber daya krisis, dan laporan episode kambuh. Mengunduh salinan lengkap data Anda sendiri selalu gratis." },
+        { "p": "Yang dimiliki akun gratis adalah batas, bukan kunci: Anda dapat melihat kembali 14 hari terakhir riwayat Anda, mengunduh laporan dokter untuk periode hingga 14 hari, dan menggunakan Food Scan lima kali sebulan serta sesi meditasi dan hiburan sekali sehari. Paket Premium berbayar menghapus batas tersebut: riwayat lengkap Anda, laporan yang mencakup periode lebih panjang, dan penggunaan tanpa batas." },
         { "p": "Premium ditawarkan melalui paket berikut:" },
         { "plans": [
-          { "n": "Bulanan", "v": "$7.99", "u": " / bulan" },
-          { "n": "Setengah tahunan", "v": "$29.99", "u": " / 6 bulan" },
-          { "n": "Tahunan", "v": "$49.99", "u": " / tahun" },
-          { "n": "Seumur hidup", "v": "$149.99", "u": " pembayaran sekali" }
+          { "n": "Bulanan", "v": "$19.99", "u": " / bulan" },
+          { "n": "Setengah tahunan", "v": "$87.99", "u": " / 6 bulan" },
+          { "n": "Tahunan", "v": "$167.99", "u": " / tahun" },
+          { "n": "Seumur hidup", "v": "$599.99", "u": " pembayaran sekali" }
         ]},
         { "p": "Paket berulang (bulanan, setengah tahunan, dan tahunan) menyertakan uji coba gratis 30 hari untuk pelanggan baru." },
         { "b": "Perpanjangan otomatis (hanya paket berulang):", "p": " kecuali Anda membatalkan, langganan bulanan, setengah tahunan, atau tahunan Anda diperpanjang secara otomatis pada akhir setiap periode dan ditagihkan ke metode pembayaran Anda melalui toko aplikasi (App Store atau Google Play)." },
@@ -1318,6 +1351,8 @@ window.CF_TERMS_T = {
     "legal": "法的事項",
     "title": "利用規約",
     "updated": "最終更新日: 2026年7月28日",
+    "summaryPre": "これは要約です。完全で最新の利用規約は ",
+    "summaryPost": " にあります。",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1394,13 +1429,14 @@ window.CF_TERMS_T = {
         { "p": "あなたは、投稿・チャット・その人のプロフィールから、いつでも不適切なコンテンツを報告したり、他のユーザーをブロックしたりできます。報告は当社のチームに届き、当社は24時間以内に確認するよう努めます。当社は不適切なコンテンツや悪質な行為を一切容認せず、これらのルールに違反する場合、コンテンツの削除、ユーザーのブロック、またはアカウントの停止もしくは閉鎖を行うことがあります。" }
       ]},
       { "t": "サブスクリプションと支払い", "b": [
-        { "p": "Chronic Friends は無料で利用できます。コミュニティ、ジャーナルのすべて、服薬リマインダー、Health Sync との連携、そしてすべての PDF レポートが含まれます。有料の Premium プランでは、Food Scan・Tools・Meditation・Entertainment の4つの機能が使えるようになります。" },
+        { "p": "Chronic Friends は無料で利用でき、ロックされた画面はありません。無料アカウントでも、コミュニティとプライベートチャット、ツールとツールルームを制限なく利用でき、記録も制限なく行えます（ジャーナル、毎日のチェックイン、ボディマップ、服薬とそのリマインダー）。Health Sync との連携、歩数トーナメントへの参加、緊急カード、警告サイン、危機のリソース、再燃エピソードレポートの利用もできます。自分のデータの完全なコピーのダウンロードは常に無料です。" },
+        { "p": "無料アカウントにあるのは制限であって、ロックではありません。履歴は過去 14 日分まで振り返ることができ、医師向けレポートは最長 14 日間の期間についてダウンロードでき、Food Scan は月 5 回、瞑想とエンターテインメントのセッションは 1 日 1 回利用できます。有料の Premium プランはこれらの制限をなくします。履歴のすべて、より長い期間のレポート、そして無制限の利用が可能になります。" },
         { "p": "Premium は以下のプランでご利用いただけます:" },
         { "plans": [
-          { "n": "月額", "v": "$7.99", "u": " / 月" },
-          { "n": "半年", "v": "$29.99", "u": " / 6 か月" },
-          { "n": "年額", "v": "$49.99", "u": " / 年" },
-          { "n": "買い切り", "v": "$149.99", "u": " 一括払い" }
+          { "n": "月額", "v": "$19.99", "u": " / 月" },
+          { "n": "半年", "v": "$87.99", "u": " / 6 か月" },
+          { "n": "年額", "v": "$167.99", "u": " / 年" },
+          { "n": "買い切り", "v": "$599.99", "u": " 一括払い" }
         ]},
         { "p": "継続プラン(月額、半年、年額)には、新規登録者向けに 30 日間の無料トライアルが含まれます。" },
         { "b": "自動更新(継続プランのみ):", "p": " 解約しない限り、月額・半年・年額のサブスクリプションは各期間の終了時に自動的に更新され、アプリストア(App Store または Google Play)を通じてお支払い方法に課金されます。" },
@@ -1437,6 +1473,8 @@ window.CF_TERMS_T = {
     "legal": "법적 고지",
     "title": "서비스 약관",
     "updated": "최종 업데이트: 2026년 7월 28일",
+    "summaryPre": "이것은 요약입니다. 전체 최신 서비스 약관은 ",
+    "summaryPost": " 에서 확인할 수 있습니다.",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1513,13 +1551,14 @@ window.CF_TERMS_T = {
         { "p": "귀하는 게시물, 채팅 또는 해당 사용자의 프로필에서 언제든지 부적절한 콘텐츠를 신고하거나 다른 사용자를 차단할 수 있습니다. 신고는 당사 팀에 전달되며, 당사는 24시간 이내에 검토하는 것을 목표로 합니다. 당사는 부적절한 콘텐츠와 악의적 행위에 대해 무관용 원칙을 적용하며, 이러한 규칙을 위반하는 경우 콘텐츠를 삭제하거나 사용자를 차단하거나 계정을 정지 또는 폐쇄할 수 있습니다." }
       ]},
       { "t": "구독 및 결제", "b": [
-        { "p": "Chronic Friends는 무료로 사용할 수 있습니다. 커뮤니티, 전체 일지, 복약 알림, Health Sync 연결, 모든 PDF 리포트가 포함됩니다. 유료 Premium 플랜에서는 Food Scan, Tools, Meditation, Entertainment 네 가지 기능이 열립니다." },
+        { "p": "Chronic Friends는 무료로 사용할 수 있으며 잠긴 화면은 없습니다. 무료 계정도 커뮤니티와 개인 채팅, 도구와 도구 룸을 제한 없이 사용할 수 있고, 기록도 제한 없이 할 수 있습니다: 일지, 매일 체크인, 신체 지도, 복약과 복약 알림. 또한 Health Sync 연결, 걸음 수 토너먼트 참가, 응급 카드, 경고 신호, 위기 자원, 재발 에피소드 리포트도 사용할 수 있습니다. 자신의 데이터 전체 사본을 내려받는 것은 언제나 무료입니다." },
+        { "p": "무료 계정에 있는 것은 제한이며, 잠금이 아닙니다: 기록은 최근 14일까지 되돌아볼 수 있고, 의사용 리포트는 최대 14일 기간까지 내려받을 수 있으며, Food Scan은 한 달에 다섯 번, 명상과 엔터테인먼트 세션은 하루에 한 번 사용할 수 있습니다. 유료 Premium 플랜은 이러한 제한을 없앱니다: 전체 기록, 더 긴 기간의 리포트, 무제한 사용." },
         { "p": "Premium은 다음 플랜으로 제공됩니다:" },
         { "plans": [
-          { "n": "월간", "v": "$7.99", "u": " / 월" },
-          { "n": "반기", "v": "$29.99", "u": " / 6개월" },
-          { "n": "연간", "v": "$49.99", "u": " / 년" },
-          { "n": "평생", "v": "$149.99", "u": " 1회 결제" }
+          { "n": "월간", "v": "$19.99", "u": " / 월" },
+          { "n": "반기", "v": "$87.99", "u": " / 6개월" },
+          { "n": "연간", "v": "$167.99", "u": " / 년" },
+          { "n": "평생", "v": "$599.99", "u": " 1회 결제" }
         ]},
         { "p": "반복 요금제(월간, 반기, 연간)에는 신규 구독자를 위한 30일 무료 체험이 포함됩니다." },
         { "b": "자동 갱신(반복 요금제만 해당):", "p": " 취소하지 않는 한, 귀하의 월간, 반기 또는 연간 구독은 각 기간이 끝날 때 자동으로 갱신되며 앱 스토어(App Store 또는 Google Play)를 통해 귀하의 결제 수단으로 청구됩니다." },
@@ -1556,6 +1595,8 @@ window.CF_TERMS_T = {
     "legal": "Yasal",
     "title": "Hizmet Şartları",
     "updated": "Son güncelleme: 28 Temmuz 2026",
+    "summaryPre": "Bu bir özettir. Tam ve güncel Hizmet Şartları ",
+    "summaryPost": " adresindedir.",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1632,13 +1673,14 @@ window.CF_TERMS_T = {
         { "p": "Bir gönderiden, bir sohbetten veya o kişinin profilinden istediğiniz zaman sakıncalı içeriği şikâyet edebilir ya da başka bir kullanıcıyı engelleyebilirsiniz. Şikâyetler ekibimize ulaşır ve bunları 24 saat içinde incelemeyi hedefleriz. Sakıncalı içeriğe ve istismarcı davranışa karşı sıfır tolerans gösteririz ve bu kuralları ihlal eden içerikleri kaldırabilir, kullanıcıları engelleyebilir veya hesapları askıya alabilir ya da kapatabiliriz." }
       ]},
       { "t": "Abonelikler ve ödemeler", "b": [
-        { "p": "Chronic Friends ücretsiz kullanılabilir; topluluk, günlüğün tamamı, ilaç hatırlatıcıları, Health Sync bağlantısı ve tüm PDF raporları buna dahildir. Ücretli Premium planı dört özelliği açar: Food Scan, Tools, Meditation ve Entertainment." },
+        { "p": "Chronic Friends ücretsiz kullanılabilir ve hiçbir ekran kilitli değildir. Ücretsiz bir hesap topluluğu ve özel sohbetleri, araçları ve araç odasını sınırsız kullanabilir ve sınırsız kayıt tutabilir: günlük, günlük kontrol, vücut haritası, ilaçlar ve hatırlatıcıları. Ayrıca Health Sync bağlantısını kurabilir, adım turnuvasına katılabilir ve acil durum kartını, uyarı işaretlerini, kriz kaynaklarını ve alevlenme dönemi raporunu kullanabilir. Kendi verilerinizin eksiksiz bir kopyasını indirmek her zaman ücretsizdir." },
+        { "p": "Ücretsiz hesapta olan şey sınırlardır, kilitler değil: geçmişinizin son 14 gününe bakabilir, doktor raporunu 14 güne kadar olan dönemler için indirebilir, Food Scan'i ayda beş kez, meditasyon ve eğlence oturumlarını günde bir kez kullanabilirsiniz. Ücretli Premium planı bu sınırları kaldırır: geçmişinizin tamamı, daha uzun dönemleri kapsayan raporlar ve sınırsız kullanım." },
         { "p": "Premium şu planlarla sunulur:" },
         { "plans": [
-          { "n": "Aylık", "v": "$7.99", "u": " / ay" },
-          { "n": "Altı aylık", "v": "$29.99", "u": " / 6 ay" },
-          { "n": "Yıllık", "v": "$49.99", "u": " / yıl" },
-          { "n": "Ömür boyu", "v": "$149.99", "u": " tek seferlik" }
+          { "n": "Aylık", "v": "$19.99", "u": " / ay" },
+          { "n": "Altı aylık", "v": "$87.99", "u": " / 6 ay" },
+          { "n": "Yıllık", "v": "$167.99", "u": " / yıl" },
+          { "n": "Ömür boyu", "v": "$599.99", "u": " tek seferlik" }
         ]},
         { "p": "Yinelenen planlar (aylık, altı aylık ve yıllık) yeni aboneler için 30 günlük ücretsiz deneme içerir." },
         { "b": "Otomatik yenileme (yalnızca yinelenen planlar):", "p": " iptal etmediğiniz sürece, aylık, altı aylık veya yıllık aboneliğiniz her dönemin sonunda otomatik olarak yenilenir ve uygulama mağazası (App Store veya Google Play) aracılığıyla ödeme yönteminize tahsil edilir." },
@@ -1675,6 +1717,8 @@ window.CF_TERMS_T = {
     "legal": "Pháp lý",
     "title": "Điều khoản dịch vụ",
     "updated": "Cập nhật lần cuối: ngày 28 tháng 7 năm 2026",
+    "summaryPre": "Đây là bản tóm tắt. Điều khoản Dịch vụ đầy đủ và hiện hành có tại ",
+    "summaryPost": ".",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1751,13 +1795,14 @@ window.CF_TERMS_T = {
         { "p": "Bạn có thể báo cáo nội dung phản cảm hoặc chặn người dùng khác bất cứ lúc nào — từ một bài đăng, từ một cuộc trò chuyện, hoặc từ hồ sơ của người đó. Các báo cáo đến với nhóm của chúng tôi và chúng tôi cố gắng xem xét chúng trong vòng 24 giờ. Chúng tôi hoàn toàn không khoan nhượng đối với nội dung phản cảm và hành vi lăng mạ, và chúng tôi có thể xóa nội dung, chặn người dùng, hoặc tạm ngừng hoặc đóng các tài khoản vi phạm các quy tắc này." }
       ]},
       { "t": "Đăng ký và thanh toán", "b": [
-        { "p": "Chronic Friends có thể dùng miễn phí, bao gồm cộng đồng, toàn bộ nhật ký, nhắc uống thuốc, kết nối Health Sync và mọi báo cáo PDF. Gói Premium trả phí mở khóa bốn tính năng: Food Scan, Tools, Meditation và Entertainment." },
+        { "p": "Chronic Friends có thể dùng miễn phí và không có màn hình nào bị khóa. Tài khoản miễn phí có thể dùng cộng đồng và trò chuyện riêng, các công cụ và phòng công cụ không giới hạn, và có thể ghi lại không giới hạn: nhật ký, kiểm tra hằng ngày, bản đồ cơ thể, thuốc và nhắc uống thuốc. Tài khoản miễn phí cũng có thể kết nối Health Sync, tham gia giải đấu số bước, và dùng thẻ cấp cứu, các dấu hiệu cảnh báo, các nguồn hỗ trợ khủng hoảng và báo cáo đợt bùng phát. Tải xuống một bản sao đầy đủ dữ liệu của bạn luôn miễn phí." },
+        { "p": "Tài khoản miễn phí có giới hạn, chứ không phải khóa: bạn có thể xem lại 14 ngày gần nhất trong lịch sử, tải báo cáo cho bác sĩ cho các khoảng thời gian đến 14 ngày, và dùng Food Scan năm lần mỗi tháng cùng các buổi thiền và giải trí một lần mỗi ngày. Gói Premium trả phí xóa bỏ những giới hạn đó: toàn bộ lịch sử, báo cáo cho các khoảng thời gian dài hơn và sử dụng không giới hạn." },
         { "p": "Premium được cung cấp theo các gói sau:" },
         { "plans": [
-          { "n": "Hằng tháng", "v": "$7.99", "u": " / tháng" },
-          { "n": "Nửa năm", "v": "$29.99", "u": " / 6 tháng" },
-          { "n": "Hằng năm", "v": "$49.99", "u": " / năm" },
-          { "n": "Trọn đời", "v": "$149.99", "u": " thanh toán một lần" }
+          { "n": "Hằng tháng", "v": "$19.99", "u": " / tháng" },
+          { "n": "Nửa năm", "v": "$87.99", "u": " / 6 tháng" },
+          { "n": "Hằng năm", "v": "$167.99", "u": " / năm" },
+          { "n": "Trọn đời", "v": "$599.99", "u": " thanh toán một lần" }
         ]},
         { "p": "Các gói định kỳ (hằng tháng, nửa năm và hằng năm) bao gồm bản dùng thử miễn phí 30 ngày cho người đăng ký mới." },
         { "b": "Tự động gia hạn (chỉ các gói định kỳ):", "p": " trừ khi bạn hủy, gói đăng ký hằng tháng, nửa năm hoặc hằng năm của bạn sẽ tự động gia hạn vào cuối mỗi kỳ và được tính phí vào phương thức thanh toán của bạn thông qua cửa hàng ứng dụng (App Store hoặc Google Play)." },
@@ -1794,6 +1839,8 @@ window.CF_TERMS_T = {
     "legal": "法律",
     "title": "服务条款",
     "updated": "最后更新：2026年7月28日",
+    "summaryPre": "这是摘要。完整的最新服务条款见 ",
+    "summaryPost": "。",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1870,13 +1917,14 @@ window.CF_TERMS_T = {
         { "p": "你可以随时举报不当内容或屏蔽其他用户——从帖子、从聊天，或从该用户的个人资料。举报会送达我们的团队，我们力求在 24 小时内进行审核。我们对不当内容和辱骂行为采取零容忍，并可能删除内容、屏蔽用户，或暂停或关闭违反这些规则的账户。" }
       ]},
       { "t": "订阅与付款", "b": [
-        { "p": "Chronic Friends 可以免费使用，包括社区、完整日记、用药提醒、连接 Health Sync 以及所有 PDF 报告。付费 Premium 方案解锁四项功能：Food Scan、Tools、Meditation 和 Entertainment。" },
+        { "p": "Chronic Friends 可以免费使用，没有任何页面被锁定。免费账户可以不受限制地使用社区和私聊、工具以及工具室，也可以不受限制地记录：日记、每日打卡、身体图、用药及其提醒。免费账户还可以连接 Health Sync、参加步数比赛，并使用紧急卡、预警信号、危机资源和复发发作报告。下载自己数据的完整副本始终免费。" },
+        { "p": "免费账户有的是限制，而不是锁：你可以回看最近 14 天的历史，下载不超过 14 天期间的医生报告，每月使用 Food Scan 五次，冥想和娱乐会话每天一次。付费 Premium 方案取消这些限制：完整历史、更长期间的报告以及不受限制的使用。" },
         { "p": "Premium 提供以下方案：" },
         { "plans": [
-          { "n": "每月", "v": "$7.99", "u": " / 月" },
-          { "n": "半年", "v": "$29.99", "u": " / 6 个月" },
-          { "n": "每年", "v": "$49.99", "u": " / 年" },
-          { "n": "终身", "v": "$149.99", "u": " 一次性" }
+          { "n": "每月", "v": "$19.99", "u": " / 月" },
+          { "n": "半年", "v": "$87.99", "u": " / 6 个月" },
+          { "n": "每年", "v": "$167.99", "u": " / 年" },
+          { "n": "终身", "v": "$599.99", "u": " 一次性" }
         ]},
         { "p": "周期性方案（每月、半年和每年）为新订阅者提供 30 天免费试用。" },
         { "b": "自动续订（仅限周期性方案）：", "p": " 除非你取消，否则你的每月、半年或每年订阅会在每个周期结束时自动续订，并通过应用商店（App Store 或 Google Play）从你的付款方式中扣款。" },

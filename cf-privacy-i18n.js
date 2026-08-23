@@ -3,13 +3,18 @@
    and doctor sections — the modal reads the page's currently selected language.
    Brand names, provider names, law names (GDPR, revFADP, CCPA/CPRA, My Health My
    Data Act, FTC Health Breach Notification Rule), article references, prices, URLs
-   and the contact email are kept verbatim in every language. */
+   and the contact email are kept verbatim in every language.
+   Storage locations corrected 23 Aug 2026: account + health data live in Zurich,
+   Switzerland; user-uploaded files in Frankfurt, Germany. The Google Cloud region
+   identifiers are technical strings and are never translated. */
 window.CF_PRIVACY_T = {
 
   "en": {
     "legal": "Privacy",
     "title": "Privacy Policy",
     "updated": "Last updated: 28 July 2026 · Version: 2.5",
+    "summaryPre": "This is a summary. The full, current Privacy Policy is at ",
+    "summaryPost": ".",
     "patientTag": "Patient users",
     "doctorTag": "Doctor users",
     "intro": [
@@ -57,7 +62,7 @@ window.CF_PRIVACY_T = {
         { "p": "Verified doctors receive only the health information you choose to share for a given visit. We may also disclose data where the law requires it. We do not share your data with anyone else." }
       ]},
       { "t": "Where your data is stored, and international transfers", "b": [
-        { "p": "Your account and health data are stored on Google Cloud / Firebase servers located in the European Union (Frankfurt, Germany — region europe-west3). We deliberately chose an EU region so that health data stays within Europe under the GDPR and the Swiss revFADP. This location is permanent." },
+        { "p": "Your account and health data are stored on Google Cloud / Firebase servers in Zurich, Switzerland (region europe-west6). Files you upload are stored in Frankfurt, Germany (region europe-west3). We host in Europe on purpose: Switzerland is covered by a European Commission adequacy decision and applies the revFADP, one of the strictest data-protection laws anywhere, and the GDPR applies to how we handle your data regardless of where the servers sit. Both storage locations are permanent and cannot be changed." },
         { "p": "One thing never leaves your phone: the readings Health Sync takes from Apple Health or Health Connect (steps, sleep, activity minutes) are stored only on your device. They are not sent to Firebase, they do not reach our servers, and they are not transferred anywhere. If you delete the app, they go with it." },
         { "p": "A limited set of providers may process certain non-health data outside Switzerland or the EEA (for example, in the United States): RevenueCat (subscription status), Stripe (doctor verification and consultation payments), and Apple / Google (billing and app distribution). Where this happens, we rely on safeguards such as Standard Contractual Clauses (SCCs) or the EU–US / Swiss–US Data Privacy Framework." }
       ]},
@@ -108,6 +113,8 @@ window.CF_PRIVACY_T = {
     "legal": "Privacidad",
     "title": "Política de Privacidad",
     "updated": "Última actualización: 28 de julio de 2026 · Versión: 2.5",
+    "summaryPre": "Este es un resumen. La Política de Privacidad completa y vigente está en ",
+    "summaryPost": ".",
     "patientTag": "Usuarios pacientes",
     "doctorTag": "Usuarios médicos",
     "intro": [
@@ -155,7 +162,7 @@ window.CF_PRIVACY_T = {
         { "p": "Los médicos verificados reciben únicamente la información de salud que elijas compartir para una visita determinada. También podemos divulgar datos cuando la ley lo exija. No compartimos tus datos con nadie más." }
       ]},
       { "t": "Dónde se almacenan tus datos y transferencias internacionales", "b": [
-        { "p": "Tus datos de cuenta y de salud se almacenan en servidores de Google Cloud / Firebase ubicados en la Unión Europea (Fráncfort, Alemania — región europe-west3). Elegimos deliberadamente una región de la UE para que los datos de salud permanezcan dentro de Europa bajo el GDPR y la revFADP suiza. Esta ubicación es permanente." },
+        { "p": "Tus datos de cuenta y de salud se almacenan en servidores de Google Cloud / Firebase en Zúrich, Suiza (región europe-west6). Los ficheros que subes se almacenan en Fráncfort, Alemania (región europe-west3). Alojamos en Europa a propósito: Suiza está cubierta por una decisión de adecuación de la Comisión Europea y aplica la revFADP, una de las leyes de protección de datos más estrictas que existen, y el GDPR se aplica a cómo tratamos tus datos independientemente de dónde estén los servidores. Ambas ubicaciones de almacenamiento son permanentes y no se pueden cambiar." },
         { "p": "Hay algo que nunca sale de tu teléfono: las lecturas que Health Sync toma de Apple Health o Health Connect (pasos, sueño, minutos de actividad) se almacenan únicamente en tu dispositivo. No se envían a Firebase, no llegan a nuestros servidores y no se transfieren a ningún sitio. Si eliminas la aplicación, desaparecen con ella." },
         { "p": "Un conjunto limitado de proveedores puede tratar determinados datos que no son de salud fuera de Suiza o del EEE (por ejemplo, en Estados Unidos): RevenueCat (estado de la suscripción), Stripe (verificación de médicos y pagos de consultas) y Apple / Google (facturación y distribución de la app). Cuando esto ocurre, nos basamos en salvaguardas como las Cláusulas Contractuales Tipo (SCC) o el marco de privacidad de datos UE–EE. UU. / Suiza–EE. UU." }
       ]},
@@ -206,6 +213,8 @@ window.CF_PRIVACY_T = {
     "legal": "Privadesa",
     "title": "Política de privadesa",
     "updated": "Última actualització: 28 de juliol de 2026 · Versió: 2.5",
+    "summaryPre": "Aquest és un resum. La Política de Privacitat completa i vigent és a ",
+    "summaryPost": ".",
     "patientTag": "Usuaris pacients",
     "doctorTag": "Usuaris metges",
     "intro": [
@@ -253,7 +262,7 @@ window.CF_PRIVACY_T = {
         { "p": "Els metges verificats reben únicament la informació de salut que triïs compartir per a una visita determinada. També podem divulgar dades quan la llei ho exigeixi. No compartim les teves dades amb ningú més." }
       ]},
       { "t": "On s'emmagatzemen les teves dades i transferències internacionals", "b": [
-        { "p": "Les teves dades de compte i de salut s'emmagatzemen en servidors de Google Cloud / Firebase ubicats a la Unió Europea (Frankfurt, Alemanya — regió europe-west3). Vam triar deliberadament una regió de la UE perquè les dades de salut es mantinguin dins d'Europa sota el GDPR i la revFADP suïssa. Aquesta ubicació és permanent." },
+        { "p": "Les teves dades de compte i de salut s'emmagatzemen en servidors de Google Cloud / Firebase a Zuric, Suïssa (regió europe-west6). Els fitxers que puges s'emmagatzemen a Frankfurt, Alemanya (regió europe-west3). Allotgem a Europa a propòsit: Suïssa està coberta per una decisió d'adequació de la Comissió Europea i aplica la revFADP, una de les lleis de protecció de dades més estrictes que hi ha, i el GDPR s'aplica a la manera com tractem les teves dades independentment d'on estiguin els servidors. Totes dues ubicacions d'emmagatzematge són permanents i no es poden canviar." },
         { "p": "Hi ha una cosa que no surt mai del teu telèfon: les lectures que Health Sync pren d'Apple Health o de Health Connect (passos, son, minuts d'activitat) s'emmagatzemen només al teu dispositiu. No s'envien a Firebase, no arriben als nostres servidors i no es transfereixen enlloc. Si esborres l'aplicació, desapareixen amb ella." },
         { "p": "Un conjunt limitat de proveïdors pot tractar determinades dades que no són de salut fora de Suïssa o de l'EEE (per exemple, als Estats Units): RevenueCat (estat de la subscripció), Stripe (verificació de metges i pagaments de consultes) i Apple / Google (facturació i distribució de l'app). Quan això passa, ens basem en salvaguardes com les Clàusules Contractuals Tipus (SCC) o el marc de privadesa de dades UE–EUA / Suïssa–EUA." }
       ]},
@@ -304,6 +313,8 @@ window.CF_PRIVACY_T = {
     "legal": "Confidentialité",
     "title": "Politique de confidentialité",
     "updated": "Dernière mise à jour : 28 juillet 2026 · Version : 2.5",
+    "summaryPre": "Ceci est un résumé. La Politique de confidentialité complète et à jour se trouve sur ",
+    "summaryPost": ".",
     "patientTag": "Utilisateurs patients",
     "doctorTag": "Utilisateurs médecins",
     "intro": [
@@ -351,7 +362,7 @@ window.CF_PRIVACY_T = {
         { "p": "Les médecins vérifiés ne reçoivent que les informations de santé que vous choisissez de partager pour une consultation donnée. Nous pouvons également divulguer des données lorsque la loi l'exige. Nous ne partageons vos données avec personne d'autre." }
       ]},
       { "t": "Où vos données sont stockées, et transferts internationaux", "b": [
-        { "p": "Vos données de compte et de santé sont stockées sur des serveurs Google Cloud / Firebase situés dans l'Union européenne (Francfort, Allemagne — région europe-west3). Nous avons délibérément choisi une région de l'UE afin que les données de santé restent en Europe, sous le régime du GDPR et de la revFADP suisse. Cet emplacement est permanent." },
+        { "p": "Vos données de compte et de santé sont stockées sur des serveurs Google Cloud / Firebase à Zurich, en Suisse (région europe-west6). Les fichiers que vous téléversez sont stockés à Francfort, en Allemagne (région europe-west3). Nous hébergeons en Europe à dessein : la Suisse bénéficie d'une décision d'adéquation de la Commission européenne et applique la revFADP, l'une des lois de protection des données les plus strictes qui existent, et le GDPR s'applique à la manière dont nous traitons vos données, où que se trouvent les serveurs. Ces deux emplacements de stockage sont permanents et ne peuvent pas être modifiés." },
         { "p": "Une chose ne quitte jamais votre téléphone : les relevés que Health Sync prend dans Apple Health ou Health Connect (pas, sommeil, minutes d'activité) sont stockés uniquement sur votre appareil. Ils ne sont pas envoyés à Firebase, ils n'atteignent pas nos serveurs et ils ne sont transférés nulle part. Si vous supprimez l'application, ils disparaissent avec elle." },
         { "p": "Un ensemble limité de prestataires peut traiter certaines données non liées à la santé en dehors de la Suisse ou de l'EEE (par exemple, aux États-Unis) : RevenueCat (statut de l'abonnement), Stripe (vérification des médecins et paiements des consultations) et Apple / Google (facturation et distribution de l'application). Lorsque c'est le cas, nous nous appuyons sur des garanties telles que les Clauses Contractuelles Types (CCT) ou le cadre de protection des données UE–États-Unis / Suisse–États-Unis." }
       ]},
@@ -402,6 +413,8 @@ window.CF_PRIVACY_T = {
     "legal": "Datenschutz",
     "title": "Datenschutzerklärung",
     "updated": "Zuletzt aktualisiert: 28. Juli 2026 · Version: 2.5",
+    "summaryPre": "Dies ist eine Zusammenfassung. Die vollständige, aktuelle Datenschutzerklärung finden Sie unter ",
+    "summaryPost": ".",
     "patientTag": "Patienten",
     "doctorTag": "Ärzte",
     "intro": [
@@ -449,7 +462,7 @@ window.CF_PRIVACY_T = {
         { "p": "Verifizierte Ärzte erhalten nur die Gesundheitsinformationen, die Sie für einen bestimmten Besuch teilen möchten. Wir können Daten auch offenlegen, wenn das Gesetz dies verlangt. Wir geben Ihre Daten an niemanden sonst weiter." }
       ]},
       { "t": "Wo Ihre Daten gespeichert werden, und internationale Übermittlungen", "b": [
-        { "p": "Ihre Konto- und Gesundheitsdaten werden auf Servern von Google Cloud / Firebase gespeichert, die sich in der Europäischen Union befinden (Frankfurt, Deutschland – Region europe-west3). Wir haben bewusst eine EU-Region gewählt, damit Gesundheitsdaten gemäß der GDPR und der schweizerischen revFADP innerhalb Europas bleiben. Dieser Standort ist dauerhaft." },
+        { "p": "Ihre Konto- und Gesundheitsdaten werden auf Servern von Google Cloud / Firebase in Zürich, Schweiz (Region europe-west6) gespeichert. Von Ihnen hochgeladene Dateien werden in Frankfurt, Deutschland (Region europe-west3) gespeichert. Wir hosten bewusst in Europa: Für die Schweiz gilt ein Angemessenheitsbeschluss der Europäischen Kommission, und sie wendet die revFADP an, eines der strengsten Datenschutzgesetze überhaupt; die GDPR gilt für unseren Umgang mit Ihren Daten unabhängig davon, wo die Server stehen. Beide Speicherorte sind dauerhaft und können nicht geändert werden." },
         { "p": "Eines verlässt Ihr Telefon nie: Die Werte, die Health Sync aus Apple Health oder Health Connect übernimmt (Schritte, Schlaf, Aktivitätsminuten), werden ausschließlich auf Ihrem Gerät gespeichert. Sie werden nicht an Firebase gesendet, erreichen unsere Server nicht und werden nirgendwohin übertragen. Wenn Sie die App löschen, verschwinden sie mit ihr." },
         { "p": "Eine begrenzte Zahl von Anbietern verarbeitet möglicherweise bestimmte nicht gesundheitsbezogene Daten außerhalb der Schweiz oder des EWR (zum Beispiel in den Vereinigten Staaten): RevenueCat (Abonnementstatus), Stripe (Ärzteverifizierung und Zahlungen für Konsultationen) und Apple / Google (Abrechnung und App-Vertrieb). In diesem Fall stützen wir uns auf Schutzmaßnahmen wie Standardvertragsklauseln (SCCs) oder das EU–US / Schweiz–US Data Privacy Framework." }
       ]},
@@ -500,6 +513,8 @@ window.CF_PRIVACY_T = {
     "legal": "Privacy",
     "title": "Informativa sulla privacy",
     "updated": "Ultimo aggiornamento: 28 luglio 2026 · Versione: 2.5",
+    "summaryPre": "Questo è un riassunto. L'Informativa sulla privacy completa e aggiornata si trova su ",
+    "summaryPost": ".",
     "patientTag": "Utenti pazienti",
     "doctorTag": "Utenti medici",
     "intro": [
@@ -547,7 +562,7 @@ window.CF_PRIVACY_T = {
         { "p": "I medici verificati ricevono solo le informazioni sanitarie che scegli di condividere per una determinata visita. Possiamo inoltre divulgare i dati laddove la legge lo richieda. Non condividiamo i tuoi dati con nessun altro." }
       ]},
       { "t": "Dove sono conservati i tuoi dati e trasferimenti internazionali", "b": [
-        { "p": "I tuoi dati di account e sanitari sono conservati su server Google Cloud / Firebase situati nell'Unione Europea (Francoforte, Germania — regione europe-west3). Abbiamo scelto deliberatamente una regione dell'UE affinché i dati sanitari restino in Europa ai sensi del GDPR e della revFADP svizzera. Questa ubicazione è permanente." },
+        { "p": "I tuoi dati di account e sanitari sono conservati su server Google Cloud / Firebase a Zurigo, Svizzera (regione europe-west6). I file che carichi sono conservati a Francoforte, Germania (regione europe-west3). Ospitiamo in Europa di proposito: la Svizzera è coperta da una decisione di adeguatezza della Commissione europea e applica la revFADP, una delle leggi sulla protezione dei dati più severe che esistano, e il GDPR si applica al modo in cui trattiamo i tuoi dati indipendentemente da dove si trovino i server. Entrambe le ubicazioni di archiviazione sono permanenti e non possono essere modificate." },
         { "p": "Una cosa non lascia mai il tuo telefono: le letture che Health Sync prende da Apple Health o Health Connect (passi, sonno, minuti di attività) sono archiviate solo sul tuo dispositivo. Non vengono inviate a Firebase, non raggiungono i nostri server e non sono trasferite da nessuna parte. Se elimini l'app, se ne vanno con essa." },
         { "p": "Un insieme limitato di fornitori potrebbe trattare determinati dati non sanitari al di fuori della Svizzera o del SEE (ad esempio, negli Stati Uniti): RevenueCat (stato dell'abbonamento), Stripe (verifica dei medici e pagamenti dei consulti) e Apple / Google (fatturazione e distribuzione dell'app). Quando ciò accade, ci basiamo su garanzie come le Clausole Contrattuali Standard (SCC) o il quadro per la privacy dei dati UE–USA / Svizzera–USA." }
       ]},
@@ -598,6 +613,8 @@ window.CF_PRIVACY_T = {
     "legal": "Privacidade",
     "title": "Política de Privacidade",
     "updated": "Última atualização: 28 de julho de 2026 · Versão: 2.5",
+    "summaryPre": "Este é um resumo. A Política de Privacidade completa e atual está em ",
+    "summaryPost": ".",
     "patientTag": "Utilizadores pacientes",
     "doctorTag": "Utilizadores médicos",
     "intro": [
@@ -645,7 +662,7 @@ window.CF_PRIVACY_T = {
         { "p": "Os médicos verificados recebem apenas as informações de saúde que escolhes partilhar para uma determinada consulta. Também podemos divulgar dados quando a lei o exigir. Não partilhamos os teus dados com mais ninguém." }
       ]},
       { "t": "Onde os teus dados são armazenados e transferências internacionais", "b": [
-        { "p": "Os teus dados de conta e de saúde são armazenados em servidores da Google Cloud / Firebase localizados na União Europeia (Frankfurt, Alemanha — região europe-west3). Escolhemos deliberadamente uma região da UE para que os dados de saúde permaneçam na Europa ao abrigo do GDPR e da revFADP suíça. Esta localização é permanente." },
+        { "p": "Os teus dados de conta e de saúde são armazenados em servidores da Google Cloud / Firebase em Zurique, Suíça (região europe-west6). Os ficheiros que carregas são armazenados em Frankfurt, Alemanha (região europe-west3). Alojamos na Europa de propósito: a Suíça está coberta por uma decisão de adequação da Comissão Europeia e aplica a revFADP, uma das leis de proteção de dados mais rigorosas que existem, e o GDPR aplica-se à forma como tratamos os teus dados independentemente de onde estejam os servidores. Ambas as localizações de armazenamento são permanentes e não podem ser alteradas." },
         { "p": "Há uma coisa que nunca sai do seu telefone: as leituras que o Health Sync recolhe do Apple Health ou do Health Connect (passos, sono, minutos de atividade) são guardadas apenas no seu dispositivo. Não são enviadas para o Firebase, não chegam aos nossos servidores e não são transferidas para nenhum lugar. Se apagar a aplicação, desaparecem com ela." },
         { "p": "Um conjunto limitado de fornecedores pode tratar determinados dados que não são de saúde fora da Suíça ou do EEE (por exemplo, nos Estados Unidos): RevenueCat (estado da subscrição), Stripe (verificação de médicos e pagamentos de consultas) e Apple / Google (faturação e distribuição da app). Quando tal acontece, baseamo-nos em salvaguardas como as Cláusulas Contratuais-Tipo (CCT) ou o quadro de privacidade de dados UE–EUA / Suíça–EUA." }
       ]},
@@ -696,6 +713,8 @@ window.CF_PRIVACY_T = {
     "legal": "Конфиденциальность",
     "title": "Политика конфиденциальности",
     "updated": "Последнее обновление: 28 июля 2026 г. · Версия: 2.5",
+    "summaryPre": "Это краткое изложение. Полная действующая Политика конфиденциальности размещена на ",
+    "summaryPost": ".",
     "patientTag": "Пользователи-пациенты",
     "doctorTag": "Пользователи-врачи",
     "intro": [
@@ -743,7 +762,7 @@ window.CF_PRIVACY_T = {
         { "p": "Верифицированные врачи получают только ту медицинскую информацию, которой вы решите поделиться для конкретного приёма. Мы также можем раскрывать данные, когда этого требует закон. Мы не передаём ваши данные никому другому." }
       ]},
       { "t": "Где хранятся ваши данные и международная передача", "b": [
-        { "p": "Данные вашей учётной записи и данные о здоровье хранятся на серверах Google Cloud / Firebase, расположенных в Европейском союзе (Франкфурт, Германия — регион europe-west3). Мы намеренно выбрали регион ЕС, чтобы данные о здоровье оставались в пределах Европы в соответствии с GDPR и швейцарским revFADP. Это местоположение является постоянным." },
+        { "p": "Данные вашей учётной записи и данные о здоровье хранятся на серверах Google Cloud / Firebase в Цюрихе, Швейцария (регион europe-west6). Файлы, которые вы загружаете, хранятся во Франкфурте, Германия (регион europe-west3). Мы намеренно размещаем данные в Европе: в отношении Швейцарии действует решение Европейской комиссии об адекватности, и она применяет revFADP — один из самых строгих законов о защите данных в мире, — а GDPR применяется к тому, как мы обращаемся с вашими данными, независимо от того, где находятся серверы. Оба места хранения являются постоянными и не могут быть изменены." },
         { "p": "Одно никогда не покидает ваш телефон: показания, которые Health Sync берёт из Apple Health или Health Connect (шаги, сон, минуты активности), хранятся только на вашем устройстве. Они не отправляются в Firebase, не попадают на наши серверы и никуда не передаются. Если вы удалите приложение, они исчезнут вместе с ним." },
         { "p": "Ограниченный круг поставщиков может обрабатывать определённые данные, не относящиеся к здоровью, за пределами Швейцарии или ЕЭЗ (например, в Соединённых Штатах): RevenueCat (статус подписки), Stripe (верификация врачей и оплата консультаций) и Apple / Google (биллинг и распространение приложения). В таких случаях мы полагаемся на такие гарантии, как Стандартные договорные положения (SCC) или рамочную программу конфиденциальности данных ЕС–США / Швейцария–США." }
       ]},
@@ -794,6 +813,8 @@ window.CF_PRIVACY_T = {
     "legal": "الخصوصية",
     "title": "سياسة الخصوصية",
     "updated": "آخر تحديث: 28 يوليو 2026 · الإصدار: 2.5",
+    "summaryPre": "هذا ملخّص. سياسة الخصوصية الكاملة والسارية متاحة على ",
+    "summaryPost": ".",
     "patientTag": "المستخدمون المرضى",
     "doctorTag": "المستخدمون الأطباء",
     "intro": [
@@ -841,7 +862,7 @@ window.CF_PRIVACY_T = {
         { "p": "يتلقى الأطباء المُتحقَّق منهم فقط المعلومات الصحية التي تختار مشاركتها لزيارة معيّنة. وقد نكشف عن البيانات أيضًا حيثما يقتضي القانون ذلك. نحن لا نشارك بياناتك مع أي جهة أخرى." }
       ]},
       { "t": "أين تُخزَّن بياناتك وعمليات النقل الدولية", "b": [
-        { "p": "تُخزَّن بيانات حسابك وبياناتك الصحية على خوادم Google Cloud / Firebase الواقعة في الاتحاد الأوروبي (فرانكفورت، ألمانيا — منطقة europe-west3). لقد اخترنا عمدًا منطقة في الاتحاد الأوروبي حتى تبقى البيانات الصحية داخل أوروبا بموجب GDPR وrevFADP السويسري. هذا الموقع دائم." },
+        { "p": "تُخزَّن بيانات حسابك وبياناتك الصحية على خوادم Google Cloud / Firebase في زيورخ، سويسرا (منطقة europe-west6). أما الملفات التي ترفعها فتُخزَّن في فرانكفورت، ألمانيا (منطقة europe-west3). نحن نستضيف في أوروبا بشكل مقصود: سويسرا مشمولة بقرار كفاية صادر عن المفوضية الأوروبية وتطبّق revFADP، وهي من أكثر قوانين حماية البيانات صرامةً في العالم، ويسري GDPR على طريقة تعاملنا مع بياناتك بغضّ النظر عن مكان وجود الخوادم. كلا موقعَي التخزين دائمان ولا يمكن تغييرهما." },
         { "p": "هناك شيء لا يخرج من هاتفك أبدًا: القراءات التي يأخذها Health Sync من Apple Health أو Health Connect (الخطوات والنوم ودقائق النشاط) تُخزَّن على جهازك فقط. لا تُرسل إلى Firebase، ولا تصل إلى خدماتنا، ولا تُنقل إلى أي مكان. وإذا حذفت التطبيق، تختفي معه." },
         { "p": "قد يعالج عدد محدود من المزوّدين بيانات معيّنة غير صحية خارج سويسرا أو المنطقة الاقتصادية الأوروبية (على سبيل المثال، في الولايات المتحدة): RevenueCat (حالة الاشتراك)، وStripe (التحقق من الأطباء ومدفوعات الاستشارات)، وApple / Google (الفوترة وتوزيع التطبيق). وحين يحدث ذلك، نعتمد على ضمانات مثل الشروط التعاقدية القياسية (SCCs) أو إطار خصوصية البيانات بين الاتحاد الأوروبي والولايات المتحدة / بين سويسرا والولايات المتحدة." }
       ]},
@@ -892,6 +913,8 @@ window.CF_PRIVACY_T = {
     "legal": "गोपनीयता",
     "title": "गोपनीयता नीति",
     "updated": "अंतिम अद्यतन: 28 जुलाई 2026 · संस्करण: 2.5",
+    "summaryPre": "यह एक सारांश है। पूरी और वर्तमान गोपनीयता नीति ",
+    "summaryPost": " पर उपलब्ध है।",
     "patientTag": "मरीज़ उपयोगकर्ता",
     "doctorTag": "डॉक्टर उपयोगकर्ता",
     "intro": [
@@ -939,7 +962,7 @@ window.CF_PRIVACY_T = {
         { "p": "सत्यापित डॉक्टरों को केवल वही स्वास्थ्य जानकारी मिलती है जिसे आप किसी विशेष विज़िट के लिए साझा करना चुनते हैं। कानून की माँग पर हम डेटा का खुलासा भी कर सकते हैं। हम आपका डेटा किसी और के साथ साझा नहीं करते।" }
       ]},
       { "t": "आपका डेटा कहाँ संग्रहीत होता है, और अंतरराष्ट्रीय स्थानांतरण", "b": [
-        { "p": "आपके खाते और स्वास्थ्य का डेटा यूरोपीय संघ में स्थित Google Cloud / Firebase सर्वरों पर संग्रहीत किया जाता है (फ़्रैंकफ़र्ट, जर्मनी — क्षेत्र europe-west3)। हमने जानबूझकर एक EU क्षेत्र चुना है ताकि स्वास्थ्य डेटा GDPR और स्विस revFADP के तहत यूरोप के भीतर ही रहे। यह स्थान स्थायी है।" },
+        { "p": "आपके खाते और स्वास्थ्य का डेटा ज़्यूरिक, स्विट्ज़रलैंड (क्षेत्र europe-west6) में स्थित Google Cloud / Firebase सर्वरों पर संग्रहीत किया जाता है। आप जो फ़ाइलें अपलोड करते हैं, वे फ़्रैंकफ़र्ट, जर्मनी (क्षेत्र europe-west3) में संग्रहीत की जाती हैं। हम जानबूझकर यूरोप में होस्ट करते हैं: स्विट्ज़रलैंड यूरोपीय आयोग के पर्याप्तता निर्णय के दायरे में आता है और revFADP लागू करता है, जो दुनिया के सबसे कड़े डेटा-संरक्षण कानूनों में से एक है, और GDPR इस पर लागू होता है कि हम आपके डेटा को कैसे संभालते हैं, चाहे सर्वर कहीं भी हों। दोनों संग्रहण स्थान स्थायी हैं और इन्हें बदला नहीं जा सकता।" },
         { "p": "एक चीज़ आपके फ़ोन से कभी बाहर नहीं जाती: Health Sync जो रीडिंग Apple Health या Health Connect से लेता है (कदम, नींद, गतिविधि के मिनट), वे केवल आपके डिवाइस पर संग्रहीत होती हैं। वे Firebase पर नहीं भेजी जातीं, हमारे सर्वर तक नहीं पहुँचतीं और कहीं स्थानांतरित नहीं की जातीं। यदि आप ऐप हटा देते हैं, तो वे भी उसके साथ चली जाती हैं।" },
         { "p": "प्रदाताओं का एक सीमित समूह कुछ गैर-स्वास्थ्य डेटा को स्विट्ज़रलैंड या EEA के बाहर (उदाहरण के लिए, संयुक्त राज्य अमेरिका में) संसाधित कर सकता है: RevenueCat (सदस्यता की स्थिति), Stripe (डॉक्टर सत्यापन और परामर्श भुगतान), और Apple / Google (बिलिंग और ऐप वितरण)। जहाँ ऐसा होता है, हम Standard Contractual Clauses (SCCs) या EU–US / Swiss–US Data Privacy Framework जैसी सुरक्षा-व्यवस्थाओं पर भरोसा करते हैं।" }
       ]},
@@ -990,6 +1013,8 @@ window.CF_PRIVACY_T = {
     "legal": "Privasi",
     "title": "Kebijakan Privasi",
     "updated": "Terakhir diperbarui: 28 Juli 2026 · Versi: 2.5",
+    "summaryPre": "Ini adalah ringkasan. Kebijakan Privasi yang lengkap dan terkini tersedia di ",
+    "summaryPost": ".",
     "patientTag": "Pengguna pasien",
     "doctorTag": "Pengguna dokter",
     "intro": [
@@ -1037,7 +1062,7 @@ window.CF_PRIVACY_T = {
         { "p": "Dokter terverifikasi hanya menerima informasi kesehatan yang Anda pilih untuk dibagikan pada kunjungan tertentu. Kami juga dapat mengungkapkan data jika undang-undang mengharuskannya. Kami tidak membagikan data Anda kepada siapa pun." }
       ]},
       { "t": "Di mana data Anda disimpan, dan transfer internasional", "b": [
-        { "p": "Data akun dan kesehatan Anda disimpan di server Google Cloud / Firebase yang berlokasi di Uni Eropa (Frankfurt, Jerman — region europe-west3). Kami sengaja memilih region UE agar data kesehatan tetap berada di dalam Eropa berdasarkan GDPR dan revFADP Swiss. Lokasi ini bersifat permanen." },
+        { "p": "Data akun dan kesehatan Anda disimpan di server Google Cloud / Firebase di Zurich, Swiss (region europe-west6). Berkas yang Anda unggah disimpan di Frankfurt, Jerman (region europe-west3). Kami sengaja melakukan hosting di Eropa: Swiss tercakup dalam keputusan kecukupan Komisi Eropa dan menerapkan revFADP, salah satu undang-undang perlindungan data terketat yang ada, dan GDPR berlaku untuk cara kami menangani data Anda terlepas dari di mana servernya berada. Kedua lokasi penyimpanan ini bersifat permanen dan tidak dapat diubah." },
         { "p": "Ada satu hal yang tidak pernah meninggalkan ponsel Anda: bacaan yang diambil Health Sync dari Apple Health atau Health Connect (langkah, tidur, menit aktivitas) hanya disimpan di perangkat Anda. Bacaan itu tidak dikirim ke Firebase, tidak sampai ke server kami, dan tidak ditransfer ke mana pun. Jika Anda menghapus aplikasi, bacaan itu ikut terhapus." },
         { "p": "Sekelompok terbatas penyedia mungkin memproses data tertentu yang bukan data kesehatan di luar Swiss atau EEA (misalnya, di Amerika Serikat): RevenueCat (status langganan), Stripe (verifikasi dokter dan pembayaran konsultasi), dan Apple / Google (penagihan dan distribusi aplikasi). Jika hal ini terjadi, kami mengandalkan pengamanan seperti Standard Contractual Clauses (SCCs) atau EU–US / Swiss–US Data Privacy Framework." }
       ]},
@@ -1088,6 +1113,8 @@ window.CF_PRIVACY_T = {
     "legal": "プライバシー",
     "title": "プライバシーポリシー",
     "updated": "最終更新日: 2026年7月28日 · バージョン: 2.5",
+    "summaryPre": "これは要約です。完全で最新のプライバシーポリシーは ",
+    "summaryPost": " にあります。",
     "patientTag": "患者ユーザー",
     "doctorTag": "医師ユーザー",
     "intro": [
@@ -1135,7 +1162,7 @@ window.CF_PRIVACY_T = {
         { "p": "確認済みの医師は、特定の受診のためにあなたが共有することを選んだ健康情報のみを受け取ります。また、法律で義務付けられている場合にはデータを開示することがあります。それ以外の第三者とあなたのデータを共有することはありません。" }
       ]},
       { "t": "データの保存場所と国際的な移転", "b": [
-        { "p": "あなたのアカウントデータと健康データは、欧州連合内(ドイツ・フランクフルト — リージョン europe-west3)にある Google Cloud / Firebase のサーバーに保存されます。私たちは、健康データが GDPR およびスイスの revFADP のもとで欧州域内にとどまるよう、意図的に EU リージョンを選択しました。この所在地は恒久的なものです。" },
+        { "p": "あなたのアカウントデータと健康データは、スイス・チューリッヒ(リージョン europe-west6)にある Google Cloud / Firebase のサーバーに保存されます。あなたがアップロードしたファイルは、ドイツ・フランクフルト(リージョン europe-west3)に保存されます。私たちは意図して欧州でホスティングしています。スイスは欧州委員会の十分性認定の対象であり、世界でもっとも厳格なデータ保護法の一つである revFADP を適用しています。また GDPR は、サーバーの所在地にかかわらず、私たちがあなたのデータをどのように取り扱うかに適用されます。どちらの保存場所も恒久的で、変更することはできません。" },
         { "p": "端末から出ないものが一つあります。Health Sync が Apple Health または Health Connect から取り込む値（歩数、睡眠、アクティビティの分数）は、端末内にのみ保存されます。Firebase に送信されることはなく、当社のサーバーに届くこともなく、どこにも移転されません。アプリを削除すれば、これらの値も一緒に消えます。" },
         { "p": "限られた一部のプロバイダーは、スイスまたは EEA 域外(例:米国)で、健康以外の特定のデータを処理する場合があります。RevenueCat(サブスクリプションの状態)、Stripe(医師の確認と相談料の支払い)、Apple / Google(課金とアプリの配信)です。その場合、当社は標準契約条項(SCC)や EU–US／Swiss–US Data Privacy Framework などの保護措置に依拠します。" }
       ]},
@@ -1186,6 +1213,8 @@ window.CF_PRIVACY_T = {
     "legal": "개인정보",
     "title": "개인정보처리방침",
     "updated": "최종 업데이트: 2026년 7월 28일 · 버전: 2.5",
+    "summaryPre": "이것은 요약입니다. 전체 최신 개인정보 처리방침은 ",
+    "summaryPost": " 에서 확인할 수 있습니다.",
     "patientTag": "환자 사용자",
     "doctorTag": "의사 사용자",
     "intro": [
@@ -1233,7 +1262,7 @@ window.CF_PRIVACY_T = {
         { "p": "인증된 의사는 특정 진료를 위해 여러분이 공유하기로 선택한 건강 정보만 받습니다. 또한 법률이 요구하는 경우 데이터를 공개할 수 있습니다. 저희는 다른 누구와도 여러분의 데이터를 공유하지 않습니다." }
       ]},
       { "t": "데이터 저장 위치 및 국제 이전", "b": [
-        { "p": "여러분의 계정 및 건강 데이터는 유럽 연합 내(독일 프랑크푸르트 — europe-west3 리전)에 위치한 Google Cloud / Firebase 서버에 저장됩니다. 저희는 건강 데이터가 GDPR 및 스위스 revFADP에 따라 유럽 내에 유지되도록 의도적으로 EU 리전을 선택했습니다. 이 위치는 영구적입니다." },
+        { "p": "여러분의 계정 및 건강 데이터는 스위스 취리히(europe-west6 리전)에 위치한 Google Cloud / Firebase 서버에 저장됩니다. 여러분이 업로드한 파일은 독일 프랑크푸르트(europe-west3 리전)에 저장됩니다. 저희는 의도적으로 유럽에서 호스팅합니다. 스위스는 유럽 위원회의 적정성 결정 대상이며, 세계에서 가장 엄격한 데이터 보호법 중 하나인 revFADP를 적용합니다. 또한 GDPR은 서버가 어디에 있든 저희가 여러분의 데이터를 처리하는 방식에 적용됩니다. 두 저장 위치는 모두 영구적이며 변경할 수 없습니다." },
         { "p": "휴대전화를 절대 벗어나지 않는 것이 하나 있습니다. Health Sync가 Apple Health 또는 Health Connect에서 가져오는 값(걸음 수, 수면, 활동 시간)은 기기에만 저장됩니다. Firebase로 전송되지 않고, 저희 서버에 도달하지 않으며, 어디로도 이전되지 않습니다. 앱을 삭제하면 이 값들도 함께 사라집니다." },
         { "p": "제한된 일부 제공업체는 스위스 또는 EEA 밖(예: 미국)에서 건강 정보가 아닌 특정 데이터를 처리할 수 있습니다. RevenueCat(구독 상태), Stripe(의사 인증 및 상담 결제), Apple / Google(청구 및 앱 배포)입니다. 그러한 경우, 저희는 표준계약조항(SCC)이나 EU–US / Swiss–US Data Privacy Framework와 같은 보호 장치에 의존합니다." }
       ]},
@@ -1284,6 +1313,8 @@ window.CF_PRIVACY_T = {
     "legal": "Gizlilik",
     "title": "Gizlilik Politikası",
     "updated": "Son güncelleme: 28 Temmuz 2026 · Sürüm: 2.5",
+    "summaryPre": "Bu bir özettir. Tam ve güncel Gizlilik Politikası ",
+    "summaryPost": " adresindedir.",
     "patientTag": "Hasta kullanıcılar",
     "doctorTag": "Doktor kullanıcılar",
     "intro": [
@@ -1331,7 +1362,7 @@ window.CF_PRIVACY_T = {
         { "p": "Doğrulanmış doktorlar yalnızca belirli bir ziyaret için paylaşmayı seçtiğiniz sağlık bilgilerini alır. Ayrıca yasanın gerektirdiği durumlarda verileri açıklayabiliriz. Verilerinizi başka hiç kimseyle paylaşmayız." }
       ]},
       { "t": "Verilerinizin nerede saklandığı ve uluslararası aktarımlar", "b": [
-        { "p": "Hesap ve sağlık verileriniz, Avrupa Birliği'nde bulunan (Frankfurt, Almanya — europe-west3 bölgesi) Google Cloud / Firebase sunucularında saklanır. Sağlık verilerinin GDPR ve İsviçre revFADP kapsamında Avrupa içinde kalması için bilinçli olarak bir AB bölgesi seçtik. Bu konum kalıcıdır." },
+        { "p": "Hesap ve sağlık verileriniz, Zürih, İsviçre'de (europe-west6 bölgesi) bulunan Google Cloud / Firebase sunucularında saklanır. Yüklediğiniz dosyalar Frankfurt, Almanya'da (europe-west3 bölgesi) saklanır. Avrupa'da barındırmamız bilinçli bir tercihtir: İsviçre, Avrupa Komisyonu'nun yeterlilik kararı kapsamındadır ve dünyanın en katı veri koruma yasalarından biri olan revFADP'yi uygular; GDPR ise sunucuların nerede olduğuna bakılmaksızın verilerinizi nasıl işlediğimize uygulanır. Her iki saklama konumu da kalıcıdır ve değiştirilemez." },
         { "p": "Telefonunuzdan hiç çıkmayan bir şey var: Health Sync'in Apple Health veya Health Connect'ten aldığı ölçümler (adım, uyku, etkinlik dakikası) yalnızca cihazınızda saklanır. Firebase'e gönderilmez, sunucularımıza ulaşmaz ve hiçbir yere aktarılmaz. Uygulamayı silerseniz onlar da silinir." },
         { "p": "Sınırlı sayıda sağlayıcı, sağlıkla ilgili olmayan belirli verileri İsviçre veya AEA dışında (örneğin, Amerika Birleşik Devletleri'nde) işleyebilir: RevenueCat (abonelik durumu), Stripe (doktor doğrulama ve danışmanlık ödemeleri) ve Apple / Google (faturalandırma ve uygulama dağıtımı). Bu durumda, Standart Sözleşme Maddeleri (SCC'ler) veya AB–ABD / İsviçre–ABD Veri Gizliliği Çerçevesi gibi güvencelere dayanırız." }
       ]},
@@ -1382,6 +1413,8 @@ window.CF_PRIVACY_T = {
     "legal": "Quyền riêng tư",
     "title": "Chính sách quyền riêng tư",
     "updated": "Cập nhật lần cuối: ngày 28 tháng 7 năm 2026 · Phiên bản: 2.5",
+    "summaryPre": "Đây là bản tóm tắt. Chính sách Bảo mật đầy đủ và hiện hành có tại ",
+    "summaryPost": ".",
     "patientTag": "Người dùng là bệnh nhân",
     "doctorTag": "Người dùng là bác sĩ",
     "intro": [
@@ -1429,7 +1462,7 @@ window.CF_PRIVACY_T = {
         { "p": "Các bác sĩ đã được xác minh chỉ nhận thông tin sức khỏe mà bạn chọn chia sẻ cho một lần khám cụ thể. Chúng tôi cũng có thể tiết lộ dữ liệu khi pháp luật yêu cầu. Chúng tôi không chia sẻ dữ liệu của bạn với bất kỳ ai khác." }
       ]},
       { "t": "Nơi lưu trữ dữ liệu của bạn và việc chuyển dữ liệu quốc tế", "b": [
-        { "p": "Dữ liệu tài khoản và sức khỏe của bạn được lưu trữ trên các máy chủ Google Cloud / Firebase đặt tại Liên minh Châu Âu (Frankfurt, Đức — khu vực europe-west3). Chúng tôi cố ý chọn một khu vực EU để dữ liệu sức khỏe luôn nằm trong phạm vi Châu Âu theo GDPR và revFADP của Thụy Sĩ. Vị trí này là cố định." },
+        { "p": "Dữ liệu tài khoản và sức khỏe của bạn được lưu trữ trên các máy chủ Google Cloud / Firebase tại Zurich, Thụy Sĩ (khu vực europe-west6). Các tệp bạn tải lên được lưu trữ tại Frankfurt, Đức (khu vực europe-west3). Chúng tôi cố ý đặt máy chủ ở Châu Âu: Thụy Sĩ thuộc phạm vi một quyết định về mức độ bảo vệ tương xứng của Ủy ban Châu Âu và áp dụng revFADP, một trong những luật bảo vệ dữ liệu nghiêm ngặt nhất hiện có, còn GDPR áp dụng cho cách chúng tôi xử lý dữ liệu của bạn bất kể máy chủ đặt ở đâu. Cả hai vị trí lưu trữ đều là cố định và không thể thay đổi." },
         { "p": "Có một thứ không bao giờ rời khỏi điện thoại bạn: các số đo mà Health Sync lấy từ Apple Health hoặc Health Connect (bước chân, giấc ngủ, số phút hoạt động) chỉ được lưu trên thiết bị của bạn. Chúng không được gửi tới Firebase, không đến máy chủ của chúng tôi và không được chuyển đi bất cứ đâu. Nếu bạn xóa ứng dụng, chúng cũng mất theo." },
         { "p": "Một số nhà cung cấp giới hạn có thể xử lý một số dữ liệu không liên quan đến sức khỏe bên ngoài Thụy Sĩ hoặc EEA (ví dụ, tại Hoa Kỳ): RevenueCat (trạng thái đăng ký), Stripe (xác minh bác sĩ và thanh toán tư vấn) và Apple / Google (lập hóa đơn và phân phối ứng dụng). Khi điều này xảy ra, chúng tôi dựa vào các biện pháp bảo vệ như Điều khoản Hợp đồng Tiêu chuẩn (SCC) hoặc Khung Bảo mật Dữ liệu EU–US / Thụy Sĩ–US." }
       ]},
@@ -1480,6 +1513,8 @@ window.CF_PRIVACY_T = {
     "legal": "隐私",
     "title": "隐私政策",
     "updated": "最后更新：2026年7月28日 · 版本：2.5",
+    "summaryPre": "这是摘要。完整的最新隐私政策见 ",
+    "summaryPost": "。",
     "patientTag": "患者用户",
     "doctorTag": "医生用户",
     "intro": [
@@ -1527,7 +1562,7 @@ window.CF_PRIVACY_T = {
         { "p": "经验证的医生仅接收你选择为某次就诊分享的健康信息。在法律要求的情况下，我们也可能披露数据。我们不会与任何其他人共享你的数据。" }
       ]},
       { "t": "你的数据存储在何处，以及国际传输", "b": [
-        { "p": "你的账户数据和健康数据存储在位于欧盟(德国法兰克福——europe-west3 区域)的 Google Cloud / Firebase 服务器上。我们特意选择了欧盟区域，以便健康数据依据 GDPR 和瑞士 revFADP 留在欧洲境内。此存储位置是永久性的。" },
+        { "p": "你的账户数据和健康数据存储在位于瑞士苏黎世（europe-west6 区域）的 Google Cloud / Firebase 服务器上。你上传的文件存储在德国法兰克福（europe-west3 区域）。我们特意在欧洲托管：瑞士受欧盟委员会充分性决定的覆盖，并适用 revFADP——全球最严格的数据保护法之一；而无论服务器位于何处，GDPR 都适用于我们处理你数据的方式。两个存储位置都是永久性的，无法更改。" },
         { "p": "有一样东西永远不会离开你的手机：Health Sync 从 Apple Health 或 Health Connect 取得的读数（步数、睡眠、活动分钟数）只保存在你的设备上。它们不会发送到 Firebase，不会到达我们的服务器，也不会传输到任何地方。如果你删除应用，它们也随之消失。" },
         { "p": "少数提供商可能在瑞士或欧洲经济区(EEA)以外(例如在美国)处理某些非健康数据：RevenueCat(订阅状态)、Stripe(医生验证和咨询付款)以及 Apple / Google(计费和应用分发)。在这种情况下，我们依赖诸如标准合同条款(SCCs)或欧盟–美国 / 瑞士–美国数据隐私框架等保障措施。" }
       ]},
