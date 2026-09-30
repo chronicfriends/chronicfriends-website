@@ -183,8 +183,8 @@ device and does not provide medical advice, diagnosis or treatment.</p>
       [data-r="root"] h2 { font-size: 24px !important; }
     }
   </style>
-  <script src="cf-terms-i18n.js?v=202609180553"></script>
-  <script src="cf-privacy-i18n.js?v=202609180553"></script>
+  <script src="cf-terms-i18n.js?v=202609300702"></script>
+  <script src="cf-privacy-i18n.js?v=202609300702"></script>
 </helmet>
 
 <div dir="{{ dir }}" lang="{{ langCode }}" data-r="root" style="font-family: 'Poppins', system-ui, sans-serif; color: #21302a; background: #f3f7ee; min-height: 100vh; overflow-x: hidden;">
@@ -3906,9 +3906,12 @@ class Component extends DCLogic {
       if (b.email) kids.push(h('a', { href: 'mailto:' + b.email, style: { color: '#2c6230', fontWeight: 700, textDecoration: 'none' } }, b.email));
       return h('p', { key: key(), style: pStyle }, kids);
     };
+    const rich = (s) => typeof s === 'string' && s.indexOf('<b>') !== -1
+      ? s.split(/<b>(.*?)<\/b>/).map((seg, j) => j % 2 ? h('strong', { key: key(), style: { color: '#21302a' } }, seg) : seg)
+      : (s || '');
     const renderLi = (it) => typeof it === 'string'
-      ? h('li', { key: key(), style: liStyle }, it)
-      : h('li', { key: key(), style: liStyle }, strong(it.b), it.t || '');
+      ? h('li', { key: key(), style: liStyle }, rich(it))
+      : h('li', { key: key(), style: liStyle }, strong(it.b), rich(it.t));
     const renderBlock = (b) => {
       if (b.note) return h('div', { key: key(), style: { background: 'rgba(224,162,58,.09)', borderLeft: '4px solid #d49a34', borderRadius: '0 12px 12px 0', padding: '14px 18px', margin: '0 0 14px' } },
         h('p', { style: { margin: 0, fontSize: '14.5px', lineHeight: 1.6, fontWeight: 700, color: '#8a5e15', textWrap: 'pretty' } }, b.note));

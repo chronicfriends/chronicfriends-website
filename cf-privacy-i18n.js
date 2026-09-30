@@ -1,7 +1,12 @@
-/* Chronic Friends — Privacy Policy (v3.2, 3 September 2026), translated for all 16 supported languages.
+/* Chronic Friends — Privacy Policy (v3.3, 30 September 2026), translated for all 16 supported languages.
    Consumed by "Chronic Friends Landing.dc.html" (renderLegal). Shared by patient
    and doctor sections — the modal reads the page's currently selected language.
-   Rebuilt 8 Sep 2026 from the canonical published EN text (v3.2): adds Brevo
+   Updated 30 Sep 2026 to v3.3, in parity with CF Control (legal_data.py) and the
+   app (export 1.0.8b): the Brevo (Sendinblue) recipient now also covers the
+   educational emails, and "Translation of community posts" (Apple Translation /
+   Google ML Kit) is a new recipient right after Open Food Facts. Nothing else in
+   the policy changed. Inside a "t" string, <b>…</b> is rendered bold.
+   Rebuilt 8 Sep 2026 from the canonical published EN text: adds Brevo
    (Sendinblue) as a recipient, age + bio in account data and years-with-condition
    in health data, the member directory as it really works, the separate "Show my
    details on my profile" switch, the steps tournament, the web version at
@@ -17,7 +22,7 @@ window.CF_PRIVACY_T = {
   "en": {
     "legal": "Privacy",
     "title": "Privacy Policy",
-    "updated": "Last updated: 3 September 2026 · Version: 3.2",
+    "updated": "Last updated: 30 September 2026 · Version: 3.3",
     "summaryPre": "This is a summary. The full, current Privacy Policy is at ",
     "summaryPost": ".",
     "patientTag": "Patient users",
@@ -60,11 +65,12 @@ window.CF_PRIVACY_T = {
       { "t": "Who we share with", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — authentication, database, storage, and push notifications." },
-          { "b": "Brevo (Sendinblue)", "t": " — sending the verification email when you create your account, and any other service message about your account. Brevo receives your email address and the language you use the app in, so that the message reaches you written in your own language. Nothing about your health is sent with it." },
+          { "b": "Brevo (Sendinblue)", "t": " — sending the verification email when you create your account, any other service message about your account and, unless you switch them off, short educational emails about how to use the app (a welcome, gentle reminders and one email per feature). Brevo receives your <b>email address</b> and the <b>language</b> you use the app in, so that every message reaches you written in your own language. Nothing about your health is ever sent with them. You can stop the educational emails at any time in Settings › «Emails about the app» or with the link at the bottom of every email; the verification and account messages still arrive." },
           { "b": "RevenueCat", "t": " — subscription management." },
           { "b": "Stripe", "t": " — doctor verification and consultation payments." },
           { "b": "Daily.co", "t": " — video consultations." },
           { "b": "Open Food Facts", "t": " — when you scan a food barcode, your device looks it up directly in the Open Food Facts database, so your device's IP address and the scanned barcode reach their servers. No account or health data is sent with the lookup." },
+          { "b": "Translation of community posts", "t": " — when you tap «Translate» under a post, the translation is made on your phone (Apple Translation on iPhone, Google ML Kit on Android), so the text of the post never leaves your device for that. The first time you choose a language, your phone downloads it from Apple or Google. On Android, Google ML Kit sends Google technical data about your device and the app (device model and system version, app version, per-installation identifiers, performance metrics and the languages you chose) — never the content of what is translated." },
           { "b": "Apple / Google", "t": " — app distribution and billing." },
           { "b": "GitHub (Microsoft)", "t": " — hosting of our websites and of the web version at chronicfriends.app. GitHub serves the page files to your browser, so it sees your IP address and basic request information. No account or health data is sent to GitHub: your data travels between your browser and Firebase, not through the hosting." }
         ]},
@@ -127,7 +133,7 @@ window.CF_PRIVACY_T = {
   "es": {
     "legal": "Privacidad",
     "title": "Política de Privacidad",
-    "updated": "Última actualización: 3 de septiembre de 2026 · Versión: 3.2",
+    "updated": "Última actualización: 30 de septiembre de 2026 · Versión: 3.3",
     "summaryPre": "Este es un resumen. La Política de Privacidad completa y vigente está en ",
     "summaryPost": ".",
     "patientTag": "Usuarios pacientes",
@@ -170,11 +176,12 @@ window.CF_PRIVACY_T = {
       { "t": "Con quién compartimos", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — autenticación, base de datos, almacenamiento y notificaciones push." },
-          { "b": "Brevo (Sendinblue)", "t": " — el envío del correo de verificación cuando creas tu cuenta, y cualquier otro mensaje de servicio sobre tu cuenta. Brevo recibe tu dirección de correo y el idioma en el que usas la aplicación, para que el mensaje te llegue escrito en tu propio idioma. No se envía nada sobre tu salud con él." },
+          { "b": "Brevo (Sendinblue)", "t": " — el envío del correo de verificación cuando creas tu cuenta, de cualquier otro mensaje de servicio sobre tu cuenta y, salvo que los desactives, de breves correos educativos sobre cómo usar la aplicación (una bienvenida, recordatorios amables y un correo por función). Brevo recibe tu <b>dirección de correo</b> y el <b>idioma</b> en el que usas la aplicación, para que cada mensaje te llegue escrito en tu propio idioma. Con ellos nunca se envía nada sobre tu salud. Puedes dejar de recibir los correos educativos en cualquier momento en Ajustes › «Correos sobre la aplicación» o con el enlace que hay al pie de cada correo; los mensajes de verificación y de cuenta siguen llegando." },
           { "b": "RevenueCat", "t": " — gestión de suscripciones." },
           { "b": "Stripe", "t": " — verificación de médicos y pagos de consultas." },
           { "b": "Daily.co", "t": " — videoconsultas." },
           { "b": "Open Food Facts", "t": " — cuando escaneas el código de barras de un alimento, tu dispositivo lo consulta directamente en la base de datos de Open Food Facts, así que la dirección IP de tu dispositivo y el código escaneado llegan a sus servidores. Con la consulta no se envía ningún dato de cuenta ni de salud." },
+          { "b": "Traducción de las publicaciones de la comunidad", "t": " — cuando tocas «Traducir» debajo de una publicación, la traducción se hace en tu teléfono (Apple Translation en iPhone, Google ML Kit en Android), así que para eso el texto de la publicación nunca sale de tu dispositivo. La primera vez que eliges un idioma, tu teléfono lo descarga de Apple o de Google. En Android, Google ML Kit envía a Google datos técnicos sobre tu dispositivo y la aplicación (modelo del dispositivo y versión del sistema, versión de la aplicación, identificadores por instalación, métricas de rendimiento y los idiomas que elegiste) — nunca el contenido de lo que se traduce." },
           { "b": "Apple / Google", "t": " — distribución de la aplicación y facturación." },
           { "b": "GitHub (Microsoft)", "t": " — alojamiento de nuestras webs y de la versión web en chronicfriends.app. GitHub sirve los archivos de la página a tu navegador, así que ve tu dirección IP y la información básica de la petición. A GitHub no se envía ningún dato de cuenta ni de salud: tus datos viajan entre tu navegador y Firebase, no a través del alojamiento." }
         ]},
@@ -237,7 +244,7 @@ window.CF_PRIVACY_T = {
   "ca": {
     "legal": "Privadesa",
     "title": "Política de privadesa",
-    "updated": "Última actualització: 3 de setembre de 2026 · Versió: 3.2",
+    "updated": "Última actualització: 30 de setembre de 2026 · Versió: 3.3",
     "summaryPre": "Aquest és un resum. La Política de privadesa completa i vigent és a ",
     "summaryPost": ".",
     "patientTag": "Usuaris pacients",
@@ -280,11 +287,12 @@ window.CF_PRIVACY_T = {
       { "t": "Amb qui compartim", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — autenticació, base de dades, emmagatzematge i notificacions push." },
-          { "b": "Brevo (Sendinblue)", "t": " — l'enviament del correu de verificació quan crees el teu compte, i qualsevol altre missatge de servei sobre el teu compte. Brevo rep la teva adreça de correu i l'idioma en què fas servir l'aplicació, perquè el missatge t'arribi escrit en el teu propi idioma. No s'envia res sobre la teva salut amb ell." },
+          { "b": "Brevo (Sendinblue)", "t": " — l'enviament del correu de verificació quan crees el teu compte, de qualsevol altre missatge de servei sobre el teu compte i, tret que els desactivis, de correus educatius breus sobre com fer servir l'aplicació (una benvinguda, recordatoris amables i un correu per funció). Brevo rep la teva <b>adreça de correu</b> i l'<b>idioma</b> en què fas servir l'aplicació, perquè cada missatge t'arribi escrit en el teu propi idioma. Amb ells no s'envia mai res sobre la teva salut. Pots deixar de rebre els correus educatius en qualsevol moment a Configuració › «Correus sobre l'aplicació» o amb l'enllaç que hi ha al peu de cada correu; els missatges de verificació i de compte continuen arribant." },
           { "b": "RevenueCat", "t": " — gestió de subscripcions." },
           { "b": "Stripe", "t": " — verificació de metges i pagaments de consultes." },
           { "b": "Daily.co", "t": " — videoconsultes." },
           { "b": "Open Food Facts", "t": " — quan escaneges el codi de barres d'un aliment, el teu dispositiu el consulta directament a la base de dades d'Open Food Facts, així que l'adreça IP del teu dispositiu i el codi escanejat arriben als seus servidors. Amb la consulta no s'envia cap dada de compte ni de salut." },
+          { "b": "Traducció de les publicacions de la comunitat", "t": " — quan toques «Tradueix» sota una publicació, la traducció es fa al teu telèfon (Apple Translation a l'iPhone, Google ML Kit a Android), així que per a això el text de la publicació no surt mai del teu dispositiu. La primera vegada que tries un idioma, el teu telèfon el baixa d'Apple o de Google. A Android, Google ML Kit envia a Google dades tècniques sobre el teu dispositiu i l'aplicació (model del dispositiu i versió del sistema, versió de l'aplicació, identificadors per instal·lació, mètriques de rendiment i els idiomes que has triat) — mai el contingut del que es tradueix." },
           { "b": "Apple / Google", "t": " — distribució de l'aplicació i facturació." },
           { "b": "GitHub (Microsoft)", "t": " — allotjament de les nostres webs i de la versió web a chronicfriends.app. GitHub serveix els fitxers de la pàgina al teu navegador, així que veu la teva adreça IP i la informació bàsica de la petició. A GitHub no s'envia cap dada de compte ni de salut: les teves dades viatgen entre el teu navegador i Firebase, no a través de l'allotjament." }
         ]},
@@ -347,7 +355,7 @@ window.CF_PRIVACY_T = {
   "fr": {
     "legal": "Confidentialité",
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 3 septembre 2026 · Version : 3.2",
+    "updated": "Dernière mise à jour : 30 septembre 2026 · Version : 3.3",
     "summaryPre": "Ceci est un résumé. La Politique de confidentialité complète et en vigueur est sur ",
     "summaryPost": ".",
     "patientTag": "Utilisateurs patients",
@@ -390,11 +398,12 @@ window.CF_PRIVACY_T = {
       { "t": "Avec qui nous partageons", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — authentification, base de données, stockage et notifications push." },
-          { "b": "Brevo (Sendinblue)", "t": " — l'envoi de l'e-mail de vérification lorsque vous créez votre compte, et tout autre message de service concernant votre compte. Brevo reçoit votre adresse e-mail et la langue dans laquelle vous utilisez l'application, afin que le message vous parvienne rédigé dans votre propre langue. Rien concernant votre santé n'est envoyé avec." },
+          { "b": "Brevo (Sendinblue)", "t": " — l'envoi de l'e-mail de vérification lorsque vous créez votre compte, de tout autre message de service concernant votre compte et, sauf si vous les désactivez, de courts e-mails pédagogiques sur la façon d'utiliser l'application (un message de bienvenue, des rappels bienveillants et un e-mail par fonctionnalité). Brevo reçoit votre <b>adresse e-mail</b> et la <b>langue</b> dans laquelle vous utilisez l'application, afin que chaque message vous parvienne rédigé dans votre propre langue. Rien concernant votre santé n'est jamais envoyé avec eux. Vous pouvez arrêter les e-mails pédagogiques à tout moment dans Réglages › « E-mails sur l'application » ou avec le lien en bas de chaque e-mail ; les messages de vérification et de compte continuent d'arriver." },
           { "b": "RevenueCat", "t": " — gestion des abonnements." },
           { "b": "Stripe", "t": " — vérification des médecins et paiements des consultations." },
           { "b": "Daily.co", "t": " — consultations vidéo." },
           { "b": "Open Food Facts", "t": " — lorsque vous scannez le code-barres d'un aliment, votre appareil le recherche directement dans la base Open Food Facts, de sorte que l'adresse IP de votre appareil et le code scanné parviennent à leurs serveurs. Aucune donnée de compte ni de santé n'est envoyée avec la recherche." },
+          { "b": "Traduction des publications de la communauté", "t": " — lorsque vous appuyez sur « Traduire » sous une publication, la traduction est effectuée sur votre téléphone (Apple Translation sur iPhone, Google ML Kit sur Android), de sorte que le texte de la publication ne quitte jamais votre appareil pour cela. La première fois que vous choisissez une langue, votre téléphone la télécharge auprès d'Apple ou de Google. Sur Android, Google ML Kit envoie à Google des données techniques sur votre appareil et l'application (modèle de l'appareil et version du système, version de l'application, identifiants propres à chaque installation, mesures de performance et les langues que vous avez choisies) — jamais le contenu de ce qui est traduit." },
           { "b": "Apple / Google", "t": " — distribution de l'application et facturation." },
           { "b": "GitHub (Microsoft)", "t": " — hébergement de nos sites web et de la version web sur chronicfriends.app. GitHub sert les fichiers de la page à votre navigateur, il voit donc votre adresse IP et les informations de base de la requête. Aucune donnée de compte ni de santé n'est envoyée à GitHub : vos données circulent entre votre navigateur et Firebase, pas par l'hébergement." }
         ]},
@@ -457,7 +466,7 @@ window.CF_PRIVACY_T = {
   "de": {
     "legal": "Datenschutz",
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 3. September 2026 · Version: 3.2",
+    "updated": "Zuletzt aktualisiert: 30. September 2026 · Version: 3.3",
     "summaryPre": "Dies ist eine Zusammenfassung. Die vollständige, aktuelle Datenschutzerklärung finden Sie unter ",
     "summaryPost": ".",
     "patientTag": "Patient:innen",
@@ -500,11 +509,12 @@ window.CF_PRIVACY_T = {
       { "t": "Mit wem wir teilen", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — Authentifizierung, Datenbank, Speicher und Push-Benachrichtigungen." },
-          { "b": "Brevo (Sendinblue)", "t": " — Versand der Bestätigungs-E-Mail bei der Erstellung Ihres Kontos und aller weiteren Servicenachrichten zu Ihrem Konto. Brevo erhält Ihre E-Mail-Adresse und die Sprache, in der Sie die App nutzen, damit die Nachricht Sie in Ihrer eigenen Sprache erreicht. Nichts über Ihre Gesundheit wird damit gesendet." },
+          { "b": "Brevo (Sendinblue)", "t": " — Versand der Bestätigungs-E-Mail bei der Erstellung Ihres Kontos, aller weiteren Servicenachrichten zu Ihrem Konto und, sofern Sie diese nicht abschalten, kurzer erklärender E-Mails zur Nutzung der App (eine Begrüßung, freundliche Erinnerungen und eine E-Mail pro Funktion). Brevo erhält Ihre <b>E-Mail-Adresse</b> und die <b>Sprache</b>, in der Sie die App nutzen, damit jede Nachricht Sie in Ihrer eigenen Sprache erreicht. Mit ihnen wird niemals etwas über Ihre Gesundheit gesendet. Sie können die erklärenden E-Mails jederzeit unter Einstellungen › „E-Mails zur App“ oder über den Link am Ende jeder E-Mail abbestellen; die Bestätigungs- und Kontonachrichten erhalten Sie weiterhin." },
           { "b": "RevenueCat", "t": " — Abo-Verwaltung." },
           { "b": "Stripe", "t": " — Ärzt:innen-Verifizierung und Zahlungen für Konsultationen." },
           { "b": "Daily.co", "t": " — Videokonsultationen." },
           { "b": "Open Food Facts", "t": " — wenn Sie einen Lebensmittel-Barcode scannen, fragt Ihr Gerät ihn direkt in der Open-Food-Facts-Datenbank ab, sodass die IP-Adresse Ihres Geräts und der gescannte Barcode auf deren Server gelangen. Mit der Abfrage werden keine Konto- oder Gesundheitsdaten gesendet." },
+          { "b": "Übersetzung von Community-Beiträgen", "t": " — wenn Sie unter einem Beitrag auf „Übersetzen“ tippen, erfolgt die Übersetzung auf Ihrem Telefon (Apple Translation auf dem iPhone, Google ML Kit auf Android), sodass der Text des Beitrags Ihr Gerät dafür nie verlässt. Wenn Sie eine Sprache zum ersten Mal auswählen, lädt Ihr Telefon sie von Apple oder Google herunter. Unter Android sendet Google ML Kit technische Daten über Ihr Gerät und die App an Google (Gerätemodell und Systemversion, App-Version, installationsbezogene Kennungen, Leistungsmetriken und die von Ihnen gewählten Sprachen) — niemals den Inhalt dessen, was übersetzt wird." },
           { "b": "Apple / Google", "t": " — App-Vertrieb und Abrechnung." },
           { "b": "GitHub (Microsoft)", "t": " — Hosting unserer Websites und der Web-Version unter chronicfriends.app. GitHub liefert die Seitendateien an Ihren Browser und sieht daher Ihre IP-Adresse und grundlegende Anfrageinformationen. An GitHub werden keine Konto- oder Gesundheitsdaten gesendet: Ihre Daten laufen zwischen Ihrem Browser und Firebase, nicht über das Hosting." }
         ]},
@@ -567,7 +577,7 @@ window.CF_PRIVACY_T = {
   "it": {
     "legal": "Privacy",
     "title": "Informativa sulla privacy",
-    "updated": "Ultimo aggiornamento: 3 settembre 2026 · Versione: 3.2",
+    "updated": "Ultimo aggiornamento: 30 settembre 2026 · Versione: 3.3",
     "summaryPre": "Questo è un riassunto. L'Informativa sulla privacy completa e vigente è su ",
     "summaryPost": ".",
     "patientTag": "Utenti pazienti",
@@ -610,11 +620,12 @@ window.CF_PRIVACY_T = {
       { "t": "Con chi condividiamo", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — autenticazione, database, archiviazione e notifiche push." },
-          { "b": "Brevo (Sendinblue)", "t": " — l'invio dell'e-mail di verifica quando crei il tuo account e di qualsiasi altro messaggio di servizio relativo al tuo account. Brevo riceve il tuo indirizzo e-mail e la lingua in cui usi l'app, così che il messaggio ti arrivi scritto nella tua lingua. Nulla sulla tua salute viene inviato con esso." },
+          { "b": "Brevo (Sendinblue)", "t": " — l'invio dell'e-mail di verifica quando crei il tuo account, di qualsiasi altro messaggio di servizio relativo al tuo account e, a meno che tu non le disattivi, di brevi e-mail educative su come usare l'app (un benvenuto, promemoria garbati e un'e-mail per ogni funzione). Brevo riceve il tuo <b>indirizzo e-mail</b> e la <b>lingua</b> in cui usi l'app, così che ogni messaggio ti arrivi scritto nella tua lingua. Nulla sulla tua salute viene mai inviato con essi. Puoi interrompere le e-mail educative in qualsiasi momento in Impostazioni › «E-mail sull'app» o con il link in fondo a ogni e-mail; i messaggi di verifica e dell'account continuano ad arrivare." },
           { "b": "RevenueCat", "t": " — gestione degli abbonamenti." },
           { "b": "Stripe", "t": " — verifica dei medici e pagamenti dei consulti." },
           { "b": "Daily.co", "t": " — videoconsulenze." },
           { "b": "Open Food Facts", "t": " — quando scansioni il codice a barre di un alimento, il tuo dispositivo lo cerca direttamente nel database di Open Food Facts, quindi l'indirizzo IP del tuo dispositivo e il codice scansionato arrivano ai loro server. Con la ricerca non vengono inviati dati dell'account né di salute." },
+          { "b": "Traduzione dei post della comunità", "t": " — quando tocchi «Traduci» sotto un post, la traduzione viene fatta sul tuo telefono (Apple Translation su iPhone, Google ML Kit su Android), quindi per questo il testo del post non lascia mai il tuo dispositivo. La prima volta che scegli una lingua, il tuo telefono la scarica da Apple o da Google. Su Android, Google ML Kit invia a Google dati tecnici sul tuo dispositivo e sull'app (modello del dispositivo e versione del sistema, versione dell'app, identificatori per installazione, metriche sulle prestazioni e le lingue che hai scelto) — mai il contenuto di ciò che viene tradotto." },
           { "b": "Apple / Google", "t": " — distribuzione dell'app e fatturazione." },
           { "b": "GitHub (Microsoft)", "t": " — hosting dei nostri siti web e della versione web su chronicfriends.app. GitHub serve i file della pagina al tuo browser, quindi vede il tuo indirizzo IP e le informazioni di base della richiesta. A GitHub non vengono inviati dati dell'account né di salute: i tuoi dati viaggiano tra il tuo browser e Firebase, non attraverso l'hosting." }
         ]},
@@ -677,7 +688,7 @@ window.CF_PRIVACY_T = {
   "pt": {
     "legal": "Privacidade",
     "title": "Política de Privacidade",
-    "updated": "Última atualização: 3 de setembro de 2026 · Versão: 3.2",
+    "updated": "Última atualização: 30 de setembro de 2026 · Versão: 3.3",
     "summaryPre": "Este é um resumo. A Política de Privacidade completa e em vigor está em ",
     "summaryPost": ".",
     "patientTag": "Utilizadores pacientes",
@@ -720,11 +731,12 @@ window.CF_PRIVACY_T = {
       { "t": "Com quem partilhamos", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — autenticação, base de dados, armazenamento e notificações push." },
-          { "b": "Brevo (Sendinblue)", "t": " — o envio do e-mail de verificação quando cria a sua conta, e qualquer outra mensagem de serviço sobre a sua conta. A Brevo recebe o seu endereço de e-mail e o idioma em que usa a aplicação, para que a mensagem lhe chegue escrita na sua própria língua. Não é enviado nada sobre a sua saúde com ela." },
+          { "b": "Brevo (Sendinblue)", "t": " — o envio do e-mail de verificação quando cria a sua conta, de qualquer outra mensagem de serviço sobre a sua conta e, a menos que os desligue, de e-mails educativos curtos sobre como usar a aplicação (uma mensagem de boas-vindas, lembretes discretos e um e-mail por funcionalidade). A Brevo recebe o seu <b>endereço de e-mail</b> e o <b>idioma</b> em que usa a aplicação, para que cada mensagem lhe chegue escrita na sua própria língua. Nunca é enviado nada sobre a sua saúde com eles. Pode deixar de receber os e-mails educativos a qualquer momento em Definições › «E-mails sobre a aplicação» ou através da ligação no fundo de cada e-mail; as mensagens de verificação e de conta continuam a chegar." },
           { "b": "RevenueCat", "t": " — gestão de subscrições." },
           { "b": "Stripe", "t": " — verificação de médicos e pagamentos de consultas." },
           { "b": "Daily.co", "t": " — videoconsultas." },
           { "b": "Open Food Facts", "t": " — quando lê o código de barras de um alimento, o seu dispositivo consulta-o diretamente na base de dados da Open Food Facts, pelo que o endereço IP do seu dispositivo e o código lido chegam aos servidores deles. Com a consulta não são enviados dados de conta nem de saúde." },
+          { "b": "Tradução das publicações da comunidade", "t": " — quando toca em «Traduzir» por baixo de uma publicação, a tradução é feita no seu telefone (Apple Translation no iPhone, Google ML Kit no Android), pelo que, para isso, o texto da publicação nunca sai do seu dispositivo. Na primeira vez que escolhe um idioma, o seu telefone descarrega-o da Apple ou da Google. No Android, o Google ML Kit envia à Google dados técnicos sobre o seu dispositivo e a aplicação (modelo do dispositivo e versão do sistema, versão da aplicação, identificadores por instalação, métricas de desempenho e os idiomas que escolheu) — nunca o conteúdo do que é traduzido." },
           { "b": "Apple / Google", "t": " — distribuição da aplicação e faturação." },
           { "b": "GitHub (Microsoft)", "t": " — alojamento dos nossos sites e da versão web em chronicfriends.app. O GitHub serve os ficheiros da página ao seu navegador, por isso vê o seu endereço IP e a informação básica do pedido. Não são enviados dados de conta nem de saúde ao GitHub: os seus dados viajam entre o seu navegador e o Firebase, não através do alojamento." }
         ]},
@@ -787,7 +799,7 @@ window.CF_PRIVACY_T = {
   "ru": {
     "legal": "Конфиденциальность",
     "title": "Политика конфиденциальности",
-    "updated": "Последнее обновление: 3 сентября 2026 г. · Версия: 3.2",
+    "updated": "Последнее обновление: 30 сентября 2026 г. · Версия: 3.3",
     "summaryPre": "Это краткое изложение. Полная действующая Политика конфиденциальности находится на ",
     "summaryPost": ".",
     "patientTag": "Пользователи-пациенты",
@@ -830,11 +842,12 @@ window.CF_PRIVACY_T = {
       { "t": "С кем мы делимся", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — аутентификация, база данных, хранение и push-уведомления." },
-          { "b": "Brevo (Sendinblue)", "t": " — отправка письма для подтверждения при создании вашего аккаунта и любых других служебных сообщений о вашем аккаунте. Brevo получает ваш адрес электронной почты и язык, на котором вы пользуетесь приложением, чтобы сообщение пришло к вам на вашем языке. Ничего о вашем здоровье с ним не отправляется." },
+          { "b": "Brevo (Sendinblue)", "t": " — отправка письма для подтверждения при создании вашего аккаунта, любых других служебных сообщений о вашем аккаунте и, если вы их не отключите, коротких обучающих писем о том, как пользоваться приложением (приветствие, ненавязчивые напоминания и по одному письму о каждой функции). Brevo получает ваш <b>адрес электронной почты</b> и <b>язык</b>, на котором вы пользуетесь приложением, чтобы каждое сообщение приходило к вам на вашем языке. Ничего о вашем здоровье вместе с ними никогда не отправляется. Вы можете в любой момент отказаться от обучающих писем в Настройках › «Письма о приложении» или по ссылке внизу каждого письма; письма для подтверждения и сообщения об аккаунте продолжают приходить." },
           { "b": "RevenueCat", "t": " — управление подписками." },
           { "b": "Stripe", "t": " — проверка врачей и оплата консультаций." },
           { "b": "Daily.co", "t": " — видеоконсультации." },
           { "b": "Open Food Facts", "t": " — когда вы сканируете штрихкод продукта, ваше устройство ищет его напрямую в базе Open Food Facts, поэтому IP-адрес вашего устройства и отсканированный штрихкод попадают на их серверы. С запросом не отправляются ни данные аккаунта, ни данные о здоровье." },
+          { "b": "Перевод публикаций сообщества", "t": " — когда вы нажимаете «Перевести» под публикацией, перевод выполняется на вашем телефоне (Apple Translation на iPhone, Google ML Kit на Android), поэтому для этого текст публикации никогда не покидает ваше устройство. Когда вы впервые выбираете язык, ваш телефон скачивает его у Apple или Google. На Android Google ML Kit отправляет Google технические данные о вашем устройстве и приложении (модель устройства и версию системы, версию приложения, идентификаторы для каждой установки, показатели производительности и выбранные вами языки) — но никогда не содержимое того, что переводится." },
           { "b": "Apple / Google", "t": " — распространение приложения и биллинг." },
           { "b": "GitHub (Microsoft)", "t": " — хостинг наших сайтов и веб-версии на chronicfriends.app. GitHub отдаёт файлы страницы вашему браузеру, поэтому видит ваш IP-адрес и базовую информацию о запросе. Ни данные аккаунта, ни данные о здоровье в GitHub не отправляются: ваши данные идут между вашим браузером и Firebase, а не через хостинг." }
         ]},
@@ -897,7 +910,7 @@ window.CF_PRIVACY_T = {
   "ar": {
     "legal": "الخصوصية",
     "title": "سياسة الخصوصية",
-    "updated": "آخر تحديث: 3 سبتمبر 2026 · الإصدار: 3.2",
+    "updated": "آخر تحديث: 30 سبتمبر 2026 · الإصدار: 3.3",
     "summaryPre": "هذا ملخّص. سياسة الخصوصية الكاملة والسارية متاحة على ",
     "summaryPost": ".",
     "patientTag": "المستخدمون المرضى",
@@ -940,11 +953,12 @@ window.CF_PRIVACY_T = {
       { "t": "مع من نشارك", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — المصادقة، وقاعدة البيانات، والتخزين، والإشعارات الفورية." },
-          { "b": "Brevo (Sendinblue)", "t": " — إرسال بريد التحقّق عند إنشاء حسابك، وأي رسالة خدمة أخرى بشأن حسابك. تستقبل Brevo عنوان بريدك الإلكتروني واللغة التي تستخدم بها التطبيق، حتى تصلك الرسالة مكتوبة بلغتك. ولا يُرسل معها أي شيء عن صحتك." },
+          { "b": "Brevo (Sendinblue)", "t": " — إرسال بريد التحقّق عند إنشاء حسابك، وأي رسالة خدمة أخرى بشأن حسابك، ورسائل تعليمية قصيرة عن كيفية استخدام التطبيق (رسالة ترحيب، وتذكيرات لطيفة، ورسالة واحدة لكل ميزة) ما لم توقفها. تستقبل Brevo <b>عنوان بريدك الإلكتروني</b> و<b>اللغة</b> التي تستخدم بها التطبيق، حتى تصلك كل رسالة مكتوبة بلغتك. ولا يُرسل معها أبدًا أي شيء عن صحتك. يمكنك إيقاف الرسائل التعليمية في أي وقت من الإعدادات › «رسائل البريد الإلكتروني حول التطبيق» أو عبر الرابط الموجود أسفل كل رسالة؛ أما رسائل التحقّق والرسائل المتعلقة بحسابك فتظل تصلك." },
           { "b": "RevenueCat", "t": " — إدارة الاشتراكات." },
           { "b": "Stripe", "t": " — التحقّق من الأطباء ومدفوعات الاستشارات." },
           { "b": "Daily.co", "t": " — استشارات الفيديو." },
           { "b": "Open Food Facts", "t": " — عندما تمسح الرمز الشريطي لمنتج غذائي، يبحث جهازك عنه مباشرة في قاعدة بيانات Open Food Facts، فيصل عنوان IP لجهازك والرمز الممسوح إلى خوادمهم. ولا تُرسل مع البحث أي بيانات حساب أو بيانات صحية." },
+          { "b": "ترجمة منشورات المجتمع", "t": " — عندما تضغط على «ترجمة» أسفل منشور، تتم الترجمة على هاتفك (Apple Translation على iPhone، وGoogle ML Kit على Android)، لذا لا يغادر نص المنشور جهازك أبدًا لهذا الغرض. في المرة الأولى التي تختار فيها لغة، ينزّلها هاتفك من Apple أو Google. على Android، يرسل Google ML Kit إلى Google بيانات تقنية عن جهازك والتطبيق (طراز الجهاز وإصدار النظام، وإصدار التطبيق، ومعرّفات خاصة بكل تثبيت، ومقاييس الأداء، واللغات التي اخترتها) — ولا يرسل أبدًا محتوى ما تتم ترجمته." },
           { "b": "Apple / Google", "t": " — توزيع التطبيق والفواتير." },
           { "b": "GitHub (Microsoft)", "t": " — استضافة مواقعنا ونسخة الويب على chronicfriends.app. يقدّم GitHub ملفات الصفحة إلى متصفّحك، فيرى عنوان IP الخاص بك ومعلومات الطلب الأساسية. ولا تُرسل إلى GitHub أي بيانات حساب أو بيانات صحية: بياناتك تنتقل بين متصفّحك و Firebase، لا عبر الاستضافة." }
         ]},
@@ -1007,7 +1021,7 @@ window.CF_PRIVACY_T = {
   "hi": {
     "legal": "गोपनीयता",
     "title": "गोपनीयता नीति",
-    "updated": "अंतिम अद्यतन: 3 सितंबर 2026 · संस्करण: 3.2",
+    "updated": "अंतिम अद्यतन: 30 सितंबर 2026 · संस्करण: 3.3",
     "summaryPre": "यह एक सारांश है। पूरी और वर्तमान गोपनीयता नीति यहाँ है: ",
     "summaryPost": ".",
     "patientTag": "रोगी उपयोगकर्ता",
@@ -1050,11 +1064,12 @@ window.CF_PRIVACY_T = {
       { "t": "हम किसके साथ साझा करते हैं", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — प्रमाणीकरण, डेटाबेस, भंडारण और पुश सूचनाएँ।" },
-          { "b": "Brevo (Sendinblue)", "t": " — खाता बनाते समय सत्यापन ईमेल भेजना, और आपके खाते के बारे में कोई भी अन्य सेवा संदेश। Brevo को आपका ईमेल पता और वह भाषा मिलती है जिसमें आप ऐप उपयोग करते हैं, ताकि संदेश आपकी ही भाषा में लिखा हुआ आप तक पहुँचे। उसके साथ आपके स्वास्थ्य के बारे में कुछ नहीं भेजा जाता।" },
+          { "b": "Brevo (Sendinblue)", "t": " — खाता बनाते समय सत्यापन ईमेल भेजना, आपके खाते के बारे में कोई भी अन्य सेवा संदेश, और जब तक आप उन्हें बंद न करें, ऐप का उपयोग करने के तरीके पर छोटे शैक्षिक ईमेल (एक स्वागत संदेश, सौम्य रिमाइंडर और हर सुविधा पर एक ईमेल)। Brevo को आपका <b>ईमेल पता</b> और वह <b>भाषा</b> मिलती है जिसमें आप ऐप उपयोग करते हैं, ताकि हर संदेश आपकी ही भाषा में लिखा हुआ आप तक पहुँचे। उनके साथ आपके स्वास्थ्य के बारे में कभी कुछ नहीं भेजा जाता। आप शैक्षिक ईमेल किसी भी समय सेटिंग्स › «ऐप के बारे में ईमेल» में या हर ईमेल के नीचे दिए गए लिंक से बंद कर सकते हैं; सत्यापन और खाते से जुड़े संदेश फिर भी आते रहते हैं।" },
           { "b": "RevenueCat", "t": " — सदस्यता प्रबंधन।" },
           { "b": "Stripe", "t": " — डॉक्टर सत्यापन और परामर्श भुगतान।" },
           { "b": "Daily.co", "t": " — वीडियो परामर्श।" },
           { "b": "Open Food Facts", "t": " — जब आप किसी खाद्य वस्तु का बारकोड स्कैन करते हैं, तो आपका उपकरण उसे सीधे Open Food Facts डेटाबेस में खोजता है, इसलिए आपके उपकरण का IP पता और स्कैन किया गया बारकोड उनके सर्वर तक पहुँचता है। इस खोज के साथ कोई खाता या स्वास्थ्य डेटा नहीं भेजा जाता।" },
+          { "b": "समुदाय की पोस्ट का अनुवाद", "t": " — जब आप किसी पोस्ट के नीचे «अनुवाद करें» पर टैप करते हैं, तो अनुवाद आपके फ़ोन पर ही होता है (iPhone पर Apple Translation, Android पर Google ML Kit), इसलिए इसके लिए पोस्ट का पाठ कभी आपके उपकरण से बाहर नहीं जाता। जब आप पहली बार कोई भाषा चुनते हैं, तो आपका फ़ोन उसे Apple या Google से डाउनलोड करता है। Android पर, Google ML Kit आपके उपकरण और ऐप के बारे में तकनीकी डेटा Google को भेजता है (उपकरण का मॉडल और सिस्टम संस्करण, ऐप संस्करण, प्रति-इंस्टॉलेशन पहचानकर्ता, प्रदर्शन मेट्रिक्स और आपके द्वारा चुनी गई भाषाएँ) — जिसका अनुवाद किया जाता है उसकी सामग्री कभी नहीं।" },
           { "b": "Apple / Google", "t": " — ऐप वितरण और बिलिंग।" },
           { "b": "GitHub (Microsoft)", "t": " — हमारी वेबसाइटों और chronicfriends.app पर वेब संस्करण की होस्टिंग। GitHub पेज की फ़ाइलें आपके ब्राउज़र को देता है, इसलिए वह आपका IP पता और अनुरोध की बुनियादी जानकारी देखता है। GitHub को कोई खाता या स्वास्थ्य डेटा नहीं भेजा जाता: आपका डेटा आपके ब्राउज़र और Firebase के बीच चलता है, होस्टिंग के ज़रिए नहीं।" }
         ]},
@@ -1117,7 +1132,7 @@ window.CF_PRIVACY_T = {
   "id": {
     "legal": "Privasi",
     "title": "Kebijakan Privasi",
-    "updated": "Terakhir diperbarui: 3 September 2026 · Versi: 3.2",
+    "updated": "Terakhir diperbarui: 30 September 2026 · Versi: 3.3",
     "summaryPre": "Ini adalah ringkasan. Kebijakan Privasi lengkap dan terkini ada di ",
     "summaryPost": ".",
     "patientTag": "Pengguna pasien",
@@ -1160,11 +1175,12 @@ window.CF_PRIVACY_T = {
       { "t": "Dengan siapa kami membagikan", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — autentikasi, basis data, penyimpanan, dan notifikasi push." },
-          { "b": "Brevo (Sendinblue)", "t": " — pengiriman email verifikasi saat Anda membuat akun, dan pesan layanan lain tentang akun Anda. Brevo menerima alamat email Anda dan bahasa yang Anda gunakan di aplikasi, agar pesan sampai kepada Anda dalam bahasa Anda sendiri. Tidak ada apa pun tentang kesehatan Anda yang dikirim bersamanya." },
+          { "b": "Brevo (Sendinblue)", "t": " — pengiriman email verifikasi saat Anda membuat akun, pesan layanan lain tentang akun Anda, dan, kecuali Anda mematikannya, email edukasi singkat tentang cara menggunakan aplikasi (ucapan selamat datang, pengingat ringan, dan satu email untuk setiap fitur). Brevo menerima <b>alamat email</b> Anda dan <b>bahasa</b> yang Anda gunakan di aplikasi, agar setiap pesan sampai kepada Anda dalam bahasa Anda sendiri. Tidak pernah ada apa pun tentang kesehatan Anda yang dikirim bersamanya. Anda dapat menghentikan email edukasi kapan saja di Pengaturan › «Email tentang aplikasi» atau melalui tautan di bagian bawah setiap email; pesan verifikasi dan pesan akun tetap akan Anda terima." },
           { "b": "RevenueCat", "t": " — pengelolaan langganan." },
           { "b": "Stripe", "t": " — verifikasi dokter dan pembayaran konsultasi." },
           { "b": "Daily.co", "t": " — konsultasi video." },
           { "b": "Open Food Facts", "t": " — saat Anda memindai barkode makanan, perangkat Anda mencarinya langsung di basis data Open Food Facts, sehingga alamat IP perangkat Anda dan barkode yang dipindai sampai ke server mereka. Tidak ada data akun atau kesehatan yang dikirim bersama pencarian itu." },
+          { "b": "Terjemahan kiriman komunitas", "t": " — saat Anda mengetuk «Terjemahkan» di bawah sebuah kiriman, penerjemahan dilakukan di ponsel Anda (Apple Translation di iPhone, Google ML Kit di Android), sehingga untuk itu teks kiriman tidak pernah meninggalkan perangkat Anda. Saat pertama kali Anda memilih suatu bahasa, ponsel Anda mengunduhnya dari Apple atau Google. Di Android, Google ML Kit mengirimkan kepada Google data teknis tentang perangkat dan aplikasi Anda (model perangkat dan versi sistem, versi aplikasi, pengenal per instalasi, metrik kinerja, dan bahasa yang Anda pilih) — tidak pernah isi dari apa yang diterjemahkan." },
           { "b": "Apple / Google", "t": " — distribusi aplikasi dan penagihan." },
           { "b": "GitHub (Microsoft)", "t": " — hosting situs web kami dan versi web di chronicfriends.app. GitHub mengirimkan berkas halaman ke peramban Anda, jadi ia melihat alamat IP Anda dan informasi dasar permintaan. Tidak ada data akun atau kesehatan yang dikirim ke GitHub: data Anda berjalan antara peramban Anda dan Firebase, bukan melalui hosting." }
         ]},
@@ -1227,7 +1243,7 @@ window.CF_PRIVACY_T = {
   "ja": {
     "legal": "プライバシー",
     "title": "プライバシーポリシー",
-    "updated": "最終更新: 2026年9月3日 · バージョン: 3.2",
+    "updated": "最終更新: 2026年9月30日 · バージョン: 3.3",
     "summaryPre": "これは要約です。完全な最新のプライバシーポリシーは ",
     "summaryPost": " にあります。",
     "patientTag": "患者ユーザー",
@@ -1270,11 +1286,12 @@ window.CF_PRIVACY_T = {
       { "t": "共有先", "b": [
         { "ul": [
           { "b": "Firebase（Google）", "t": " — 認証、データベース、ストレージ、プッシュ通知。" },
-          { "b": "Brevo（Sendinblue）", "t": " — アカウント作成時の確認メールの送信、およびアカウントに関するその他のサービスメッセージ。Brevo は、メッセージがあなた自身の言語で届くように、メールアドレスとアプリで使用している言語を受け取ります。健康に関するものは一緒に送信されません。" },
+          { "b": "Brevo（Sendinblue）", "t": " — アカウント作成時の確認メールの送信、アカウントに関するその他のサービスメッセージ、そしてオフにしない限り、アプリの使い方に関する短い解説メール（ウェルカムメール、控えめなリマインダー、機能ごとに1通のメール）。Brevo は、どのメッセージもあなた自身の言語で届くように、<b>メールアドレス</b>とアプリで使用している<b>言語</b>を受け取ります。健康に関するものが一緒に送信されることは決してありません。解説メールは、設定 ›「アプリに関するメール」または各メールの末尾にあるリンクから、いつでも停止できます。確認メールとアカウントに関するメッセージは引き続き届きます。" },
           { "b": "RevenueCat", "t": " — サブスクリプション管理。" },
           { "b": "Stripe", "t": " — 医師確認と診療の支払い。" },
           { "b": "Daily.co", "t": " — ビデオ診療。" },
           { "b": "Open Food Facts", "t": " — 食品のバーコードをスキャンすると、端末が Open Food Facts のデータベースを直接照会するため、端末の IP アドレスとスキャンしたバーコードが同社のサーバーに届きます。照会にアカウント情報や健康データは含まれません。" },
+          { "b": "コミュニティ投稿の翻訳", "t": " — 投稿の下にある「翻訳」をタップすると、翻訳はあなたの携帯電話上で行われます（iPhone では Apple Translation、Android では Google ML Kit）。そのため、翻訳のために投稿のテキストが端末の外に出ることはありません。ある言語を初めて選ぶと、携帯電話がその言語を Apple または Google からダウンロードします。Android では、Google ML Kit が端末とアプリに関する技術データ（端末のモデルとシステムのバージョン、アプリのバージョン、インストールごとの識別子、パフォーマンス指標、選択した言語）を Google に送信します。翻訳される内容が送信されることは決してありません。" },
           { "b": "Apple／Google", "t": " — アプリの配布と課金。" },
           { "b": "GitHub（Microsoft）", "t": " — 当社ウェブサイトおよび chronicfriends.app のウェブ版のホスティング。GitHub はページのファイルをブラウザーに配信するため、IP アドレスとリクエストの基本情報を見ます。GitHub にアカウント情報や健康データは送信されません。データはブラウザーと Firebase の間を通り、ホスティングを経由しません。" }
         ]},
@@ -1337,7 +1354,7 @@ window.CF_PRIVACY_T = {
   "ko": {
     "legal": "개인정보",
     "title": "개인정보처리방침",
-    "updated": "최종 업데이트: 2026년 9월 3일 · 버전: 3.2",
+    "updated": "최종 업데이트: 2026년 9월 30일 · 버전: 3.3",
     "summaryPre": "이는 요약입니다. 전체 최신 개인정보처리방침은 ",
     "summaryPost": " 에서 확인할 수 있습니다.",
     "patientTag": "환자 사용자",
@@ -1380,11 +1397,12 @@ window.CF_PRIVACY_T = {
       { "t": "공유 대상", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — 인증, 데이터베이스, 저장, 푸시 알림." },
-          { "b": "Brevo (Sendinblue)", "t": " — 계정을 만들 때의 확인 이메일 발송, 그리고 계정에 관한 그 밖의 서비스 메시지. Brevo는 메시지가 여러분의 언어로 도착하도록 이메일 주소와 앱에서 사용하는 언어를 받습니다. 건강에 관한 것은 함께 전송되지 않습니다." },
+          { "b": "Brevo (Sendinblue)", "t": " — 계정을 만들 때의 확인 이메일 발송, 계정에 관한 그 밖의 서비스 메시지, 그리고 끄지 않는 한 앱 사용법을 알려 주는 짧은 안내 이메일(환영 메일, 부담 없는 알림, 기능마다 한 통의 이메일). Brevo는 모든 메시지가 여러분의 언어로 도착하도록 <b>이메일 주소</b>와 앱에서 사용하는 <b>언어</b>를 받습니다. 건강에 관한 것은 결코 함께 전송되지 않습니다. 안내 이메일은 언제든지 설정 › 「앱에 관한 이메일」 또는 모든 이메일 하단의 링크에서 중단할 수 있으며, 확인 메시지와 계정 메시지는 계속 받게 됩니다." },
           { "b": "RevenueCat", "t": " — 구독 관리." },
           { "b": "Stripe", "t": " — 의사 확인과 진료 결제." },
           { "b": "Daily.co", "t": " — 영상 진료." },
           { "b": "Open Food Facts", "t": " — 식품 바코드를 스캔하면 기기가 Open Food Facts 데이터베이스에서 직접 조회하므로, 기기의 IP 주소와 스캔한 바코드가 그들의 서버에 전달됩니다. 조회와 함께 계정이나 건강 데이터는 전송되지 않습니다." },
+          { "b": "커뮤니티 게시물 번역", "t": " — 게시물 아래의 「번역」을 탭하면 번역은 여러분의 휴대전화에서 이루어집니다(iPhone에서는 Apple Translation, Android에서는 Google ML Kit). 따라서 이를 위해 게시물의 텍스트가 기기 밖으로 나가는 일은 없습니다. 어떤 언어를 처음 선택하면 휴대전화가 그 언어를 Apple 또는 Google에서 내려받습니다. Android에서는 Google ML Kit가 기기와 앱에 관한 기술 데이터(기기 모델과 시스템 버전, 앱 버전, 설치별 식별자, 성능 지표, 선택한 언어)를 Google에 보냅니다. 번역되는 내용은 결코 보내지 않습니다." },
           { "b": "Apple / Google", "t": " — 앱 배포와 청구." },
           { "b": "GitHub (Microsoft)", "t": " — 저희 웹사이트와 chronicfriends.app 웹 버전의 호스팅. GitHub는 페이지 파일을 브라우저로 전달하므로 IP 주소와 요청의 기본 정보를 보게 됩니다. GitHub로 계정이나 건강 데이터는 전송되지 않습니다. 데이터는 브라우저와 Firebase 사이를 오가며, 호스팅을 거치지 않습니다." }
         ]},
@@ -1447,7 +1465,7 @@ window.CF_PRIVACY_T = {
   "tr": {
     "legal": "Gizlilik",
     "title": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 3 Eylül 2026 · Sürüm: 3.2",
+    "updated": "Son güncelleme: 30 Eylül 2026 · Sürüm: 3.3",
     "summaryPre": "Bu bir özettir. Tam ve güncel Gizlilik Politikası şu adrestedir: ",
     "summaryPost": ".",
     "patientTag": "Hasta kullanıcılar",
@@ -1490,11 +1508,12 @@ window.CF_PRIVACY_T = {
       { "t": "Kimlerle paylaşıyoruz", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — kimlik doğrulama, veritabanı, depolama ve anlık bildirimler." },
-          { "b": "Brevo (Sendinblue)", "t": " — hesabınızı oluşturduğunuzda doğrulama e-postasının gönderilmesi ve hesabınıza ilişkin diğer hizmet mesajları. Brevo, mesajın size kendi dilinizde ulaşması için e-posta adresinizi ve uygulamayı kullandığınız dili alır. Sağlığınıza dair hiçbir şey onunla gönderilmez." },
+          { "b": "Brevo (Sendinblue)", "t": " — hesabınızı oluşturduğunuzda doğrulama e-postasının, hesabınıza ilişkin diğer hizmet mesajlarının ve siz kapatmadığınız sürece uygulamanın nasıl kullanılacağına dair kısa eğitici e-postaların (bir hoş geldin mesajı, nazik hatırlatmalar ve her özellik için bir e-posta) gönderilmesi. Brevo, her mesajın size kendi dilinizde ulaşması için <b>e-posta adresinizi</b> ve uygulamayı kullandığınız <b>dili</b> alır. Sağlığınıza dair hiçbir şey asla onlarla birlikte gönderilmez. Eğitici e-postaları istediğiniz zaman Ayarlar › «Uygulama hakkında e-postalar» bölümünden veya her e-postanın altındaki bağlantıyla durdurabilirsiniz; doğrulama ve hesap mesajları yine de gelmeye devam eder." },
           { "b": "RevenueCat", "t": " — abonelik yönetimi." },
           { "b": "Stripe", "t": " — doktor doğrulaması ve görüşme ödemeleri." },
           { "b": "Daily.co", "t": " — görüntülü görüşmeler." },
           { "b": "Open Food Facts", "t": " — bir gıdanın barkodunu taradığınızda cihazınız onu doğrudan Open Food Facts veritabanında sorgular; böylece cihazınızın IP adresi ve taranan barkod onların sunucularına ulaşır. Sorguyla birlikte hiçbir hesap veya sağlık verisi gönderilmez." },
+          { "b": "Topluluk gönderilerinin çevirisi", "t": " — bir gönderinin altındaki «Çevir» düğmesine dokunduğunuzda çeviri telefonunuzda yapılır (iPhone'da Apple Translation, Android'de Google ML Kit); bu nedenle gönderinin metni bunun için cihazınızdan asla çıkmaz. Bir dili ilk kez seçtiğinizde telefonunuz onu Apple'dan veya Google'dan indirir. Android'de Google ML Kit, cihazınız ve uygulama hakkındaki teknik verileri Google'a gönderir (cihaz modeli ve sistem sürümü, uygulama sürümü, kuruluma özgü tanımlayıcılar, performans ölçümleri ve seçtiğiniz diller) — çevrilen içeriği ise asla göndermez." },
           { "b": "Apple / Google", "t": " — uygulama dağıtımı ve faturalama." },
           { "b": "GitHub (Microsoft)", "t": " — web sitelerimizin ve chronicfriends.app adresindeki web sürümünün barındırılması. GitHub sayfa dosyalarını tarayıcınıza sunar, dolayısıyla IP adresinizi ve isteğin temel bilgilerini görür. GitHub'a hiçbir hesap veya sağlık verisi gönderilmez: verileriniz tarayıcınızla Firebase arasında gider, barındırma üzerinden geçmez." }
         ]},
@@ -1557,7 +1576,7 @@ window.CF_PRIVACY_T = {
   "vi": {
     "legal": "Quyền riêng tư",
     "title": "Chính sách quyền riêng tư",
-    "updated": "Cập nhật lần cuối: 3 tháng 9 năm 2026 · Phiên bản: 3.2",
+    "updated": "Cập nhật lần cuối: 30 tháng 9 năm 2026 · Phiên bản: 3.3",
     "summaryPre": "Đây là bản tóm tắt. Chính sách quyền riêng tư đầy đủ và hiện hành có tại ",
     "summaryPost": ".",
     "patientTag": "Người dùng là bệnh nhân",
@@ -1600,11 +1619,12 @@ window.CF_PRIVACY_T = {
       { "t": "Chúng tôi chia sẻ với ai", "b": [
         { "ul": [
           { "b": "Firebase (Google)", "t": " — xác thực, cơ sở dữ liệu, lưu trữ và thông báo đẩy." },
-          { "b": "Brevo (Sendinblue)", "t": " — gửi email xác minh khi bạn tạo tài khoản, và mọi tin nhắn dịch vụ khác về tài khoản của bạn. Brevo nhận địa chỉ email của bạn và ngôn ngữ bạn dùng trong ứng dụng, để tin nhắn đến với bạn bằng chính ngôn ngữ của bạn. Không có gì về sức khỏe của bạn được gửi kèm." },
+          { "b": "Brevo (Sendinblue)", "t": " — gửi email xác minh khi bạn tạo tài khoản, mọi tin nhắn dịch vụ khác về tài khoản của bạn và, trừ khi bạn tắt chúng, các email hướng dẫn ngắn về cách dùng ứng dụng (một lời chào mừng, vài lời nhắc nhẹ nhàng và một email cho mỗi tính năng). Brevo nhận <b>địa chỉ email</b> của bạn và <b>ngôn ngữ</b> bạn dùng trong ứng dụng, để mọi tin nhắn đến với bạn bằng chính ngôn ngữ của bạn. Không bao giờ có gì về sức khỏe của bạn được gửi kèm. Bạn có thể dừng các email hướng dẫn bất cứ lúc nào trong Cài đặt › «Email về ứng dụng» hoặc bằng đường liên kết ở cuối mỗi email; tin nhắn xác minh và tin nhắn về tài khoản vẫn sẽ đến với bạn." },
           { "b": "RevenueCat", "t": " — quản lý đăng ký." },
           { "b": "Stripe", "t": " — xác minh bác sĩ và thanh toán buổi khám." },
           { "b": "Daily.co", "t": " — khám qua video." },
           { "b": "Open Food Facts", "t": " — khi bạn quét mã vạch thực phẩm, thiết bị của bạn tra trực tiếp trong cơ sở dữ liệu Open Food Facts, nên địa chỉ IP của thiết bị và mã vạch đã quét đến máy chủ của họ. Không có dữ liệu tài khoản hay sức khỏe nào được gửi kèm truy vấn." },
+          { "b": "Dịch bài viết trong cộng đồng", "t": " — khi bạn chạm «Dịch» bên dưới một bài viết, việc dịch được thực hiện ngay trên điện thoại của bạn (Apple Translation trên iPhone, Google ML Kit trên Android), nên văn bản của bài viết không bao giờ rời khỏi thiết bị của bạn vì việc đó. Lần đầu bạn chọn một ngôn ngữ, điện thoại của bạn sẽ tải ngôn ngữ đó về từ Apple hoặc Google. Trên Android, Google ML Kit gửi cho Google dữ liệu kỹ thuật về thiết bị và ứng dụng của bạn (mẫu thiết bị và phiên bản hệ thống, phiên bản ứng dụng, mã định danh theo từng lượt cài đặt, số liệu hiệu năng và các ngôn ngữ bạn đã chọn) — không bao giờ gửi nội dung được dịch." },
           { "b": "Apple / Google", "t": " — phát hành ứng dụng và thanh toán." },
           { "b": "GitHub (Microsoft)", "t": " — lưu trữ các trang web của chúng tôi và bản web tại chronicfriends.app. GitHub phục vụ các tệp trang cho trình duyệt của bạn, nên thấy địa chỉ IP của bạn và thông tin cơ bản của yêu cầu. Không có dữ liệu tài khoản hay sức khỏe nào được gửi tới GitHub: dữ liệu của bạn đi giữa trình duyệt và Firebase, không qua nơi lưu trữ trang." }
         ]},
@@ -1667,7 +1687,7 @@ window.CF_PRIVACY_T = {
   "zh": {
     "legal": "隐私",
     "title": "隐私政策",
-    "updated": "最后更新：2026年9月3日 · 版本：3.2",
+    "updated": "最后更新：2026年9月30日 · 版本：3.3",
     "summaryPre": "这是摘要。完整的最新隐私政策见 ",
     "summaryPost": "。",
     "patientTag": "患者用户",
@@ -1710,11 +1730,12 @@ window.CF_PRIVACY_T = {
       { "t": "我们与谁共享", "b": [
         { "ul": [
           { "b": "Firebase（Google）", "t": " — 身份验证、数据库、存储和推送通知。" },
-          { "b": "Brevo（Sendinblue）", "t": " — 在你创建账号时发送验证邮件，以及与你账号有关的其他服务信息。Brevo 会收到你的电子邮件地址和你使用应用的语言，以便信息以你自己的语言送达。其中不会附带任何与你健康有关的内容。" },
+          { "b": "Brevo（Sendinblue）", "t": " — 在你创建账号时发送验证邮件、与你账号有关的其他服务信息，以及关于如何使用应用的简短教学邮件（一封欢迎邮件、温和的提醒，以及每项功能一封邮件），除非你将其关闭。Brevo 会收到你的<b>电子邮件地址</b>和你使用应用的<b>语言</b>，以便每条信息都以你自己的语言送达。其中绝不会附带任何与你健康有关的内容。你可以随时在设置 ›“关于应用的邮件”中，或通过每封邮件底部的链接，停止接收教学邮件；验证邮件和账号信息仍会照常送达。" },
           { "b": "RevenueCat", "t": " — 订阅管理。" },
           { "b": "Stripe", "t": " — 医生验证与问诊付款。" },
           { "b": "Daily.co", "t": " — 视频问诊。" },
           { "b": "Open Food Facts", "t": " — 当你扫描食品条码时，你的设备会直接在 Open Food Facts 数据库中查询，因此你设备的 IP 地址和所扫条码会到达他们的服务器。该查询不会附带任何账号或健康数据。" },
+          { "b": "社区帖子翻译", "t": " — 当你点按帖子下方的“翻译”时，翻译会在你的手机上完成（iPhone 上使用 Apple Translation，Android 上使用 Google ML Kit），因此帖子的文字不会为此离开你的设备。你第一次选择某种语言时，手机会从 Apple 或 Google 下载该语言。在 Android 上，Google ML Kit 会向 Google 发送关于你的设备和应用的技术数据（设备型号和系统版本、应用版本、按安装生成的标识符、性能指标以及你选择的语言）——但绝不会发送所翻译的内容。" },
           { "b": "Apple／Google", "t": " — 应用分发与计费。" },
           { "b": "GitHub（Microsoft）", "t": " — 托管我们的网站以及 chronicfriends.app 上的网页版。GitHub 将页面文件发送给你的浏览器，因此会看到你的 IP 地址和请求的基本信息。不会向 GitHub 发送任何账号或健康数据：你的数据在你的浏览器与 Firebase 之间传输，不经过托管方。" }
         ]},
