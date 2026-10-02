@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#2e7d4f">
+<title>Chronic Friends</title>
+<!-- VER1 (2 oct 2026). A esta página lleva el botón «Continuar» del correo de verificación cuando la
+     persona se registró en la APP (functions/index.js · enlaceVerificacion). Normalmente NO se ve: el
+     enlace /open* abre la app instalada (enlace universal en iPhone, App Link en Android) y la app entra
+     sola. Solo se ve si el móvil no la abre (navegador dentro de otra app, o la app no está instalada):
+     entonces dice «correo verificado, vuelve a la app», en el idioma del correo (?lang=) o el del móvil. -->
+<style>
+  :root { --green: #2e7d4f; --green-2: #3f8a3f; --ink: #14321a; --muted: #5a6b58; --bg: #f3f7f1; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #e8f1e6; --muted: #a9b8a6; --bg: #0f1a12; --card: #17251a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px 16px;
+         background: var(--bg); color: var(--ink); font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif; }
+  .card { width: 100%; max-width: 380px; background: var(--card); border-radius: 24px; padding: 30px 24px 26px; text-align: center;
+          box-shadow: 0 24px 60px -24px rgba(5, 40, 15, .45); }
+  .ok { width: 64px; height: 64px; margin: 0 auto 16px; border-radius: 20px; display: flex; align-items: center; justify-content: center;
+        color: #fff; background: radial-gradient(120% 120% at 30% 25%, #7bd853, var(--green-2)); }
+  h1 { font-size: 21px; margin: 0 0 8px; }
+  p { margin: 0 0 22px; color: var(--muted); font-size: 15px; }
+  .btn { display: block; width: 100%; padding: 15px; border-radius: 999px; background: var(--green); color: #fff; text-decoration: none;
+         font-weight: 700; font-size: 16px; }
+  .alt { display: inline-block; margin-top: 16px; color: var(--green-2); font-size: 14px; font-weight: 600; text-decoration: none; }
+  .brand { margin-top: 22px; font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="ok" aria-hidden="true">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg>
+  </div>
+  <h1 id="t">Email verified</h1>
+  <p id="b">Your account is ready. Go back to the Chronic Friends app to continue.</p>
+  <a class="btn" id="o" href="chronicfriends://">Open the app</a>
+  <a class="alt" id="w" href="https://chronicfriends.app/">Or continue in your browser</a>
+  <div class="brand">Chronic Friends</div>
+</main>
+<script>
+(function () {
+  var T = {
+    en: ['Email verified', 'Your account is ready. Go back to the Chronic Friends app to continue.', 'Open the app', 'Or continue in your browser'],
+    es: ['Correo verificado', 'Tu cuenta está lista. Vuelve a la app Chronic Friends para continuar.', 'Abrir la app', 'O sigue en el navegador'],
+    ca: ['Correu verificat', 'El teu compte ja està a punt. Torna a l’app Chronic Friends per continuar.', 'Obre l’app', 'O continua al navegador'],
+    fr: ['Adresse e-mail vérifiée', 'Votre compte est prêt. Revenez dans l’application Chronic Friends pour continuer.', 'Ouvrir l’application', 'Ou continuer dans le navigateur'],
+    de: ['E-Mail bestätigt', 'Dein Konto ist bereit. Geh zurück in die App Chronic Friends, um weiterzumachen.', 'App öffnen', 'Oder im Browser weitermachen'],
+    it: ['Email verificata', 'Il tuo account è pronto. Torna nell’app Chronic Friends per continuare.', 'Apri l’app', 'Oppure continua nel browser'],
+    pt: ['Email verificado', 'A tua conta está pronta. Volta à app Chronic Friends para continuar.', 'Abrir a app', 'Ou continua no navegador'],
+    zh: ['邮箱已验证', '你的账户已准备就绪。请回到 Chronic Friends 应用继续。', '打开应用', '或在浏览器中继续'],
+    ja: ['メールアドレスを確認しました', 'アカウントの準備ができました。Chronic Friends アプリに戻って続けてください。', 'アプリを開く', 'またはブラウザで続ける'],
+    ko: ['이메일 인증이 완료됐어요', '계정이 준비됐어요. Chronic Friends 앱으로 돌아가서 계속하세요.', '앱 열기', '또는 브라우저에서 계속하기'],
+    hi: ['ईमेल सत्यापित हो गया', 'आपका खाता तैयार है। जारी रखने के लिए Chronic Friends ऐप पर वापस जाएँ।', 'ऐप खोलें', 'या ब्राउज़र में जारी रखें'],
+    id: ['Email terverifikasi', 'Akunmu sudah siap. Kembali ke aplikasi Chronic Friends untuk melanjutkan.', 'Buka aplikasi', 'Atau lanjutkan di browser'],
+    tr: ['E-posta doğrulandı', 'Hesabın hazır. Devam etmek için Chronic Friends uygulamasına geri dön.', 'Uygulamayı aç', 'Ya da tarayıcıda devam et'],
+    ru: ['Почта подтверждена', 'Ваш аккаунт готов. Вернитесь в приложение Chronic Friends, чтобы продолжить.', 'Открыть приложение', 'Или продолжите в браузере'],
+    vi: ['Email đã được xác minh', 'Tài khoản của bạn đã sẵn sàng. Hãy quay lại ứng dụng Chronic Friends để tiếp tục.', 'Mở ứng dụng', 'Hoặc tiếp tục trên trình duyệt'],
+    ar: ['تم التحقق من بريدك الإلكتروني', 'حسابك جاهز. ارجع إلى تطبيق Chronic Friends للمتابعة.', 'افتح التطبيق', 'أو تابع في المتصفح']
+  };
+  var l = '';
+  try { l = (new URLSearchParams(location.search).get('lang') || '').toLowerCase().slice(0, 2); } catch (e) {}
+  if (!T[l]) { try { l = String(navigator.language || '').toLowerCase().slice(0, 2); } catch (e) {} }
+  if (!T[l]) l = 'en';
+  var s = T[l];
+  document.documentElement.lang = l;
+  document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
+  document.getElementById('t').textContent = s[0];
+  document.getElementById('b').textContent = s[1].replace('Chronic Friends', 'Chronic Friends');   /* la marca no se parte */
+  document.getElementById('o').textContent = s[2];
+  document.getElementById('w').textContent = s[3];
+})();
+</script>
+</body>
+</html>
