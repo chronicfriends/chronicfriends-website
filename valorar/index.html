@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Chronic Friends</title>
+<!-- MKT-REV2 (21 oct 2026): el botón «Dejar mi opinión» del correo trae aquí. Detecta el móvil y manda a su tienda:
+     iPhone/iPad → App Store directo a «Escribir una reseña»; Android → la ficha de Google Play (las estrellas salen
+     arriba). En un ordenador enseña las dos. ?l=<idioma> = el idioma de la app de esa persona (lo pone el correo).
+     Carpeta propia de la web (como /email/ y /open/): el deploy de la landing no la borra. -->
+<style>
+  :root { --verde:#34502f; }
+  * { box-sizing:border-box; }
+  html, body { margin:0; min-height:100%; }
+  body { background:#34502f; background-image:linear-gradient(180deg,#3b5735 0%,#2e4729 100%); color:#fff;
+         font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         display:flex; align-items:center; justify-content:center; min-height:100vh; padding:24px 16px; }
+  main { max-width:420px; width:100%; text-align:center; }
+  img { width:92px; height:auto; display:block; margin:0 auto 22px; }
+  h1 { font-size:26px; line-height:1.25; margin:0 0 12px; font-weight:800; }
+  p { margin:0 0 22px; color:#cfe8c2; font-weight:600; }
+  .tiendas { display:flex; flex-direction:column; gap:12px; align-items:center; }
+  a.btn { display:block; width:100%; max-width:300px; padding:15px 24px; border-radius:999px; text-decoration:none;
+          color:#fff; font-weight:700; font-size:17px; background:#5cb83c;
+          background-image:linear-gradient(180deg,#7bd853 0%,#54b035 100%); }
+  .oculto { display:none; }
+</style>
+</head>
+<body>
+<main>
+  <img src="/email/cf-logo-blanco.png" alt="Chronic Friends">
+  <h1 id="t"></h1>
+  <p id="m"></p>
+  <div class="tiendas">
+    <a class="btn" id="ios" href="https://apps.apple.com/app/id6792334658?action=write-review">App Store</a>
+    <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app">Google Play</a>
+  </div>
+</main>
+<script>
+(function () {
+  var T = {"en":{"title":"Leave your review of Chronic Friends","opening":"Opening your app store…","choose":"Choose your store:"},"es":{"title":"Deja tu opinión sobre Chronic Friends","opening":"Abriendo tu tienda de apps…","choose":"Elige tu tienda:"},"ca":{"title":"Deixa la teva opinió sobre Chronic Friends","opening":"Obrint la teva botiga d’apps…","choose":"Tria la teva botiga:"},"fr":{"title":"Donnez votre avis sur Chronic Friends","opening":"Ouverture de votre boutique d’applications…","choose":"Choisissez votre boutique :"},"de":{"title":"Bewerte Chronic Friends","opening":"Dein App-Store wird geöffnet…","choose":"Wähle deinen Store:"},"it":{"title":"Lascia la tua opinione su Chronic Friends","opening":"Apertura del tuo store di app…","choose":"Scegli il tuo store:"},"pt":{"title":"Deixa a tua opinião sobre o Chronic Friends","opening":"A abrir a tua loja de apps…","choose":"Escolhe a tua loja:"},"ar":{"title":"شارك رأيك في Chronic Friends","opening":"جارٍ فتح متجر التطبيقات…","choose":"اختر متجرك:"},"hi":{"title":"Chronic Friends के बारे में अपनी राय दें","opening":"आपका ऐप स्टोर खुल रहा है…","choose":"अपना स्टोर चुनें:"},"id":{"title":"Tulis ulasanmu tentang Chronic Friends","opening":"Membuka toko aplikasimu…","choose":"Pilih tokomu:"},"ko":{"title":"Chronic Friends 리뷰를 남겨 주세요","opening":"앱 스토어를 여는 중이에요…","choose":"스토어를 선택해 주세요:"},"vi":{"title":"Để lại đánh giá của bạn về Chronic Friends","opening":"Đang mở cửa hàng ứng dụng…","choose":"Chọn cửa hàng của bạn:"},"tr":{"title":"Chronic Friends hakkındaki görüşünü paylaş","opening":"Uygulama mağazan açılıyor…","choose":"Mağazanı seç:"},"ru":{"title":"Оставьте отзыв о Chronic Friends","opening":"Открываем магазин приложений…","choose":"Выберите магазин:"},"zh":{"title":"为 Chronic Friends 写下你的评价","opening":"正在打开应用商店…","choose":"选择你的商店："},"ja":{"title":"Chronic Friends のレビューを書く","opening":"アプリストアを開いています…","choose":"ストアを選んでください："}};
+  var IOS = 'https://apps.apple.com/app/id6792334658?action=write-review';
+  var PLAY = 'https://play.google.com/store/apps/details?id=org.chronicfriends.app';
+  var ua = navigator.userAgent || '';
+  var ios = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  var android = /Android/i.test(ua);
+  var q = null; try { q = new URLSearchParams(location.search).get('l'); } catch (e) {}
+  var l = String(q || navigator.language || 'en').toLowerCase().split(/[-_]/)[0];
+  if (!T[l]) l = 'en';
+  document.documentElement.lang = l;
+  if (l === 'ar') document.documentElement.dir = 'rtl';
+  document.getElementById('t').textContent = T[l].title;
+  if (ios || android) {
+    document.getElementById('m').textContent = T[l].opening;
+    document.getElementById(ios ? 'play' : 'ios').className = 'btn oculto';   /* solo el botón de SU tienda, por si la redirección no salta */
+    setTimeout(function () { location.replace(ios ? IOS : PLAY); }, 300);
+  } else {
+    document.getElementById('m').textContent = T[l].choose;
+  }
+})();
+</script>
+</body>
+</html>
