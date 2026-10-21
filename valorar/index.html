@@ -15,7 +15,14 @@
      Android y ordenador, igual que antes.
      21 oct 2026, 21:40 (segunda prueba en su iPhone, Gmail → Chrome): el https abría la ficha en una hoja dentro de Chrome;
      el itms-apps abrió la App Store DIRECTAMENTE en «Escribir reseña». En iPhone/iPad, el botón grande pasa a ser
-     itms-apps y el enlace pequeño «App Store» el https (la ficha). En el ordenador, el botón sigue siendo el https. -->
+     itms-apps y el enlace pequeño «App Store» el https (la ficha). En el ordenador, el botón sigue siendo el https.
+     21 oct 2026, 22:3x (pregunta de Gerhard: «¿y con Android?»): Google Play no tiene un enlace que abra «escribir reseña»
+     (developer.android.com, «Linking to Google Play»: solo la ficha); esa ventana solo la abre la propia app (MKT7). Y Chrome
+     no abre una app desde un salto por temporizador sin un toque de la persona (developer.chrome.com/docs/android/intents),
+     así que el salto automático dejaba la web de Play dentro del navegador. En Android ya no salta sola: botón grande con
+     intent:// (la dirección de Play + package=com.android.vending, como manda la guía de Android), que abre la APP Play Store
+     en la ficha y no deja que la coja otra tienda del móvil (la de Realme, Xiaomi…); y debajo, el enlace pequeño «Google
+     Play» (https), por si el navegador no entiende intent://. -->
 <style>
   :root { --verde:#34502f; }
   * { box-sizing:border-box; }
@@ -44,6 +51,7 @@
     <a class="btn" id="ios" href="https://apps.apple.com/app/id6792334658?action=write-review">App Store</a>
     <a class="enlace oculto" id="ios2" href="https://apps.apple.com/app/id6792334658?action=write-review">App Store</a>
     <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app">Google Play</a>
+    <a class="enlace oculto" id="play2" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app">Google Play</a>
   </div>
 </main>
 <script>
@@ -70,9 +78,13 @@
     document.getElementById('ios2').className = 'enlace';
     document.getElementById('m').className = 'oculto';
   } else if (android) {
-    document.getElementById('m').textContent = T[l].opening;
-    document.getElementById('ios').className = 'btn oculto';   /* solo el botón de SU tienda, por si la redirección no salta */
-    setTimeout(function () { location.replace(PLAY); }, 300);
+    /* sin salto automático (como en iPhone): el botón grande abre la APP Play Store en la ficha; el enlace pequeño, la web */
+    var bp = document.getElementById('play');
+    bp.textContent = B[l] || B.en;
+    bp.setAttribute('href', 'intent://play.google.com/store/apps/details?id=org.chronicfriends.app#Intent;scheme=https;package=com.android.vending;S.browser_fallback_url=' + encodeURIComponent(PLAY) + ';end');
+    document.getElementById('ios').className = 'btn oculto';
+    document.getElementById('play2').className = 'enlace';
+    document.getElementById('m').className = 'oculto';
   } else {
     document.getElementById('m').textContent = T[l].choose;
   }
