@@ -12,7 +12,10 @@
      21 oct 2026 (prueba de Gerhard en su iPhone): con el salto AUTOMÁTICO la App Store se abría en la ficha y no en
      «Escribir una reseña» (había que bajar). En iPhone/iPad ya no salta sola: botón grande (enlace https, con un toque
      de la persona) y, debajo, «App Store» con el esquema propio de Apple (itms-apps) por si el botón no abre la ventana.
-     Android y ordenador, igual que antes. -->
+     Android y ordenador, igual que antes.
+     21 oct 2026, 21:40 (segunda prueba en su iPhone, Gmail → Chrome): el https abría la ficha en una hoja dentro de Chrome;
+     el itms-apps abrió la App Store DIRECTAMENTE en «Escribir reseña». En iPhone/iPad, el botón grande pasa a ser
+     itms-apps y el enlace pequeño «App Store» el https (la ficha). En el ordenador, el botón sigue siendo el https. -->
 <style>
   :root { --verde:#34502f; }
   * { box-sizing:border-box; }
@@ -39,7 +42,7 @@
   <p id="m"></p>
   <div class="tiendas">
     <a class="btn" id="ios" href="https://apps.apple.com/app/id6792334658?action=write-review">App Store</a>
-    <a class="enlace oculto" id="ios2" href="itms-apps://itunes.apple.com/app/id6792334658?action=write-review">App Store</a>
+    <a class="enlace oculto" id="ios2" href="https://apps.apple.com/app/id6792334658?action=write-review">App Store</a>
     <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app">Google Play</a>
   </div>
 </main>
@@ -59,8 +62,10 @@
   if (l === 'ar') document.documentElement.dir = 'rtl';
   document.getElementById('t').textContent = T[l].title;
   if (ios) {
-    /* sin salto automático: el toque de la persona en el enlace https abre la App Store en «Escribir una reseña» */
-    document.getElementById('ios').textContent = B[l] || B.en;
+    /* sin salto automático: el botón grande (itms-apps) abre la App Store en «Escribir reseña»; el enlace pequeño, la ficha */
+    var bi = document.getElementById('ios');
+    bi.textContent = B[l] || B.en;
+    bi.setAttribute('href', 'itms-apps://itunes.apple.com/app/id6792334658?action=write-review');   /* el que abre «Escribir reseña» (prueba del 21 oct) */
     document.getElementById('play').className = 'btn oculto';
     document.getElementById('ios2').className = 'enlace';
     document.getElementById('m').className = 'oculto';
