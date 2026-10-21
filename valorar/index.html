@@ -8,7 +8,11 @@
 <!-- MKT-REV2 (21 oct 2026): el botón «Dejar mi opinión» del correo trae aquí. Detecta el móvil y manda a su tienda:
      iPhone/iPad → App Store directo a «Escribir una reseña»; Android → la ficha de Google Play (las estrellas salen
      arriba). En un ordenador enseña las dos. ?l=<idioma> = el idioma de la app de esa persona (lo pone el correo).
-     Carpeta propia de la web (como /email/ y /open/): el deploy de la landing no la borra. -->
+     Carpeta propia de la web (como /email/ y /open/): el deploy de la landing no la borra.
+     21 oct 2026 (prueba de Gerhard en su iPhone): con el salto AUTOMÁTICO la App Store se abría en la ficha y no en
+     «Escribir una reseña» (había que bajar). En iPhone/iPad ya no salta sola: botón grande (enlace https, con un toque
+     de la persona) y, debajo, «App Store» con el esquema propio de Apple (itms-apps) por si el botón no abre la ventana.
+     Android y ordenador, igual que antes. -->
 <style>
   :root { --verde:#34502f; }
   * { box-sizing:border-box; }
@@ -24,7 +28,8 @@
   a.btn { display:block; width:100%; max-width:300px; padding:15px 24px; border-radius:999px; text-decoration:none;
           color:#fff; font-weight:700; font-size:17px; background:#5cb83c;
           background-image:linear-gradient(180deg,#7bd853 0%,#54b035 100%); }
-  .oculto { display:none; }
+  a.enlace { color:#cfe8c2; font-size:14px; font-weight:600; text-decoration:underline; margin-top:4px; }
+  .oculto { display:none !important; }   /* «a.btn» pesa más que «.oculto» solo: sin !important el botón de la otra tienda seguía a la vista */
 </style>
 </head>
 <body>
@@ -34,13 +39,15 @@
   <p id="m"></p>
   <div class="tiendas">
     <a class="btn" id="ios" href="https://apps.apple.com/app/id6792334658?action=write-review">App Store</a>
+    <a class="enlace oculto" id="ios2" href="itms-apps://itunes.apple.com/app/id6792334658?action=write-review">App Store</a>
     <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=org.chronicfriends.app">Google Play</a>
   </div>
 </main>
 <script>
 (function () {
   var T = {"en":{"title":"Leave your review of Chronic Friends","opening":"Opening your app store…","choose":"Choose your store:"},"es":{"title":"Deja tu opinión sobre Chronic Friends","opening":"Abriendo tu tienda de apps…","choose":"Elige tu tienda:"},"ca":{"title":"Deixa la teva opinió sobre Chronic Friends","opening":"Obrint la teva botiga d’apps…","choose":"Tria la teva botiga:"},"fr":{"title":"Donnez votre avis sur Chronic Friends","opening":"Ouverture de votre boutique d’applications…","choose":"Choisissez votre boutique :"},"de":{"title":"Bewerte Chronic Friends","opening":"Dein App-Store wird geöffnet…","choose":"Wähle deinen Store:"},"it":{"title":"Lascia la tua opinione su Chronic Friends","opening":"Apertura del tuo store di app…","choose":"Scegli il tuo store:"},"pt":{"title":"Deixa a tua opinião sobre o Chronic Friends","opening":"A abrir a tua loja de apps…","choose":"Escolhe a tua loja:"},"ar":{"title":"شارك رأيك في Chronic Friends","opening":"جارٍ فتح متجر التطبيقات…","choose":"اختر متجرك:"},"hi":{"title":"Chronic Friends के बारे में अपनी राय दें","opening":"आपका ऐप स्टोर खुल रहा है…","choose":"अपना स्टोर चुनें:"},"id":{"title":"Tulis ulasanmu tentang Chronic Friends","opening":"Membuka toko aplikasimu…","choose":"Pilih tokomu:"},"ko":{"title":"Chronic Friends 리뷰를 남겨 주세요","opening":"앱 스토어를 여는 중이에요…","choose":"스토어를 선택해 주세요:"},"vi":{"title":"Để lại đánh giá của bạn về Chronic Friends","opening":"Đang mở cửa hàng ứng dụng…","choose":"Chọn cửa hàng của bạn:"},"tr":{"title":"Chronic Friends hakkındaki görüşünü paylaş","opening":"Uygulama mağazan açılıyor…","choose":"Mağazanı seç:"},"ru":{"title":"Оставьте отзыв о Chronic Friends","opening":"Открываем магазин приложений…","choose":"Выберите магазин:"},"zh":{"title":"为 Chronic Friends 写下你的评价","opening":"正在打开应用商店…","choose":"选择你的商店："},"ja":{"title":"Chronic Friends のレビューを書く","opening":"アプリストアを開いています…","choose":"ストアを選んでください："}};
-  var IOS = 'https://apps.apple.com/app/id6792334658?action=write-review';
+  /* el texto del botón del correo de reseña (functions/mail-seq-textos/<idioma>.js), el mismo en los 16 */
+  var B = {"en":"Leave my review ⭐","es":"Dejar mi opinión ⭐","ca":"Deixar la meva opinió ⭐","fr":"Donner mon avis ⭐","de":"Bewertung abgeben ⭐","it":"Lascia la mia opinione ⭐","pt":"Deixar a minha opinião ⭐","ar":"مشاركة رأيي ⭐","hi":"अपनी राय दें ⭐","id":"Tulis ulasan ⭐","ko":"리뷰 남기기 ⭐","vi":"Để lại đánh giá ⭐","tr":"Değerlendir ⭐","ru":"Оставить отзыв ⭐","zh":"写评价 ⭐","ja":"レビューを書く ⭐"};
   var PLAY = 'https://play.google.com/store/apps/details?id=org.chronicfriends.app';
   var ua = navigator.userAgent || '';
   var ios = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
@@ -51,10 +58,16 @@
   document.documentElement.lang = l;
   if (l === 'ar') document.documentElement.dir = 'rtl';
   document.getElementById('t').textContent = T[l].title;
-  if (ios || android) {
+  if (ios) {
+    /* sin salto automático: el toque de la persona en el enlace https abre la App Store en «Escribir una reseña» */
+    document.getElementById('ios').textContent = B[l] || B.en;
+    document.getElementById('play').className = 'btn oculto';
+    document.getElementById('ios2').className = 'enlace';
+    document.getElementById('m').className = 'oculto';
+  } else if (android) {
     document.getElementById('m').textContent = T[l].opening;
-    document.getElementById(ios ? 'play' : 'ios').className = 'btn oculto';   /* solo el botón de SU tienda, por si la redirección no salta */
-    setTimeout(function () { location.replace(ios ? IOS : PLAY); }, 300);
+    document.getElementById('ios').className = 'btn oculto';   /* solo el botón de SU tienda, por si la redirección no salta */
+    setTimeout(function () { location.replace(PLAY); }, 300);
   } else {
     document.getElementById('m').textContent = T[l].choose;
   }
