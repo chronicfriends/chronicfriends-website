@@ -1,6 +1,21 @@
-/* Chronic Friends — Privacy Policy (v3.5, 21 October 2026), translated for all 16 supported languages.
+/* Chronic Friends — Privacy Policy (v3.6, 28 October 2026), translated for all 16 supported languages.
    Consumed by "Chronic Friends Landing.dc.html" (renderLegal). Shared by patient
    and doctor sections — the modal reads the page's currently selected language.
+   Updated 28 Oct 2026 to v3.6, in parity with CF Control and the app (export
+   1.0.8n). The new wording is the app's, copied verbatim in all 16 languages from
+   uploads/ciclo-108n-privacy-texts.json, with <strong> written as <b>. Three
+   changes against v3.5: (1) header «28 October 2026 · Version: 3.6»; (2) §1, the
+   «Community» item replaced whole: your posts, your comments and your private
+   messages, and a photo added to a post is re-saved on your device before it is
+   uploaded, which removes the hidden details stored inside it, including the
+   location (GPS) where it was taken (the sentence says «device» in every
+   language, never «phone»); (3) §6, new paragraph right after the 30-day one and
+   before the Apple one: private messages are deleted automatically 12 months
+   after they are sent, even while the account stays active. Where the landing's
+   own v3.5 «Community» item differed from the app's (it, ja, ko, vi, zh), the
+   whole item, bold label included, is now the app's. Nothing else in the policy
+   changed. Guardian: "Privacy v3.6 Check.dc.html"; its negative control is the
+   v3.5 file, kept at audit/cf-privacy-i18n.v3.5.js.
    Updated 21 Oct 2026 to v3.5, in parity with CF Control and the app (export
    1.0.8l). The new wording is the app's, copied verbatim in all 16 languages from
    uploads/ciclo-108l-privacy-texts.json, with <strong> written as <b>. Six changes
@@ -41,7 +56,7 @@ window.CF_PRIVACY_T = {
   "en": {
     "legal": "Privacy",
     "title": "Privacy Policy",
-    "updated": "Last updated: 21 October 2026 · Version: 3.5",
+    "updated": "Last updated: 28 October 2026 · Version: 3.6",
     "summaryPre": "This is a summary. The full, current Privacy Policy is at ",
     "summaryPost": ".",
     "patientTag": "Patient users",
@@ -61,7 +76,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — readings from your phone's health store (optional, off until you turn it on):", "t": " if you enable Health Sync and grant permission in your phone's own system dialog, the app reads your step count, sleep duration and activity minutes — and, only if your device records them, resting heart rate and heart-rate variability — from Apple Health (HealthKit) on iPhone or Health Connect on Android. Three things about this: it is read-only (we never write anything into Apple Health or Health Connect); those readings stay on your device and are not uploaded to our servers, so they are shown next to your journal and can appear in a PDF report that you choose to generate, but we do not receive them — with one exception, and only one: if you join the steps tournament, the four step totals described below are uploaded, and nothing else is; and if a day has no data, the app says so instead of estimating a value. You can withdraw this permission at any time from your phone's settings, and the rest of the app keeps working exactly the same." },
           { "b": "The steps tournament (optional, off until you join):", "t": " Chronic Friends includes a friendly steps tournament — a table of who has walked the most today, this week, this month and this year, which starts again on 1 January. Taking part is a choice you make, and nothing is published until you make it. If you join, four numbers — your step totals for those four periods — are uploaded to our servers together with the display name and avatar you already show in the community, so that other members can see them in the table. Nothing else about your health goes with them: not sleep, not activity minutes, not a single day-by-day figure, and nothing from your journal. If you leave the tournament, your row is deleted, not hidden, and you disappear from the table." },
           { "b": "Self-assessment questionnaires (optional):", "t": " the answers you give to standardised questionnaires you choose to complete — such as the PHQ-9, the GAD-7, the AUDIT-C or a condition activity index — and the score they add up to. You choose whether to open one and you can delete the result afterwards. These questionnaires are reproduced from their official published versions and the app shows you the score without interpreting it (see Section 11)." },
-          { "b": "Community:", "t": " posts and private messages." },
+          { "b": "Community:", "t": " your posts, your comments and your private messages. If you add a photo to a post, the app re-saves it on your device before uploading it, and that removes the hidden details stored inside the photo — including the location (GPS) where it was taken." },
           { "b": "Teleconsultation:", "t": " appointment details, communications with doctors, and any health information you choose to share. We do not record video consultations." },
           { "b": "Subscription / payment:", "t": " subscription status via RevenueCat; charges via Apple / Google; consultation payments via Stripe. We never store card details." },
           { "b": "Doctor verification (doctors only):", "t": " identity documents and credentials, sent directly to Stripe Identity. These document images do not pass through our own servers." },
@@ -107,6 +122,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Retention", "b": [
         { "p": "We keep your data while your account is active. After you delete your account, we delete your data within 30 days, except where the law requires us to keep certain records (for example, billing). Consultation records may be subject to specific retention requirements. Backups rotate out in the normal course." },
+        { "p": "Private messages are deleted automatically 12 months after they are sent, even while your account stays active." },
         { "p": "If you signed in with Apple, deleting your account also asks Apple to disconnect Chronic Friends from your Apple ID. Removing Chronic Friends from your Apple ID or Google Account settings does not delete your data: to delete it, use «Delete my account» in Settings." },
         { "p": "If you take part in the steps tournament, your row is deleted the moment you leave it, and in any case when you delete your account." },
         { "p": "If you switched on “Show my details on my profile”, switching it off deletes your country, your age, your years with the condition and your bio from your published profile — they are removed from it, not hidden. The deletion is sent the moment you switch it off; if your device is offline, or if it cannot be sent right then, the app sends it again the next time you open it while signed in. If you delete your account, they are erased with the rest of your data, within the 30 days described above." }
@@ -154,7 +170,7 @@ window.CF_PRIVACY_T = {
   "es": {
     "legal": "Privacidad",
     "title": "Política de Privacidad",
-    "updated": "Última actualización: 21 de octubre de 2026 · Versión: 3.5",
+    "updated": "Última actualización: 28 de octubre de 2026 · Versión: 3.6",
     "summaryPre": "Este es un resumen. La Política de Privacidad completa y vigente está en ",
     "summaryPost": ".",
     "patientTag": "Usuarios pacientes",
@@ -174,7 +190,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — lecturas del almacén de salud de tu teléfono (opcional, desactivado hasta que lo enciendas):", "t": " si activas Health Sync y das permiso en el diálogo del sistema de tu propio teléfono, la aplicación lee tu recuento de pasos, tu duración del sueño y tus minutos de actividad —y, solo si tu dispositivo los registra, tu frecuencia cardíaca en reposo y tu variabilidad de la frecuencia cardíaca— de Apple Health (HealthKit) en iPhone o de Health Connect en Android. Tres cosas al respecto: es de solo lectura (nunca escribimos nada en Apple Health ni en Health Connect); esas lecturas se quedan en tu dispositivo y no se suben a nuestros servidores, así que se muestran junto a tu diario y pueden aparecer en un informe PDF que decidas generar, pero nosotros no las recibimos, con una excepción y solo una: si te unes al torneo de pasos, se suben los cuatro totales de pasos que se describen más abajo, y nada más; y si un día no tiene datos, la aplicación te lo dice en lugar de estimar un valor. Puedes retirar este permiso en cualquier momento desde los ajustes de tu teléfono, y el resto de la aplicación sigue funcionando exactamente igual." },
           { "b": "El torneo de pasos (opcional, desactivado hasta que te unas):", "t": " Chronic Friends incluye un torneo de pasos amistoso: una tabla de quién ha caminado más hoy, esta semana, este mes y este año, que vuelve a empezar el 1 de enero. Participar es una decisión tuya, y no se publica nada hasta que la tomas. Si te unes, cuatro números —tus totales de pasos de esos cuatro periodos— se suben a nuestros servidores junto con el nombre visible y el avatar que ya muestras en la comunidad, para que otros miembros puedan verlos en la tabla. Nada más sobre tu salud va con ellos: ni el sueño, ni los minutos de actividad, ni una sola cifra día a día, ni nada de tu diario. Si dejas el torneo, tu fila se borra, no se esconde, y desapareces de la tabla." },
           { "b": "Cuestionarios de autoevaluación (opcional):", "t": " las respuestas que das a los cuestionarios estandarizados que eliges completar —como el PHQ-9, el GAD-7, el AUDIT-C o un índice de actividad de la enfermedad— y la puntuación que suman. Tú eliges si abres uno y puedes borrar el resultado después. Estos cuestionarios se reproducen a partir de sus versiones oficiales publicadas y la aplicación te muestra la puntuación sin interpretarla (véase la sección 11)." },
-          { "b": "Comunidad:", "t": " publicaciones y mensajes privados." },
+          { "b": "Comunidad:", "t": " tus publicaciones, tus comentarios y tus mensajes privados. Si añades una foto a una publicación, la app la vuelve a guardar en tu dispositivo antes de subirla, y eso quita los datos ocultos que lleva dentro, incluida la ubicación (GPS) donde se hizo." },
           { "b": "Teleconsulta:", "t": " datos de la cita, comunicaciones con los médicos y cualquier información de salud que decidas compartir. No grabamos las videoconsultas." },
           { "b": "Suscripción / pago:", "t": " estado de la suscripción a través de RevenueCat; cargos a través de Apple / Google; pagos de consultas a través de Stripe. Nunca almacenamos datos de tarjetas." },
           { "b": "Verificación de médicos (solo médicos):", "t": " documentos de identidad y credenciales, enviados directamente a Stripe Identity. Las imágenes de esos documentos no pasan por nuestros servidores." },
@@ -220,6 +236,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Conservación", "b": [
         { "p": "Conservamos tus datos mientras tu cuenta esté activa. Después de que borres tu cuenta, eliminamos tus datos en un plazo de 30 días, salvo cuando la ley nos obligue a conservar ciertos registros (por ejemplo, de facturación). Los registros de consultas pueden estar sujetos a requisitos de conservación específicos. Las copias de seguridad se van rotando con normalidad." },
+        { "p": "Los mensajes privados se borran solos 12 meses después de enviarse, aunque tu cuenta siga activa." },
         { "p": "Si has iniciado sesión con Apple, al eliminar tu cuenta también se pide a Apple que desconecte Chronic Friends de tu Apple ID. Quitar Chronic Friends de los ajustes de tu Apple ID o de tu cuenta de Google no borra tus datos: para borrarlos, usa «Eliminar mi cuenta» en Ajustes." },
         { "p": "Si participas en el torneo de pasos, tu fila se borra en el momento en que lo dejas y, en cualquier caso, cuando borras tu cuenta." },
         { "p": "Si activaste «Mostrar mis datos en mi perfil», desactivarlo borra tu país, tu edad, tus años con la enfermedad y tu biografía de tu perfil publicado: se eliminan de él, no se esconden. El borrado se envía en el momento en que lo desactivas; si tu dispositivo está sin conexión, o si no puede enviarse justo entonces, la aplicación lo vuelve a enviar la próxima vez que la abras con la sesión iniciada. Si borras tu cuenta, se eliminan con el resto de tus datos, dentro de los 30 días descritos arriba." }
@@ -267,7 +284,7 @@ window.CF_PRIVACY_T = {
   "ca": {
     "legal": "Privadesa",
     "title": "Política de privadesa",
-    "updated": "Última actualització: 21 d’octubre de 2026 · Versió: 3.5",
+    "updated": "Última actualització: 28 d’octubre de 2026 · Versió: 3.6",
     "summaryPre": "Aquest és un resum. La Política de privadesa completa i vigent és a ",
     "summaryPost": ".",
     "patientTag": "Usuaris pacients",
@@ -287,7 +304,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — lectures del magatzem de salut del teu telèfon (opcional, desactivat fins que l'encenguis):", "t": " si actives Health Sync i dones permís al diàleg del sistema del teu propi telèfon, l'aplicació llegeix el teu recompte de passos, la teva durada del son i els teus minuts d'activitat —i, només si el teu dispositiu els registra, la teva freqüència cardíaca en repòs i la teva variabilitat de la freqüència cardíaca— d'Apple Health (HealthKit) a l'iPhone o de Health Connect a Android. Tres coses sobre això: és de només lectura (mai no escrivim res a Apple Health ni a Health Connect); aquestes lectures es queden al teu dispositiu i no es pugen als nostres servidors, així que es mostren al costat del teu diari i poden aparèixer en un informe PDF que decideixis generar, però nosaltres no les rebem, amb una excepció i només una: si t'uneixes al torneig de passos, es pugen els quatre totals de passos que es descriuen més avall, i res més; i si un dia no té dades, l'aplicació t'ho diu en lloc d'estimar un valor. Pots retirar aquest permís en qualsevol moment des de la configuració del teu telèfon, i la resta de l'aplicació continua funcionant exactament igual." },
           { "b": "El torneig de passos (opcional, desactivat fins que t'hi uneixis):", "t": " Chronic Friends inclou un torneig de passos amistós: una taula de qui ha caminat més avui, aquesta setmana, aquest mes i aquest any, que torna a començar l'1 de gener. Participar-hi és una decisió teva, i no es publica res fins que la prens. Si t'hi uneixes, quatre números —els teus totals de passos d'aquests quatre períodes— es pugen als nostres servidors juntament amb el nom visible i l'avatar que ja mostres a la comunitat, perquè altres membres els puguin veure a la taula. Res més sobre la teva salut hi va: ni el son, ni els minuts d'activitat, ni una sola xifra dia a dia, ni res del teu diari. Si deixes el torneig, la teva fila s'esborra, no s'amaga, i desapareixes de la taula." },
           { "b": "Qüestionaris d'autoavaluació (opcional):", "t": " les respostes que dones als qüestionaris estandarditzats que tries completar —com el PHQ-9, el GAD-7, l'AUDIT-C o un índex d'activitat de la malaltia— i la puntuació que sumen. Tu tries si obres un i pots esborrar el resultat després. Aquests qüestionaris es reprodueixen a partir de les seves versions oficials publicades i l'aplicació et mostra la puntuació sense interpretar-la (vegeu la secció 11)." },
-          { "b": "Comunitat:", "t": " publicacions i missatges privats." },
+          { "b": "Comunitat:", "t": " les teves publicacions, els teus comentaris i els teus missatges privats. Si afegeixes una foto a una publicació, l’app la torna a desar al teu dispositiu abans de pujar-la, i això elimina les dades ocultes que conté, inclosa la ubicació (GPS) on es va fer." },
           { "b": "Teleconsulta:", "t": " dades de la cita, comunicacions amb els metges i qualsevol informació de salut que decideixis compartir. No enregistrem les videoconsultes." },
           { "b": "Subscripció / pagament:", "t": " estat de la subscripció a través de RevenueCat; càrrecs a través d'Apple / Google; pagaments de consultes a través de Stripe. Mai no emmagatzemem dades de targetes." },
           { "b": "Verificació de metges (només metges):", "t": " documents d'identitat i credencials, enviats directament a Stripe Identity. Les imatges d'aquests documents no passen pels nostres servidors." },
@@ -333,6 +350,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Conservació", "b": [
         { "p": "Conservem les teves dades mentre el teu compte estigui actiu. Després que esborris el teu compte, eliminem les teves dades en un termini de 30 dies, tret dels casos en què la llei ens obligui a conservar certs registres (per exemple, de facturació). Els registres de consultes poden estar subjectes a requisits de conservació específics. Les còpies de seguretat es van rotant amb normalitat." },
+        { "p": "Els missatges privats s’esborren automàticament 12 mesos després d’enviar-se, encara que el teu compte continuï actiu." },
         { "p": "Si has iniciat sessió amb Apple, en eliminar el teu compte també es demana a Apple que desconnecti Chronic Friends del teu Apple ID. Treure Chronic Friends de la configuració del teu Apple ID o del teu compte de Google no esborra les teves dades: per esborrar-les, fes servir «Elimina el meu compte» a Configuració." },
         { "p": "Si participes en el torneig de passos, la teva fila s'esborra en el moment en què el deixes i, en qualsevol cas, quan esborres el teu compte." },
         { "p": "Si vas activar «Mostra les meves dades al meu perfil», desactivar-ho esborra el teu país, la teva edat, els teus anys amb la malaltia i la teva biografia del teu perfil publicat: se n'eliminen, no s'amaguen. L'esborrament s'envia en el moment en què ho desactives; si el teu dispositiu està sense connexió, o si no es pot enviar just llavors, l'aplicació el torna a enviar la propera vegada que l'obris amb la sessió iniciada. Si esborres el teu compte, s'eliminen amb la resta de les teves dades, dins dels 30 dies descrits a dalt." }
@@ -380,7 +398,7 @@ window.CF_PRIVACY_T = {
   "fr": {
     "legal": "Confidentialité",
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 21 octobre 2026 · Version : 3.5",
+    "updated": "Dernière mise à jour : 28 octobre 2026 · Version : 3.6",
     "summaryPre": "Ceci est un résumé. La Politique de confidentialité complète et en vigueur est sur ",
     "summaryPost": ".",
     "patientTag": "Utilisateurs patients",
@@ -400,7 +418,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — relevés du magasin de santé de votre téléphone (facultatif, désactivé jusqu'à ce que vous l'activiez) :", "t": " si vous activez Health Sync et accordez l'autorisation dans la boîte de dialogue système de votre propre téléphone, l'application lit votre nombre de pas, votre durée de sommeil et vos minutes d'activité — et, seulement si votre appareil les enregistre, votre fréquence cardiaque au repos et votre variabilité de la fréquence cardiaque — dans Apple Health (HealthKit) sur iPhone ou Health Connect sur Android. Trois choses à ce sujet : c'est en lecture seule (nous n'écrivons jamais rien dans Apple Health ni dans Health Connect) ; ces relevés restent sur votre appareil et ne sont pas téléversés sur nos serveurs, ils sont donc affichés à côté de votre journal et peuvent figurer dans un rapport PDF que vous choisissez de générer, mais nous ne les recevons pas — avec une exception, et une seule : si vous rejoignez le tournoi de pas, les quatre totaux de pas décrits ci-dessous sont téléversés, et rien d'autre ; et si un jour n'a pas de données, l'application le dit au lieu d'estimer une valeur. Vous pouvez retirer cette autorisation à tout moment depuis les réglages de votre téléphone, et le reste de l'application continue de fonctionner exactement de la même façon." },
           { "b": "Le tournoi de pas (facultatif, désactivé jusqu'à ce que vous le rejoigniez) :", "t": " Chronic Friends comprend un tournoi de pas amical — un tableau de qui a marché le plus aujourd'hui, cette semaine, ce mois-ci et cette année, qui repart le 1er janvier. Y participer est un choix que vous faites, et rien n'est publié avant que vous le fassiez. Si vous le rejoignez, quatre nombres — vos totaux de pas pour ces quatre périodes — sont téléversés sur nos serveurs avec le nom affiché et l'avatar que vous montrez déjà dans la communauté, afin que d'autres membres puissent les voir dans le tableau. Rien d'autre sur votre santé ne part avec eux : ni le sommeil, ni les minutes d'activité, ni un seul chiffre jour par jour, et rien de votre journal. Si vous quittez le tournoi, votre ligne est supprimée, pas masquée, et vous disparaissez du tableau." },
           { "b": "Questionnaires d'auto-évaluation (facultatif) :", "t": " les réponses que vous donnez aux questionnaires standardisés que vous choisissez de remplir — comme le PHQ-9, le GAD-7, l'AUDIT-C ou un indice d'activité de la maladie — et le score qu'elles totalisent. C'est vous qui choisissez d'en ouvrir un et vous pouvez supprimer le résultat ensuite. Ces questionnaires sont reproduits à partir de leurs versions officielles publiées et l'application vous montre le score sans l'interpréter (voir la section 11)." },
-          { "b": "Communauté :", "t": " publications et messages privés." },
+          { "b": "Communauté :", "t": " vos publications, vos commentaires et vos messages privés. Si vous ajoutez une photo à une publication, l’application l’enregistre de nouveau sur votre appareil avant de l’envoyer, ce qui supprime les informations cachées enregistrées dans la photo — y compris l’emplacement (GPS) où elle a été prise." },
           { "b": "Téléconsultation :", "t": " détails du rendez-vous, communications avec les médecins et toute information de santé que vous choisissez de partager. Nous n'enregistrons pas les consultations vidéo." },
           { "b": "Abonnement / paiement :", "t": " statut de l'abonnement via RevenueCat ; débits via Apple / Google ; paiements des consultations via Stripe. Nous ne stockons jamais les données de carte bancaire." },
           { "b": "Vérification des médecins (médecins uniquement) :", "t": " pièces d'identité et diplômes, envoyés directement à Stripe Identity. Les images de ces documents ne passent pas par nos propres serveurs." },
@@ -446,6 +464,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Conservation", "b": [
         { "p": "Nous conservons vos données tant que votre compte est actif. Après la suppression de votre compte, nous supprimons vos données dans un délai de 30 jours, sauf lorsque la loi nous oblige à conserver certains enregistrements (par exemple, la facturation). Les dossiers de consultation peuvent être soumis à des exigences de conservation spécifiques. Les sauvegardes sont renouvelées dans le cours normal des choses." },
+        { "p": "Les messages privés sont supprimés automatiquement 12 mois après leur envoi, même si votre compte reste actif." },
         { "p": "Si vous vous connectez avec Apple, la suppression de votre compte demande aussi à Apple de déconnecter Chronic Friends de votre Apple ID. Retirer Chronic Friends des réglages de votre Apple ID ou de votre compte Google ne supprime pas vos données : pour les supprimer, utilisez « Supprimer mon compte » dans Paramètres." },
         { "p": "Si vous participez au tournoi de pas, votre ligne est supprimée au moment où vous le quittez et, en tout état de cause, lorsque vous supprimez votre compte." },
         { "p": "Si vous avez activé « Afficher mes informations sur mon profil », le désactiver supprime votre pays, votre âge, vos années avec la maladie et votre biographie de votre profil publié — ils en sont retirés, pas masqués. La suppression est envoyée au moment où vous désactivez l'interrupteur ; si votre appareil est hors ligne, ou si elle ne peut pas être envoyée à cet instant, l'application la renvoie la prochaine fois que vous l'ouvrez en étant connecté. Si vous supprimez votre compte, ces informations sont effacées avec le reste de vos données, dans les 30 jours décrits ci-dessus." }
@@ -493,7 +512,7 @@ window.CF_PRIVACY_T = {
   "de": {
     "legal": "Datenschutz",
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 21. Oktober 2026 · Version: 3.5",
+    "updated": "Zuletzt aktualisiert: 28. Oktober 2026 · Version: 3.6",
     "summaryPre": "Dies ist eine Zusammenfassung. Die vollständige, aktuelle Datenschutzerklärung finden Sie unter ",
     "summaryPost": ".",
     "patientTag": "Patient:innen",
@@ -513,7 +532,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync – Messwerte aus dem Gesundheitsspeicher Ihres Telefons (optional, aus, bis Sie es einschalten):", "t": " wenn Sie Health Sync aktivieren und im System-Dialog Ihres eigenen Telefons die Erlaubnis erteilen, liest die App Ihre Schrittzahl, Ihre Schlafdauer und Ihre Aktivitätsminuten – und, nur wenn Ihr Gerät sie aufzeichnet, Ihren Ruhepuls und Ihre Herzfrequenzvariabilität – aus Apple Health (HealthKit) auf dem iPhone oder Health Connect auf Android. Drei Dinge dazu: Es ist rein lesend (wir schreiben niemals etwas in Apple Health oder Health Connect); diese Messwerte bleiben auf Ihrem Gerät und werden nicht auf unsere Server hochgeladen, sie werden also neben Ihrem Tagebuch angezeigt und können in einem PDF-Bericht erscheinen, den Sie selbst erzeugen, aber wir erhalten sie nicht – mit einer Ausnahme, und nur einer: Wenn Sie am Schritt-Turnier teilnehmen, werden die vier unten beschriebenen Schrittsummen hochgeladen und nichts anderes; und wenn ein Tag keine Daten hat, sagt die App das, anstatt einen Wert zu schätzen. Sie können diese Erlaubnis jederzeit in den Einstellungen Ihres Telefons zurückziehen, und der Rest der App funktioniert genau gleich weiter." },
           { "b": "Das Schritt-Turnier (optional, aus, bis Sie beitreten):", "t": " Chronic Friends enthält ein freundschaftliches Schritt-Turnier – eine Tabelle, wer heute, diese Woche, diesen Monat und dieses Jahr am meisten gegangen ist, die am 1. Januar neu beginnt. Die Teilnahme ist Ihre Entscheidung, und nichts wird veröffentlicht, bevor Sie sie treffen. Wenn Sie beitreten, werden vier Zahlen – Ihre Schrittsummen für diese vier Zeiträume – zusammen mit dem Anzeigenamen und dem Avatar, die Sie in der Community bereits zeigen, auf unsere Server hochgeladen, damit andere Mitglieder sie in der Tabelle sehen können. Nichts anderes über Ihre Gesundheit geht mit: kein Schlaf, keine Aktivitätsminuten, keine einzige Tageszahl und nichts aus Ihrem Tagebuch. Wenn Sie das Turnier verlassen, wird Ihre Zeile gelöscht, nicht versteckt, und Sie verschwinden aus der Tabelle." },
           { "b": "Selbsteinschätzungs-Fragebögen (optional):", "t": " die Antworten, die Sie auf standardisierte Fragebögen geben, die Sie ausfüllen möchten – etwa PHQ-9, GAD-7, AUDIT-C oder einen Krankheitsaktivitätsindex – und den Punktwert, den sie ergeben. Sie entscheiden, ob Sie einen öffnen, und können das Ergebnis danach löschen. Diese Fragebögen werden aus ihren offiziellen veröffentlichten Fassungen wiedergegeben, und die App zeigt Ihnen den Punktwert, ohne ihn zu interpretieren (siehe Abschnitt 11)." },
-          { "b": "Community:", "t": " Beiträge und private Nachrichten." },
+          { "b": "Community:", "t": " Ihre Beiträge, Ihre Kommentare und Ihre privaten Nachrichten. Wenn Sie einem Beitrag ein Foto hinzufügen, speichert die App es vor dem Hochladen auf Ihrem Gerät neu, und dadurch werden die verborgenen Angaben entfernt, die im Foto gespeichert sind — einschließlich des Ortes (GPS), an dem es aufgenommen wurde." },
           { "b": "Telekonsultation:", "t": " Termindetails, Kommunikation mit Ärzt:innen und alle Gesundheitsinformationen, die Sie teilen möchten. Wir zeichnen Videokonsultationen nicht auf." },
           { "b": "Abonnement / Zahlung:", "t": " Abo-Status über RevenueCat; Abbuchungen über Apple / Google; Zahlungen für Konsultationen über Stripe. Wir speichern niemals Kartendaten." },
           { "b": "Ärzt:innen-Verifizierung (nur Ärzt:innen):", "t": " Ausweisdokumente und Qualifikationsnachweise, direkt an Stripe Identity gesendet. Diese Dokumentbilder laufen nicht über unsere eigenen Server." },
@@ -559,6 +578,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Speicherdauer", "b": [
         { "p": "Wir bewahren Ihre Daten auf, solange Ihr Konto aktiv ist. Nachdem Sie Ihr Konto gelöscht haben, löschen wir Ihre Daten innerhalb von 30 Tagen, außer wo das Gesetz uns verpflichtet, bestimmte Aufzeichnungen aufzubewahren (zum Beispiel zur Abrechnung). Für Konsultationsunterlagen können besondere Aufbewahrungspflichten gelten. Backups werden im normalen Verlauf ausrotiert." },
+        { "p": "Private Nachrichten werden 12 Monate nach dem Senden automatisch gelöscht, auch wenn Ihr Konto weiterhin aktiv ist." },
         { "p": "Wenn Sie sich mit Apple angemeldet haben, wird Apple beim Löschen Ihres Kontos außerdem gebeten, Chronic Friends von Ihrer Apple ID zu trennen. Wenn Sie Chronic Friends in den Einstellungen Ihrer Apple ID oder Ihres Google-Kontos entfernen, werden Ihre Daten nicht gelöscht: Um sie zu löschen, verwenden Sie „Mein Konto löschen“ in den Einstellungen." },
         { "p": "Wenn Sie am Schritt-Turnier teilnehmen, wird Ihre Zeile in dem Moment gelöscht, in dem Sie es verlassen, und in jedem Fall, wenn Sie Ihr Konto löschen." },
         { "p": "Wenn Sie „Meine Angaben in meinem Profil zeigen“ eingeschaltet hatten, löscht das Abschalten Ihr Land, Ihr Alter, Ihre Jahre mit der Erkrankung und Ihre Biografie aus Ihrem veröffentlichten Profil – sie werden daraus entfernt, nicht verborgen. Die Löschung wird in dem Moment gesendet, in dem Sie abschalten; ist Ihr Gerät offline oder kann sie in diesem Moment nicht gesendet werden, sendet die App sie erneut, wenn Sie sie das nächste Mal angemeldet öffnen. Wenn Sie Ihr Konto löschen, werden sie mit dem Rest Ihrer Daten innerhalb der oben beschriebenen 30 Tage gelöscht." }
@@ -606,7 +626,7 @@ window.CF_PRIVACY_T = {
   "it": {
     "legal": "Privacy",
     "title": "Informativa sulla privacy",
-    "updated": "Ultimo aggiornamento: 21 ottobre 2026 · Versione: 3.5",
+    "updated": "Ultimo aggiornamento: 28 ottobre 2026 · Versione: 3.6",
     "summaryPre": "Questo è un riassunto. L'Informativa sulla privacy completa e vigente è su ",
     "summaryPost": ".",
     "patientTag": "Utenti pazienti",
@@ -626,7 +646,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — letture dall'archivio salute del tuo telefono (facoltativo, disattivato finché non lo accendi):", "t": " se attivi Health Sync e concedi il permesso nella finestra di sistema del tuo telefono, l'app legge il tuo conteggio dei passi, la durata del sonno e i minuti di attività — e, solo se il tuo dispositivo li registra, la frequenza cardiaca a riposo e la variabilità della frequenza cardiaca — da Apple Health (HealthKit) su iPhone o da Health Connect su Android. Tre cose al riguardo: è in sola lettura (non scriviamo mai nulla in Apple Health né in Health Connect); quelle letture restano sul tuo dispositivo e non vengono caricate sui nostri server, quindi sono mostrate accanto al tuo diario e possono comparire in un referto PDF che scegli di generare, ma noi non le riceviamo, con un'eccezione e una sola: se ti iscrivi al torneo dei passi, vengono caricati i quattro totali di passi descritti più sotto, e nient'altro; e se un giorno non ha dati, l'app te lo dice invece di stimare un valore. Puoi revocare questo permesso in qualsiasi momento dalle impostazioni del tuo telefono, e il resto dell'app continua a funzionare esattamente allo stesso modo." },
           { "b": "Il torneo dei passi (facoltativo, disattivato finché non ti iscrivi):", "t": " Chronic Friends include un torneo dei passi amichevole: una classifica di chi ha camminato di più oggi, questa settimana, questo mese e quest'anno, che ricomincia il 1° gennaio. Partecipare è una tua scelta, e nulla viene pubblicato prima che tu la faccia. Se ti iscrivi, quattro numeri — i tuoi totali di passi per quei quattro periodi — vengono caricati sui nostri server insieme al nome visualizzato e all'avatar che già mostri nella comunità, così che altri membri possano vederli nella classifica. Nient'altro sulla tua salute viaggia con loro: né il sonno, né i minuti di attività, né una singola cifra giorno per giorno, né nulla del tuo diario. Se lasci il torneo, la tua riga viene cancellata, non nascosta, e sparisci dalla classifica." },
           { "b": "Questionari di autovalutazione (facoltativo):", "t": " le risposte che dai ai questionari standardizzati che scegli di completare — come il PHQ-9, il GAD-7, l'AUDIT-C o un indice di attività della malattia — e il punteggio che ne risulta. Scegli tu se aprirne uno e puoi eliminare il risultato in seguito. Questi questionari sono riprodotti dalle loro versioni ufficiali pubblicate e l'app ti mostra il punteggio senza interpretarlo (vedi la sezione 11)." },
-          { "b": "Comunità:", "t": " post e messaggi privati." },
+          { "b": "Community:", "t": " i tuoi post, i tuoi commenti e i tuoi messaggi privati. Se aggiungi una foto a un post, l’app la salva di nuovo sul tuo dispositivo prima di caricarla, e questo elimina i dati nascosti contenuti nella foto — compresa la posizione (GPS) in cui è stata scattata." },
           { "b": "Teleconsulto:", "t": " dettagli dell'appuntamento, comunicazioni con i medici e qualsiasi informazione di salute che scegli di condividere. Non registriamo le videoconsulenze." },
           { "b": "Abbonamento / pagamento:", "t": " stato dell'abbonamento tramite RevenueCat; addebiti tramite Apple / Google; pagamenti dei consulti tramite Stripe. Non memorizziamo mai i dati delle carte." },
           { "b": "Verifica dei medici (solo medici):", "t": " documenti d'identità e credenziali, inviati direttamente a Stripe Identity. Le immagini di questi documenti non passano dai nostri server." },
@@ -672,6 +692,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Conservazione", "b": [
         { "p": "Conserviamo i tuoi dati mentre il tuo account è attivo. Dopo che elimini il tuo account, cancelliamo i tuoi dati entro 30 giorni, salvo dove la legge ci imponga di conservare determinate registrazioni (per esempio, la fatturazione). Le registrazioni dei consulti possono essere soggette a requisiti di conservazione specifici. I backup vengono ruotati nel normale corso delle cose." },
+        { "p": "I messaggi privati vengono eliminati automaticamente 12 mesi dopo l’invio, anche se il tuo account resta attivo." },
         { "p": "Se hai effettuato l’accesso con Apple, eliminando il tuo account viene anche chiesto ad Apple di scollegare Chronic Friends dal tuo Apple ID. Rimuovere Chronic Friends dalle impostazioni del tuo Apple ID o del tuo account Google non elimina i tuoi dati: per eliminarli, usa «Elimina il mio account» in Impostazioni." },
         { "p": "Se partecipi al torneo dei passi, la tua riga viene cancellata nel momento in cui lo lasci e, in ogni caso, quando elimini il tuo account." },
         { "p": "Se avevi attivato «Mostra i miei dati sul mio profilo», disattivarlo cancella il tuo paese, la tua età, i tuoi anni con la patologia e la tua biografia dal tuo profilo pubblicato: vengono rimossi da esso, non nascosti. La cancellazione viene inviata nel momento in cui lo disattivi; se il tuo dispositivo è offline, o se non può essere inviata in quel momento, l'app la invia di nuovo la volta successiva che la apri con l'accesso effettuato. Se elimini il tuo account, vengono cancellati con il resto dei tuoi dati, entro i 30 giorni descritti sopra." }
@@ -719,7 +740,7 @@ window.CF_PRIVACY_T = {
   "pt": {
     "legal": "Privacidade",
     "title": "Política de Privacidade",
-    "updated": "Última atualização: 21 de outubro de 2026 · Versão: 3.5",
+    "updated": "Última atualização: 28 de outubro de 2026 · Versão: 3.6",
     "summaryPre": "Este é um resumo. A Política de Privacidade completa e em vigor está em ",
     "summaryPost": ".",
     "patientTag": "Utilizadores pacientes",
@@ -739,7 +760,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — leituras do armazenamento de saúde do seu telefone (opcional, desligado até o ligar):", "t": " se ativar o Health Sync e conceder permissão na caixa de diálogo do sistema do seu telefone, a aplicação lê a sua contagem de passos, a duração do sono e os minutos de atividade — e, só se o seu dispositivo os registar, a frequência cardíaca em repouso e a variabilidade da frequência cardíaca — do Apple Health (HealthKit) no iPhone ou do Health Connect no Android. Três coisas sobre isto: é só de leitura (nunca escrevemos nada no Apple Health nem no Health Connect); essas leituras ficam no seu dispositivo e não são carregadas para os nossos servidores, por isso são mostradas ao lado do seu diário e podem aparecer num relatório PDF que decida gerar, mas nós não as recebemos — com uma exceção, e só uma: se entrar no torneio de passos, os quatro totais de passos descritos mais abaixo são carregados, e nada mais; e se um dia não tiver dados, a aplicação di-lo em vez de estimar um valor. Pode retirar esta permissão em qualquer momento nas definições do seu telefone, e o resto da aplicação continua a funcionar exatamente da mesma forma." },
           { "b": "O torneio de passos (opcional, desligado até entrar):", "t": " o Chronic Friends inclui um torneio de passos amigável — uma tabela de quem andou mais hoje, esta semana, este mês e este ano, que volta a começar a 1 de janeiro. Participar é uma escolha sua, e nada é publicado antes de a fazer. Se entrar, quatro números — os seus totais de passos desses quatro períodos — são carregados para os nossos servidores juntamente com o nome visível e o avatar que já mostra na comunidade, para que outros membros os possam ver na tabela. Nada mais sobre a sua saúde vai com eles: nem o sono, nem os minutos de atividade, nem um único valor dia a dia, nem nada do seu diário. Se sair do torneio, a sua linha é eliminada, não escondida, e desaparece da tabela." },
           { "b": "Questionários de autoavaliação (opcional):", "t": " as respostas que dá aos questionários padronizados que escolhe preencher — como o PHQ-9, o GAD-7, o AUDIT-C ou um índice de atividade da doença — e a pontuação que somam. É você que escolhe se abre um e pode eliminar o resultado depois. Estes questionários são reproduzidos a partir das suas versões oficiais publicadas e a aplicação mostra-lhe a pontuação sem a interpretar (ver a secção 11)." },
-          { "b": "Comunidade:", "t": " publicações e mensagens privadas." },
+          { "b": "Comunidade:", "t": " as suas publicações, os seus comentários e as suas mensagens privadas. Se adicionar uma fotografia a uma publicação, a aplicação volta a guardá-la no seu dispositivo antes de a carregar, e isso remove os dados ocultos guardados dentro da fotografia — incluindo a localização (GPS) onde foi tirada." },
           { "b": "Teleconsulta:", "t": " dados da marcação, comunicações com os médicos e qualquer informação de saúde que decida partilhar. Não gravamos as videoconsultas." },
           { "b": "Subscrição / pagamento:", "t": " estado da subscrição através da RevenueCat; cobranças através da Apple / Google; pagamentos de consultas através da Stripe. Nunca guardamos dados de cartões." },
           { "b": "Verificação de médicos (só médicos):", "t": " documentos de identidade e credenciais, enviados diretamente para a Stripe Identity. As imagens destes documentos não passam pelos nossos servidores." },
@@ -785,6 +806,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Conservação", "b": [
         { "p": "Conservamos os seus dados enquanto a sua conta estiver ativa. Depois de eliminar a sua conta, eliminamos os seus dados no prazo de 30 dias, exceto quando a lei nos obrigue a conservar determinados registos (por exemplo, de faturação). Os registos de consultas podem estar sujeitos a requisitos de conservação específicos. As cópias de segurança vão sendo rodadas no decurso normal." },
+        { "p": "As mensagens privadas são eliminadas automaticamente 12 meses depois de serem enviadas, mesmo que a sua conta continue ativa." },
         { "p": "Se iniciou sessão com a Apple, ao eliminar a sua conta também é pedido à Apple que desligue o Chronic Friends do seu Apple ID. Remover o Chronic Friends das definições do seu Apple ID ou da sua Conta Google não apaga os seus dados: para os apagar, use «Eliminar a minha conta» em Definições." },
         { "p": "Se participar no torneio de passos, a sua linha é eliminada no momento em que sair dele e, em qualquer caso, quando eliminar a sua conta." },
         { "p": "Se tinha ligado «Mostrar os meus dados no meu perfil», desligá-lo elimina o seu país, a sua idade, os seus anos com a doença e a sua biografia do seu perfil publicado — são removidos dele, não escondidos. A eliminação é enviada no momento em que desliga; se o seu dispositivo estiver offline, ou se não puder ser enviada nesse momento, a aplicação envia-a novamente na próxima vez que a abrir com a sessão iniciada. Se eliminar a sua conta, são apagados com o resto dos seus dados, dentro dos 30 dias descritos acima." }
@@ -832,7 +854,7 @@ window.CF_PRIVACY_T = {
   "ru": {
     "legal": "Конфиденциальность",
     "title": "Политика конфиденциальности",
-    "updated": "Последнее обновление: 21 октября 2026 г. · Версия: 3.5",
+    "updated": "Последнее обновление: 28 октября 2026 г. · Версия: 3.6",
     "summaryPre": "Это краткое изложение. Полная действующая Политика конфиденциальности находится на ",
     "summaryPost": ".",
     "patientTag": "Пользователи-пациенты",
@@ -852,7 +874,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — показания из хранилища здоровья вашего телефона (необязательно, выключено, пока вы не включите):", "t": " если вы включите Health Sync и дадите разрешение в системном диалоге своего телефона, приложение прочитает число ваших шагов, продолжительность сна и минуты активности — и, только если ваше устройство их записывает, пульс в покое и вариабельность сердечного ритма — из Apple Health (HealthKit) на iPhone или Health Connect на Android. Три момента об этом: это только чтение (мы никогда ничего не записываем в Apple Health или Health Connect); эти показания остаются на вашем устройстве и не загружаются на наши серверы, поэтому они показываются рядом с вашим дневником и могут появиться в PDF-отчёте, который вы решите создать, но мы их не получаем — с одним исключением, и только одним: если вы присоединяетесь к турниру шагов, загружаются четыре итога шагов, описанные ниже, и ничего больше; и если за день нет данных, приложение так и говорит, а не оценивает значение. Вы можете отозвать это разрешение в любой момент в настройках телефона, и остальная часть приложения продолжит работать точно так же." },
           { "b": "Турнир шагов (необязательно, выключен, пока вы не присоединитесь):", "t": " в Chronic Friends есть дружеский турнир шагов — таблица того, кто больше прошёл сегодня, на этой неделе, в этом месяце и в этом году, которая начинается заново 1 января. Участие — ваш выбор, и до того, как вы его сделаете, ничего не публикуется. Если вы присоединитесь, четыре числа — итоги ваших шагов за эти четыре периода — загружаются на наши серверы вместе с отображаемым именем и аватаром, которые вы уже показываете в сообществе, чтобы другие участники видели их в таблице. Ничего другого о вашем здоровье с ними не отправляется: ни сон, ни минуты активности, ни один показатель по дням, и ничего из вашего дневника. Если вы выйдете из турнира, ваша строка удаляется, а не скрывается, и вы исчезаете из таблицы." },
           { "b": "Опросники для самооценки (необязательно):", "t": " ответы, которые вы даёте в стандартизированных опросниках, которые вы решаете заполнить — таких как PHQ-9, GAD-7, AUDIT-C или индекс активности заболевания, — и итоговый балл. Вы сами решаете, открывать ли опросник, и можете удалить результат потом. Эти опросники воспроизведены по их официальным опубликованным версиям, и приложение показывает вам балл, не интерпретируя его (см. раздел 11)." },
-          { "b": "Сообщество:", "t": " публикации и личные сообщения." },
+          { "b": "Сообщество:", "t": " ваши публикации, ваши комментарии и ваши личные сообщения. Если вы добавляете фото к публикации, приложение перед загрузкой заново сохраняет его на вашем устройстве, и это удаляет скрытые сведения, хранящиеся внутри фото, — включая место (GPS), где оно было сделано." },
           { "b": "Телеконсультация:", "t": " детали приёма, переписка с врачами и любая информация о здоровье, которой вы решите поделиться. Мы не записываем видеоконсультации." },
           { "b": "Подписка / оплата:", "t": " статус подписки через RevenueCat; списания через Apple / Google; оплата консультаций через Stripe. Мы никогда не храним данные карт." },
           { "b": "Проверка врачей (только для врачей):", "t": " документы, удостоверяющие личность, и подтверждения квалификации, отправляемые напрямую в Stripe Identity. Изображения этих документов не проходят через наши собственные серверы." },
@@ -898,6 +920,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Сроки хранения", "b": [
         { "p": "Мы храним ваши данные, пока ваш аккаунт активен. После того как вы удалите аккаунт, мы удаляем ваши данные в течение 30 дней, кроме случаев, когда закон обязывает нас хранить определённые записи (например, о платежах). К записям о консультациях могут применяться особые требования к хранению. Резервные копии сменяются в обычном порядке." },
+        { "p": "Личные сообщения автоматически удаляются через 12 месяцев после отправки, даже если ваша учётная запись остаётся активной." },
         { "p": "Если вы входили через Apple, при удалении учётной записи Apple также получает запрос отключить Chronic Friends от вашего Apple ID. Если удалить Chronic Friends в настройках Apple ID или аккаунта Google, ваши данные не удаляются: чтобы удалить их, воспользуйтесь кнопкой «Удалить мой аккаунт» в разделе Настройки." },
         { "p": "Если вы участвуете в турнире шагов, ваша строка удаляется в момент выхода из него и в любом случае при удалении аккаунта." },
         { "p": "Если вы включали «Показывать мои данные в профиле», выключение удаляет вашу страну, ваш возраст, ваши годы с заболеванием и вашу биографию из опубликованного профиля — они удаляются из него, а не скрываются. Удаление отправляется в момент выключения; если ваше устройство не в сети или отправить не удалось именно тогда, приложение отправит его снова, когда вы в следующий раз откроете его, будучи в аккаунте. Если вы удалите аккаунт, они стираются вместе с остальными вашими данными в течение описанных выше 30 дней." }
@@ -945,7 +968,7 @@ window.CF_PRIVACY_T = {
   "ar": {
     "legal": "الخصوصية",
     "title": "سياسة الخصوصية",
-    "updated": "آخر تحديث: 21 أكتوبر 2026 · الإصدار: 3.5",
+    "updated": "آخر تحديث: 28 أكتوبر 2026 · الإصدار: 3.6",
     "summaryPre": "هذا ملخّص. سياسة الخصوصية الكاملة والسارية متاحة على ",
     "summaryPost": ".",
     "patientTag": "المستخدمون المرضى",
@@ -965,7 +988,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — قراءات من مخزن الصحة في هاتفك (اختياري، مُطفأ حتى تشغّله):", "t": " إذا مكّنت Health Sync وأعطيت الإذن في نافذة نظام هاتفك، يقرأ التطبيق عدد خطواتك ومدّة نومك ودقائق نشاطك — وكذلك، فقط إذا كان جهازك يسجّلهما، معدّل نبضك في الراحة وتغيّر معدّل النبض — من Apple Health (HealthKit) على iPhone أو Health Connect على Android. ثلاثة أمور بهذا الشأن: القراءة فقط (لا نكتب أبدًا أي شيء في Apple Health أو Health Connect)؛ وتبقى هذه القراءات على جهازك ولا تُرفع إلى خوادمنا، فتظهر بجانب دفتر يومياتك ويمكن أن تُدرج في تقرير PDF تختار إنشاءه، لكننا لا نستقبلها — باستثناء واحد فقط: إذا انضممت إلى دوري الخطوات، تُرفع مجاميع الخطوات الأربعة الموصوفة أدناه، ولا شيء غيرها؛ وإذا لم تكن هناك بيانات ليوم ما، يقول التطبيق ذلك بدلًا من تقدير قيمة. يمكنك سحب هذا الإذن في أي وقت من إعدادات هاتفك، ويستمرّ باقي التطبيق في العمل كما هو تمامًا." },
           { "b": "دوري الخطوات (اختياري، مُطفأ حتى تنضم):", "t": " يضمّ Chronic Friends دوري خطوات ودّيًا — جدولًا لمن مشى أكثر اليوم وهذا الأسبوع وهذا الشهر وهذه السنة، ويبدأ من جديد في 1 يناير. المشاركة قرارك، ولا يُنشر شيء قبل أن تتخذه. إذا انضممت، تُرفع أربعة أرقام — مجاميع خطواتك لتلك الفترات الأربع — إلى خوادمنا مع الاسم الظاهر والصورة الرمزية التي تظهر بها في المجتمع أصلًا، ليتمكّن الأعضاء الآخرون من رؤيتها في الجدول. لا يذهب معها أي شيء آخر عن صحتك: لا النوم، ولا دقائق النشاط، ولا رقم يومي واحد، ولا شيء من دفتر يومياتك. وإذا خرجت من الدوري، يُحذف سطرك ولا يُخفى، وتختفي من الجدول." },
           { "b": "استبيانات التقييم الذاتي (اختياري):", "t": " الأجوبة التي تعطيها في الاستبيانات المعيارية التي تختار إكمالها — مثل PHQ-9 أو GAD-7 أو AUDIT-C أو مؤشّر نشاط المرض — والنتيجة التي تجمعها. أنت تختار ما إذا كنت ستفتح استبيانًا، ويمكنك حذف النتيجة بعد ذلك. هذه الاستبيانات مستنسخة من نسخها الرسمية المنشورة، ويعرض التطبيق النتيجة دون تفسيرها (انظر القسم 11)." },
-          { "b": "المجتمع:", "t": " المنشورات والرسائل الخاصة." },
+          { "b": "المجتمع:", "t": " منشوراتك وتعليقاتك ورسائلك الخاصة. إذا أضفت صورة إلى منشور، يعيد التطبيق حفظها على جهازك قبل رفعها، وهذا يزيل التفاصيل المخفية المخزّنة داخل الصورة — بما في ذلك الموقع (GPS) الذي التُقطت فيه." },
           { "b": "الاستشارة عن بُعد:", "t": " تفاصيل الموعد، والتواصل مع الأطباء، وأي معلومات صحية تختار مشاركتها. لا نسجّل استشارات الفيديو." },
           { "b": "الاشتراك / الدفع:", "t": " حالة الاشتراك عبر RevenueCat؛ والخصومات عبر Apple / Google؛ ومدفوعات الاستشارات عبر Stripe. لا نحفظ بيانات البطاقات أبدًا." },
           { "b": "التحقّق من الأطباء (للأطباء فقط):", "t": " وثائق الهوية والمؤهلات، تُرسل مباشرة إلى Stripe Identity. صور هذه الوثائق لا تمرّ عبر خوادمنا." },
@@ -1011,6 +1034,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "مدّة الاحتفاظ", "b": [
         { "p": "نحتفظ ببياناتك ما دام حسابك نشطًا. وبعد حذفك لحسابك، نحذف بياناتك في خلال 30 يومًا، إلا حيث يلزمنا القانون بالاحتفاظ بسجلات معيّنة (الفواتير مثلًا). وقد تخضع سجلات الاستشارات لمتطلّبات احتفاظ خاصة. وتُستبدل النسخ الاحتياطية في سياقها المعتاد." },
+        { "p": "تُحذف الرسائل الخاصة تلقائيًا بعد 12 شهرًا من إرسالها، حتى لو ظل حسابك نشطًا." },
         { "p": "إذا كنت قد سجّلت الدخول باستخدام Apple، فإن حذف حسابك يطلب أيضًا من Apple فصل Chronic Friends عن Apple ID الخاص بك. ولا تؤدي إزالة Chronic Friends من إعدادات Apple ID أو حساب Google إلى حذف بياناتك: لحذفها، استخدم «حذف حسابي» في الإعدادات." },
         { "p": "إذا شاركت في دوري الخطوات، يُحذف سطرك لحظة خروجك منه، وفي كل الأحوال عند حذفك لحسابك." },
         { "p": "إذا كنت قد شغّلت «أظهر بياناتي في ملفي الشخصي»، فإن إيقافه يحذف بلدك وعمرك وسنواتك مع الحالة ونبذتك من ملفك الشخصي المنشور — تُزال منه ولا تُخفى. ويُرسل الحذف لحظة إيقافك للمفتاح؛ وإذا كان جهازك دون اتصال، أو لم يتمكّن من الإرسال في تلك اللحظة، يعيد التطبيق إرساله في المرّة التالية التي تفتحه فيها وأنت مسجّل الدخول. وإذا حذفت حسابك، تُمحى مع باقي بياناتك في خلال الثلاثين يومًا المذكورة أعلاه." }
@@ -1058,7 +1082,7 @@ window.CF_PRIVACY_T = {
   "hi": {
     "legal": "गोपनीयता",
     "title": "गोपनीयता नीति",
-    "updated": "अंतिम अपडेट: 21 अक्टूबर 2026 · संस्करण: 3.5",
+    "updated": "अंतिम अपडेट: 28 अक्टूबर 2026 · संस्करण: 3.6",
     "summaryPre": "यह एक सारांश है। पूरी और वर्तमान गोपनीयता नीति यहाँ है: ",
     "summaryPost": ".",
     "patientTag": "रोगी उपयोगकर्ता",
@@ -1078,7 +1102,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — आपके फ़ोन के स्वास्थ्य भंडार से रीडिंग (वैकल्पिक, जब तक आप चालू न करें बंद):", "t": " यदि आप Health Sync सक्षम करते हैं और अपने फ़ोन के सिस्टम डायलॉग में अनुमति देते हैं, तो ऐप आपके कदमों की संख्या, नींद की अवधि और गतिविधि के मिनट पढ़ता है — और, केवल यदि आपका उपकरण उन्हें रिकॉर्ड करता है, विश्राम हृदय गति और हृदय-गति परिवर्तनशीलता — iPhone पर Apple Health (HealthKit) से या Android पर Health Connect से। इस बारे में तीन बातें: यह केवल पढ़ने के लिए है (हम Apple Health या Health Connect में कभी कुछ नहीं लिखते); ये रीडिंग आपके उपकरण पर रहती हैं और हमारे सर्वर पर अपलोड नहीं होतीं, इसलिए वे आपकी डायरी के साथ दिखाई जाती हैं और आपके द्वारा बनाए गए PDF रिपोर्ट में आ सकती हैं, लेकिन हमें वे नहीं मिलतीं — एक अपवाद के साथ, और केवल एक: यदि आप कदमों की प्रतियोगिता में शामिल होते हैं, तो नीचे बताए गए चार कदम-योग अपलोड होते हैं, और कुछ नहीं; और यदि किसी दिन का डेटा नहीं है, तो ऐप कोई मान अनुमानित करने के बजाय यही बताता है। आप यह अनुमति अपने फ़ोन की सेटिंग्स से कभी भी वापस ले सकते हैं, और ऐप का बाकी हिस्सा ठीक पहले जैसा काम करता रहता है।" },
           { "b": "कदमों की प्रतियोगिता (वैकल्पिक, जब तक आप शामिल न हों बंद):", "t": " Chronic Friends में एक मित्रवत कदम-प्रतियोगिता है — एक तालिका जो दिखाती है कि आज, इस सप्ताह, इस महीने और इस वर्ष किसने सबसे अधिक चला, और जो 1 जनवरी को फिर से शुरू होती है। भाग लेना आपका निर्णय है, और उसे लेने तक कुछ भी प्रकाशित नहीं होता। यदि आप शामिल होते हैं, तो चार संख्याएँ — उन चार अवधियों के आपके कदम-योग — उस प्रदर्शित नाम और अवतार के साथ हमारे सर्वर पर अपलोड होती हैं जो आप समुदाय में पहले से दिखाते हैं, ताकि अन्य सदस्य उन्हें तालिका में देख सकें। आपके स्वास्थ्य के बारे में उनके साथ कुछ और नहीं जाता: न नींद, न गतिविधि के मिनट, न दिन-प्रतिदिन का कोई आंकड़ा, और न आपकी डायरी से कुछ। यदि आप प्रतियोगिता छोड़ते हैं, तो आपकी पंक्ति हटाई जाती है, छिपाई नहीं जाती, और आप तालिका से गायब हो जाते हैं।" },
           { "b": "स्व-मूल्यांकन प्रश्नावली (वैकल्पिक):", "t": " आप जिन मानकीकृत प्रश्नावलियों को भरना चुनते हैं उनमें दिए गए उत्तर — जैसे PHQ-9, GAD-7, AUDIT-C या रोग सक्रियता सूचकांक — और उनसे बनने वाला स्कोर। कोई प्रश्नावली खोलनी है या नहीं यह आप चुनते हैं और आप बाद में परिणाम मिटा सकते हैं। ये प्रश्नावलियाँ उनके आधिकारिक प्रकाशित संस्करणों से पुनःप्रस्तुत हैं और ऐप आपको स्कोर दिखाता है, उसकी व्याख्या नहीं करता (धारा 11 देखें)।" },
-          { "b": "समुदाय:", "t": " पोस्ट और निजी संदेश।" },
+          { "b": "समुदाय:", "t": " आपकी पोस्ट, आपकी टिप्पणियाँ और आपके निजी संदेश। अगर आप किसी पोस्ट में फ़ोटो जोड़ते हैं, तो ऐप उसे अपलोड करने से पहले आपके डिवाइस पर दोबारा सहेजता है, और इससे फ़ोटो के अंदर रखी छिपी जानकारी हट जाती है — जिसमें वह स्थान (GPS) भी शामिल है जहाँ फ़ोटो ली गई थी।" },
           { "b": "टेली-परामर्श:", "t": " अपॉइंटमेंट का विवरण, डॉक्टरों के साथ संवाद, और कोई भी स्वास्थ्य जानकारी जो आप साझा करना चुनते हैं। हम वीडियो परामर्श रिकॉर्ड नहीं करते।" },
           { "b": "सदस्यता / भुगतान:", "t": " RevenueCat के माध्यम से सदस्यता की स्थिति; Apple / Google के माध्यम से शुल्क; Stripe के माध्यम से परामर्श भुगतान। हम कार्ड का विवरण कभी संग्रहित नहीं करते।" },
           { "b": "डॉक्टर सत्यापन (केवल डॉक्टर):", "t": " पहचान दस्तावेज़ और प्रमाण-पत्र, सीधे Stripe Identity को भेजे जाते हैं। इन दस्तावेज़ों की छवियाँ हमारे सर्वर से नहीं गुज़रतीं।" },
@@ -1124,6 +1148,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "प्रतिधारण", "b": [
         { "p": "जब तक आपका खाता सक्रिय है हम आपका डेटा रखते हैं। आपके खाता मिटाने के बाद हम आपका डेटा 30 दिनों के भीतर मिटा देते हैं, सिवाय जहाँ कानून हमें कुछ अभिलेख (उदाहरण के लिए बिलिंग) रखने के लिए बाध्य करता है। परामर्श के अभिलेखों पर विशिष्ट प्रतिधारण आवश्यकताएँ लागू हो सकती हैं। बैकअप सामान्य क्रम में बदलते रहते हैं।" },
+        { "p": "निजी संदेश भेजे जाने के 12 महीने बाद अपने-आप हटा दिए जाते हैं, भले ही आपका खाता सक्रिय बना रहे।" },
         { "p": "अगर आपने Apple से साइन इन किया था, तो अपना खाता हटाने पर Apple से भी अनुरोध किया जाता है कि वह Chronic Friends को आपकी Apple ID से अलग कर दे। अपनी Apple ID या Google खाते की सेटिंग्स से Chronic Friends को हटाने से आपका डेटा नहीं हटता: उसे हटाने के लिए, सेटिंग्स में «मेरा खाता हटाएँ» का इस्तेमाल करें।" },
         { "p": "यदि आप कदमों की प्रतियोगिता में भाग लेते हैं, तो आपकी पंक्ति उसी क्षण मिट जाती है जब आप उसे छोड़ते हैं, और किसी भी स्थिति में जब आप अपना खाता मिटाते हैं।" },
         { "p": "यदि आपने «मेरी जानकारी मेरी प्रोफ़ाइल पर दिखाएँ» चालू किया था, तो उसे बंद करने पर आपका देश, आपकी उम्र, स्थिति के साथ आपके वर्ष और आपका परिचय आपकी प्रकाशित प्रोफ़ाइल से मिट जाते हैं — वे उससे हटाए जाते हैं, छिपाए नहीं जाते। विलोपन उसी क्षण भेजा जाता है जब आप स्विच बंद करते हैं; यदि आपका उपकरण ऑफ़लाइन है, या यदि उसे तब भेजा नहीं जा सकता, तो ऐप अगली बार जब आप साइन-इन अवस्था में उसे खोलते हैं तब उसे दोबारा भेजता है। यदि आप अपना खाता मिटाते हैं, तो वे आपके बाकी डेटा के साथ, ऊपर बताए गए 30 दिनों के भीतर, मिटा दिए जाते हैं।" }
@@ -1171,7 +1196,7 @@ window.CF_PRIVACY_T = {
   "id": {
     "legal": "Privasi",
     "title": "Kebijakan Privasi",
-    "updated": "Terakhir diperbarui: 21 Oktober 2026 · Versi: 3.5",
+    "updated": "Terakhir diperbarui: 28 Oktober 2026 · Versi: 3.6",
     "summaryPre": "Ini adalah ringkasan. Kebijakan Privasi lengkap dan terkini ada di ",
     "summaryPost": ".",
     "patientTag": "Pengguna pasien",
@@ -1191,7 +1216,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — bacaan dari penyimpanan kesehatan ponsel Anda (opsional, mati sampai Anda menyalakannya):", "t": " jika Anda mengaktifkan Health Sync dan memberi izin pada dialog sistem ponsel Anda, aplikasi membaca jumlah langkah, durasi tidur, dan menit aktivitas Anda — dan, hanya jika perangkat Anda mencatatnya, denyut jantung istirahat dan variabilitas denyut jantung — dari Apple Health (HealthKit) di iPhone atau Health Connect di Android. Tiga hal tentang ini: hanya-baca (kami tidak pernah menulis apa pun ke Apple Health atau Health Connect); bacaan itu tetap di perangkat Anda dan tidak diunggah ke server kami, jadi ditampilkan di samping jurnal Anda dan dapat muncul dalam laporan PDF yang Anda pilih untuk dibuat, tetapi kami tidak menerimanya — dengan satu pengecualian, dan hanya satu: jika Anda mengikuti turnamen langkah, empat total langkah yang dijelaskan di bawah akan diunggah, dan tidak ada yang lain; dan jika suatu hari tidak ada data, aplikasi mengatakannya alih-alih memperkirakan nilai. Anda dapat menarik izin ini kapan saja dari pengaturan ponsel Anda, dan sisa aplikasi tetap bekerja persis sama." },
           { "b": "Turnamen langkah (opsional, mati sampai Anda ikut):", "t": " Chronic Friends memiliki turnamen langkah yang bersahabat — tabel siapa yang paling banyak berjalan hari ini, minggu ini, bulan ini, dan tahun ini, yang dimulai lagi pada 1 Januari. Ikut serta adalah pilihan Anda, dan tidak ada yang dipublikasikan sebelum Anda membuatnya. Jika Anda ikut, empat angka — total langkah Anda untuk keempat periode itu — diunggah ke server kami bersama nama tampilan dan avatar yang sudah Anda tampilkan di komunitas, agar anggota lain dapat melihatnya di tabel. Tidak ada hal lain tentang kesehatan Anda yang ikut: bukan tidur, bukan menit aktivitas, bukan satu angka harian pun, dan tidak ada dari jurnal Anda. Jika Anda keluar dari turnamen, baris Anda dihapus, bukan disembunyikan, dan Anda hilang dari tabel." },
           { "b": "Kuesioner penilaian diri (opsional):", "t": " jawaban yang Anda berikan pada kuesioner terstandar yang Anda pilih untuk diisi — seperti PHQ-9, GAD-7, AUDIT-C, atau indeks aktivitas penyakit — dan skor yang dihasilkan. Anda yang memilih apakah membukanya, dan Anda dapat menghapus hasilnya kemudian. Kuesioner ini direproduksi dari versi resminya yang diterbitkan dan aplikasi menunjukkan skor tanpa menafsirkannya (lihat Bagian 11)." },
-          { "b": "Komunitas:", "t": " kiriman dan pesan pribadi." },
+          { "b": "Komunitas:", "t": " kiriman Anda, komentar Anda, dan pesan pribadi Anda. Jika Anda menambahkan foto ke kiriman, aplikasi menyimpan ulang foto itu di perangkat Anda sebelum mengunggahnya, dan itu menghapus detail tersembunyi yang tersimpan di dalam foto — termasuk lokasi (GPS) tempat foto itu diambil." },
           { "b": "Telekonsultasi:", "t": " detail jadwal, komunikasi dengan dokter, dan informasi kesehatan apa pun yang Anda pilih untuk dibagikan. Kami tidak merekam konsultasi video." },
           { "b": "Langganan / pembayaran:", "t": " status langganan melalui RevenueCat; penagihan melalui Apple / Google; pembayaran konsultasi melalui Stripe. Kami tidak pernah menyimpan data kartu." },
           { "b": "Verifikasi dokter (hanya dokter):", "t": " dokumen identitas dan kredensial, dikirim langsung ke Stripe Identity. Gambar dokumen ini tidak melewati server kami sendiri." },
@@ -1237,6 +1262,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Retensi", "b": [
         { "p": "Kami menyimpan data Anda selama akun Anda aktif. Setelah Anda menghapus akun, kami menghapus data Anda dalam 30 hari, kecuali bila hukum mewajibkan kami menyimpan catatan tertentu (misalnya, penagihan). Catatan konsultasi dapat tunduk pada persyaratan retensi khusus. Salinan cadangan berputar keluar dalam siklus normal." },
+        { "p": "Pesan pribadi dihapus secara otomatis 12 bulan setelah dikirim, meskipun akun Anda tetap aktif." },
         { "p": "Jika Anda masuk dengan Apple, menghapus akun juga meminta Apple untuk memutuskan Chronic Friends dari Apple ID Anda. Menghapus Chronic Friends dari pengaturan Apple ID atau Akun Google Anda tidak menghapus data Anda: untuk menghapusnya, gunakan «Hapus akun saya» di Pengaturan." },
         { "p": "Jika Anda mengikuti turnamen langkah, baris Anda dihapus pada saat Anda keluar darinya, dan dalam hal apa pun ketika Anda menghapus akun Anda." },
         { "p": "Jika Anda menyalakan «Tampilkan data saya di profil saya», mematikannya menghapus negara Anda, usia Anda, tahun-tahun Anda dengan kondisi itu, dan biografi Anda dari profil Anda yang dipublikasikan — data itu dihapus darinya, bukan disembunyikan. Penghapusan dikirim pada saat Anda mematikan sakelarnya; jika perangkat Anda luring, atau jika penghapusan tidak dapat dikirim saat itu, aplikasi mengirimkannya lagi pada kali berikutnya Anda membukanya sambil masuk ke akun. Jika Anda menghapus akun Anda, data itu terhapus bersama sisa data Anda, dalam 30 hari yang dijelaskan di atas." }
@@ -1284,7 +1310,7 @@ window.CF_PRIVACY_T = {
   "ja": {
     "legal": "プライバシー",
     "title": "プライバシーポリシー",
-    "updated": "最終更新日：2026年10月21日 · バージョン：3.5",
+    "updated": "最終更新日：2026年10月28日 · バージョン：3.6",
     "summaryPre": "これは要約です。完全な最新のプライバシーポリシーは ",
     "summaryPost": " にあります。",
     "patientTag": "患者ユーザー",
@@ -1304,7 +1330,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — 携帯電話の健康ストアからの数値（任意、オンにするまで無効）:", "t": " Health Sync を有効にし、携帯電話自身のシステムダイアログで許可すると、アプリは iPhone の Apple Health（HealthKit）または Android の Health Connect から、歩数、睡眠時間、活動時間を読み取ります。さらに、お使いの端末が記録している場合にのみ、安静時心拍数と心拍変動も読み取ります。この点について3つあります。読み取り専用です（Apple Health や Health Connect に何かを書き込むことは決してありません）。これらの数値は端末に留まり、当社のサーバーにはアップロードされません。したがって日誌の隣に表示され、あなたが作成を選んだ PDF レポートに載ることもありますが、当社が受け取ることはありません。例外は1つ、ただ1つだけです。歩数トーナメントに参加した場合、下記の4つの歩数合計がアップロードされ、それ以外は何もアップロードされません。そして、ある日のデータがない場合、アプリは値を推定せずにその旨を伝えます。この許可は携帯電話の設定からいつでも取り消せますし、アプリの他の部分はまったく同じように動き続けます。" },
           { "b": "歩数トーナメント（任意、参加するまで無効）:", "t": " Chronic Friends には親しみやすい歩数トーナメントがあります。今日・今週・今月・今年でだれが最も多く歩いたかの表で、1月1日にまた始まります。参加はあなたの選択であり、それを行うまで何も公開されません。参加すると、4つの数値（その4期間の歩数合計）が、すでにコミュニティで表示している表示名とアバターとともに当社サーバーにアップロードされ、他のメンバーが表にそれを見られるようになります。あなたの健康に関する他のものは一緒に送られません。睡眠も、活動時間も、日ごとの数値ひとつも、日誌の内容も送られません。トーナメントを離れると、あなたの行は隠されるのではなく削除され、表から消えます。" },
           { "b": "自己評価質問票（任意）:", "t": " 記入すると選んだ標準化質問票（PHQ-9、GAD-7、AUDIT-C、疾患活動性指標など）への回答と、その合計スコア。開くかどうかはあなたが選べますし、あとで結果を削除できます。これらの質問票は公式に公開された版を再現したもので、アプリはスコアを解釈せずに表示します（第11項参照）。" },
-          { "b": "コミュニティ:", "t": " 投稿とプライベートメッセージ。" },
+          { "b": "コミュニティ：", "t": "お客様の投稿、コメント、およびプライベートメッセージ。投稿に写真を追加すると、アプリはアップロードする前にその写真をお客様の端末上で保存し直します。これにより、撮影した場所の位置情報（GPS）を含め、写真の内部に保存されている隠れた情報が取り除かれます。" },
           { "b": "遠隔診療:", "t": " 予約の詳細、医師とのやり取り、およびあなたが共有すると選んだ健康情報。ビデオ診療は録画しません。" },
           { "b": "サブスクリプション／決済:", "t": " サブスクリプションの状態は RevenueCat 経由、課金は Apple／Google 経由、診療の支払いは Stripe 経由。カード情報は一切保存しません。" },
           { "b": "医師確認（医師のみ）:", "t": " 本人確認書類と資格証明を Stripe Identity に直接送信します。これらの書類画像は当社のサーバーを通りません。" },
@@ -1350,6 +1376,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "保存期間", "b": [
         { "p": "アカウントが有効な間、データを保存します。アカウントを削除した後は、法律により一定の記録（たとえば請求関係）の保持が求められる場合を除き、30日以内にデータを削除します。診療の記録には固有の保存要件が適用される場合があります。バックアップは通常の運用の中で順次入れ替わります。" },
+        { "p": "プライベートメッセージは、お客様のアカウントが有効なままであっても、送信から12か月後に自動的に削除されます。" },
         { "p": "Apple でサインインしていた場合、アカウントを削除すると、Chronic Friends と Apple ID の連携を解除するよう Apple にも依頼します。Apple ID または Google アカウントの設定から Chronic Friends を削除しても、お客様のデータは削除されません。データを削除するには、「設定」で「アカウントを削除」を使用してください。" },
         { "p": "歩数トーナメントに参加している場合、離れた時点であなたの行は削除され、いずれにせよアカウントを削除した時点で削除されます。" },
         { "p": "「プロフィールに自分の情報を表示する」をオンにしていた場合、オフにすると、国、年齢、その疾患とともに過ごした年数、自己紹介が公開プロフィールから削除されます。隠されるのではなく、取り除かれます。削除はスイッチをオフにした時点で送信されます。端末がオフラインである場合や、その時点で送信できない場合は、次にサインインした状態でアプリを開いたときに再送されます。アカウントを削除した場合は、上記の30日以内に、他のデータと一緒に消去されます。" }
@@ -1397,7 +1424,7 @@ window.CF_PRIVACY_T = {
   "ko": {
     "legal": "개인정보",
     "title": "개인정보처리방침",
-    "updated": "마지막 업데이트: 2026년 10월 21일 · 버전: 3.5",
+    "updated": "마지막 업데이트: 2026년 10월 28일 · 버전: 3.6",
     "summaryPre": "이는 요약입니다. 전체 최신 개인정보처리방침은 ",
     "summaryPost": " 에서 확인할 수 있습니다.",
     "patientTag": "환자 사용자",
@@ -1417,7 +1444,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — 휴대전화 건강 저장소의 수치(선택 사항, 켤 때까지 꺼져 있음):", "t": " Health Sync를 활성화하고 휴대전화 자체의 시스템 대화상자에서 권한을 허용하면, 앱은 iPhone의 Apple Health(HealthKit) 또는 Android의 Health Connect에서 걸음 수, 수면 시간, 활동 시간을 읽어옵니다. 그리고 기기가 기록하는 경우에만 안정 시 심박수와 심박변이도도 읽어옵니다. 이에 관해 세 가지가 있습니다. 읽기 전용입니다(Apple Health나 Health Connect에 무엇도 기록하지 않습니다). 이 수치는 기기에 남고 저희 서버로 업로드되지 않습니다. 따라서 일지 옆에 표시되고 여러분이 생성하기로 선택한 PDF 보고서에 나올 수 있지만, 저희는 받지 않습니다. 예외는 하나, 오직 하나입니다. 걸음 수 토너먼트에 참가하면 아래에 설명된 네 개의 걸음 수 합계가 업로드되며, 그 외에는 아무것도 업로드되지 않습니다. 그리고 어떤 날에 데이터가 없으면, 앱은 값을 추정하지 않고 그렇다고 알려줍니다. 이 권한은 휴대전화 설정에서 언제든지 철회할 수 있으며, 앱의 나머지 부분은 그대로 동작합니다." },
           { "b": "걸음 수 토너먼트(선택 사항, 참가할 때까지 꺼져 있음):", "t": " Chronic Friends에는 친선 걸음 수 토너먼트가 있습니다. 오늘, 이번 주, 이번 달, 올해 누가 가장 많이 걸었는지를 보여주는 표이며 1월 1일에 다시 시작합니다. 참가는 여러분의 선택이며, 선택하기 전에는 아무것도 게시되지 않습니다. 참가하면 네 개의 숫자 — 그 네 기간의 걸음 수 합계 — 가, 이미 커뮤니티에서 보여주는 표시 이름과 아바타와 함께 저희 서버로 업로드되어 다른 회원이 표에서 볼 수 있게 됩니다. 건강에 관한 다른 것은 함께 가지 않습니다. 수면도, 활동 시간도, 하루하루의 수치 하나도, 일지의 내용도 가지 않습니다. 토너먼트를 떠나면 여러분의 행은 숨겨지는 것이 아니라 삭제되고, 표에서 사라집니다." },
           { "b": "자기평가 설문(선택 사항):", "t": " 작성하기로 선택한 표준화 설문(PHQ-9, GAD-7, AUDIT-C, 질환 활성도 지수 등)에 대한 답과 그 합산 점수. 설문을 열지 여부는 여러분이 선택하며, 이후에 결과를 삭제할 수 있습니다. 이 설문들은 공식 출판본을 재현한 것이며, 앱은 점수를 해석하지 않고 보여줍니다(제11항 참조)." },
-          { "b": "커뮤니티:", "t": " 게시물과 개인 메시지." },
+          { "b": "커뮤니티:", "t": " 회원님의 게시물, 댓글 및 비공개 메시지. 게시물에 사진을 추가하면 앱이 업로드하기 전에 회원님의 기기에서 사진을 다시 저장하며, 이 과정에서 사진을 찍은 위치(GPS)를 포함해 사진 안에 저장된 숨은 정보가 제거됩니다." },
           { "b": "원격 진료:", "t": " 예약 정보, 의사와의 소통, 그리고 공유하기로 선택한 모든 건강 정보. 영상 진료는 녹화하지 않습니다." },
           { "b": "구독 / 결제:", "t": " 구독 상태는 RevenueCat을 통해, 청구는 Apple / Google을 통해, 진료 결제는 Stripe를 통해 처리합니다. 카드 정보는 저장하지 않습니다." },
           { "b": "의사 확인(의사만):", "t": " 신분 증명 서류와 자격 증명을 Stripe Identity로 직접 전송합니다. 이 서류 이미지는 저희 서버를 거치지 않습니다." },
@@ -1463,6 +1490,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "보관 기간", "b": [
         { "p": "계정이 활성인 동안 데이터를 보관합니다. 계정을 삭제한 후에는 법이 특정 기록(예: 청구)의 보관을 요구하는 경우를 제외하고 30일 내에 데이터를 삭제합니다. 진료 기록에는 별도의 보관 요건이 적용될 수 있습니다. 백업은 통상적인 과정에서 순차적으로 교체됩니다." },
+        { "p": "비공개 메시지는 회원님의 계정이 계속 활성 상태여도 보낸 지 12개월이 지나면 자동으로 삭제됩니다." },
         { "p": "Apple로 로그인한 경우, 계정을 삭제하면 회원님의 Apple ID에서 Chronic Friends의 연결을 해제하도록 Apple에도 요청합니다. Apple ID 또는 Google 계정 설정에서 Chronic Friends를 제거해도 회원님의 데이터는 삭제되지 않습니다. 데이터를 삭제하려면 설정에서 «계정 삭제»를 사용하십시오." },
         { "p": "걸음 수 토너먼트에 참가하고 있다면, 떠나는 순간 여러분의 행이 삭제되며, 어떤 경우든 계정을 삭제할 때 삭제됩니다." },
         { "p": "「프로필에 내 정보 표시」를 켜 두었다면, 끄면 국가, 나이, 질환과 함께한 연수, 소개가 공개 프로필에서 삭제됩니다. 숨겨지는 것이 아니라 제거됩니다. 삭제는 스위치를 끄는 순간 전송됩니다. 기기가 오프라인이거나 그 순간에 전송할 수 없으면, 앱은 다음에 로그인한 상태로 열 때 다시 전송합니다. 계정을 삭제하면, 위에서 설명한 30일 내에 나머지 데이터와 함께 지워집니다." }
@@ -1510,7 +1538,7 @@ window.CF_PRIVACY_T = {
   "tr": {
     "legal": "Gizlilik",
     "title": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 21 Ekim 2026 · Sürüm: 3.5",
+    "updated": "Son güncelleme: 28 Ekim 2026 · Sürüm: 3.6",
     "summaryPre": "Bu bir özettir. Tam ve güncel Gizlilik Politikası şu adrestedir: ",
     "summaryPost": ".",
     "patientTag": "Hasta kullanıcılar",
@@ -1530,7 +1558,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — telefonunuzun sağlık deposundan gelen ölçümler (isteğe bağlı, siz açana kadar kapalı):", "t": " Health Sync'i etkinleştirir ve telefonunuzun kendi sistem penceresinde izin verirseniz, uygulama adım sayınızı, uyku sürenizi ve etkinlik dakikalarınızı — ve yalnızca cihazınız kaydediyorsa dinlenme kalp hızınızı ve kalp hızı değişkenliğinizi — iPhone'da Apple Health (HealthKit) veya Android'de Health Connect'ten okur. Bu konuda üç şey: yalnızca okuma yapar (Apple Health veya Health Connect'e asla bir şey yazmayız); bu ölçümler cihazınızda kalır ve sunucularımıza yüklenmez, dolayısıyla günlüğünüzün yanında gösterilir ve oluşturmayı seçtiğiniz bir PDF raporda yer alabilir, ama biz onları almayız — bir istisnayla, yalnızca bir: adım turnuvasına katılırsanız aşağıda anlatılan dört adım toplamı yüklenir, başka hiçbir şey yüklenmez; ve bir günün verisi yoksa uygulama bir değer tahmin etmek yerine bunu söyler. Bu izni telefonunuzun ayarlarından dilediğiniz an geri alabilirsiniz; uygulamanın geri kalanı tam olarak aynı şekilde çalışmaya devam eder." },
           { "b": "Adım turnuvası (isteğe bağlı, siz katılana kadar kapalı):", "t": " Chronic Friends'te dostane bir adım turnuvası var — bugün, bu hafta, bu ay ve bu yıl en çok kimin yürüdüğünü gösteren, 1 Ocak'ta yeniden başlayan bir tablo. Katılmak sizin kararınızdır ve bu kararı verene kadar hiçbir şey yayımlanmaz. Katılırsanız dört sayı — o dört dönem için adım toplamlarınız — toplulukta hâlihazırda gösterdiğiniz görünen ad ve avatarla birlikte sunucularımıza yüklenir; böylece diğer üyeler bunları tabloda görebilir. Sağlığınıza dair başka hiçbir şey onlarla gitmez: ne uyku, ne etkinlik dakikaları, ne tek bir günlük değer, ne de günlüğünüzden bir şey. Turnuvadan ayrılırsanız satırınız gizlenmez, silinir ve tablodan kaybolursunuz." },
           { "b": "Kendini değerlendirme anketleri (isteğe bağlı):", "t": " doldurmayı seçtiğiniz standart anketlere verdiğiniz yanıtlar — PHQ-9, GAD-7, AUDIT-C veya bir hastalık etkinlik indeksi gibi — ve bunların topladığı puan. Bir anketi açıp açmamayı siz seçersiniz ve sonucu sonradan silebilirsiniz. Bu anketler resmî yayımlanmış sürümlerinden çoğaltılmıştır ve uygulama puanı yorumlamadan gösterir (11. bölüme bakın)." },
-          { "b": "Topluluk:", "t": " gönderiler ve özel mesajlar." },
+          { "b": "Topluluk:", "t": " gönderileriniz, yorumlarınız ve özel mesajlarınız. Bir gönderiye fotoğraf eklerseniz uygulama, yüklemeden önce fotoğrafı cihazınızda yeniden kaydeder ve bu, fotoğrafın içinde saklanan gizli bilgileri — çekildiği konum (GPS) dahil — kaldırır." },
           { "b": "Teletıp:", "t": " randevu ayrıntıları, doktorlarla yazışmalar ve paylaşmayı seçtiğiniz her türlü sağlık bilgisi. Görüntülü görüşmeleri kaydetmiyoruz." },
           { "b": "Abonelik / ödeme:", "t": " abonelik durumu RevenueCat üzerinden; tahsilatlar Apple / Google üzerinden; görüşme ödemeleri Stripe üzerinden. Kart bilgilerini asla saklamıyoruz." },
           { "b": "Doktor doğrulaması (yalnızca doktorlar):", "t": " kimlik belgeleri ve diploma/yetki belgeleri, doğrudan Stripe Identity'ye gönderilir. Bu belge görüntüleri kendi sunucularımızdan geçmez." },
@@ -1576,6 +1604,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Saklama süresi", "b": [
         { "p": "Hesabınız etkin olduğu sürece verilerinizi saklıyoruz. Hesabınızı sildikten sonra, yasanın belirli kayıtları (örneğin faturalama) tutmamızı gerektirdiği durumlar dışında verilerinizi 30 gün içinde siliyoruz. Görüşme kayıtları özel saklama gerekliliklerine tabi olabilir. Yedekler olağan akış içinde dönüşümlü olarak yenilenir." },
+        { "p": "Özel mesajlar, hesabınız etkin kalsa bile gönderilmelerinden 12 ay sonra otomatik olarak silinir." },
         { "p": "Apple ile giriş yaptıysanız, hesabınızı sildiğinizde Apple'dan da Chronic Friends'in Apple ID'nizle bağlantısını kesmesi istenir. Chronic Friends'i Apple ID veya Google Hesabı ayarlarınızdan kaldırmak verilerinizi silmez: silmek için Ayarlar'da «Hesabımı sil» seçeneğini kullanın." },
         { "p": "Adım turnuvasına katılıyorsanız, satırınız ondan ayrıldığınız anda ve her hâlükârda hesabınızı sildiğinizde silinir." },
         { "p": "«Bilgilerimi profilimde göster»i açmışsanız, kapatmak ülkenizi, yaşınızı, hastalıkla geçirdiğiniz yılları ve tanıtımınızı yayımlanan profilinizden siler — gizlenmez, kaldırılır. Silme, düğmeyi kapattığınız anda gönderilir; cihazınız çevrimdışıysa veya tam o anda gönderilemezse, uygulama bir sonraki kez giriş yapmış hâlde açtığınızda yeniden gönderir. Hesabınızı silerseniz, bunlar yukarıda anlatılan 30 gün içinde diğer verilerinizle birlikte silinir." }
@@ -1623,7 +1652,7 @@ window.CF_PRIVACY_T = {
   "vi": {
     "legal": "Quyền riêng tư",
     "title": "Chính sách quyền riêng tư",
-    "updated": "Cập nhật lần cuối: 21 tháng 10 năm 2026 · Phiên bản: 3.5",
+    "updated": "Cập nhật lần cuối: 28 tháng 10 năm 2026 · Phiên bản: 3.6",
     "summaryPre": "Đây là bản tóm tắt. Chính sách quyền riêng tư đầy đủ và hiện hành có tại ",
     "summaryPost": ".",
     "patientTag": "Người dùng là bệnh nhân",
@@ -1643,7 +1672,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync — số đo từ kho sức khỏe của điện thoại bạn (không bắt buộc, tắt cho đến khi bạn bật):", "t": " nếu bạn bật Health Sync và cho phép trong hộp thoại hệ thống của chính điện thoại, ứng dụng sẽ đọc số bước chân, thời lượng ngủ và số phút hoạt động của bạn — và, chỉ khi thiết bị của bạn ghi lại, nhịp tim khi nghỉ và biến thiên nhịp tim — từ Apple Health (HealthKit) trên iPhone hoặc Health Connect trên Android. Ba điều về việc này: chỉ đọc (chúng tôi không bao giờ ghi bất cứ thứ gì vào Apple Health hay Health Connect); các số đo đó ở lại trên thiết bị của bạn và không được tải lên máy chủ của chúng tôi, nên chúng hiển thị bên cạnh nhật ký và có thể xuất hiện trong báo cáo PDF mà bạn chọn tạo, nhưng chúng tôi không nhận được chúng — với một ngoại lệ, và chỉ một: nếu bạn tham gia giải bước chân, bốn tổng số bước mô tả bên dưới sẽ được tải lên, và không có gì khác; và nếu một ngày không có dữ liệu, ứng dụng nói vậy thay vì ước lượng một giá trị. Bạn có thể thu hồi quyền này bất cứ lúc nào trong phần cài đặt điện thoại, và phần còn lại của ứng dụng vẫn hoạt động y như trước." },
           { "b": "Giải bước chân (không bắt buộc, tắt cho đến khi bạn tham gia):", "t": " Chronic Friends có một giải bước chân thân thiện — một bảng cho biết ai đi nhiều nhất hôm nay, tuần này, tháng này và năm nay, và bắt đầu lại vào ngày 1 tháng 1. Tham gia là lựa chọn của bạn, và không có gì được công bố trước khi bạn chọn. Nếu tham gia, bốn con số — tổng số bước của bạn cho bốn khoảng thời gian đó — được tải lên máy chủ của chúng tôi cùng tên hiển thị và ảnh đại diện mà bạn vốn đã hiển thị trong cộng đồng, để các thành viên khác thấy chúng trong bảng. Không có gì khác về sức khỏe của bạn đi kèm: không phải giấc ngủ, không phải số phút hoạt động, không một con số theo từng ngày nào, và không có gì từ nhật ký của bạn. Nếu bạn rời giải, dòng của bạn bị xóa, không bị ẩn, và bạn biến mất khỏi bảng." },
           { "b": "Bảng hỏi tự đánh giá (không bắt buộc):", "t": " các câu trả lời bạn đưa ra trong những bảng hỏi chuẩn hóa mà bạn chọn hoàn thành — như PHQ-9, GAD-7, AUDIT-C hoặc một chỉ số hoạt động bệnh — và điểm số chúng cộng lại. Bạn chọn có mở hay không và có thể xóa kết quả sau đó. Các bảng hỏi này được sao lại từ bản chính thức đã công bố và ứng dụng cho bạn thấy điểm mà không diễn giải nó (xem Mục 11)." },
-          { "b": "Cộng đồng:", "t": " bài viết và tin nhắn riêng." },
+          { "b": "Cộng đồng:", "t": " bài đăng, bình luận và tin nhắn riêng tư của bạn. Nếu bạn thêm ảnh vào một bài đăng, ứng dụng sẽ lưu lại ảnh đó trên thiết bị của bạn trước khi tải lên, và việc này xóa các thông tin ẩn được lưu bên trong ảnh — bao gồm cả vị trí (GPS) nơi ảnh được chụp." },
           { "b": "Khám từ xa:", "t": " thông tin lịch hẹn, trao đổi với bác sĩ và mọi thông tin sức khỏe bạn chọn chia sẻ. Chúng tôi không ghi lại các buổi khám qua video." },
           { "b": "Đăng ký / thanh toán:", "t": " trạng thái đăng ký qua RevenueCat; các khoản thu qua Apple / Google; thanh toán buổi khám qua Stripe. Chúng tôi không bao giờ lưu thông tin thẻ." },
           { "b": "Xác minh bác sĩ (chỉ bác sĩ):", "t": " giấy tờ tùy thân và văn bằng, được gửi trực tiếp tới Stripe Identity. Ảnh các giấy tờ này không đi qua máy chủ của chúng tôi." },
@@ -1689,6 +1718,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "Thời gian lưu giữ", "b": [
         { "p": "Chúng tôi lưu dữ liệu của bạn trong khi tài khoản còn hoạt động. Sau khi bạn xóa tài khoản, chúng tôi xóa dữ liệu của bạn trong vòng 30 ngày, trừ khi luật yêu cầu chúng tôi giữ một số bản ghi (ví dụ về thanh toán). Hồ sơ buổi khám có thể chịu các yêu cầu lưu giữ riêng. Các bản sao lưu được luân chuyển theo lệ thường." },
+        { "p": "Tin nhắn riêng tư được tự động xóa 12 tháng sau khi gửi, kể cả khi tài khoản của bạn vẫn còn hoạt động." },
         { "p": "Nếu bạn đã đăng nhập bằng Apple, việc xóa tài khoản cũng sẽ yêu cầu Apple ngắt kết nối Chronic Friends khỏi Apple ID của bạn. Việc gỡ Chronic Friends khỏi phần cài đặt Apple ID hoặc Tài khoản Google của bạn không xóa dữ liệu của bạn: để xóa dữ liệu, hãy dùng «Xóa tài khoản của tôi» trong Cài đặt." },
         { "p": "Nếu bạn tham gia giải bước chân, dòng của bạn bị xóa ngay khi bạn rời giải, và trong mọi trường hợp khi bạn xóa tài khoản." },
         { "p": "Nếu bạn đã bật «Hiển thị thông tin của tôi trên trang cá nhân», việc tắt nó sẽ xóa quốc gia, tuổi, số năm sống với bệnh và phần giới thiệu của bạn khỏi trang cá nhân đã công bố — chúng bị loại bỏ, không bị ẩn. Lệnh xóa được gửi ngay khi bạn tắt công tắc; nếu thiết bị của bạn ngoại tuyến, hoặc nếu không thể gửi ngay lúc đó, ứng dụng sẽ gửi lại vào lần sau bạn mở nó khi đã đăng nhập. Nếu bạn xóa tài khoản, chúng được xóa cùng phần dữ liệu còn lại, trong vòng 30 ngày nêu trên." }
@@ -1736,7 +1766,7 @@ window.CF_PRIVACY_T = {
   "zh": {
     "legal": "隐私",
     "title": "隐私政策",
-    "updated": "最后更新：2026年10月21日 · 版本：3.5",
+    "updated": "最后更新：2026年10月28日 · 版本：3.6",
     "summaryPre": "这是摘要。完整的最新隐私政策见 ",
     "summaryPost": "。",
     "patientTag": "患者用户",
@@ -1756,7 +1786,7 @@ window.CF_PRIVACY_T = {
           { "b": "Health Sync——来自你手机健康存储的读数（可选，在你开启前处于关闭状态）：", "t": " 如果你启用 Health Sync 并在手机自身的系统对话框中授予权限，应用会从 iPhone 上的 Apple Health（HealthKit）或 Android 上的 Health Connect 读取你的步数、睡眠时长和活动分钟数——并且仅在你的设备有记录时，读取静息心率和心率变异性。关于这一点有三件事：它只读（我们绝不向 Apple Health 或 Health Connect 写入任何内容）；这些读数留在你的设备上，不会上传到我们的服务器，因此它们显示在你的日志旁边，也可能出现在你选择生成的 PDF 报告中，但我们不会收到它们——只有一个例外，仅此一个：如果你加入步数锦标赛，下文所述的四个步数合计会被上传，除此之外别无其他；如果某一天没有数据，应用会直接说明，而不会估算数值。你可以随时在手机设置中撤回该权限，应用的其余部分照旧运行。" },
           { "b": "步数锦标赛（可选，在你加入前处于关闭状态）：", "t": " Chronic Friends 设有一个友好的步数锦标赛——一张显示今天、本周、本月和今年谁走得最多的表格，每年 1 月 1 日重新开始。参加与否由你决定，在你决定之前不会发布任何内容。若你加入，四个数字——这四个时间段的步数合计——会与你已在社区中显示的昵称和头像一起上传到我们的服务器，以便其他成员在表格中看到。你健康方面的其他内容不会随之上传：睡眠不会，活动分钟数不会，任何逐日数值都不会，日志中的内容也不会。若你退出锦标赛，你的那一行会被删除而非隐藏，你也会从表格中消失。" },
           { "b": "自评问卷（可选）：", "t": " 你选择填写的标准化问卷中给出的答案——例如 PHQ-9、GAD-7、AUDIT-C 或某种疾病活动指数——以及它们累计的得分。是否打开问卷由你选择，之后你也可以删除结果。这些问卷依其官方公开版本复制，应用只呈现得分而不作解读（见第 11 节）。" },
-          { "b": "社区：", "t": " 帖子与私信。" },
+          { "b": "社区：", "t": "您的帖子、您的评论和您的私信。如果您在帖子中添加照片，应用会在上传前先在您的设备上重新保存这张照片，这样会去除照片内部存储的隐藏信息——包括拍摄地点（GPS）。" },
           { "b": "远程问诊：", "t": " 预约详情、与医生的沟通，以及你选择分享的任何健康信息。我们不录制视频问诊。" },
           { "b": "订阅／支付：", "t": " 订阅状态通过 RevenueCat；扣款通过 Apple／Google；问诊付款通过 Stripe。我们从不存储银行卡信息。" },
           { "b": "医生验证（仅医生）：", "t": " 身份证件与资质证明，直接发送至 Stripe Identity。这些证件图像不经过我们自己的服务器。" },
@@ -1802,6 +1832,7 @@ window.CF_PRIVACY_T = {
       ]},
       { "t": "保存期限", "b": [
         { "p": "在你的账号处于活跃状态期间，我们保存你的数据。你删除账号后，我们会在 30 天内删除你的数据，除非法律要求我们保留某些记录（例如账务记录）。问诊记录可能适用特定的保存要求。备份会在正常流程中轮换淘汰。" },
+        { "p": "私信会在发送 12 个月后自动删除，即使您的账户仍处于活动状态。" },
         { "p": "如果您是通过 Apple 登录的，删除账户时我们还会请求 Apple 断开 Chronic Friends 与您 Apple ID 的关联。在 Apple ID 或 Google 账户的设置中移除 Chronic Friends 并不会删除您的数据：如需删除，请在「设置」中使用「删除我的账户」。" },
         { "p": "如果你参加步数锦标赛，你退出的那一刻你的那一行即被删除，无论如何在你删除账号时也会被删除。" },
         { "p": "如果你曾开启“在个人资料中展示我的信息”，关闭它会从你公开的个人资料中删除你的国家、年龄、与病症共处的年数和自我介绍——它们被移除，而不是隐藏。删除指令在你关闭开关的那一刻发出；如果你的设备离线，或当时无法发出，应用会在你下次登录状态下打开时再次发出。如果你删除账号，它们会与你的其余数据一起，在上述 30 天内被清除。" }
