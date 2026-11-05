@@ -1,0 +1,62 @@
+{
+ "_licencia": "Creative Commons Attribution (CC BY) — etiqueta «reuse allowed» vista en la página de cada vídeo el 17 sep 2026. Obliga a citar canal + enlace en la app (sección Meditación).",
+ "_verificado": "2026-09-17 21:3x · curl al HTML de youtube.com/watch (title, ownerChannelName, lengthSeconds, licencia) · Historial CF [2468] [2469] [2470]",
+ "pistas": [
+  {
+   "fichero": "zen-1.mp3",
+   "titulo": "Musica Zen para Relajarse y Calmar la Mente 🎋 Meditar, Dormir Profundamente",
+   "canal": "Spiritual Life 🦋❤️",
+   "url": "https://youtu.be/wmHcYdJHeoU",
+   "duracion_s": 1911,
+   "mp3_s": 1910.7,
+   "mb": 26.7
+  },
+  {
+   "fichero": "zen-2.mp3",
+   "titulo": "[ No Ads ] 🍀 Relaxing Music with Water Sounds 💧 for Stress Relief and Sleep 💤 #012",
+   "canal": "D-SOPHORN",
+   "url": "https://youtu.be/iCX_19Oznpc",
+   "duracion_s": 1203,
+   "mp3_s": 1203.3,
+   "mb": 26.3
+  },
+  {
+   "fichero": "zen-3.mp3",
+   "titulo": "Música Zen para Sanar el Alma y el Cuerpo / Flauta Japonesa Relajante / Zen Music / Sentir Sosiego",
+   "canal": "MusicSense",
+   "url": "https://youtu.be/rTnG_smBH6E",
+   "duracion_s": 2250,
+   "mp3_s": 2250.1,
+   "mb": 33.1
+  },
+  {
+   "fichero": "zen-4.mp3",
+   "titulo": "Relaxing Stress Relief Music Video - 30 Minutes Zen Music, Relax & Mindfulness.",
+   "canal": "ZenFlow Music",
+   "url": "https://youtu.be/cSP9CBcTORU",
+   "duracion_s": 1800,
+   "mp3_s": 1800.0,
+   "mb": 22.6
+  }
+ ],
+ "candidatos_cc_sin_audio": [
+  {
+   "titulo": "Música Zen ~ Zen Music,Birds, Pure Relax",
+   "canal": "Tomasz Wasylewicz",
+   "url": "https://youtu.be/zYfOCEXNUsQ",
+   "duracion_s": 2704
+  },
+  {
+   "titulo": "Música Zen para Limpiar el Alma",
+   "canal": "Lavariegavlogs",
+   "url": "https://youtu.be/HQIS7CMrlww",
+   "duracion_s": 2241
+  },
+  {
+   "titulo": "El sonido de la paz interior 🎋 Música zen para relajarse, meditar",
+   "canal": "Brain Waves",
+   "url": "https://youtu.be/DJqOnE_HHms",
+   "duracion_s": 3600
+  }
+ ]
+}
